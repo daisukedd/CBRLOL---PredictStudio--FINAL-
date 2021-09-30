@@ -1,34 +1,34 @@
-[10-21-47] Logging Init
-[10-21-47] Starting Config Controller
-[10-21-47] Config Provider started
-[10-21-47] Looking for config files at /Config
-[10-21-48] Found PickBan.json. Reading values
-[10-21-48] {
+[10-54-26] Logging Init
+[10-54-26] Starting Config Controller
+[10-54-26] Config Provider started
+[10-54-26] Looking for config files at /Config
+[10-54-26] Found PickBan.json. Reading values
+[10-54-26] {
   "frontend": {
     "scoreEnabled": true,
     "spellsEnabled": true,
-    "coachesEnabled": true,
+    "coachesEnabled": false,
     "blueTeam": {
       "name": "STORMTIGER",
       "nameTag": "STT",
       "score": 0,
-      "coach": "G2 Grabz",
+      "coach": "Daisuke",
       "color": "rgb(0,235,226)"
     },
     "redTeam": {
       "name": "BOOMSLANG",
       "nameTag": "BSG",
       "score": 0,
-      "coach": "G2 Grabz",
+      "coach": "Haaty",
       "color": "rgb(255,89,0)"
     },
     "patch": "11.19.1"
   },
   "FileVersion": "1.0"
 }
-[10-21-48] Config PickBan loaded
-[10-21-48] Found Ingame.json. Reading values
-[10-21-48] {
+[10-54-26] Config PickBan loaded
+[10-54-26] Found Ingame.json. Reading values
+[10-54-27] {
   "Inhib": {
     "Position": {
       "X": 0.0,
@@ -144,7 +144,7 @@
           "Name": "News Cycle",
           "Size": "26px",
           "Align": "right",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(0,235,226)"
         },
         "Icon": {
           "Name": "TowerIcon",
@@ -168,7 +168,7 @@
           "Name": "News Cycle",
           "Size": "26px",
           "Align": "right",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(0,235,226)"
         },
         "Icon": {
           "Name": "GoldIcon",
@@ -284,7 +284,7 @@
           "Name": "News Cycle",
           "Size": "26px",
           "Align": "left",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(255,89,0)"
         },
         "Icon": {
           "Name": "TowerIcon",
@@ -308,7 +308,7 @@
           "Name": "News Cycle",
           "Size": "26px",
           "Align": "left",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(255,89,0)"
         },
         "Icon": {
           "Name": "GoldIcon",
@@ -390,7 +390,7 @@
       }
     },
     "Background": {
-      "UseImage": false,
+      "UseImage": true,
       "UseVideo": false,
       "UseAlpha": true,
       "FallbackColor": "rgba(19,24,63,255)"
@@ -936,7 +936,7 @@
       "UseImage": false,
       "UseVideo": false,
       "UseAlpha": false,
-      "FallbackColor": "rgb(19, 24, 63)",
+      "FallbackColor": "rgb(0, 0, 0)",
       "Size": {
         "X": 300.0,
         "Y": 600.0
@@ -956,7 +956,7 @@
       "UseImage": false,
       "UseVideo": false,
       "UseAlpha": false,
-      "FallbackColor": "rgba(19,24,63,255)"
+      "FallbackColor": "rgba(0,0,0,)"
     },
     "Title": {
       "Enabled": true,
@@ -969,7 +969,7 @@
         "Name": "News Cycle",
         "Size": "22px",
         "Align": "left",
-        "Color": "rgb(230,190,138)"
+        "Color": "rgb(255,255,255)"
       },
       "Text": "GOLD DIFFERENCE SINCE START"
     },
@@ -985,8 +985,8 @@
       "ShowVerticalGrid": true,
       "ShowHorizontalGrid": true,
       "LineTension": 0.05,
-      "GridColor": "rgba(255,255,255, 0.3)",
-      "GridEdgeColor": "rgba(255,255,255, 0.4)",
+      "GridColor": "rgba(255,255,255,0.5)",
+      "GridEdgeColor": "rgba(255,255,255, 0.1)",
       "BorderUseTeamColors": true,
       "BorderOrderColor": "rgb(0,0,0)",
       "BorderChaosColor": "rgb(0,0,0)",
@@ -998,7 +998,7 @@
         "Name": "News Cycle",
         "Size": "UNUSED",
         "Align": "UNUSED",
-        "Color": "rgb(230,190,138)"
+        "Color": "rgb(255,255,255)"
       },
       "TimeStepSize": 30,
       "ShowTimeStepIndicators": true
@@ -1119,9 +1119,9 @@
   ],
   "FileVersion": "2.2"
 }
-[10-21-48] Config Ingame loaded
-[10-21-48] Found Component.json. Reading values
-[10-21-48] {
+[10-54-27] Config Ingame loaded
+[10-54-27] Found Component.json. Reading values
+[10-54-27] {
   "DataDragon": {
     "MinimumGoldCost": 2000,
     "Region": "euw",
@@ -1133,8 +1133,8 @@
     "IsActive": true,
     "UseDelay": false,
     "DelayValue": 300,
-    "DefaultBlueColor": "rgb(66, 133, 244)",
-    "DefaultRedColor": "rgb(234, 67, 53)"
+    "DefaultBlueColor": "rgb(0,235,226)",
+    "DefaultRedColor": "rgb(255,89,0)"
   },
   "Ingame": {
     "IsActive": true,
@@ -1143,8 +1143,8 @@
     "DoItemCompleted": true,
     "SeriesGameCount": 3,
     "Objectives": {
-      "DoBaronKill": true,
-      "DoDragonKill": true,
+      "DoBaronKill": false,
+      "DoDragonKill": false,
       "DoInhibitors": false,
       "DoObjectiveSpawnPopUp": false,
       "DoObjectiveKillPopUp": false
@@ -1182,197 +1182,102 @@
   },
   "FileVersion": "1.3"
 }
-[10-21-48] Config Component loaded
-[10-21-48] Loading config watchers
-[10-21-48] Watching PickBan.json for changes
-[10-21-48] Watching Component.json for changes
-[10-21-48] Watching Ingame.json for changes
-[10-21-48] Log Level set to Info
-[10-21-48] League Broadcast Version 1.4.97
-[10-21-48] [Update] Checking for Updates
-[10-21-48] [Update] Latest release version v1.4.97 vs. current version 1.4.97
-[10-21-48] [Update] Local version up to date
-[10-21-48] Using current Version
-[10-21-48] Early Init Complete in 1190.8912ms
-[10-21-48] DataDragon Provider Init
-[10-21-48] Getting latest versions from dataDragon
-[10-21-48] Retrieving latest patch info
-[10-21-49] Champion: 11.19.1, Item: 11.19.1, CDN: https://ddragon.leagueoflegends.com/cdn
-[10-21-49] Loaded 157 champions
-[10-21-49] Loaded 15 summoner spells
-[10-21-50] Detected 199 items
-[10-21-50] Loaded 94 full items
-[10-21-50] Checking Local Cache
-[10-21-50] Cache C:\Users\kevin\Desktop\Dev - Predict\Codando - PredictStudio\LP - PredictStudio\League Of Legends - PredictStudio/Cache/11.19.1 exists already
-[10-21-50] DDragon loaded
-[10-21-50] Loading PickBan Controller
-[10-21-50] Loading Ingame Controller
-[10-21-50] Checking League install for LiveEventsAPI
-[10-21-50] Found League install location
-[10-21-50] LiveEvents API found in Game config
-[10-21-50] Replay API found in Game config
-[10-21-50] Verifying LiveEvents list
-[10-21-50] Loading Replay Controller
-[10-21-50] Loading Farsight
-[10-21-50] Farsight loaded. Found 157 Champ names
-[10-21-50] Loading Frontend Webserver (HTTP/WS)
-[10-21-50] Server file system starting
-[10-21-50] WebServer New State - Loading
-[10-21-50] WebServer New State - Listening
-[10-21-50] WebServer running on http://*:9001/
-[10-21-50] Whats that ticking noise?
-[10-21-50] Init Complete in 1.582s
-[10-21-50] Opening main window
-[10-21-50] Team STORMTIGER loaded
-[10-21-50] Team BOOMSLANG loaded
-[10-21-50] Connection State Changed
-[10-21-50] New Client RcucntINgUO4Um26wUuG0w connected from http://localhost:9001
-[10-21-50] Loading State Controller
-[10-21-50] Connecting to League Client
-[10-21-50] PickBan Enabled
-[10-21-50] Ingame Enabled
-[10-21-50] Using direct PickBan
-[10-21-50] Starting LeagueBroadcast with tickrate of 2tps
-[10-21-50] Checking for running Game
-[10-21-50] Post Init Complete in 310.7856ms
-[10-21-50] Total Startup time: 3.084s
-[10-21-50] Connection State Changed
-[10-21-50] Connected to League Client in 91 ms
-[10-21-50] Local Client Version 11.19.1
-[10-21-50] Loading offsets for current patch
-[10-21-50] Found Farsight.json. Reading values
-[10-21-50] Config Farsight loaded
-[10-21-50] Watching Farsight.json for changes
-[10-21-50] Using offsets 11.19.1
-[10-22-01] Team BOOMSLANG loaded
-[10-22-01] Writing PickBan config to file
-[10-22-01] Updated PickBan config file
-[10-22-01] Writing PickBan config to file
-[10-22-01] Updated PickBan config file
-[10-22-01] PickBan.json change detected
-[10-22-02] Team STORMTIGER loaded
-[10-22-02] Writing PickBan config to file
-[10-22-02] PickBan.json change detected
-[10-22-02] Updated PickBan config file
-[10-22-02] Writing PickBan config to file
-[10-22-02] Updated PickBan config file
-[10-22-04] Team  not found on disk
-[10-22-04] [WARNING] Could not load team info from disk
-[10-22-05] Team BOOMSLANG loaded
-[10-22-05] Writing PickBan config to file
-[10-22-05] PickBan.json change detected
-[10-22-05] Updated PickBan config file
-[10-22-05] Writing PickBan config to file
-[10-22-05] Updated PickBan config file
-[10-22-06] Team  not found on disk
-[10-22-06] [WARNING] Could not load team info from disk
-[10-22-06] Team  not found on disk
-[10-22-06] [WARNING] Could not load team info from disk
-[10-22-21] Writing PickBan config to file
-[10-22-21] PickBan.json change detected
-[10-22-21] Updated PickBan config file
-[10-22-24] Writing PickBan config to file
-[10-22-24] PickBan.json change detected
-[10-22-24] Updated PickBan config file
-[10-22-25] PickBan.json change detected
-[10-22-27] [WARNING] Overwriting old team Logo for team STORMTIGER
-[10-22-30] [WARNING] Overwriting old team Logo for team BOOMSLANG
-[10-22-35] Writing PickBan config to file
-[10-22-35] PickBan.json change detected
-[10-22-35] Updated PickBan config file
-[10-22-45] Writing PickBan config to file
-[10-22-45] PickBan.json change detected
-[10-22-45] Updated PickBan config file
-[10-23-46] Updated STORMTIGER team file
-[10-23-48] Updated BOOMSLANG team file
-[10-23-54] Target process (League of Legends) detected.
-[10-23-54] Init Game State
-[10-23-54] Game State reset
-[10-23-54] Connection State Changed
-[10-24-05] Game Loaded
-[10-24-05] Game Paused
-[10-24-05] LiveEventAPI Connected
-[10-24-06] Game Resumed
-[10-24-06] Init Team data
-[10-24-06] Init UI
-[10-24-06] Sending game start key inputs
-[10-26-03] Ingame.json change detected
-[10-26-03] Found Ingame.json. Reading values
-[10-26-03] Config Ingame loaded
-[10-26-53] Ingame.json change detected
-[10-26-53] Found Ingame.json. Reading values
-[10-26-53] Config Ingame loaded
-[10-27-18] Ingame.json change detected
-[10-27-19] Found Ingame.json. Reading values
-[10-27-19] Config Ingame loaded
-[10-27-45] Ingame.json change detected
-[10-27-46] Found Ingame.json. Reading values
-[10-27-46] Config Ingame loaded
-[10-27-58] Fire spawned
-[10-28-14] Ingame.json change detected
-[10-28-14] Found Ingame.json. Reading values
-[10-28-14] Config Ingame loaded
-[10-28-53] Ingame.json change detected
-[10-28-53] Found Ingame.json. Reading values
-[10-28-53] Config Ingame loaded
-[10-29-17] Ingame.json change detected
-[10-29-17] Found Ingame.json. Reading values
-[10-29-17] Config Ingame loaded
-[10-29-24] Ingame.json change detected
-[10-29-25] Found Ingame.json. Reading values
-[10-29-25] Config Ingame loaded
-[10-30-05] Player 0 finished Item 6672
-[10-30-08] Player 3 finished Item 6653
-[10-30-10] Player 1 lvl up
-[10-30-20] Ingame.json change detected
-[10-30-20] Found Ingame.json. Reading values
-[10-30-20] Config Ingame loaded
-[10-30-22] Player 7 lvl up
-[10-30-24] Player 0 lvl up
-[10-30-24] Player 1 finished Item 6672
-[10-30-33] Player 4 lvl up
-[10-30-33] Player 5 lvl up
-[10-30-39] Player 6 lvl up
-[10-30-54] Player 0 finished Item 6672
-[10-30-55] Player 6 finished Item 6630
-[10-31-00] Player 9 lvl up
-[10-31-36] Player 9 finished Item 6655
-[10-31-48] Player 8 lvl up
-[10-31-51] Player 3 lvl up
-[10-32-02] Player 2 finished Item 6653
-[10-32-23] Player 8 finished Item 6655
-[10-32-41] Player 7 finished Item 3115
-[10-32-59] Player 2 lvl up
-[10-33-14] Player 4 finished Item 6671
-[10-33-18] Player 5 finished Item 6673
-[10-33-40] Ingame.json change detected
-[10-33-40] Found Ingame.json. Reading values
-[10-33-40] Config Ingame loaded
-[10-33-45] Ingame.json change detected
-[10-33-46] Found Ingame.json. Reading values
-[10-33-46] Config Ingame loaded
-[10-33-51] Fire killed by ORDER
-[10-34-10] Ingame.json change detected
-[10-34-10] Found Ingame.json. Reading values
-[10-34-10] Config Ingame loaded
-[10-34-12] Player 3 finished Item 4637
-[10-34-47] Player 4 finished Item 3085
-[10-34-55] Ingame.json change detected
-[10-34-56] [WARNING] Could not reload Ingame
-[10-34-59] Player 0 finished Item 6673
-[10-35-07] Ingame.json change detected
-[10-35-07] [WARNING] Could not reload Ingame
-[10-35-12] Player 1 finished Item 6676
-[10-35-14] Player 1 finished Item 3153
-[10-35-16] Ingame.json change detected
-[10-35-17] [WARNING] Could not reload Ingame
-[10-35-19] Saving all configs to file
-[10-35-19] Writing PickBan config to file
-[10-35-19] Updated PickBan config file
-[10-35-19] Writing Component config to file
-[10-35-19] Updated Component config file
-[10-35-19] Writing Farsight config to file
-[10-35-19] Updated Farsight config file
-[10-35-19] Writing Ingame config to file
-[10-35-19] Updated Ingame config file
-[10-35-19] Configs saved
+[10-54-27] Config Component loaded
+[10-54-27] Loading config watchers
+[10-54-27] Watching PickBan.json for changes
+[10-54-27] Watching Component.json for changes
+[10-54-27] Watching Ingame.json for changes
+[10-54-27] Log Level set to Info
+[10-54-27] League Broadcast Version 1.4.97
+[10-54-27] [Update] Checking for Updates
+[10-54-27] [Update] Latest release version v1.4.97 vs. current version 1.4.97
+[10-54-27] [Update] Local version up to date
+[10-54-27] Using current Version
+[10-54-27] Early Init Complete in 1383.2031ms
+[10-54-27] DataDragon Provider Init
+[10-54-27] Getting latest versions from dataDragon
+[10-54-27] Retrieving latest patch info
+[10-54-28] Champion: 11.19.1, Item: 11.19.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[10-54-28] Loaded 157 champions
+[10-54-28] Loaded 15 summoner spells
+[10-54-29] Detected 199 items
+[10-54-29] Loaded 94 full items
+[10-54-29] Checking Local Cache
+[10-54-29] Cache C:\Users\kevin\Desktop\Dev - Predict\Codando - PredictStudio\LP - PredictStudio\League Of Legends - PredictStudio/Cache/11.19.1 exists already
+[10-54-29] DDragon loaded
+[10-54-29] Loading PickBan Controller
+[10-54-29] Loading Ingame Controller
+[10-54-29] Checking League install for LiveEventsAPI
+[10-54-29] Found League install location
+[10-54-29] LiveEvents API found in Game config
+[10-54-29] Replay API found in Game config
+[10-54-29] Verifying LiveEvents list
+[10-54-29] Loading Replay Controller
+[10-54-29] Loading Farsight
+[10-54-29] Farsight loaded. Found 157 Champ names
+[10-54-29] Loading Frontend Webserver (HTTP/WS)
+[10-54-29] Server file system starting
+[10-54-29] WebServer New State - Loading
+[10-54-29] WebServer New State - Listening
+[10-54-29] WebServer running on http://*:9001/
+[10-54-29] Whats that ticking noise?
+[10-54-29] Init Complete in 1.930s
+[10-54-29] Opening main window
+[10-54-29] Team STORMTIGER loaded
+[10-54-29] Team BOOMSLANG loaded
+[10-54-29] Connection State Changed
+[10-54-29] New Client CDuGMx+cEUu84hMBMYq5wg connected from http://localhost:9001
+[10-54-30] Loading State Controller
+[10-54-30] Connecting to League Client
+[10-54-30] PickBan Enabled
+[10-54-30] Ingame Enabled
+[10-54-30] Using direct PickBan
+[10-54-30] Starting LeagueBroadcast with tickrate of 2tps
+[10-54-30] Checking for running Game
+[10-54-30] Target process (League of Legends) detected.
+[10-54-30] Init Game State
+[10-54-30] Game State reset
+[10-54-30] Connection State Changed
+[10-54-30] Post Init Complete in 391.8243ms
+[10-54-30] Total Startup time: 3.706s
+[10-54-30] Connected to League Client in 127 ms
+[10-54-30] Local Client Version 11.19.1
+[10-54-30] Loading offsets for current patch
+[10-54-30] Found Farsight.json. Reading values
+[10-54-30] Config Farsight loaded
+[10-54-30] Watching Farsight.json for changes
+[10-54-30] Using offsets 11.19.1
+[10-54-30] Game Loaded
+[10-54-30] Game Paused
+[10-54-30] LiveEventAPI Connected
+[10-54-31] Game Resumed
+[10-54-31] Baron spawned
+[10-54-31] Init Team data
+[10-54-31] Init UI
+[10-54-31] Sending game start key inputs
+[10-54-50] Elder spawned
+[10-54-58] Game Paused
+[10-55-14] LiveEventAPI Closed
+[10-55-14] Game ended
+[10-55-14] Connection State Changed
+[10-55-15] Target process (League of Legends) detected.
+[10-55-15] Init Game State
+[10-55-15] Game State reset
+[10-55-15] Connection State Changed
+[10-55-26] Game Loaded
+[10-55-26] Game Paused
+[10-55-26] LiveEventAPI Connected
+[10-55-27] Game Resumed
+[10-55-27] Init Team data
+[10-55-27] Init UI
+[10-55-28] Sending game start key inputs
+[10-56-07] Saving all configs to file
+[10-56-07] Writing PickBan config to file
+[10-56-07] Updated PickBan config file
+[10-56-07] Writing Component config to file
+[10-56-07] Updated Component config file
+[10-56-07] Writing Farsight config to file
+[10-56-07] Updated Farsight config file
+[10-56-07] Writing Ingame config to file
+[10-56-07] Updated Ingame config file
+[10-56-07] Configs saved

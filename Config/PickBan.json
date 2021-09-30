@@ -2,20 +2,20 @@
   "frontend": {
     "scoreEnabled": true,
     "spellsEnabled": true,
-    "coachesEnabled": true,
+    "coachesEnabled": false,
     "blueTeam": {
       "name": "STORMTIGER",
       "nameTag": "STT",
       "score": 0,
       "coach": "Daisuke",
-      "color": "rgb(66,133,244)"
+      "color": "rgb(0,235,226)"
     },
     "redTeam": {
       "name": "BOOMSLANG",
       "nameTag": "BSG",
       "score": 0,
       "coach": "Haaty",
-      "color": "rgb(234,67,53)"
+      "color": "rgb(255,89,0)"
     },
     "patch": "11.19.1"
   },

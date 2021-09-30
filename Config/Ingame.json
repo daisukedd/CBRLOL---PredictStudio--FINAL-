@@ -69,8 +69,8 @@
       "Y": 92.0
     },
     "TimeFont": {
-      "Style": "Normal",
-      "Name": "News Cycle",
+      "Style": "Bold",
+      "Name": "Montserrat",
       "Size": "22px",
       "Align": "center",
       "Color": "rgb(255,255,255)"
@@ -114,7 +114,7 @@
           "Name": "News Cycle",
           "Size": "26px",
           "Align": "right",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(0,235,226)"
         },
         "Icon": {
           "Name": "TowerIcon",
@@ -138,7 +138,7 @@
           "Name": "News Cycle",
           "Size": "26px",
           "Align": "right",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(0,235,226)"
         },
         "Icon": {
           "Name": "GoldIcon",
@@ -226,8 +226,8 @@
           "Y": 6.0
         },
         "Font": {
-          "Style": "Normal",
-          "Name": "News Cycle",
+          "Style": "Bold",
+          "Name": "Montserrat",
           "Size": "50px",
           "Align": "left",
           "Color": "rgb(255,255,255)"
@@ -250,11 +250,11 @@
           "Y": 20.0
         },
         "Font": {
-          "Style": "Normal",
-          "Name": "News Cycle",
+          "Style": "Bold",
+          "Name": "Montserrat",
           "Size": "26px",
           "Align": "left",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(255,89,0)"
         },
         "Icon": {
           "Name": "TowerIcon",
@@ -278,7 +278,7 @@
           "Name": "News Cycle",
           "Size": "26px",
           "Align": "left",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(255,89,0)"
         },
         "Icon": {
           "Name": "GoldIcon",
@@ -360,7 +360,7 @@
       }
     },
     "Background": {
-      "UseImage": false,
+      "UseImage": true,
       "UseVideo": false,
       "UseAlpha": true,
       "FallbackColor": "rgba(19,24,63,255)"
@@ -711,8 +711,8 @@
         }
       },
       "Font": {
-        "Style": "Normal",
-        "Name": "News Cycle",
+        "Style": "Bold",
+        "Name": "Montserrat",
         "Size": "26px",
         "Align": "center",
         "Color": "rgb(255,255,255)"
@@ -941,7 +941,7 @@
         "Align": "left",
         "Color": "rgb(255,255,255)"
       },
-      "Text": "GOLD DIFFERENCE SINCE START"
+      "Text": "DIFERENÇA DE OURO - PREDICT STUDIO"
     },
     "Graph": {
       "Position": {

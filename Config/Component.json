@@ -2,7 +2,7 @@
   "DataDragon": {
     "MinimumGoldCost": 2000,
     "Region": "euw",
-    "Locale": "en_US",
+    "Locale": "pt_BR",
     "CDN": "https://ddragon.leagueoflegends.com/cdn",
     "Patch": "latest"
   },
@@ -10,8 +10,8 @@
     "IsActive": true,
     "UseDelay": false,
     "DelayValue": 300,
-    "DefaultBlueColor": "rgb(66, 133, 244)",
-    "DefaultRedColor": "rgb(234, 67, 53)"
+    "DefaultBlueColor": "rgb(0,235,226)",
+    "DefaultRedColor": "rgb(255,89,0)"
   },
   "Ingame": {
     "IsActive": true,
@@ -20,8 +20,8 @@
     "DoItemCompleted": true,
     "SeriesGameCount": 3,
     "Objectives": {
-      "DoBaronKill": true,
-      "DoDragonKill": true,
+      "DoBaronKill": false,
+      "DoDragonKill": false,
       "DoInhibitors": false,
       "DoObjectiveSpawnPopUp": false,
       "DoObjectiveKillPopUp": false

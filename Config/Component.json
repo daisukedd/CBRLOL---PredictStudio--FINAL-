@@ -18,13 +18,13 @@
     "UseLiveEvents": true,
     "DoLevelUp": true,
     "DoItemCompleted": true,
-    "SeriesGameCount": 3,
+    "SeriesGameCount": 5,
     "Objectives": {
       "DoBaronKill": false,
       "DoDragonKill": false,
       "DoInhibitors": false,
-      "DoObjectiveSpawnPopUp": false,
-      "DoObjectiveKillPopUp": false
+      "DoObjectiveSpawnPopUp": true,
+      "DoObjectiveKillPopUp": true
     },
     "Teams": {
       "DoTeamNames": true,
@@ -41,7 +41,7 @@
     "IsActive": false
   },
   "App": {
-    "LogLevel": 2,
+    "LogLevel": 3,
     "CheckForUpdates": true,
     "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
     "UpdateRepositoryName": "floh22/LeagueBroadcast",

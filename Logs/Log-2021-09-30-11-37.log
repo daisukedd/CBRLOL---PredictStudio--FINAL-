@@ -1,4 +1,34 @@
-{
+[11-37-58] Logging Init
+[11-37-58] Starting Config Controller
+[11-37-58] Config Provider started
+[11-37-58] Looking for config files at /Config
+[11-37-58] Found PickBan.json. Reading values
+[11-37-58] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": false,
+    "blueTeam": {
+      "name": "STORMTIGER",
+      "nameTag": "STT",
+      "score": 0,
+      "coach": "Daisuke",
+      "color": "rgb(0,235,226)"
+    },
+    "redTeam": {
+      "name": "BOOMSLANG",
+      "nameTag": "BSG",
+      "score": 0,
+      "coach": "Haaty",
+      "color": "rgb(255,89,0)"
+    },
+    "patch": "11.19.1"
+  },
+  "FileVersion": "1.0"
+}
+[11-37-58] Config PickBan loaded
+[11-37-58] Found Ingame.json. Reading values
+[11-37-58] {
   "Inhib": {
     "Position": {
       "X": 0.0,
@@ -174,8 +204,8 @@
           "Y": 50.0
         },
         "Font": {
-          "Style": "Bold",
-          "Name": "Montserrat",
+          "Style": "Normal",
+          "Name": "News Cycle",
           "Size": "40px",
           "Align": "left",
           "Color": "rgb(255,255,255)"
@@ -465,8 +495,8 @@
     "ShowOnScoreboard": false,
     "ShowOnChampionIndicator": true,
     "InfoText": {
-      "Style": "Bold",
-      "Name": "Montserrat",
+      "Style": "Normal",
+      "Name": "News Cycle",
       "Size": "20px",
       "Align": "center",
       "Color": "rgb(255,255,255)"
@@ -1089,3 +1119,84 @@
   ],
   "FileVersion": "2.2"
 }
+[11-37-58] Config Ingame loaded
+[11-37-58] Found Component.json. Reading values
+[11-37-58] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "pt_BR",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": true,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(0,235,226)",
+    "DefaultRedColor": "rgb(255,89,0)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": true,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 3,
+    "Objectives": {
+      "DoBaronKill": false,
+      "DoDragonKill": false,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": false,
+      "DoObjectiveKillPopUp": false
+    },
+    "Teams": {
+      "DoTeamNames": true,
+      "DoTeamIcons": true,
+      "DoTeamScores": true
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 3,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[11-37-58] Config Component loaded
+[11-37-58] Loading config watchers
+[11-37-58] Watching PickBan.json for changes
+[11-37-58] Watching Component.json for changes
+[11-37-58] Watching Ingame.json for changes
+[11-37-58] Log Level set to Verbose
+[11-37-58] League Broadcast Version 1.4.97
+[11-37-58] [Update] Checking for Updates
+[11-37-59] [Update] Latest release version v1.4.97 vs. current version 1.4.97
+[11-37-59] [Update] Local version up to date
+[11-37-59] Using current Version
+[11-37-59] Early Init Complete in 1355.2857ms
+[11-37-59] DataDragon Provider Init
+[11-37-59] Getting latest versions from dataDragon
+[11-37-59] Retrieving latest patch info
+[11-37-59] Downloading https://ddragon.leagueoflegends.com/realms/euw.json
+[11-38-08] [WARNING] Could not download https://ddragon.leagueoflegends.com/realms/euw.json: The operation has timed out.
+[11-38-08] [WARNING] App Crash detected. Writing Crash report to CrashLogs\Crash-2021-09-30-11-38.log

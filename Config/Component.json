@@ -28,8 +28,8 @@
     },
     "Teams": {
       "DoTeamNames": true,
-      "DoTeamIcons": true,
-      "DoTeamScores": true
+      "DoTeamIcons": false,
+      "DoTeamScores": false
     },
     "UseCustomScoreboard": true
   },

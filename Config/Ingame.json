@@ -65,7 +65,7 @@
       "Y": 0.0
     },
     "Size": {
-      "X": 800.0,
+      "X": 960.0,
       "Y": 92.0
     },
     "TimeFont": {
@@ -77,7 +77,7 @@
     },
     "TimePosition": {
       "X": 0.0,
-      "Y": 70.0
+      "Y": 85.0
     },
     "BlueTeam": {
       "Kills": {
@@ -86,8 +86,8 @@
           "Y": 6.0
         },
         "Font": {
-          "Style": "Normal",
-          "Name": "News Cycle",
+          "Style": "Bold",
+          "Name": "Montserrat",
           "Size": "50px",
           "Align": "right",
           "Color": "rgb(255,255,255)"
@@ -134,8 +134,8 @@
           "Y": 20.0
         },
         "Font": {
-          "Style": "Normal",
-          "Name": "News Cycle",
+          "Style": "Bold",
+          "Name": "Montserrat",
           "Size": "26px",
           "Align": "right",
           "Color": "rgb(0,235,226)"
@@ -274,8 +274,8 @@
           "Y": 20.0
         },
         "Font": {
-          "Style": "Normal",
-          "Name": "News Cycle",
+          "Style": "Bold",
+          "Name": "Montserrat",
           "Size": "26px",
           "Align": "left",
           "Color": "rgb(255,89,0)"
@@ -314,8 +314,8 @@
           "Y": 50.0
         },
         "Font": {
-          "Style": "Normal",
-          "Name": "News Cycle",
+          "Style": "Bold",
+          "Name": "Montserrat",
           "Size": "40px",
           "Align": "right",
           "Color": "rgb(255,255,255)"

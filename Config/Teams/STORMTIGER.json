@@ -3,9 +3,9 @@
     "name": "STORMTIGER",
     "nameTag": "STT",
     "score": 0,
-    "coach": "G2 Grabz",
-    "color": "rgb(234,67,53)"
+    "coach": "Daisuke",
+    "color": "rgb(0,235,226)"
   },
-  "IconLocation": "Cache\\TeamIcons\\Default.png",
+  "IconLocation": "Cache\\TeamIcons\\STORMTIGER.png",
   "FileVersion": "1.0"
 }

@@ -1,0 +1,23 @@
+--- LeagueBroadcast Crash Report --- 
+Still more stable than the League Client
+
+Time: 2021.09.30-10:21
+Description: Sequence contains more than one matching element
+
+Stacktrace: 
+   at System.Linq.ThrowHelper.ThrowMoreThanOneMatchException()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at LeagueBroadcast.Ingame.Data.Provider.LiveEventsDataProvider.GetPlayer(LiveEvent e) in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LeagueBroadcast\Ingame\Data\Provider\LiveEventsDataProvider.cs:line 309
+   at LeagueBroadcast.Ingame.Data.Provider.LiveEventsDataProvider.OnMinionKill(LiveEvent e) in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LeagueBroadcast\Ingame\Data\Provider\LiveEventsDataProvider.cs:line 223
+   at LeagueBroadcast.Ingame.Data.Provider.LiveEventsDataProvider.ReceiveLiveEvent(Object sender, LiveEvent e) in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LeagueBroadcast\Ingame\Data\Provider\LiveEventsDataProvider.cs:line 205
+   at LeagueBroadcast.Trinket.LiveEventConnector.<Connect>b__9_0() in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LeagueBroadcast.Trinket\LiveEventConnector.cs:line 67
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__139_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.<>c.<.cctor>b__6_0(QueueUserWorkItemCallback quwi)
+   at System.Threading.ExecutionContext.RunForThreadPoolUnsafe[TState](ExecutionContext executionContext, Action`1 callback, TState& state)
+   at System.Threading.QueueUserWorkItemCallback.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+-- System Details -- 
+League Broadcast Version: 1.4.97.21252
+OS: Win 10 2009

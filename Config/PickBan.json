@@ -7,14 +7,14 @@
       "name": "STORMTIGER",
       "nameTag": "STT",
       "score": 0,
-      "coach": "G2 Grabz",
+      "coach": "Daisuke",
       "color": "rgb(66,133,244)"
     },
     "redTeam": {
       "name": "BOOMSLANG",
       "nameTag": "BSG",
       "score": 0,
-      "coach": "G2 Grabz",
+      "coach": "Haaty",
       "color": "rgb(234,67,53)"
     },
     "patch": "11.19.1"

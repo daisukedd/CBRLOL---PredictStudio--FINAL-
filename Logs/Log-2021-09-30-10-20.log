@@ -1,4 +1,34 @@
-{
+[10-20-13] Logging Init
+[10-20-13] Starting Config Controller
+[10-20-13] Config Provider started
+[10-20-13] Looking for config files at /Config
+[10-20-13] Found PickBan.json. Reading values
+[10-20-13] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": true,
+    "blueTeam": {
+      "name": "STORMTIGER",
+      "nameTag": "STT",
+      "score": 0,
+      "coach": "G2 Grabz",
+      "color": "rgb(0,235,226)"
+    },
+    "redTeam": {
+      "name": "BOOMSLANG",
+      "nameTag": "BSG",
+      "score": 0,
+      "coach": "G2 Grabz",
+      "color": "rgb(255,89,0)"
+    },
+    "patch": "11.19.1"
+  },
+  "FileVersion": "1.0"
+}
+[10-20-13] Config PickBan loaded
+[10-20-13] Found Ingame.json. Reading values
+[10-20-13] {
   "Inhib": {
     "Position": {
       "X": 0.0,
@@ -906,7 +936,7 @@
       "UseImage": false,
       "UseVideo": false,
       "UseAlpha": false,
-      "FallbackColor": "rgb(0, 0, 0)",
+      "FallbackColor": "rgb(19, 24, 63)",
       "Size": {
         "X": 300.0,
         "Y": 600.0
@@ -926,7 +956,7 @@
       "UseImage": false,
       "UseVideo": false,
       "UseAlpha": false,
-      "FallbackColor": "rgba(0,0,0,)"
+      "FallbackColor": "rgba(19,24,63,255)"
     },
     "Title": {
       "Enabled": true,
@@ -939,7 +969,7 @@
         "Name": "News Cycle",
         "Size": "22px",
         "Align": "left",
-        "Color": "rgb(255,255,255)"
+        "Color": "rgb(230,190,138)"
       },
       "Text": "GOLD DIFFERENCE SINCE START"
     },
@@ -955,8 +985,8 @@
       "ShowVerticalGrid": true,
       "ShowHorizontalGrid": true,
       "LineTension": 0.05,
-      "GridColor": "rgba(255,255,255,0.5)",
-      "GridEdgeColor": "rgba(255,255,255, 0.1)",
+      "GridColor": "rgba(255,255,255, 0.3)",
+      "GridEdgeColor": "rgba(255,255,255, 0.4)",
       "BorderUseTeamColors": true,
       "BorderOrderColor": "rgb(0,0,0)",
       "BorderChaosColor": "rgb(0,0,0)",
@@ -968,7 +998,7 @@
         "Name": "News Cycle",
         "Size": "UNUSED",
         "Align": "UNUSED",
-        "Color": "rgb(255,255,255)"
+        "Color": "rgb(230,190,138)"
       },
       "TimeStepSize": 30,
       "ShowTimeStepIndicators": true
@@ -1089,3 +1119,140 @@
   ],
   "FileVersion": "2.2"
 }
+[10-20-13] Config Ingame loaded
+[10-20-13] Found Component.json. Reading values
+[10-20-13] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "en_US",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": true,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(66, 133, 244)",
+    "DefaultRedColor": "rgb(234, 67, 53)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": true,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 3,
+    "Objectives": {
+      "DoBaronKill": true,
+      "DoDragonKill": true,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": false,
+      "DoObjectiveKillPopUp": false
+    },
+    "Teams": {
+      "DoTeamNames": true,
+      "DoTeamIcons": true,
+      "DoTeamScores": true
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 2,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[10-20-13] Config Component loaded
+[10-20-13] Loading config watchers
+[10-20-13] Watching PickBan.json for changes
+[10-20-13] Watching Component.json for changes
+[10-20-13] Watching Ingame.json for changes
+[10-20-13] Log Level set to Info
+[10-20-13] League Broadcast Version 1.4.97
+[10-20-13] [Update] Checking for Updates
+[10-20-13] [Update] Latest release version v1.4.97 vs. current version 1.4.97
+[10-20-13] [Update] Local version up to date
+[10-20-13] Using current Version
+[10-20-13] Early Init Complete in 1309.5669ms
+[10-20-14] DataDragon Provider Init
+[10-20-14] Getting latest versions from dataDragon
+[10-20-14] Retrieving latest patch info
+[10-20-14] Champion: 11.19.1, Item: 11.19.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[10-20-14] Loaded 157 champions
+[10-20-14] Loaded 15 summoner spells
+[10-20-15] Detected 199 items
+[10-20-15] Loaded 94 full items
+[10-20-15] Checking Local Cache
+[10-20-15] Cache C:\Users\kevin\Desktop\Dev - Predict\Codando - PredictStudio\LP - PredictStudio\League Of Legends - PredictStudio/Cache/11.19.1 exists already
+[10-20-15] DDragon loaded
+[10-20-15] Loading PickBan Controller
+[10-20-15] Loading Ingame Controller
+[10-20-15] Checking League install for LiveEventsAPI
+[10-20-15] Found League install location
+[10-20-15] LiveEvents API found in Game config
+[10-20-15] Replay API found in Game config
+[10-20-15] Verifying LiveEvents list
+[10-20-15] Loading Replay Controller
+[10-20-15] Loading Farsight
+[10-20-15] Farsight loaded. Found 157 Champ names
+[10-20-15] Loading Frontend Webserver (HTTP/WS)
+[10-20-15] Server file system starting
+[10-20-15] WebServer New State - Loading
+[10-20-15] WebServer New State - Listening
+[10-20-15] WebServer running on http://*:9001/
+[10-20-15] Whats that ticking noise?
+[10-20-15] Init Complete in 1.697s
+[10-20-15] Opening main window
+[10-20-15] Team STORMTIGER loaded
+[10-20-15] Team BOOMSLANG loaded
+[10-20-15] Connection State Changed
+[10-20-15] New Client xLsgGjqExke3EANQgRT7VQ connected from http://localhost:9001
+[10-20-15] Loading State Controller
+[10-20-15] Connecting to League Client
+[10-20-15] PickBan Enabled
+[10-20-15] Ingame Enabled
+[10-20-15] Using direct PickBan
+[10-20-15] Starting LeagueBroadcast with tickrate of 2tps
+[10-20-15] Checking for running Game
+[10-20-15] Target process (League of Legends) detected.
+[10-20-15] Init Game State
+[10-20-15] Game State reset
+[10-20-15] Connection State Changed
+[10-20-15] Post Init Complete in 348.5172ms
+[10-20-15] Total Startup time: 3.356s
+[10-20-16] Connected to League Client in 105 ms
+[10-20-16] Local Client Version 11.19.1
+[10-20-16] Loading offsets for current patch
+[10-20-16] Found Farsight.json. Reading values
+[10-20-16] Config Farsight loaded
+[10-20-16] Watching Farsight.json for changes
+[10-20-16] Using offsets 11.19.1
+[10-20-16] Game Loaded
+[10-20-16] Game Paused
+[10-20-16] LiveEventAPI Connected
+[10-20-16] Game Resumed
+[10-20-16] Baron spawned
+[10-20-17] Init Team data
+[10-20-17] Init UI
+[10-20-17] Sending game start key inputs
+[10-20-19] [WARNING] App Crash detected. Writing Crash report to CrashLogs\Crash-2021-09-30-10-20.log

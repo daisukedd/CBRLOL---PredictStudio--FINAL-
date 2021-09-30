@@ -3,9 +3,9 @@
     "name": "BOOMSLANG",
     "nameTag": "BSG",
     "score": 0,
-    "coach": "G2 Grabz",
-    "color": "rgb(66,133,244)"
+    "coach": "Haaty",
+    "color": "rgb(255,89,0)"
   },
-  "IconLocation": "Cache\\TeamIcons\\Default.png",
+  "IconLocation": "Cache\\TeamIcons\\BOOMSLANG.png",
   "FileVersion": "1.0"
 }

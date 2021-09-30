@@ -1,0 +1,11 @@
+{
+  "Config": {
+    "name": "STORMTIGER",
+    "nameTag": "STT",
+    "score": 0,
+    "coach": "G2 Grabz",
+    "color": "rgb(234,67,53)"
+  },
+  "IconLocation": "Cache\\TeamIcons\\Default.png",
+  "FileVersion": "1.0"
+}

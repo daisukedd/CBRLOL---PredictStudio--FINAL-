@@ -27,11 +27,11 @@
       "DoObjectiveKillPopUp": false
     },
     "Teams": {
-      "DoTeamNames": false,
-      "DoTeamIcons": false,
+      "DoTeamNames": true,
+      "DoTeamIcons": true,
       "DoTeamScores": false
     },
-    "UseCustomScoreboard": false
+    "UseCustomScoreboard": true
   },
   "Replay": {
     "IsActive": true,

@@ -4,15 +4,15 @@
     "spellsEnabled": true,
     "coachesEnabled": true,
     "blueTeam": {
-      "name": "TUM",
-      "nameTag": "TUM",
+      "name": "STORMTIGER",
+      "nameTag": "STT",
       "score": 0,
       "coach": "G2 Grabz",
       "color": "rgb(66,133,244)"
     },
     "redTeam": {
-      "name": "LMU",
-      "nameTag": "LMU",
+      "name": "BOOMSLANG",
+      "nameTag": "BSG",
       "score": 0,
       "coach": "G2 Grabz",
       "color": "rgb(234,67,53)"

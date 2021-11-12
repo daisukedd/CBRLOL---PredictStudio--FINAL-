@@ -1,0 +1,3611 @@
+[12-04-18] Logging Init
+[12-04-18] Starting Config Controller
+[12-04-18] Config Provider started
+[12-04-18] Looking for config files at /Config
+[12-04-18] Found PickBan.json. Reading values
+[12-04-18] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": false,
+    "blueTeam": {
+      "name": "BOOMSLANG",
+      "nameTag": "BSG",
+      "score": 0,
+      "coach": "Haaty",
+      "color": "rgb(38,38,38)"
+    },
+    "redTeam": {
+      "name": "STORMTIGER",
+      "nameTag": "STT",
+      "score": 0,
+      "coach": "Daisuke",
+      "color": "rgb(242,179,61)"
+    },
+    "patch": "11.22.1"
+  },
+  "FileVersion": "1.0"
+}
+[12-04-18] Config PickBan loaded
+[12-04-18] Found Ingame.json. Reading values
+[12-04-18] {
+  "Inhib": {
+    "Position": {
+      "X": 0.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 306.0,
+      "Y": 118.0
+    },
+    "UseBackgroundImage": true,
+    "UseBackgroundVideo": false,
+    "Color": "rgba(19,24,63,255)",
+    "Font": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "15px",
+      "Align": "right",
+      "Color": "rgb(255,255,255)"
+    },
+    "IconSize": 40.0,
+    "HideWhenNoneDestroyed": true,
+    "UseTeamColors": true,
+    "BlueTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 20.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(0,0,0)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "RedTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 80.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(255,255,255)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "LaneOrder": [
+      "bot",
+      "mid",
+      "top"
+    ]
+  },
+  "Score": {
+    "Position": {
+      "X": 960.0,
+      "Y": 0.0
+    },
+    "Size": {
+      "X": 1280.0,
+      "Y": 110.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "Vanguard CF",
+      "Size": "16px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "TimePosition": {
+      "X": 0.0,
+      "Y": 85.0
+    },
+    "BlueTeam": {
+      "Kills": {
+        "Position": {
+          "X": -25.0,
+          "Y": 7.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "52px",
+          "Align": "right",
+          "Color": "rgb(238,239,228)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": -265.0,
+          "Y": 17.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "31px",
+          "Align": "right",
+          "Color": "rgb(238,239,228)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": -165.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "25px",
+          "Align": "left",
+          "Color": "rgb(238,239,228)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 50.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": -80.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": -18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": -540.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "40px",
+          "Align": "left",
+          "Color": "rgb(38,38,38)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": -600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": -380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": 25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "RedTeam": {
+      "Kills": {
+        "Position": {
+          "X": 27.0,
+          "Y": 7.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "52px",
+          "Align": "left",
+          "Color": "rgb(242,179,61)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": 310.0,
+          "Y": 17.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "31px",
+          "Align": "left",
+          "Color": "rgb(242,179,61)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": 175.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "25px",
+          "Align": "left",
+          "Color": "rgb(242,179,61)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": 80.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": 18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": 510.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "40px",
+          "Align": "right",
+          "Color": "rgb(242,179,61)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": 600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": 10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": 380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": -25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(0,0,0,0)"
+    },
+    "Misc": {
+      "Animation": "Simple",
+      "ShowCenterIcon": true,
+      "CenterIconPosition": {
+        "X": 3.0,
+        "Y": 33.0
+      },
+      "CenterIconSize": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "DrakeIconSize": {
+        "X": 20.0,
+        "Y": 20.0
+      }
+    }
+  },
+  "ObjectiveKill": {
+    "ShowTeamIcon": false,
+    "SoulPointScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "ElderKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DragonKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "BaronKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ObjectiveSpawn": {
+    "BaronSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DrakeSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ItemComplete": {
+    "UseCustomVideo": true,
+    "ShowItemName": false,
+    "ShowOnScoreboard": true,
+    "ShowOnChampionIndicator": true,
+    "InfoText": {
+      "Style": "Bold",
+      "Name": "Vanguard CF",
+      "Size": "20px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "ItemAnimationStates": [
+      {
+        "Scale": 0.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.1,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 3200.0,
+        "Ease": "Linear",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 2.5,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 0.0
+      }
+    ],
+    "InfoTextAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 1000.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 1800.0
+      }
+    ],
+    "InfoBackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 80.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 800.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -80.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 2200.0
+      }
+    ]
+  },
+  "LevelUp": {
+    "UseCustomVideo": false,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "LevelFont": {
+      "Style": "Bold",
+      "Name": "Vanguard CF",
+      "Size": "60px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "UseTeamColors": true,
+    "OrderColor": "rgb(0,0,255)",
+    "ChaosColor": "rgb(255,0,0)",
+    "NumberAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 70.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -30.0
+        },
+        "Mirror": true,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -130.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 3500.0
+      }
+    ],
+    "BackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 100.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": -90.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 4000.0
+      }
+    ]
+  },
+  "InfoPage": {
+    "Position": {
+      "X": 0.0,
+      "Y": 135.0
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "Gold": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "XP": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "CSPM": {
+          "X": 150.0,
+          "Y": 15.0
+        }
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Vanguard CF",
+        "Size": "26px",
+        "Align": "center",
+        "Color": "rgb(0,0,0)"
+      }
+    },
+    "TitleHeight": 45.0,
+    "TabConfig": {
+      "TabSize": {
+        "X": 300.0,
+        "Y": 55.0
+      },
+      "UseTeamColorsText": false,
+      "OrderColor": "rgb(255,255,255)",
+      "ChaosColor": "rgb(255,255,255)",
+      "ChampIcon": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "XP": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "CSPM": {
+            "X": 4.0,
+            "Y": 8.0
+          }
+        },
+        "Size": {
+          "X": 42.0,
+          "Y": 42.0
+        }
+      },
+      "Separator": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "XP": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "CSPM": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "Size": {
+          "X": 300.0,
+          "Y": 2.0
+        }
+      },
+      "PlayerName": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 6.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Vanguard CF",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "MinValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Vanguard CF",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "CurrentValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 270.0,
+            "Y": 15.0
+          },
+          "XP": {
+            "X": 280.0,
+            "Y": 15.0
+          },
+          "CSPM": {
+            "X": 280.0,
+            "Y": 15.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "20px",
+          "Align": "center",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "MaxValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 230.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 260.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 260.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "ProgressBar": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "XP": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "CSPM": {
+            "X": 52.0,
+            "Y": 40.0
+          }
+        },
+        "Size": {
+          "Gold": {
+            "X": 180.0,
+            "Y": 10.0
+          },
+          "XP": {
+            "X": 210.0,
+            "Y": 10.0
+          },
+          "CSPM": {
+            "X": 210.0,
+            "Y": 10.0
+          }
+        },
+        "UseTeamColors": true,
+        "DefaultColor": "rgb(255,255,255)",
+        "OrderColor": "rgb(222,40,70)",
+        "ChaosColor": "rgb(0,151,196)",
+        "Animate": true
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgb(0, 0, 0)",
+      "Size": {
+        "X": 300.0,
+        "Y": 600.0
+      }
+    }
+  },
+  "GoldGraph": {
+    "Position": {
+      "X": 965.0,
+      "Y": 849.0
+    },
+    "Size": {
+      "X": 750.0,
+      "Y": 250.0
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(238,239,228,0)"
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "X": 0.0,
+        "Y": 10.0
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Vanguard CF",
+        "Size": "22px",
+        "Align": "left",
+        "Color": "rgb(0,0,0)"
+      },
+      "Text": "PREDICT STUDIO - DIFERENÇA DE OURO"
+    },
+    "Graph": {
+      "Position": {
+        "X": 5.0,
+        "Y": 40.0
+      },
+      "Size": {
+        "X": 710.0,
+        "Y": 190.0
+      },
+      "ShowVerticalGrid": false,
+      "ShowHorizontalGrid": true,
+      "LineTension": 0.1,
+      "GridColor": "rgba(255,255,255,0.5)",
+      "GridEdgeColor": "rgba(255,255,255, 0.1)",
+      "BorderUseTeamColors": true,
+      "BorderOrderColor": "rgb(0,0,0)",
+      "BorderChaosColor": "rgb(0,0,0)",
+      "FillUseTeamColors": true,
+      "FillOrderColor": "rgb(0,0,0)",
+      "FillChaosColor": "rgb(0,0,0)",
+      "InfoFont": {
+        "Style": "Bold",
+        "Name": "Vanguard CF",
+        "Size": "UNUSED",
+        "Align": "UNUSED",
+        "Color": "rgb(0,0,0)"
+      },
+      "TimeStepSize": 30,
+      "ShowTimeStepIndicators": true
+    }
+  },
+  "BaronTimer": {
+    "Position": {
+      "X": 1800.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 1750.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "right",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 25.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": -7.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 25.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": -10.0,
+      "Y": 0.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "ElderTimer": {
+    "Position": {
+      "X": 120.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 50.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "left",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 40.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 18.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": 22.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 18.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": 20.0,
+      "Y": -2.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "GoogleFonts": [
+    "News Cycle",
+    "News Cycle:bold",
+    "Montserrat:ExtraBold",
+    "Roboto:Black",
+    "Droid Sans",
+    "Vanguard CF:Bold"
+  ],
+  "FileVersion": "2.2"
+}
+[12-04-18] Config Ingame loaded
+[12-04-18] Found Component.json. Reading values
+[12-04-18] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "pt_BR",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": false,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(38,38,38)",
+    "DefaultRedColor": "rgb(242,179,61)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": true,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 5,
+    "Objectives": {
+      "DoBaronKill": false,
+      "DoDragonKill": false,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": false,
+      "DoObjectiveKillPopUp": false
+    },
+    "Teams": {
+      "DoTeamNames": false,
+      "DoTeamIcons": false,
+      "DoTeamScores": false
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 3,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[12-04-18] Config Component loaded
+[12-04-18] Loading config watchers
+[12-04-18] Watching PickBan.json for changes
+[12-04-18] Watching Component.json for changes
+[12-04-18] Watching Ingame.json for changes
+[12-04-18] Log Level set to Verbose
+[12-04-18] League Broadcast Version 1.4.97
+[12-04-18] [Update] Checking for Updates
+[12-04-19] [Update] Latest release version v1.4.97 vs. current version 1.4.97
+[12-04-19] [Update] Local version up to date
+[12-04-19] Using current Version
+[12-04-19] Early Init Complete in 1854,3416ms
+[12-04-19] DataDragon Provider Init
+[12-04-19] Getting latest versions from dataDragon
+[12-04-19] Retrieving latest patch info
+[12-04-19] Downloading https://ddragon.leagueoflegends.com/realms/euw.json
+[12-04-20] https://ddragon.leagueoflegends.com/realms/euw.json downloaded
+[12-04-20] Champion: 11.22.1, Item: 11.22.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[12-04-20] Downloading https://ddragon.leagueoflegends.com/cdn/11.22.1/data/pt_BR/champion.json
+[12-04-21] https://ddragon.leagueoflegends.com/cdn/11.22.1/data/pt_BR/champion.json downloaded
+[12-04-21] Loaded 157 champions
+[12-04-21] Downloading https://ddragon.leagueoflegends.com/cdn/11.22.1/data/pt_BR/summoner.json
+[12-04-21] https://ddragon.leagueoflegends.com/cdn/11.22.1/data/pt_BR/summoner.json downloaded
+[12-04-21] Loaded 15 summoner spells
+[12-04-21] Downloading https://ddragon.leagueoflegends.com/cdn/11.22.1/data/pt_BR/item.json
+[12-04-21] https://ddragon.leagueoflegends.com/cdn/11.22.1/data/pt_BR/item.json downloaded
+[12-04-21] Detected 199 items
+[12-04-21] Loaded 94 full items
+[12-04-21] Checking Local Cache
+[12-04-21] Cache D:\ARQUIVOS - GERAL\PREDICT\CBRLOL - PredictStudio/Cache/11.22.1 exists already
+[12-04-21] DDragon loaded
+[12-04-21] Loading PickBan Controller
+[12-04-21] Loading Ingame Controller
+[12-04-21] Checking League install for LiveEventsAPI
+[12-04-21] Found League install location
+[12-04-21] LiveEvents API found in Game config
+[12-04-21] Replay API found in Game config
+[12-04-21] Verifying LiveEvents list
+[12-04-22] Loading Replay Controller
+[12-04-22] Loading Farsight
+[12-04-22] Farsight loaded. Found 157 Champ names
+[12-04-22] Loading Frontend Webserver (HTTP/WS)
+[12-04-22] Server file system starting
+[12-04-22] WebServer New State - Loading
+[12-04-22] WebServer New State - Listening
+[12-04-22] WebServer running on http://*:9001/
+[12-04-22] Whats that ticking noise?
+[12-04-22] Init Complete in 2.724s
+[12-04-22] Opening main window
+[12-04-22] Team BOOMSLANG loaded
+[12-04-22] Team STORMTIGER loaded
+[12-04-22] Connection State Changed
+[12-04-22] New Client tIe7UvbDAUCLgzWhCfx0zg connected from http://localhost:10001
+[12-04-22] New Client 0V0cBw4U/EiKZCvQgVBX7Q connected from http://localhost:9001
+[12-04-22] New Client ly9EW2jVCE2z137OA7z/lw connected from http://localhost:9001
+[12-04-22] Loading State Controller
+[12-04-22] Connecting to League Client
+[12-04-22] Ingame Enabled
+[12-04-22] Using direct PickBan
+[12-04-22] Starting LeagueBroadcast with tickrate of 2tps
+[12-04-22] Checking for running Game
+[12-04-22] Target process (League of Legends) detected.
+[12-04-22] Init Game State
+[12-04-22] Game State reset
+[12-04-22] Attached to League Process
+[12-04-22] Connection State Changed
+[12-04-22] Post Init Complete in 535,3164ms
+[12-04-22] Total Startup time: 5.114s
+[12-04-23] Connected to League Client in 134 ms
+[12-04-23] Local Client Version 11.22.1
+[12-04-23] Loading offsets for current patch
+[12-04-23] Found Farsight.json. Reading values
+[12-04-23] {
+  "GameVersion": "11.22.1",
+  "GameOffsets": {
+    "Manager": "0x187015c",
+    "MapCount": "0x2c",
+    "MapRoot": "0x28",
+    "MapNodeNetId": "0x10",
+    "MapNodeObject": "0x14"
+  },
+  "ObjectOffsets": {
+    "ID": "0x20",
+    "NetworkID": "0xcc",
+    "Team": "0x4c",
+    "Pos": "0xf0",
+    "Mana": "0x2b4",
+    "MaxMana": "0x2c4",
+    "Health": "0xdb4",
+    "MaxHealth": "0xdc4",
+    "CurrentGold": "0x1b98",
+    "GoldTotal": "0x1ba8",
+    "EXP": "0x338c",
+    "Name": "0x2be4",
+    "ItemList": "0x0",
+    "SpellBook": "0x0",
+    "ItemListItem": "0x0",
+    "ItemInfo": "0x0",
+    "ItemInfoId": "0x0"
+  },
+  "FileVersion": "1.0"
+}
+[12-04-23] Config Farsight loaded
+[12-04-23] Watching Farsight.json for changes
+[12-04-23] Using offsets 11.22.1
+[12-04-23] Checking spectate endpoint to determine game type
+[12-04-23] Found spectate game
+[12-04-23] Game Loaded
+[12-04-23] Tick: 0. Update duration: 0
+[12-04-23] Game Paused
+[12-04-23] LiveEventAPI Connected
+[12-04-23] Tick: 872,9014282226562. Update duration: 872,9014282226562
+[12-04-23] Game Resumed
+[12-04-23] Kaisa Gold: 1276,6694/5776,6855, Exp:6042,991/9
+[12-04-23] Graves Gold: 78,53381/3928,5493, Exp:4372,2373/8
+[12-04-23] Irelia Gold: 410,52847/5290,55, Exp:6056,0376/9
+[12-04-23] Viktor Gold: 647,53467/4922,55, Exp:5988,049/9
+[12-04-23] Warwick Gold: 652,728/4902,741, Exp:4587,005/8
+[12-04-23] Vex Gold: 72,76813/5007,677, Exp:4521,7026/8
+[12-04-23] Yorick Gold: 217,53247/4067,5493, Exp:6756,447/10
+[12-04-23] Lulu Gold: 1119,92/3169,9587, Exp:3434,7405/7
+[12-04-23] Jinx Gold: 521,51984/2921,5493, Exp:3897/7
+[12-04-23] Tristana Gold: 1681,5315/3831,5496, Exp:6895,588/10
+[12-04-24] Init Team data
+[12-04-24] Tick: 873,4159545898438. Update duration: 0,5145263671875
+[12-04-24] Kaisa Gold: 1277,6895/5777,7056, Exp:6042,991/9
+[12-04-24] Graves Gold: 79,55381/3929,5693, Exp:4372,2373/8
+[12-04-24] Irelia Gold: 411,54846/5291,57, Exp:6056,0376/9
+[12-04-24] Viktor Gold: 648,5547/4923,57, Exp:5988,049/9
+[12-04-24] Warwick Gold: 653,74805/4903,761, Exp:4587,005/8
+[12-04-24] Vex Gold: 73,938126/5008,8467, Exp:4521,7026/8
+[12-04-24] Yorick Gold: 218,55247/4068,5693, Exp:6756,447/10
+[12-04-24] Lulu Gold: 1121,0901/3171,1287, Exp:3434,7405/7
+[12-04-24] Jinx Gold: 522,53986/2922,5693, Exp:3897/7
+[12-04-24] Tristana Gold: 1682,5515/3832,5696, Exp:6895,588/10
+[12-04-24] Init UI
+[12-04-24] Sending game start key inputs
+[12-04-24] Tick: 873,9019775390625. Update duration: 0,48602294921875
+[12-04-24] Kaisa Gold: 1278,7095/5778,7256, Exp:6042,991/9
+[12-04-24] Graves Gold: 80,57381/3930,5894, Exp:4372,2373/8
+[12-04-24] Irelia Gold: 412,56845/5292,59, Exp:6056,0376/9
+[12-04-24] Viktor Gold: 649,5747/4924,59, Exp:5988,049/9
+[12-04-24] Warwick Gold: 654,76807/4904,7812, Exp:4587,005/8
+[12-04-24] Vex Gold: 75,10812/5010,0166, Exp:4521,7026/8
+[12-04-24] Yorick Gold: 219,57248/4069,5894, Exp:6756,447/10
+[12-04-24] Lulu Gold: 1122,2601/3172,2986, Exp:3453,3005/7
+[12-04-24] Jinx Gold: 523,5599/2923,5894, Exp:3915,56/7
+[12-04-24] Tristana Gold: 1683,5715/3833,5896, Exp:6895,588/10
+[12-04-25] Tick: 874,40478515625. Update duration: 0,5028076171875
+[12-04-25] Kaisa Gold: 1279,7295/5779,7456, Exp:6042,991/9
+[12-04-25] Graves Gold: 81,5938/3931,6094, Exp:4372,2373/8
+[12-04-25] Irelia Gold: 413,58844/5293,61, Exp:6056,0376/9
+[12-04-25] Viktor Gold: 650,5947/4925,61, Exp:5988,049/9
+[12-04-25] Warwick Gold: 655,7881/4905,8013, Exp:4587,005/8
+[12-04-25] Vex Gold: 76,27812/5011,1865, Exp:4521,7026/8
+[12-04-25] Yorick Gold: 220,59248/4070,6094, Exp:6756,447/10
+[12-04-25] Lulu Gold: 1123,4302/3173,4685, Exp:3453,3005/7
+[12-04-25] Jinx Gold: 524,5799/2924,6094, Exp:3915,56/7
+[12-04-25] Tristana Gold: 1684,5916/3834,6096, Exp:6895,588/10
+[12-04-25] Tick: 874,89306640625. Update duration: 0,48828125
+[12-04-25] Kaisa Gold: 1280,7495/5780,7656, Exp:6042,991/9
+[12-04-25] Graves Gold: 82,6138/3932,6294, Exp:4372,2373/8
+[12-04-25] Irelia Gold: 414,60843/5294,63, Exp:6056,0376/9
+[12-04-25] Viktor Gold: 651,61475/4926,63, Exp:5988,049/9
+[12-04-25] Warwick Gold: 656,8081/4906,8213, Exp:4587,005/8
+[12-04-25] Vex Gold: 77,44812/5012,3564, Exp:4521,7026/8
+[12-04-25] Yorick Gold: 221,61249/4071,6294, Exp:6756,447/10
+[12-04-25] Lulu Gold: 1124,6002/3174,6384, Exp:3471,8606/7
+[12-04-25] Jinx Gold: 525,5999/2925,6294, Exp:3934,12/7
+[12-04-25] Tristana Gold: 1685,6116/3835,6296, Exp:6895,588/10
+[12-04-26] Tick: 875,4019775390625. Update duration: 0,5089111328125
+[12-04-26] Kaisa Gold: 1281,7695/5781,7856, Exp:6042,991/9
+[12-04-26] Graves Gold: 83,6338/3933,6494, Exp:4372,2373/8
+[12-04-26] Irelia Gold: 499,62842/5379,65, Exp:6149,0376/10
+[12-04-26] Viktor Gold: 652,63477/4927,65, Exp:5988,049/9
+[12-04-26] Warwick Gold: 657,8281/4907,8413, Exp:4587,005/8
+[12-04-26] Vex Gold: 78,61812/5013,5264, Exp:4521,7026/8
+[12-04-26] Yorick Gold: 222,63249/4072,6494, Exp:6756,447/10
+[12-04-26] Lulu Gold: 1125,7703/3175,8083, Exp:3471,8606/7
+[12-04-26] Jinx Gold: 526,61993/2926,6494, Exp:3934,12/7
+[12-04-26] Tristana Gold: 1686,6316/3836,6497, Exp:6895,588/10
+[12-04-26] Tick: 875,9036865234375. Update duration: 0,501708984375
+[12-04-26] Kaisa Gold: 1282,7896/5782,8057, Exp:6042,991/9
+[12-04-26] Graves Gold: 84,65379/3934,6694, Exp:4372,2373/8
+[12-04-26] Irelia Gold: 528,64844/5408,67, Exp:6208,557/10
+[12-04-26] Viktor Gold: 653,6548/4928,67, Exp:5988,049/9
+[12-04-26] Warwick Gold: 658,84814/4908,8613, Exp:4587,005/8
+[12-04-26] Vex Gold: 79,78812/5014,6963, Exp:4521,7026/8
+[12-04-26] Yorick Gold: 223,6525/4073,6694, Exp:6756,447/10
+[12-04-26] Lulu Gold: 1126,9403/3176,9783, Exp:3471,8606/7
+[12-04-26] Jinx Gold: 527,63995/2927,6694, Exp:3934,12/7
+[12-04-26] Tristana Gold: 1687,6516/3837,6697, Exp:6895,588/10
+[12-04-27] Tick: 876,408203125. Update duration: 0,5045166015625
+[12-04-27] Kaisa Gold: 1283,8096/5783,8257, Exp:6042,991/9
+[12-04-27] Graves Gold: 85,67379/3935,6895, Exp:4372,2373/8
+[12-04-27] Irelia Gold: 529,66846/5409,69, Exp:6208,557/10
+[12-04-27] Viktor Gold: 654,6748/4929,69, Exp:5988,049/9
+[12-04-27] Warwick Gold: 659,86816/4909,8813, Exp:4587,005/8
+[12-04-27] Vex Gold: 80,958115/5015,866, Exp:4521,7026/8
+[12-04-27] Yorick Gold: 224,6725/4074,6895, Exp:6756,447/10
+[12-04-27] Lulu Gold: 1128,1104/3178,1482, Exp:3471,8606/7
+[12-04-27] Jinx Gold: 528,66/2928,6895, Exp:3934,12/7
+[12-04-27] Tristana Gold: 1688,6716/3838,6897, Exp:6895,588/10
+[12-04-27] Tick: 876,8949584960938. Update duration: 0,48675537109375
+[12-04-27] Kaisa Gold: 234,82959/5784,8457, Exp:6042,991/9
+[12-04-27] Graves Gold: 86,69379/3936,7095, Exp:4372,2373/8
+[12-04-27] Irelia Gold: 530,6885/5410,71, Exp:6208,557/10
+[12-04-27] Viktor Gold: 655,6948/4930,71, Exp:5988,049/9
+[12-04-27] Warwick Gold: 660,8882/4910,9014, Exp:4587,005/8
+[12-04-27] Vex Gold: 82,12811/5017,036, Exp:4521,7026/8
+[12-04-27] Yorick Gold: 225,6925/4075,7095, Exp:6756,447/10
+[12-04-27] Lulu Gold: 1129,2804/3179,318, Exp:3471,8606/7
+[12-04-27] Jinx Gold: 529,68/2929,7095, Exp:3934,12/7
+[12-04-27] Tristana Gold: 1689,6917/3839,7097, Exp:6895,588/10
+[12-04-28] Tick: 877,3905639648438. Update duration: 0,49560546875
+[12-04-28] Kaisa Gold: 235,8496/5785,8657, Exp:6042,991/9
+[12-04-28] Graves Gold: 87,71378/3937,7295, Exp:4372,2373/8
+[12-04-28] Irelia Gold: 531,7085/5411,73, Exp:6208,557/10
+[12-04-28] Viktor Gold: 656,71484/4931,73, Exp:5988,049/9
+[12-04-28] Warwick Gold: 661,9082/4911,9214, Exp:4587,005/8
+[12-04-28] Vex Gold: 83,29811/5018,206, Exp:4521,7026/8
+[12-04-28] Yorick Gold: 226,71251/4076,7295, Exp:6756,447/10
+[12-04-28] Lulu Gold: 1130,4504/3180,488, Exp:3471,8606/7
+[12-04-28] Jinx Gold: 530,7/2930,7295, Exp:3934,12/7
+[12-04-28] Tristana Gold: 1690,7117/3840,7297, Exp:6895,588/10
+[12-04-28] Tick: 877,8893432617188. Update duration: 0,498779296875
+[12-04-28] Kaisa Gold: 236,8696/5786,8857, Exp:6042,991/9
+[12-04-28] Graves Gold: 88,73378/3938,7495, Exp:4372,2373/8
+[12-04-28] Irelia Gold: 532,7285/5412,75, Exp:6238,317/10
+[12-04-28] Viktor Gold: 657,73486/4932,75, Exp:5988,049/9
+[12-04-28] Warwick Gold: 662,9282/4912,9414, Exp:4587,005/8
+[12-04-28] Vex Gold: 84,46811/5019,376, Exp:4521,7026/8
+[12-04-28] Yorick Gold: 227,73251/4077,7495, Exp:6756,447/10
+[12-04-28] Lulu Gold: 1131,6205/3181,658, Exp:3471,8606/7
+[12-04-28] Jinx Gold: 531,72003/2931,7495, Exp:3934,12/7
+[12-04-28] Tristana Gold: 1691,7317/3841,7498, Exp:6895,588/10
+[12-04-29] Tick: 878,410400390625. Update duration: 0,52105712890625
+[12-04-29] Kaisa Gold: 237,8896/5787,906, Exp:6042,991/9
+[12-04-29] Graves Gold: 89,75378/3939,7695, Exp:4372,2373/8
+[12-04-29] Irelia Gold: 533,74854/5413,77, Exp:6238,317/10
+[12-04-29] Viktor Gold: 658,7549/4933,77, Exp:5988,049/9
+[12-04-29] Warwick Gold: 663,94824/4913,9614, Exp:4587,005/8
+[12-04-29] Vex Gold: 85,63811/5020,546, Exp:4521,7026/8
+[12-04-29] Yorick Gold: 228,75252/4078,7695, Exp:6756,447/10
+[12-04-29] Lulu Gold: 1132,7905/3182,828, Exp:3471,8606/7
+[12-04-29] Jinx Gold: 532,74005/2932,7695, Exp:3934,12/7
+[12-04-29] Tristana Gold: 1692,7517/3842,7698, Exp:6895,588/10
+[12-04-29] Tick: 878,8952026367188. Update duration: 0,48480224609375
+[12-04-29] Kaisa Gold: 238,9096/5788,926, Exp:6042,991/9
+[12-04-29] Graves Gold: 90,77377/3940,7896, Exp:4372,2373/8
+[12-04-29] Irelia Gold: 534,76855/5414,79, Exp:6238,317/10
+[12-04-29] Viktor Gold: 659,7749/4934,79, Exp:5988,049/9
+[12-04-29] Warwick Gold: 664,96826/4914,9814, Exp:4587,005/8
+[12-04-29] Vex Gold: 86,808105/5021,716, Exp:4521,7026/8
+[12-04-29] Yorick Gold: 229,77252/4079,7896, Exp:6756,447/10
+[12-04-29] Lulu Gold: 1133,9606/3183,9978, Exp:3471,8606/7
+[12-04-29] Jinx Gold: 533,7601/2933,7896, Exp:3934,12/7
+[12-04-29] Tristana Gold: 1693,7717/3843,7898, Exp:6895,588/10
+[12-04-30] Tick: 879,3861083984375. Update duration: 0,49090576171875
+[12-04-30] Kaisa Gold: 239,92961/5789,946, Exp:6042,991/9
+[12-04-30] Graves Gold: 91,79377/3941,8096, Exp:4372,2373/8
+[12-04-30] Irelia Gold: 535,7886/5415,81, Exp:6238,317/10
+[12-04-30] Viktor Gold: 660,7949/4935,81, Exp:5988,049/9
+[12-04-30] Warwick Gold: 665,9883/4916,0015, Exp:4587,005/8
+[12-04-30] Vex Gold: 87,9781/5022,8857, Exp:4521,7026/8
+[12-04-30] Yorick Gold: 230,79253/4080,8096, Exp:6756,447/10
+[12-04-30] Lulu Gold: 1135,1306/3185,1677, Exp:3471,8606/7
+[12-04-30] Jinx Gold: 534,7801/2934,8096, Exp:3934,12/7
+[12-04-30] Tristana Gold: 1694,7917/3844,8098, Exp:6895,588/10
+[12-04-30] Tick: 879,9022216796875. Update duration: 0,51611328125
+[12-04-30] Kaisa Gold: 240,94962/5790,966, Exp:6042,991/9
+[12-04-30] Graves Gold: 92,81377/3942,8296, Exp:4372,2373/8
+[12-04-30] Irelia Gold: 536,8086/5416,83, Exp:6238,317/10
+[12-04-30] Viktor Gold: 661,81494/4936,83, Exp:5988,049/9
+[12-04-30] Warwick Gold: 667,0083/4917,0215, Exp:4587,005/8
+[12-04-30] Vex Gold: 89,1481/5024,0557, Exp:4521,7026/8
+[12-04-30] Yorick Gold: 231,81253/4081,8296, Exp:6756,447/10
+[12-04-30] Lulu Gold: 1136,3007/3186,3376, Exp:3471,8606/7
+[12-04-30] Jinx Gold: 535,8001/2935,8296, Exp:3934,12/7
+[12-04-30] Tristana Gold: 1695,8118/3845,8298, Exp:6895,588/10
+[12-04-31] Tick: 880,4063720703125. Update duration: 0,504150390625
+[12-04-31] Kaisa Gold: 241,96962/5791,986, Exp:6042,991/9
+[12-04-31] Graves Gold: 93,83376/3943,8496, Exp:4372,2373/8
+[12-04-31] Irelia Gold: 757,335/5637,3564, Exp:6595,784/10
+[12-04-31] Viktor Gold: 662,83496/4937,85, Exp:5988,049/9
+[12-04-31] Warwick Gold: 668,0283/4918,0415, Exp:4587,005/8
+[12-04-31] Vex Gold: 90,3181/5025,2256, Exp:4521,7026/8
+[12-04-31] Yorick Gold: 232,83253/4082,8496, Exp:6756,447/10
+[12-04-31] Lulu Gold: 1137,4707/3187,5076, Exp:3471,8606/7
+[12-04-31] Jinx Gold: 536,8201/2936,8496, Exp:3934,12/7
+[12-04-31] Tristana Gold: 1696,8318/3846,8499, Exp:6895,588/10
+[12-04-31] New Event: {"EventID":21,"EventName":"ChampionKill","EventTime":880.0718383789062,"Assisters":[],"KillerName":"gusX","VictimName":"Dark Phoenix1","Recipient":null,"InhibKilled":null,"TurretKilled":null,"KillStreak":null,"eventType":"ChampionKill"}
+[12-04-31] Tick: 880,8914184570312. Update duration: 0,48504638671875
+[12-04-31] Kaisa Gold: 242,98962/5793,006, Exp:6042,991/9
+[12-04-31] Graves Gold: 94,85376/3944,8696, Exp:4372,2373/8
+[12-04-31] Irelia Gold: 758,35504/5638,3765, Exp:6595,784/10
+[12-04-31] Viktor Gold: 663,855/4938,87, Exp:5988,049/9
+[12-04-31] Warwick Gold: 669,04834/4919,0615, Exp:4587,005/8
+[12-04-31] Vex Gold: 91,4881/5026,3955, Exp:4521,7026/8
+[12-04-31] Yorick Gold: 233,85254/4083,8696, Exp:6756,447/10
+[12-04-31] Lulu Gold: 1138,6407/3188,6775, Exp:3471,8606/7
+[12-04-31] Jinx Gold: 537,84015/2937,8696, Exp:3934,12/7
+[12-04-31] Tristana Gold: 1697,8518/3847,8699, Exp:6895,588/10
+[12-04-32] Tick: 881,400634765625. Update duration: 0,50921630859375
+[12-04-32] Kaisa Gold: 244,00963/5794,026, Exp:6042,991/9
+[12-04-32] Graves Gold: 95,87376/3945,8896, Exp:4372,2373/8
+[12-04-32] Irelia Gold: 779,37506/5659,3965, Exp:6595,784/10
+[12-04-32] Viktor Gold: 664,875/4939,89, Exp:5988,049/9
+[12-04-32] Warwick Gold: 670,06836/4920,0815, Exp:4587,005/8
+[12-04-32] Vex Gold: 92,6581/5027,5654, Exp:4521,7026/8
+[12-04-32] Yorick Gold: 255,87254/4105,8896, Exp:6816,897/10
+[12-04-32] Lulu Gold: 1139,8108/3189,8474, Exp:3471,8606/7
+[12-04-32] Jinx Gold: 538,86017/2938,8896, Exp:3934,12/7
+[12-04-32] Tristana Gold: 1698,8718/3848,89, Exp:6895,588/10
+[12-04-32] Tick: 881,8975830078125. Update duration: 0,4969482421875
+[12-04-32] Kaisa Gold: 245,02963/5795,046, Exp:6042,991/9
+[12-04-32] Graves Gold: 96,89375/3946,9097, Exp:4372,2373/8
+[12-04-32] Irelia Gold: 780,3951/5660,4165, Exp:6595,784/10
+[12-04-32] Viktor Gold: 665,895/4940,91, Exp:5988,049/9
+[12-04-32] Warwick Gold: 671,0884/4921,1016, Exp:4587,005/8
+[12-04-32] Vex Gold: 93,828094/5028,7354, Exp:4521,7026/8
+[12-04-32] Yorick Gold: 256,89255/4106,9097, Exp:6816,897/10
+[12-04-32] Lulu Gold: 1140,9808/3191,0173, Exp:3471,8606/7
+[12-04-32] Jinx Gold: 539,8802/2939,9097, Exp:3934,12/7
+[12-04-32] Tristana Gold: 1699,8918/3849,91, Exp:6895,588/10
+[12-04-33] Tick: 882,3930053710938. Update duration: 0,49542236328125
+[12-04-33] Kaisa Gold: 246,04964/5796,066, Exp:6042,991/9
+[12-04-33] Graves Gold: 397,91373/4247,9297, Exp:5159,0234/9
+[12-04-33] Irelia Gold: 781,4151/5661,4365, Exp:6595,784/10
+[12-04-33] Viktor Gold: 666,91504/4941,93, Exp:5988,049/9
+[12-04-33] Warwick Gold: 672,1084/4922,1216, Exp:4587,005/8
+[12-04-33] Vex Gold: 94,99809/5029,9053, Exp:4521,7026/8
+[12-04-33] Yorick Gold: 257,91254/4107,9297, Exp:6816,897/10
+[12-04-33] Lulu Gold: 1142,1509/3192,1873, Exp:3471,8606/7
+[12-04-33] Jinx Gold: 540,9002/2940,9297, Exp:3934,12/7
+[12-04-33] Tristana Gold: 1700,9119/3850,93, Exp:6895,588/10
+[12-04-33] New Event: {"EventID":22,"EventName":"ChampionKill","EventTime":881.993408203125,"Assisters":[],"KillerName":"Dark Phoenix1","VictimName":"gusX","Recipient":null,"InhibKilled":null,"TurretKilled":null,"KillStreak":null,"eventType":"ChampionKill"}
+[12-04-33] Tick: 882,902587890625. Update duration: 0,50958251953125
+[12-04-33] Kaisa Gold: 247,06964/5797,086, Exp:6042,991/9
+[12-04-33] Graves Gold: 398,93372/4248,9497, Exp:5159,0234/9
+[12-04-33] Irelia Gold: 782,4351/5662,4565, Exp:6595,784/10
+[12-04-33] Viktor Gold: 667,93506/4942,95, Exp:5988,049/9
+[12-04-33] Warwick Gold: 673,1284/4923,1416, Exp:4587,005/8
+[12-04-33] Vex Gold: 96,16809/5031,075, Exp:4521,7026/8
+[12-04-33] Yorick Gold: 258,93253/4108,9497, Exp:6816,897/10
+[12-04-33] Lulu Gold: 1143,3209/3193,3572, Exp:3471,8606/7
+[12-04-33] Jinx Gold: 541,9202/2941,9497, Exp:3934,12/7
+[12-04-33] Tristana Gold: 1701,9319/3851,95, Exp:6895,588/10
+[12-04-34] Tick: 883,3851928710938. Update duration: 0,48260498046875
+[12-04-34] Kaisa Gold: 248,08965/5798,106, Exp:6042,991/9
+[12-04-34] Graves Gold: 399,9537/4249,9697, Exp:5159,0234/9
+[12-04-34] Irelia Gold: 783,45514/5663,4766, Exp:6595,784/10
+[12-04-34] Viktor Gold: 668,9551/4943,97, Exp:5988,049/9
+[12-04-34] Warwick Gold: 674,14844/4924,1616, Exp:4587,005/8
+[12-04-34] Vex Gold: 97,33809/5032,245, Exp:4521,7026/8
+[12-04-34] Yorick Gold: 259,9525/4109,9697, Exp:6816,897/10
+[12-04-34] Lulu Gold: 1144,491/3194,527, Exp:3471,8606/7
+[12-04-34] Jinx Gold: 542,94025/2942,9697, Exp:3934,12/7
+[12-04-34] Tristana Gold: 1702,9519/3852,97, Exp:6895,588/10
+[12-04-34] Tick: 883,894287109375. Update duration: 0,50909423828125
+[12-04-34] Kaisa Gold: 249,10965/5799,126, Exp:6042,991/9
+[12-04-34] Graves Gold: 400,9737/4250,9897, Exp:5159,0234/9
+[12-04-34] Irelia Gold: 784,47516/5664,4966, Exp:6595,784/10
+[12-04-34] Viktor Gold: 669,9751/4944,99, Exp:5988,049/9
+[12-04-34] Warwick Gold: 675,16846/4925,1816, Exp:4587,005/8
+[12-04-34] Vex Gold: 98,50809/5033,415, Exp:4521,7026/8
+[12-04-34] Yorick Gold: 260,9725/4110,9897, Exp:6816,897/10
+[12-04-34] Lulu Gold: 1145,661/3195,697, Exp:3471,8606/7
+[12-04-34] Jinx Gold: 543,96027/2943,9897, Exp:3934,12/7
+[12-04-34] Tristana Gold: 1703,9719/3853,99, Exp:6895,588/10
+[12-04-35] Tick: 884,4050903320312. Update duration: 0,51080322265625
+[12-04-35] Kaisa Gold: 250,12965/5800,146, Exp:6042,991/9
+[12-04-35] Graves Gold: 401,99368/4252,01, Exp:5159,0234/9
+[12-04-35] Irelia Gold: 785,4952/5665,5166, Exp:6595,784/10
+[12-04-35] Viktor Gold: 670,9951/4946,0103, Exp:5988,049/9
+[12-04-35] Warwick Gold: 676,1885/4926,2017, Exp:4587,005/8
+[12-04-35] Vex Gold: 99,678085/5034,585, Exp:4521,7026/8
+[12-04-35] Yorick Gold: 261,9925/4112,01, Exp:6816,897/10
+[12-04-35] Lulu Gold: 1146,831/3196,867, Exp:3471,8606/7
+[12-04-35] Jinx Gold: 544,9803/2945,0098, Exp:3934,12/7
+[12-04-35] Tristana Gold: 829,99194/3855,01, Exp:6895,588/10
+[12-04-35] Tick: 884,9075317382812. Update duration: 0,50244140625
+[12-04-35] Kaisa Gold: 251,14966/5801,166, Exp:6042,991/9
+[12-04-35] Graves Gold: 403,01367/4253,03, Exp:5159,0234/9
+[12-04-35] Irelia Gold: 786,5152/5666,5366, Exp:6595,784/10
+[12-04-35] Viktor Gold: 672,01514/4947,0303, Exp:5988,049/9
+[12-04-35] Warwick Gold: 677,2085/4927,2217, Exp:4587,005/8
+[12-04-35] Vex Gold: 100,84808/5035,755, Exp:4521,7026/8
+[12-04-35] Yorick Gold: 263,01248/4113,03, Exp:6816,897/10
+[12-04-35] Lulu Gold: 1148,0011/3198,0369, Exp:3471,8606/7
+[12-04-35] Jinx Gold: 546,0003/2946,0298, Exp:3934,12/7
+[12-04-35] Tristana Gold: 831,01196/3856,03, Exp:6895,588/10
+[12-04-36] Tick: 885,394775390625. Update duration: 0,48724365234375
+[12-04-36] Kaisa Gold: 252,16966/5802,186, Exp:6042,991/9
+[12-04-36] Graves Gold: 404,03366/4254,05, Exp:5159,0234/9
+[12-04-36] Irelia Gold: 787,5352/5667,5566, Exp:6595,784/10
+[12-04-36] Viktor Gold: 673,03516/4948,0503, Exp:5988,049/9
+[12-04-36] Warwick Gold: 678,2285/4928,2417, Exp:4587,005/8
+[12-04-36] Vex Gold: 102,01808/5036,925, Exp:4521,7026/8
+[12-04-36] Yorick Gold: 278,03247/4128,05, Exp:6846,6567/10
+[12-04-36] Lulu Gold: 1149,1711/3199,2068, Exp:3471,8606/7
+[12-04-36] Jinx Gold: 397,0203/2947,0498, Exp:3934,12/7
+[12-04-36] Tristana Gold: 32,031982/3857,05, Exp:6895,588/10
+[12-04-36] Tick: 885,8922729492188. Update duration: 0,49749755859375
+[12-04-36] Kaisa Gold: 253,18967/5803,206, Exp:6042,991/9
+[12-04-36] Graves Gold: 105,05365/4255,07, Exp:5159,0234/9
+[12-04-36] Irelia Gold: 788,55524/5668,5767, Exp:6595,784/10
+[12-04-36] Viktor Gold: 674,0552/4949,0703, Exp:5988,049/9
+[12-04-36] Warwick Gold: 679,24854/4929,2617, Exp:4587,005/8
+[12-04-36] Vex Gold: 103,18808/5038,0947, Exp:4521,7026/8
+[12-04-36] Yorick Gold: 279,05246/4129,07, Exp:6846,6567/10
+[12-04-36] Lulu Gold: 1150,3412/3200,3767, Exp:3471,8606/7
+[12-04-36] Jinx Gold: 398,04028/2948,0698, Exp:3934,12/7
+[12-04-36] Tristana Gold: 33,051983/3858,07, Exp:6895,588/10
+[12-04-37] Tick: 886,3931274414062. Update duration: 0,5008544921875
+[12-04-37] Kaisa Gold: 254,20967/5804,226, Exp:6042,991/9
+[12-04-37] Graves Gold: 106,07365/4256,09, Exp:5159,0234/9
+[12-04-37] Irelia Gold: 439,57526/5669,5967, Exp:6595,784/10
+[12-04-37] Viktor Gold: 675,0752/4950,0903, Exp:5988,049/9
+[12-04-37] Warwick Gold: 680,26855/4930,2817, Exp:4587,005/8
+[12-04-37] Vex Gold: 104,35808/5039,2646, Exp:4521,7026/8
+[12-04-37] Yorick Gold: 280,07245/4130,09, Exp:6846,6567/10
+[12-04-37] Lulu Gold: 1151,5112/3201,5466, Exp:3471,8606/7
+[12-04-37] Jinx Gold: 399,06027/2949,0898, Exp:3934,12/7
+[12-04-37] Tristana Gold: 34,071983/3859,09, Exp:6895,588/10
+[12-04-37] Tick: 886,8860473632812. Update duration: 0,492919921875
+[12-04-37] Kaisa Gold: 255,22968/5805,246, Exp:6042,991/9
+[12-04-37] Graves Gold: 107,09364/4257,11, Exp:5159,0234/9
+[12-04-37] Irelia Gold: 40,595245/5670,6167, Exp:6595,784/10
+[12-04-37] Viktor Gold: 697,0952/4972,1104, Exp:6048,499/9
+[12-04-37] Warwick Gold: 681,2886/4931,302, Exp:4587,005/8
+[12-04-37] Vex Gold: 105,528076/5040,4346, Exp:4521,7026/8
+[12-04-37] Yorick Gold: 281,09244/4131,11, Exp:6846,6567/10
+[12-04-37] Lulu Gold: 1152,6813/3202,7166, Exp:3471,8606/7
+[12-04-37] Jinx Gold: 400,08026/2950,1099, Exp:3934,12/7
+[12-04-37] Tristana Gold: 35,091984/3860,11, Exp:6895,588/10
+[12-04-38] Tick: 887,3875732421875. Update duration: 0,50152587890625
+[12-04-38] Kaisa Gold: 256,24966/5806,266, Exp:6042,991/9
+[12-04-38] Graves Gold: 108,11364/4258,13, Exp:5159,0234/9
+[12-04-38] Irelia Gold: 41,615246/5671,6367, Exp:6595,784/10
+[12-04-38] Viktor Gold: 712,11523/4987,1304, Exp:6078,259/9
+[12-04-38] Warwick Gold: 682,3086/4932,322, Exp:4587,005/8
+[12-04-38] Vex Gold: 106,698074/5041,6045, Exp:4521,7026/8
+[12-04-38] Yorick Gold: 282,11243/4132,13, Exp:6846,6567/10
+[12-04-38] Lulu Gold: 1153,8513/3203,8865, Exp:3471,8606/7
+[12-04-38] Jinx Gold: 51,10025/2951,13, Exp:3934,12/7
+[12-04-38] Tristana Gold: 36,111984/3861,1301, Exp:6895,588/10
+[12-04-38] Tick: 887,905029296875. Update duration: 0,5174560546875
+[12-04-38] Kaisa Gold: 257,26965/5807,286, Exp:6042,991/9
+[12-04-38] Graves Gold: 109,13364/4259,15, Exp:5159,0234/9
+[12-04-38] Irelia Gold: 42,635246/5672,6567, Exp:6595,784/10
+[12-04-38] Viktor Gold: 818,13525/5093,1504, Exp:6231,709/10
+[12-04-38] Warwick Gold: 783,3286/5033,342, Exp:4795,505/8
+[12-04-38] Vex Gold: 107,86807/5042,7744, Exp:4521,7026/8
+[12-04-38] Yorick Gold: 304,13242/4154,15, Exp:6907,107/10
+[12-04-38] Lulu Gold: 1155,0214/3205,0564, Exp:3471,8606/7
+[12-04-38] Jinx Gold: 52,12025/2952,15, Exp:3934,12/7
+[12-04-38] Tristana Gold: 37,131985/3862,1501, Exp:6895,588/10
+[12-04-39] Tick: 888,3932495117188. Update duration: 0,48822021484375
+[12-04-39] Kaisa Gold: 258,28964/5808,306, Exp:6042,991/9
+[12-04-39] Graves Gold: 110,15363/4260,17, Exp:5159,0234/9
+[12-04-39] Irelia Gold: 43,655247/5673,677, Exp:6595,784/10
+[12-04-39] Viktor Gold: 833,1553/5108,1704, Exp:6261,4688/10
+[12-04-39] Warwick Gold: 784,34863/5034,362, Exp:4795,505/8
+[12-04-39] Vex Gold: 109,03807/5043,9443, Exp:4521,7026/8
+[12-04-39] Yorick Gold: 305,1524/4155,17, Exp:6907,107/10
+[12-04-39] Lulu Gold: 1156,1914/3206,2263, Exp:3471,8606/7
+[12-04-39] Jinx Gold: 53,14025/2953,17, Exp:3934,12/7
+[12-04-39] Tristana Gold: 38,151985/3863,1702, Exp:6895,588/10
+[12-04-39] Tick: 888,9044799804688. Update duration: 0,51123046875
+[12-04-39] Kaisa Gold: 259,30963/5809,326, Exp:6042,991/9
+[12-04-39] Graves Gold: 111,17363/4261,19, Exp:5159,0234/9
+[12-04-39] Irelia Gold: 44,675247/5674,697, Exp:6595,784/10
+[12-04-39] Viktor Gold: 834,1753/5109,1904, Exp:6321,919/10
+[12-04-39] Warwick Gold: 785,36865/5035,382, Exp:4795,505/8
+[12-04-39] Vex Gold: 110,20807/5045,1143, Exp:4521,7026/8
+[12-04-39] Yorick Gold: 327,1724/4177,19, Exp:6967,557/10
+[12-04-39] Lulu Gold: 1157,3615/3207,3962, Exp:3471,8606/7
+[12-04-39] Jinx Gold: 54,16025/2954,19, Exp:3934,12/7
+[12-04-39] Tristana Gold: 39,171986/3864,1902, Exp:6895,588/10
+[12-04-40] Tick: 889,3953857421875. Update duration: 0,49090576171875
+[12-04-40] Kaisa Gold: 260,32962/5810,346, Exp:6042,991/9
+[12-04-40] Graves Gold: 112,19363/4262,21, Exp:5159,0234/9
+[12-04-40] Irelia Gold: 45,695248/5675,717, Exp:6595,784/10
+[12-04-40] Viktor Gold: 835,1953/5110,2104, Exp:6321,919/10
+[12-04-40] Warwick Gold: 786,3887/5036,402, Exp:4795,505/8
+[12-04-40] Vex Gold: 111,37807/5046,284, Exp:4521,7026/8
+[12-04-40] Yorick Gold: 328,19238/4178,21, Exp:6967,557/10
+[12-04-40] Lulu Gold: 408,5315/3208,5662, Exp:3471,8606/7
+[12-04-40] Jinx Gold: 55,180252/2955,21, Exp:3934,12/7
+[12-04-40] Tristana Gold: 40,191986/3865,2102, Exp:6895,588/10
+[12-04-40] Tick: 889,8815307617188. Update duration: 0,48614501953125
+[12-04-40] Kaisa Gold: 261,3496/5811,366, Exp:6042,991/9
+[12-04-40] Graves Gold: 113,21362/4263,23, Exp:5159,0234/9
+[12-04-40] Irelia Gold: 46,71525/5676,737, Exp:6595,784/10
+[12-04-40] Viktor Gold: 836,21533/5111,2305, Exp:6321,919/10
+[12-04-40] Warwick Gold: 787,4087/5037,422, Exp:4795,505/8
+[12-04-40] Vex Gold: 112,548065/5047,454, Exp:4521,7026/8
+[12-04-40] Yorick Gold: 343,21237/4193,23, Exp:6997,317/10
+[12-04-40] Lulu Gold: 409,70148/3209,736, Exp:3471,8606/7
+[12-04-40] Jinx Gold: 56,200253/2956,23, Exp:3934,12/7
+[12-04-40] Tristana Gold: 41,211987/3866,2302, Exp:6895,588/10
+[12-04-41] Tick: 890,3853149414062. Update duration: 0,5037841796875
+[12-04-41] Kaisa Gold: 262,3696/5812,386, Exp:6042,991/9
+[12-04-41] Graves Gold: 114,23362/4264,25, Exp:5159,0234/9
+[12-04-41] Irelia Gold: 47,73525/5677,757, Exp:6595,784/10
+[12-04-41] Viktor Gold: 837,23535/5112,2505, Exp:6321,919/10
+[12-04-41] Warwick Gold: 788,4287/5038,442, Exp:4795,505/8
+[12-04-41] Vex Gold: 113,71806/5048,624, Exp:4521,7026/8
+[12-04-41] Yorick Gold: 344,23236/4194,25, Exp:6997,317/10
+[12-04-41] Lulu Gold: 10,87146/3210,906, Exp:3471,8606/7
+[12-04-41] Jinx Gold: 57,220253/2957,25, Exp:3934,12/7
+[12-04-41] Tristana Gold: 42,231987/3867,2502, Exp:6895,588/10
+[12-04-41] Tick: 890,9053955078125. Update duration: 0,52008056640625
+[12-04-41] Kaisa Gold: 263,3896/5813,4062, Exp:6042,991/9
+[12-04-41] Graves Gold: 115,25362/4265,27, Exp:5159,0234/9
+[12-04-41] Irelia Gold: 48,75525/5678,777, Exp:6595,784/10
+[12-04-41] Viktor Gold: 838,2554/5113,2705, Exp:6321,919/10
+[12-04-41] Warwick Gold: 789,4487/5039,462, Exp:4795,505/8
+[12-04-41] Vex Gold: 114,88806/5049,794, Exp:4521,7026/8
+[12-04-41] Yorick Gold: 345,25235/4195,27, Exp:6997,317/10
+[12-04-41] Lulu Gold: 12,04146/3212,076, Exp:3471,8606/7
+[12-04-41] Jinx Gold: 58,240253/2958,27, Exp:3934,12/7
+[12-04-41] Tristana Gold: 43,251987/3868,2703, Exp:6895,588/10
+[12-04-42] Tick: 891,3988647460938. Update duration: 0,49346923828125
+[12-04-42] Kaisa Gold: 264,40958/5814,4263, Exp:6042,991/9
+[12-04-42] Graves Gold: 116,27361/4266,29, Exp:5159,0234/9
+[12-04-42] Irelia Gold: 49,77525/5679,797, Exp:6595,784/10
+[12-04-42] Viktor Gold: 839,2754/5114,2905, Exp:6321,919/10
+[12-04-42] Warwick Gold: 790,46875/5040,482, Exp:4795,505/8
+[12-04-42] Vex Gold: 116,05806/5050,964, Exp:4521,7026/8
+[12-04-42] Yorick Gold: 444,27234/4294,29, Exp:7120,0767/10
+[12-04-42] Lulu Gold: 13,21146/3213,2458, Exp:3471,8606/7
+[12-04-42] Jinx Gold: 59,260254/2959,29, Exp:3934,12/7
+[12-04-42] Tristana Gold: 44,271988/3869,2903, Exp:6895,588/10
+[12-04-42] Tick: 891,9013671875. Update duration: 0,50250244140625
+[12-04-42] Kaisa Gold: 265,42957/5815,4463, Exp:6042,991/9
+[12-04-42] Graves Gold: 117,29361/4267,31, Exp:5159,0234/9
+[12-04-42] Irelia Gold: 50,79525/5680,817, Exp:6595,784/10
+[12-04-42] Viktor Gold: 854,2954/5129,3105, Exp:6351,6787/10
+[12-04-42] Warwick Gold: 791,4888/5041,502, Exp:4795,505/8
+[12-04-42] Vex Gold: 117,22806/5052,134, Exp:4521,7026/8
+[12-04-42] Yorick Gold: 445,29233/4295,31, Exp:7120,0767/10
+[12-04-42] Lulu Gold: 14,38146/3214,4158, Exp:3471,8606/7
+[12-04-42] Jinx Gold: 60,280254/2960,31, Exp:3934,12/7
+[12-04-42] Tristana Gold: 45,29199/3870,3103, Exp:6895,588/10
+[12-04-43] Tick: 892,3939208984375. Update duration: 0,4925537109375
+[12-04-43] Kaisa Gold: 266,44955/5816,4663, Exp:6042,991/9
+[12-04-43] Graves Gold: 118,31361/4268,33, Exp:5159,0234/9
+[12-04-43] Irelia Gold: 51,81525/5681,837, Exp:6595,784/10
+[12-04-43] Viktor Gold: 855,3154/5130,3306, Exp:6351,6787/10
+[12-04-43] Warwick Gold: 792,5088/5042,522, Exp:4795,505/8
+[12-04-43] Vex Gold: 118,398056/5053,3037, Exp:4521,7026/8
+[12-04-43] Yorick Gold: 446,31232/4296,33, Exp:7120,0767/10
+[12-04-43] Lulu Gold: 15,55146/3215,5857, Exp:3471,8606/7
+[12-04-43] Jinx Gold: 61,300255/2961,33, Exp:3934,12/7
+[12-04-43] Tristana Gold: 46,31199/3871,3303, Exp:6895,588/10
+[12-04-43] Tick: 892,893798828125. Update duration: 0,4998779296875
+[12-04-43] Kaisa Gold: 267,46954/5817,4863, Exp:6042,991/9
+[12-04-43] Graves Gold: 119,3336/4269,35, Exp:5159,0234/9
+[12-04-43] Irelia Gold: 52,83525/5682,857, Exp:6595,784/10
+[12-04-43] Viktor Gold: 856,33545/5131,3506, Exp:6351,6787/10
+[12-04-43] Warwick Gold: 793,5288/5043,542, Exp:4795,505/8
+[12-04-43] Vex Gold: 119,568054/5054,4736, Exp:4521,7026/8
+[12-04-43] Yorick Gold: 447,3323/4297,35, Exp:7120,0767/10
+[12-04-43] Lulu Gold: 16,72146/3216,7556, Exp:3471,8606/7
+[12-04-43] Jinx Gold: 62,320255/2962,35, Exp:3934,12/7
+[12-04-43] Tristana Gold: 47,33199/3872,3503, Exp:6895,588/10
+[12-04-44] Tick: 893,3983764648438. Update duration: 0,50457763671875
+[12-04-44] Kaisa Gold: 268,48953/5818,5063, Exp:6042,991/9
+[12-04-44] Graves Gold: 120,3536/4270,37, Exp:5159,0234/9
+[12-04-44] Irelia Gold: 53,85525/5683,877, Exp:6595,784/10
+[12-04-44] Viktor Gold: 857,35547/5132,3706, Exp:6351,6787/10
+[12-04-44] Warwick Gold: 794,5488/5044,562, Exp:4795,505/8
+[12-04-44] Vex Gold: 120,73805/5055,6436, Exp:4521,7026/8
+[12-04-44] Yorick Gold: 448,3523/4298,37, Exp:7120,0767/10
+[12-04-44] Lulu Gold: 17,89146/3217,9255, Exp:3471,8606/7
+[12-04-44] Jinx Gold: 63,340256/2963,37, Exp:3934,12/7
+[12-04-44] Tristana Gold: 48,35199/3873,3704, Exp:6895,588/10
+[12-04-44] Tick: 893,886474609375. Update duration: 0,48809814453125
+[12-04-44] Kaisa Gold: 269,50952/5819,5264, Exp:6042,991/9
+[12-04-44] Graves Gold: 121,3736/4271,39, Exp:5159,0234/9
+[12-04-44] Irelia Gold: 54,87525/5684,897, Exp:6595,784/10
+[12-04-44] Viktor Gold: 858,3755/5133,3906, Exp:6351,6787/10
+[12-04-44] Warwick Gold: 795,56885/5045,582, Exp:4795,505/8
+[12-04-44] Vex Gold: 121,90805/5056,8135, Exp:4521,7026/8
+[12-04-44] Yorick Gold: 449,37228/4299,39, Exp:7120,0767/10
+[12-04-44] Lulu Gold: 19,06146/3219,0955, Exp:3471,8606/7
+[12-04-44] Jinx Gold: 64,36025/2964,3901, Exp:3934,12/7
+[12-04-44] Tristana Gold: 49,37199/3874,3904, Exp:6895,588/10
+[12-04-45] Tick: 894,4066772460938. Update duration: 0,52020263671875
+[12-04-45] Kaisa Gold: 270,5295/5820,5464, Exp:6042,991/9
+[12-04-45] Graves Gold: 122,39359/4272,41, Exp:5159,0234/9
+[12-04-45] Irelia Gold: 55,895252/5685,917, Exp:6595,784/10
+[12-04-45] Viktor Gold: 859,3955/5134,4106, Exp:6351,6787/10
+[12-04-45] Warwick Gold: 796,58887/5046,602, Exp:4795,505/8
+[12-04-45] Vex Gold: 123,07805/5057,9834, Exp:4521,7026/8
+[12-04-45] Yorick Gold: 450,39227/4300,41, Exp:7120,0767/10
+[12-04-45] Lulu Gold: 20,23146/3220,2654, Exp:3471,8606/7
+[12-04-45] Jinx Gold: 65,38025/2965,4102, Exp:3934,12/7
+[12-04-45] Tristana Gold: 50,39199/3875,4104, Exp:6895,588/10
+[12-04-45] Tick: 894,8939819335938. Update duration: 0,4873046875
+[12-04-45] Kaisa Gold: 271,5495/5821,5664, Exp:6042,991/9
+[12-04-45] Graves Gold: 123,41359/4273,43, Exp:5159,0234/9
+[12-04-45] Irelia Gold: 56,915253/5686,937, Exp:6595,784/10
+[12-04-45] Viktor Gold: 860,4155/5135,4307, Exp:6351,6787/10
+[12-04-45] Warwick Gold: 797,6089/5047,622, Exp:4795,505/8
+[12-04-45] Vex Gold: 124,24805/5059,1533, Exp:4521,7026/8
+[12-04-45] Yorick Gold: 451,41226/4301,43, Exp:7120,0767/10
+[12-04-45] Lulu Gold: 21,40146/3221,4353, Exp:3471,8606/7
+[12-04-45] Jinx Gold: 66,400246/2966,4302, Exp:3934,12/7
+[12-04-45] Tristana Gold: 53,41199/3878,4304, Exp:6895,588/10
+[12-04-46] Tick: 895,390625. Update duration: 0,49664306640625
+[12-04-46] Kaisa Gold: 272,5695/5822,5864, Exp:6042,991/9
+[12-04-46] Graves Gold: 124,433586/4274,45, Exp:5159,0234/9
+[12-04-46] Irelia Gold: 57,935253/5687,957, Exp:6595,784/10
+[12-04-46] Viktor Gold: 861,43555/5136,4507, Exp:6351,6787/10
+[12-04-46] Warwick Gold: 798,6289/5048,642, Exp:4795,505/8
+[12-04-46] Vex Gold: 125,418045/5060,323, Exp:4521,7026/8
+[12-04-46] Yorick Gold: 452,43225/4302,45, Exp:7120,0767/10
+[12-04-46] Lulu Gold: 22,57146/3222,6052, Exp:3471,8606/7
+[12-04-46] Jinx Gold: 67,42024/2967,4502, Exp:3934,12/7
+[12-04-46] Tristana Gold: 54,43199/3879,4504, Exp:6895,588/10
+[12-04-46] Tick: 895,8966064453125. Update duration: 0,5059814453125
+[12-04-46] Kaisa Gold: 273,58948/5823,6064, Exp:6042,991/9
+[12-04-46] Graves Gold: 125,45358/4275,47, Exp:5159,0234/9
+[12-04-46] Irelia Gold: 58,955254/5688,977, Exp:6595,784/10
+[12-04-46] Viktor Gold: 862,45557/5137,4707, Exp:6351,6787/10
+[12-04-46] Warwick Gold: 799,6489/5049,662, Exp:4795,505/8
+[12-04-46] Vex Gold: 126,58804/5061,493, Exp:4521,7026/8
+[12-04-46] Yorick Gold: 453,45224/4303,47, Exp:7120,0767/10
+[12-04-46] Lulu Gold: 23,74146/3223,7751, Exp:3471,8606/7
+[12-04-46] Jinx Gold: 68,44024/2968,4702, Exp:3934,12/7
+[12-04-46] Tristana Gold: 55,451992/3880,4705, Exp:6895,588/10
+[12-04-47] Tick: 896,4049682617188. Update duration: 0,50836181640625
+[12-04-47] Kaisa Gold: 274,60947/5824,6265, Exp:6042,991/9
+[12-04-47] Graves Gold: 126,47358/4276,49, Exp:5159,0234/9
+[12-04-47] Irelia Gold: 59,975254/5689,997, Exp:6595,784/10
+[12-04-47] Viktor Gold: 863,4756/5138,4907, Exp:6351,6787/10
+[12-04-47] Warwick Gold: 800,66895/5050,682, Exp:4795,505/8
+[12-04-47] Vex Gold: 127,75804/5062,663, Exp:4521,7026/8
+[12-04-47] Yorick Gold: 454,47223/4304,49, Exp:7120,0767/10
+[12-04-47] Lulu Gold: 24,91146/3224,945, Exp:3471,8606/7
+[12-04-47] Jinx Gold: 69,460236/2969,4902, Exp:3934,12/7
+[12-04-47] Tristana Gold: 56,471992/3881,4905, Exp:6895,588/10
+[12-04-47] Tick: 896,896484375. Update duration: 0,49151611328125
+[12-04-47] Kaisa Gold: 275,62946/5825,6465, Exp:6042,991/9
+[12-04-47] Graves Gold: 127,493576/4277,5103, Exp:5159,0234/9
+[12-04-47] Irelia Gold: 60,995255/5691,017, Exp:6595,784/10
+[12-04-47] Viktor Gold: 864,4956/5139,5107, Exp:6351,6787/10
+[12-04-47] Warwick Gold: 801,68896/5051,702, Exp:4795,505/8
+[12-04-47] Vex Gold: 128,92804/5063,833, Exp:4521,7026/8
+[12-04-47] Yorick Gold: 455,49222/4305,5103, Exp:7120,0767/10
+[12-04-47] Lulu Gold: 26,08146/3226,115, Exp:3471,8606/7
+[12-04-47] Jinx Gold: 70,48023/2970,5103, Exp:3934,12/7
+[12-04-47] Tristana Gold: 78,49199/3903,5105, Exp:6956,038/10
+[12-04-48] Tick: 897,3908081054688. Update duration: 0,49432373046875
+[12-04-48] Kaisa Gold: 276,64944/5826,6665, Exp:6042,991/9
+[12-04-48] Graves Gold: 128,51358/4278,5303, Exp:5159,0234/9
+[12-04-48] Irelia Gold: 62,015255/5692,037, Exp:6595,784/10
+[12-04-48] Viktor Gold: 865,5156/5140,531, Exp:6351,6787/10
+[12-04-48] Warwick Gold: 802,709/5052,722, Exp:4795,505/8
+[12-04-48] Vex Gold: 130,09804/5065,003, Exp:4521,7026/8
+[12-04-48] Yorick Gold: 456,5122/4306,5303, Exp:7120,0767/10
+[12-04-48] Lulu Gold: 27,251461/3227,285, Exp:3471,8606/7
+[12-04-48] Jinx Gold: 71,50023/2971,5303, Exp:3934,12/7
+[12-04-48] Tristana Gold: 79,511986/3904,5305, Exp:6956,038/10
+[12-04-48] Tick: 897,8800659179688. Update duration: 0,4892578125
+[12-04-48] Kaisa Gold: 277,66943/5827,6865, Exp:6042,991/9
+[12-04-48] Graves Gold: 129,53358/4279,5503, Exp:5159,0234/9
+[12-04-48] Irelia Gold: 63,035255/5693,057, Exp:6595,784/10
+[12-04-48] Viktor Gold: 866,53564/5141,551, Exp:6351,6787/10
+[12-04-48] Warwick Gold: 803,729/5053,742, Exp:4795,505/8
+[12-04-48] Vex Gold: 131,26804/5066,173, Exp:4521,7026/8
+[12-04-48] Yorick Gold: 457,5322/4307,5503, Exp:7120,0767/10
+[12-04-48] Lulu Gold: 28,421461/3228,4548, Exp:3471,8606/7
+[12-04-48] Jinx Gold: 72,520226/2972,5503, Exp:3934,12/7
+[12-04-48] Tristana Gold: 80,53198/3905,5505, Exp:6956,038/10
+[12-04-49] Tick: 898,3972778320312. Update duration: 0,5172119140625
+[12-04-49] Kaisa Gold: 278,68942/5828,7065, Exp:6042,991/9
+[12-04-49] Graves Gold: 130,55359/4280,5703, Exp:5159,0234/9
+[12-04-49] Irelia Gold: 64,05525/5694,077, Exp:6595,784/10
+[12-04-49] Viktor Gold: 867,55566/5142,571, Exp:6351,6787/10
+[12-04-49] Warwick Gold: 849,749/5099,762, Exp:4899,255/8
+[12-04-49] Vex Gold: 132,43803/5067,343, Exp:4521,7026/8
+[12-04-49] Yorick Gold: 458,5522/4308,5703, Exp:7120,0767/10
+[12-04-49] Lulu Gold: 29,591461/3229,6248, Exp:3471,8606/7
+[12-04-49] Jinx Gold: 73,54022/2973,5703, Exp:3934,12/7
+[12-04-49] Tristana Gold: 81,55198/3906,5706, Exp:6956,038/10
+[12-04-49] Tick: 898,8945922851562. Update duration: 0,497314453125
+[12-04-49] Kaisa Gold: 279,7094/5829,7266, Exp:6042,991/9
+[12-04-49] Graves Gold: 131,5736/4281,5903, Exp:5159,0234/9
+[12-04-49] Irelia Gold: 65,07525/5695,097, Exp:6595,784/10
+[12-04-49] Viktor Gold: 868,5757/5143,591, Exp:6351,6787/10
+[12-04-49] Warwick Gold: 850,76904/5100,782, Exp:4899,255/8
+[12-04-49] Vex Gold: 133,60803/5068,5127, Exp:4521,7026/8
+[12-04-49] Yorick Gold: 459,57217/4309,5903, Exp:7120,0767/10
+[12-04-49] Lulu Gold: 30,761461/3230,7947, Exp:3471,8606/7
+[12-04-49] Jinx Gold: 74,56022/2974,5903, Exp:3934,12/7
+[12-04-49] Tristana Gold: 82,571976/3907,5906, Exp:6956,038/10
+[12-04-50] Tick: 899,4043579101562. Update duration: 0,509765625
+[12-04-50] Kaisa Gold: 280,7294/5830,7466, Exp:6042,991/9
+[12-04-50] Graves Gold: 132,5936/4282,6104, Exp:5159,0234/9
+[12-04-50] Irelia Gold: 66,095245/5696,117, Exp:6595,784/10
+[12-04-50] Viktor Gold: 869,5957/5144,611, Exp:6351,6787/10
+[12-04-50] Warwick Gold: 851,78906/5101,8022, Exp:4899,255/8
+[12-04-50] Vex Gold: 134,77803/5069,6826, Exp:4521,7026/8
+[12-04-50] Yorick Gold: 460,59216/4310,6104, Exp:7120,0767/10
+[12-04-50] Lulu Gold: 31,931461/3231,9646, Exp:3471,8606/7
+[12-04-50] Jinx Gold: 75,580215/2975,6104, Exp:3934,12/7
+[12-04-50] Tristana Gold: 83,59197/3908,6106, Exp:6956,038/10
+[12-04-50] Tick: 899,8941040039062. Update duration: 0,48974609375
+[12-04-50] Kaisa Gold: 281,7494/5831,7666, Exp:6042,991/9
+[12-04-50] Graves Gold: 133,6136/4283,6304, Exp:5159,0234/9
+[12-04-50] Irelia Gold: 67,11524/5697,137, Exp:6595,784/10
+[12-04-50] Viktor Gold: 870,6157/5145,631, Exp:6351,6787/10
+[12-04-50] Warwick Gold: 852,8091/5102,8223, Exp:4899,255/8
+[12-04-50] Vex Gold: 135,94803/5070,8525, Exp:4521,7026/8
+[12-04-50] Yorick Gold: 461,61215/4311,6304, Exp:7120,0767/10
+[12-04-50] Lulu Gold: 33,101463/3233,1345, Exp:3471,8606/7
+[12-04-50] Jinx Gold: 76,60021/2976,6304, Exp:3934,12/7
+[12-04-50] Tristana Gold: 84,61197/3909,6306, Exp:6956,038/10
+[12-04-51] Tick: 900,3926391601562. Update duration: 0,49853515625
+[12-04-51] Kaisa Gold: 282,76938/5832,7866, Exp:6042,991/9
+[12-04-51] Graves Gold: 134,6336/4284,6504, Exp:5159,0234/9
+[12-04-51] Irelia Gold: 68,13524/5698,157, Exp:6595,784/10
+[12-04-51] Viktor Gold: 871,63574/5146,651, Exp:6351,6787/10
+[12-04-51] Warwick Gold: 853,8291/5103,8423, Exp:4899,255/8
+[12-04-51] Vex Gold: 137,11803/5072,0225, Exp:4521,7026/8
+[12-04-51] Yorick Gold: 462,63214/4312,6504, Exp:7120,0767/10
+[12-04-51] Lulu Gold: 34,271465/3234,3044, Exp:3471,8606/7
+[12-04-51] Jinx Gold: 77,62021/2977,6504, Exp:3934,12/7
+[12-04-51] Tristana Gold: 85,631966/3910,6506, Exp:6956,038/10
+[12-04-51] Tick: 900,8930053710938. Update duration: 0,5003662109375
+[12-04-51] Kaisa Gold: 283,78937/5833,8066, Exp:6042,991/9
+[12-04-51] Graves Gold: 135,65361/4285,6704, Exp:5159,0234/9
+[12-04-51] Irelia Gold: 69,155235/5699,1772, Exp:6595,784/10
+[12-04-51] Viktor Gold: 872,65576/5147,671, Exp:6351,6787/10
+[12-04-51] Warwick Gold: 862,8491/5112,8623, Exp:4910,755/8
+[12-04-51] Vex Gold: 138,28802/5073,1924, Exp:4521,7026/8
+[12-04-51] Yorick Gold: 463,65213/4313,6704, Exp:7120,0767/10
+[12-04-51] Lulu Gold: 35,441467/3235,4744, Exp:3471,8606/7
+[12-04-51] Jinx Gold: 78,640205/2978,6704, Exp:3934,12/7
+[12-04-51] Tristana Gold: 86,65196/3911,6707, Exp:6956,038/10
+[12-04-52] Tick: 901,3939819335938. Update duration: 0,5009765625
+[12-04-52] Kaisa Gold: 284,80936/5834,8267, Exp:6042,991/9
+[12-04-52] Graves Gold: 136,67361/4286,6904, Exp:5159,0234/9
+[12-04-52] Irelia Gold: 70,17523/5700,1973, Exp:6595,784/10
+[12-04-52] Viktor Gold: 873,6758/5148,691, Exp:6351,6787/10
+[12-04-52] Warwick Gold: 863,86914/5113,8823, Exp:4910,755/8
+[12-04-52] Vex Gold: 139,45802/5074,3623, Exp:4521,7026/8
+[12-04-52] Yorick Gold: 464,67212/4314,6904, Exp:7120,0767/10
+[12-04-52] Lulu Gold: 36,61147/3236,6443, Exp:3471,8606/7
+[12-04-52] Jinx Gold: 79,6602/2979,6904, Exp:3934,12/7
+[12-04-52] Tristana Gold: 87,67196/3912,6907, Exp:6956,038/10
+[12-04-52] Tick: 901,9047241210938. Update duration: 0,5107421875
+[12-04-52] Kaisa Gold: 285,82935/5835,8467, Exp:6042,991/9
+[12-04-52] Graves Gold: 137,69362/4287,7104, Exp:5159,0234/9
+[12-04-52] Irelia Gold: 71,19523/5701,2173, Exp:6595,784/10
+[12-04-52] Viktor Gold: 874,6958/5149,711, Exp:6351,6787/10
+[12-04-52] Warwick Gold: 864,88916/5114,9023, Exp:4910,755/8
+[12-04-52] Vex Gold: 140,62802/5075,532, Exp:4521,7026/8
+[12-04-52] Yorick Gold: 465,6921/4315,7104, Exp:7120,0767/10
+[12-04-52] Lulu Gold: 37,78147/3237,8142, Exp:3471,8606/7
+[12-04-52] Jinx Gold: 80,6802/2980,7104, Exp:3934,12/7
+[12-04-52] Tristana Gold: 88,691956/3913,7107, Exp:6956,038/10
+[12-04-53] Tick: 902,3975830078125. Update duration: 0,49285888671875
+[12-04-53] Kaisa Gold: 286,84933/5836,8667, Exp:6042,991/9
+[12-04-53] Graves Gold: 138,71362/4288,7305, Exp:5159,0234/9
+[12-04-53] Irelia Gold: 72,215225/5702,2373, Exp:6595,784/10
+[12-04-53] Viktor Gold: 875,7158/5150,731, Exp:6351,6787/10
+[12-04-53] Warwick Gold: 873,9092/5123,9224, Exp:4922,255/8
+[12-04-53] Vex Gold: 141,79802/5076,702, Exp:4521,7026/8
+[12-04-53] Yorick Gold: 466,7121/4316,7305, Exp:7120,0767/10
+[12-04-53] Lulu Gold: 38,951473/3238,9841, Exp:3471,8606/7
+[12-04-53] Jinx Gold: 81,700195/2981,7305, Exp:3934,12/7
+[12-04-53] Tristana Gold: 89,71195/3914,7307, Exp:6956,038/10
+[12-04-53] Tick: 902,8797607421875. Update duration: 0,482177734375
+[12-04-53] Kaisa Gold: 287,86932/5837,8867, Exp:6042,991/9
+[12-04-53] Graves Gold: 139,73363/4289,7505, Exp:5159,0234/9
+[12-04-53] Irelia Gold: 73,23522/5703,2573, Exp:6595,784/10
+[12-04-53] Viktor Gold: 876,73584/5151,751, Exp:6351,6787/10
+[12-04-53] Warwick Gold: 874,9292/5124,9424, Exp:4922,255/8
+[12-04-53] Vex Gold: 142,96802/5077,872, Exp:4521,7026/8
+[12-04-53] Yorick Gold: 467,7321/4317,7505, Exp:7120,0767/10
+[12-04-53] Lulu Gold: 40,121475/3240,154, Exp:3471,8606/7
+[12-04-53] Jinx Gold: 82,72019/2982,7505, Exp:3934,12/7
+[12-04-53] Tristana Gold: 90,73195/3915,7507, Exp:6956,038/10
+[12-04-54] Tick: 903,3970336914062. Update duration: 0,51727294921875
+[12-04-54] Kaisa Gold: 288,8893/5838,9067, Exp:6042,991/9
+[12-04-54] Graves Gold: 140,75363/4290,7705, Exp:5159,0234/9
+[12-04-54] Irelia Gold: 74,25522/5704,2773, Exp:6595,784/10
+[12-04-54] Viktor Gold: 877,75586/5152,771, Exp:6351,6787/10
+[12-04-54] Warwick Gold: 875,9492/5125,9624, Exp:4922,255/8
+[12-04-54] Vex Gold: 144,13802/5079,042, Exp:4521,7026/8
+[12-04-54] Yorick Gold: 468,75208/4318,7705, Exp:7120,0767/10
+[12-04-54] Lulu Gold: 41,291477/3241,324, Exp:3471,8606/7
+[12-04-54] Jinx Gold: 83,74019/2983,7705, Exp:3934,12/7
+[12-04-54] Tristana Gold: 91,751945/3916,7708, Exp:7016,4883/10
+[12-04-54] Tick: 903,897705078125. Update duration: 0,50067138671875
+[12-04-54] Kaisa Gold: 289,9093/5839,927, Exp:6042,991/9
+[12-04-54] Graves Gold: 141,77364/4291,7905, Exp:5159,0234/9
+[12-04-54] Irelia Gold: 75,275215/5705,2974, Exp:6595,784/10
+[12-04-54] Viktor Gold: 906,7759/5181,791, Exp:6411,198/10
+[12-04-54] Warwick Gold: 876,96924/5126,9824, Exp:4922,255/8
+[12-04-54] Vex Gold: 145,30801/5080,212, Exp:4521,7026/8
+[12-04-54] Yorick Gold: 469,77206/4319,7905, Exp:7120,0767/10
+[12-04-54] Lulu Gold: 42,46148/3242,494, Exp:3471,8606/7
+[12-04-54] Jinx Gold: 84,760185/2984,7905, Exp:3934,12/7
+[12-04-54] Tristana Gold: 92,77194/3917,7908, Exp:7016,4883/10
+[12-04-55] Tick: 904,3934936523438. Update duration: 0,49578857421875
+[12-04-55] Kaisa Gold: 290,9293/5840,947, Exp:6042,991/9
+[12-04-55] Graves Gold: 142,79364/4292,8105, Exp:5159,0234/9
+[12-04-55] Irelia Gold: 76,29521/5706,3174, Exp:6595,784/10
+[12-04-55] Viktor Gold: 928,7959/5203,811, Exp:6471,6484/10
+[12-04-55] Warwick Gold: 877,98926/5128,0024, Exp:4922,255/8
+[12-04-55] Vex Gold: 146,47801/5081,382, Exp:4521,7026/8
+[12-04-55] Yorick Gold: 470,79205/4320,8105, Exp:7120,0767/10
+[12-04-55] Lulu Gold: 43,63148/3243,6638, Exp:3471,8606/7
+[12-04-55] Jinx Gold: 85,78018/2985,8105, Exp:3934,12/7
+[12-04-55] Tristana Gold: 93,79194/3918,8108, Exp:7109,4883/10
+[12-04-55] Tick: 904,8953247070312. Update duration: 0,5018310546875
+[12-04-55] Kaisa Gold: 291,94928/5841,967, Exp:6042,991/9
+[12-04-55] Graves Gold: 143,81364/4293,8306, Exp:5159,0234/9
+[12-04-55] Irelia Gold: 77,31521/5707,3374, Exp:6595,784/10
+[12-04-55] Viktor Gold: 929,8159/5204,831, Exp:6471,6484/10
+[12-04-55] Warwick Gold: 879,0093/5129,0225, Exp:4922,255/8
+[12-04-55] Vex Gold: 147,64801/5082,552, Exp:4521,7026/8
+[12-04-55] Yorick Gold: 471,81204/4321,8306, Exp:7120,0767/10
+[12-04-55] Lulu Gold: 44,801483/3244,8337, Exp:3471,8606/7
+[12-04-55] Jinx Gold: 86,80018/2986,8306, Exp:3934,12/7
+[12-04-55] Tristana Gold: 94,811935/3919,8308, Exp:7109,4883/10
+[12-04-56] Tick: 905,3833618164062. Update duration: 0,488037109375
+[12-04-56] Kaisa Gold: 292,96927/5842,987, Exp:6042,991/9
+[12-04-56] Graves Gold: 144,83365/4294,8506, Exp:5159,0234/9
+[12-04-56] Irelia Gold: 78,335205/5708,3574, Exp:6595,784/10
+[12-04-56] Viktor Gold: 930,83594/5205,851, Exp:6532,0986/10
+[12-04-56] Warwick Gold: 880,0293/5130,0425, Exp:4922,255/8
+[12-04-56] Vex Gold: 148,81801/5083,7217, Exp:4521,7026/8
+[12-04-56] Yorick Gold: 472,83203/4322,8506, Exp:7120,0767/10
+[12-04-56] Lulu Gold: 45,971485/3246,0037, Exp:3471,8606/7
+[12-04-56] Jinx Gold: 87,820175/2987,8506, Exp:3934,12/7
+[12-04-56] Tristana Gold: 95,83193/3920,8508, Exp:7109,4883/10
+[12-04-56] Tick: 905,8883056640625. Update duration: 0,50494384765625
+[12-04-56] Kaisa Gold: 293,98926/5844,007, Exp:6042,991/9
+[12-04-56] Graves Gold: 145,85365/4295,8706, Exp:5159,0234/9
+[12-04-56] Irelia Gold: 79,3552/5709,3774, Exp:6595,784/10
+[12-04-56] Viktor Gold: 952,85596/5227,871, Exp:6592,549/10
+[12-04-56] Warwick Gold: 889,0493/5139,0625, Exp:4933,755/8
+[12-04-56] Vex Gold: 149,988/5084,8916, Exp:4521,7026/8
+[12-04-56] Yorick Gold: 473,85202/4323,8706, Exp:7120,0767/10
+[12-04-56] Lulu Gold: 47,141487/3247,1736, Exp:3471,8606/7
+[12-04-56] Jinx Gold: 88,84017/2988,8706, Exp:3934,12/7
+[12-04-56] Tristana Gold: 96,85193/3921,8708, Exp:7109,4883/10
+[12-04-57] Tick: 906,3834838867188. Update duration: 0,49517822265625
+[12-04-57] Kaisa Gold: 295,00925/5845,027, Exp:6042,991/9
+[12-04-57] Graves Gold: 146,87366/4296,8906, Exp:5159,0234/9
+[12-04-57] Irelia Gold: 80,3752/5710,3975, Exp:6595,784/10
+[12-04-57] Viktor Gold: 953,876/5228,891, Exp:6592,549/10
+[12-04-57] Warwick Gold: 890,06934/5140,0825, Exp:4933,755/8
+[12-04-57] Vex Gold: 151,158/5086,0615, Exp:4614,7026/8
+[12-04-57] Yorick Gold: 474,872/4324,8906, Exp:7120,0767/10
+[12-04-57] Lulu Gold: 48,31149/3248,3435, Exp:3471,8606/7
+[12-04-57] Jinx Gold: 89,86017/2989,8906, Exp:3934,12/7
+[12-04-57] Tristana Gold: 97,871925/3922,8909, Exp:7109,4883/10
+[12-04-57] Tick: 906,8919067382812. Update duration: 0,5084228515625
+[12-04-57] Kaisa Gold: 296,02924/5846,047, Exp:6042,991/9
+[12-04-57] Graves Gold: 147,89366/4297,9106, Exp:5159,0234/9
+[12-04-57] Irelia Gold: 81,395195/5711,4175, Exp:6595,784/10
+[12-04-57] Viktor Gold: 954,896/5229,911, Exp:6592,549/10
+[12-04-57] Warwick Gold: 891,08936/5141,1025, Exp:4933,755/8
+[12-04-57] Vex Gold: 152,328/5087,2314, Exp:4614,7026/8
+[12-04-57] Yorick Gold: 475,892/4325,9106, Exp:7120,0767/10
+[12-04-57] Lulu Gold: 49,48149/3249,5134, Exp:3471,8606/7
+[12-04-57] Jinx Gold: 90,880165/2990,9106, Exp:3934,12/7
+[12-04-57] Tristana Gold: 98,89192/3923,911, Exp:7109,4883/10
+[12-04-58] Tick: 907,3988037109375. Update duration: 0,50689697265625
+[12-04-58] Kaisa Gold: 297,04922/5847,067, Exp:6042,991/9
+[12-04-58] Graves Gold: 148,91367/4298,9307, Exp:5159,0234/9
+[12-04-58] Irelia Gold: 82,41519/5712,4375, Exp:6595,784/10
+[12-04-58] Viktor Gold: 955,916/5230,931, Exp:6592,549/10
+[12-04-58] Warwick Gold: 892,1094/5142,1226, Exp:4933,755/8
+[12-04-58] Vex Gold: 153,498/5088,4014, Exp:4614,7026/8
+[12-04-58] Yorick Gold: 476,912/4326,9307, Exp:7120,0767/10
+[12-04-58] Lulu Gold: 50,651493/3250,6833, Exp:3471,8606/7
+[12-04-58] Jinx Gold: 91,90016/2991,9307, Exp:3934,12/7
+[12-04-58] Tristana Gold: 99,91192/3924,931, Exp:7109,4883/10
+[12-04-58] Tick: 907,8951416015625. Update duration: 0,496337890625
+[12-04-58] Kaisa Gold: 298,0692/5848,087, Exp:6042,991/9
+[12-04-58] Graves Gold: 149,93367/4299,9507, Exp:5159,0234/9
+[12-04-58] Irelia Gold: 83,43519/5713,4575, Exp:6595,784/10
+[12-04-58] Viktor Gold: 956,93604/5231,951, Exp:6592,549/10
+[12-04-58] Warwick Gold: 901,1294/5151,1426, Exp:4945,255/8
+[12-04-58] Vex Gold: 154,668/5089,5713, Exp:4614,7026/8
+[12-04-58] Yorick Gold: 477,93198/4327,9507, Exp:7120,0767/10
+[12-04-58] Lulu Gold: 51,821495/3251,8533, Exp:3471,8606/7
+[12-04-58] Jinx Gold: 92,92016/2992,9507, Exp:3934,12/7
+[12-04-58] Tristana Gold: 100,931915/3925,951, Exp:7109,4883/10
+[12-04-59] Tick: 908,3977661132812. Update duration: 0,50262451171875
+[12-04-59] Kaisa Gold: 299,0892/5849,107, Exp:6042,991/9
+[12-04-59] Graves Gold: 150,95367/4300,9707, Exp:5159,0234/9
+[12-04-59] Irelia Gold: 84,455185/5714,4775, Exp:6595,784/10
+[12-04-59] Viktor Gold: 957,95605/5232,971, Exp:6592,549/10
+[12-04-59] Warwick Gold: 902,1494/5152,1626, Exp:4945,255/8
+[12-04-59] Vex Gold: 155,838/5090,741, Exp:4614,7026/8
+[12-04-59] Yorick Gold: 478,95197/4328,9707, Exp:7120,0767/10
+[12-04-59] Lulu Gold: 52,991497/3253,0232, Exp:3471,8606/7
+[12-04-59] Jinx Gold: 93,940155/2993,9707, Exp:3934,12/7
+[12-04-59] Tristana Gold: 101,95191/3926,971, Exp:7109,4883/10
+[12-04-59] Tick: 908,899169921875. Update duration: 0,50140380859375
+[12-04-59] Kaisa Gold: 300,1092/5850,127, Exp:6042,991/9
+[12-04-59] Graves Gold: 151,97368/4301,9907, Exp:5159,0234/9
+[12-04-59] Irelia Gold: 85,47518/5715,4976, Exp:6595,784/10
+[12-04-59] Viktor Gold: 958,9761/5233,991, Exp:6592,549/10
+[12-04-59] Warwick Gold: 903,16943/5153,1826, Exp:4945,255/8
+[12-04-59] Vex Gold: 157,008/5091,911, Exp:4614,7026/8
+[12-04-59] Yorick Gold: 479,97195/4329,9907, Exp:7120,0767/10
+[12-04-59] Lulu Gold: 54,1615/3254,193, Exp:3471,8606/7
+[12-04-59] Jinx Gold: 94,96015/2994,9907, Exp:3934,12/7
+[12-04-59] Tristana Gold: 102,97191/3927,991, Exp:7109,4883/10
+[12-05-00] Tick: 909,4049072265625. Update duration: 0,5057373046875
+[12-05-00] Kaisa Gold: 301,12918/5851,147, Exp:6042,991/9
+[12-05-00] Graves Gold: 152,99368/4303,0107, Exp:5159,0234/9
+[12-05-00] Irelia Gold: 86,49518/5716,5176, Exp:6595,784/10
+[12-05-00] Viktor Gold: 959,9961/5235,011, Exp:6622,3086/10
+[12-05-00] Warwick Gold: 904,18945/5154,2026, Exp:4945,255/8
+[12-05-00] Vex Gold: 158,178/5093,081, Exp:4614,7026/8
+[12-05-00] Yorick Gold: 480,99194/4331,0107, Exp:7120,0767/10
+[12-05-00] Lulu Gold: 55,3315/3255,363, Exp:3471,8606/7
+[12-05-00] Jinx Gold: 95,98015/2996,0107, Exp:3934,12/7
+[12-05-00] Tristana Gold: 103,991905/3929,011, Exp:7109,4883/10
+[12-05-00] Tick: 909,894287109375. Update duration: 0,4893798828125
+[12-05-00] Kaisa Gold: 316,14917/5866,167, Exp:6061,5513/9
+[12-05-00] Graves Gold: 154,01369/4304,031, Exp:5159,0234/9
+[12-05-00] Irelia Gold: 87,515175/5717,5376, Exp:6595,784/10
+[12-05-00] Viktor Gold: 961,0161/5236,0312, Exp:6622,3086/10
+[12-05-00] Warwick Gold: 905,2095/5155,2227, Exp:4945,255/8
+[12-05-00] Vex Gold: 159,34799/5094,251, Exp:4633,2627/8
+[12-05-00] Yorick Gold: 482,01193/4332,031, Exp:7120,0767/10
+[12-05-00] Lulu Gold: 56,501503/3256,533, Exp:3471,8606/7
+[12-05-00] Jinx Gold: 97,000145/2997,0308, Exp:3934,12/7
+[12-05-00] Tristana Gold: 105,0119/3930,031, Exp:7139,248/10
+[12-05-01] Tick: 910,3954467773438. Update duration: 0,50115966796875
+[12-05-01] Kaisa Gold: 317,16916/5867,187, Exp:6061,5513/9
+[12-05-01] Graves Gold: 155,03369/4305,051, Exp:5159,0234/9
+[12-05-01] Irelia Gold: 88,53517/5718,5576, Exp:6595,784/10
+[12-05-01] Viktor Gold: 962,03613/5237,0513, Exp:6622,3086/10
+[12-05-01] Warwick Gold: 914,2295/5164,2427, Exp:4956,755/8
+[12-05-01] Vex Gold: 160,51799/5095,421, Exp:4633,2627/8
+[12-05-01] Yorick Gold: 483,03192/4333,051, Exp:7120,0767/10
+[12-05-01] Lulu Gold: 57,671505/3257,703, Exp:3471,8606/7
+[12-05-01] Jinx Gold: 98,02014/2998,0508, Exp:3934,12/7
+[12-05-01] Tristana Gold: 106,0319/3931,051, Exp:7139,248/10
+[12-05-01] Tick: 910,9089965820312. Update duration: 0,5135498046875
+[12-05-01] Kaisa Gold: 318,18915/5868,207, Exp:6061,5513/9
+[12-05-01] Graves Gold: 156,0537/4306,071, Exp:5159,0234/9
+[12-05-01] Irelia Gold: 89,55517/5719,5776, Exp:6595,784/10
+[12-05-01] Viktor Gold: 963,05615/5238,0713, Exp:6622,3086/10
+[12-05-01] Warwick Gold: 915,2495/5165,2627, Exp:4956,755/8
+[12-05-01] Vex Gold: 161,68799/5096,591, Exp:4633,2627/8
+[12-05-01] Yorick Gold: 484,0519/4334,071, Exp:7120,0767/10
+[12-05-01] Lulu Gold: 58,841507/3258,8728, Exp:3471,8606/7
+[12-05-01] Jinx Gold: 99,04014/2999,0708, Exp:3934,12/7
+[12-05-01] Tristana Gold: 107,051895/3932,071, Exp:7139,248/10
+[12-05-02] Tick: 911,3967895507812. Update duration: 0,48779296875
+[12-05-02] Kaisa Gold: 340,20914/5890,227, Exp:6099,2515/9
+[12-05-02] Graves Gold: 157,0737/4307,091, Exp:5159,0234/9
+[12-05-02] Irelia Gold: 90,575165/5720,5977, Exp:6595,784/10
+[12-05-02] Viktor Gold: 964,0762/5239,0913, Exp:6622,3086/10
+[12-05-02] Warwick Gold: 916,26953/5166,2827, Exp:4956,755/8
+[12-05-02] Vex Gold: 162,85799/5097,7607, Exp:4670,963/8
+[12-05-02] Yorick Gold: 485,0719/4335,091, Exp:7120,0767/10
+[12-05-02] Lulu Gold: 60,01151/3260,0427, Exp:3471,8606/7
+[12-05-02] Jinx Gold: 100,060135/3000,0908, Exp:3934,12/7
+[12-05-02] Tristana Gold: 108,07189/3933,091, Exp:7169,008/10
+[12-05-02] Tick: 911,8955078125. Update duration: 0,49871826171875
+[12-05-02] Kaisa Gold: 355,22913/5905,247, Exp:6117,8115/9
+[12-05-02] Graves Gold: 158,0937/4308,111, Exp:5159,0234/9
+[12-05-02] Irelia Gold: 91,59516/5721,6177, Exp:6595,784/10
+[12-05-02] Viktor Gold: 965,0962/5240,1113, Exp:6622,3086/10
+[12-05-02] Warwick Gold: 917,28955/5167,3027, Exp:4956,755/8
+[12-05-02] Vex Gold: 164,02798/5098,9307, Exp:4689,523/8
+[12-05-02] Yorick Gold: 486,0919/4336,111, Exp:7120,0767/10
+[12-05-02] Lulu Gold: 61,18151/3261,2126, Exp:3471,8606/7
+[12-05-02] Jinx Gold: 101,08013/3001,1108, Exp:3934,12/7
+[12-05-02] Tristana Gold: 130,0919/3955,111, Exp:7229,458/10
+[12-05-03] Tick: 912,3889770507812. Update duration: 0,49346923828125
+[12-05-03] Kaisa Gold: 356,2491/5906,267, Exp:6117,8115/9
+[12-05-03] Graves Gold: 159,11371/4309,131, Exp:5159,0234/9
+[12-05-03] Irelia Gold: 92,61516/5722,6377, Exp:6595,784/10
+[12-05-03] Viktor Gold: 966,1162/5241,1313, Exp:6622,3086/10
+[12-05-03] Warwick Gold: 918,3096/5168,3228, Exp:4956,755/8
+[12-05-03] Vex Gold: 165,19798/5100,1006, Exp:4689,523/8
+[12-05-03] Yorick Gold: 487,11188/4337,131, Exp:7120,0767/10
+[12-05-03] Lulu Gold: 62,351513/3262,3826, Exp:3471,8606/7
+[12-05-03] Jinx Gold: 102,10013/3002,1309, Exp:3934,12/7
+[12-05-03] Tristana Gold: 131,11191/3956,131, Exp:7229,458/10
+[12-05-03] Tick: 912,8945922851562. Update duration: 0,505615234375
+[12-05-03] Kaisa Gold: 357,2691/5907,287, Exp:6117,8115/9
+[12-05-03] Graves Gold: 160,13371/4310,151, Exp:5159,0234/9
+[12-05-03] Irelia Gold: 93,635155/5723,6577, Exp:6595,784/10
+[12-05-03] Viktor Gold: 967,1362/5242,1514, Exp:6622,3086/10
+[12-05-03] Warwick Gold: 919,3296/5169,343, Exp:4956,755/8
+[12-05-03] Vex Gold: 166,36798/5101,2705, Exp:4689,523/8
+[12-05-03] Yorick Gold: 488,13187/4338,151, Exp:7120,0767/10
+[12-05-03] Lulu Gold: 63,521515/3263,5525, Exp:3471,8606/7
+[12-05-03] Jinx Gold: 103,120125/3003,151, Exp:3934,12/7
+[12-05-03] Tristana Gold: 132,13191/3957,1511, Exp:7229,458/10
+[12-05-04] Tick: 913,4041137695312. Update duration: 0,509521484375
+[12-05-04] Kaisa Gold: 379,2891/5929,307, Exp:6155,5117/10
+[12-05-04] Graves Gold: 161,15372/4311,171, Exp:5159,0234/9
+[12-05-04] Irelia Gold: 94,65515/5724,6777, Exp:6595,784/10
+[12-05-04] Viktor Gold: 968,15625/5243,1714, Exp:6622,3086/10
+[12-05-04] Warwick Gold: 920,3496/5170,363, Exp:4956,755/8
+[12-05-04] Vex Gold: 167,53798/5102,4404, Exp:4727,223/8
+[12-05-04] Yorick Gold: 489,15186/4339,171, Exp:7120,0767/10
+[12-05-04] Lulu Gold: 64,69151/3264,7224, Exp:3471,8606/7
+[12-05-04] Jinx Gold: 104,14012/3004,171, Exp:3934,12/7
+[12-05-04] Tristana Gold: 133,15192/3958,1711, Exp:7229,458/10
+[12-05-04] Tick: 913,8934936523438. Update duration: 0,4893798828125
+[12-05-04] Kaisa Gold: 380,30908/5930,327, Exp:6155,5117/10
+[12-05-04] Graves Gold: 162,17372/4312,191, Exp:5159,0234/9
+[12-05-04] Irelia Gold: 95,67515/5725,6978, Exp:6595,784/10
+[12-05-04] Viktor Gold: 969,1763/5244,1914, Exp:6622,3086/10
+[12-05-04] Warwick Gold: 921,3696/5171,383, Exp:4956,755/8
+[12-05-04] Vex Gold: 168,70798/5103,6104, Exp:4727,223/8
+[12-05-04] Yorick Gold: 490,17184/4340,191, Exp:7120,0767/10
+[12-05-04] Lulu Gold: 65,86151/3265,8923, Exp:3471,8606/7
+[12-05-04] Jinx Gold: 105,16012/3005,191, Exp:3934,12/7
+[12-05-04] Tristana Gold: 134,17192/3959,1912, Exp:7229,458/10
+[12-05-05] Tick: 914,3926391601562. Update duration: 0,4991455078125
+[12-05-05] Kaisa Gold: 395,32907/5945,347, Exp:6174,072/10
+[12-05-05] Graves Gold: 163,19373/4313,211, Exp:5159,0234/9
+[12-05-05] Irelia Gold: 96,695145/5726,718, Exp:6595,784/10
+[12-05-05] Viktor Gold: 970,1963/5245,2114, Exp:6622,3086/10
+[12-05-05] Warwick Gold: 922,38965/5172,403, Exp:4956,755/8
+[12-05-05] Vex Gold: 169,87798/5104,7803, Exp:4745,783/8
+[12-05-05] Yorick Gold: 491,19183/4341,211, Exp:7120,0767/10
+[12-05-05] Lulu Gold: 67,03151/3267,0623, Exp:3471,8606/7
+[12-05-05] Jinx Gold: 106,180115/3006,211, Exp:3934,12/7
+[12-05-05] Tristana Gold: 135,19193/3960,2112, Exp:7229,458/10
+[12-05-05] Tick: 914,8977661132812. Update duration: 0,505126953125
+[12-05-05] Kaisa Gold: 396,34906/5946,367, Exp:6174,072/10
+[12-05-05] Graves Gold: 164,21373/4314,231, Exp:5159,0234/9
+[12-05-05] Irelia Gold: 97,71514/5727,738, Exp:6595,784/10
+[12-05-05] Viktor Gold: 971,2163/5246,2314, Exp:6622,3086/10
+[12-05-05] Warwick Gold: 923,40967/5173,423, Exp:4956,755/8
+[12-05-05] Vex Gold: 171,04797/5105,95, Exp:4745,783/8
+[12-05-05] Yorick Gold: 492,21182/4342,231, Exp:7120,0767/10
+[12-05-05] Lulu Gold: 68,20151/3268,2322, Exp:3471,8606/7
+[12-05-05] Jinx Gold: 107,20011/3007,231, Exp:3934,12/7
+[12-05-05] Tristana Gold: 136,21193/3961,2312, Exp:7229,458/10
+[12-05-06] Tick: 915,4008178710938. Update duration: 0,5030517578125
+[12-05-06] Kaisa Gold: 411,36905/5961,387, Exp:6192,632/10
+[12-05-06] Graves Gold: 165,23373/4315,251, Exp:5159,0234/9
+[12-05-06] Irelia Gold: 98,73514/5728,758, Exp:6595,784/10
+[12-05-06] Viktor Gold: 972,2363/5247,2515, Exp:6622,3086/10
+[12-05-06] Warwick Gold: 924,4297/5174,443, Exp:4956,755/8
+[12-05-06] Vex Gold: 172,21797/5107,12, Exp:4764,3433/8
+[12-05-06] Yorick Gold: 493,2318/4343,251, Exp:7120,0767/10
+[12-05-06] Lulu Gold: 69,371506/3269,402, Exp:3471,8606/7
+[12-05-06] Jinx Gold: 108,22011/3008,251, Exp:3934,12/7
+[12-05-06] Tristana Gold: 158,23193/3983,2512, Exp:7289,908/10
+[12-05-06] Tick: 915,8912353515625. Update duration: 0,49041748046875
+[12-05-06] Kaisa Gold: 412,38904/5962,407, Exp:6192,632/10
+[12-05-06] Graves Gold: 166,25374/4316,271, Exp:5159,0234/9
+[12-05-06] Irelia Gold: 99,755135/5729,778, Exp:6595,784/10
+[12-05-06] Viktor Gold: 973,25635/5248,2715, Exp:6622,3086/10
+[12-05-06] Warwick Gold: 925,4497/5175,463, Exp:4956,755/8
+[12-05-06] Vex Gold: 173,38797/5108,29, Exp:4764,3433/8
+[12-05-06] Yorick Gold: 494,2518/4344,271, Exp:7120,0767/10
+[12-05-06] Lulu Gold: 70,541504/3270,572, Exp:3471,8606/7
+[12-05-06] Jinx Gold: 109,240105/3009,271, Exp:3934,12/7
+[12-05-06] Tristana Gold: 159,25194/3984,2712, Exp:7289,908/10
+[12-05-07] Tick: 916,3883056640625. Update duration: 0,4970703125
+[12-05-07] Kaisa Gold: 434,40903/5984,4272, Exp:6230,332/10
+[12-05-07] Graves Gold: 167,27374/4317,291, Exp:5159,0234/9
+[12-05-07] Irelia Gold: 100,77513/5730,798, Exp:6595,784/10
+[12-05-07] Viktor Gold: 974,27637/5249,2915, Exp:6622,3086/10
+[12-05-07] Warwick Gold: 926,4697/5176,483, Exp:4956,755/8
+[12-05-07] Vex Gold: 174,55797/5109,46, Exp:4802,0435/8
+[12-05-07] Yorick Gold: 495,2718/4345,291, Exp:7120,0767/10
+[12-05-07] Lulu Gold: 71,7115/3271,742, Exp:3471,8606/7
+[12-05-07] Jinx Gold: 110,2601/3010,291, Exp:3934,12/7
+[12-05-07] Tristana Gold: 181,27194/4006,2913, Exp:7350,3584/11
+[12-05-07] Player 0 lvl up
+[12-05-07] Tick: 916,8858032226562. Update duration: 0,49749755859375
+[12-05-07] Kaisa Gold: 435,42902/5985,4473, Exp:6230,332/10
+[12-05-07] Graves Gold: 168,29375/4318,311, Exp:5159,0234/9
+[12-05-07] Irelia Gold: 101,79513/5731,818, Exp:6595,784/10
+[12-05-07] Viktor Gold: 975,2964/5250,3115, Exp:6622,3086/10
+[12-05-07] Warwick Gold: 927,48975/5177,503, Exp:4956,755/8
+[12-05-07] Vex Gold: 175,72797/5110,63, Exp:4802,0435/8
+[12-05-07] Yorick Gold: 496,29178/4346,311, Exp:7120,0767/10
+[12-05-07] Lulu Gold: 72,8815/3272,9119, Exp:3471,8606/7
+[12-05-07] Jinx Gold: 111,2801/3011,311, Exp:3934,12/7
+[12-05-07] Tristana Gold: 182,29195/4007,3113, Exp:7350,3584/11
+[12-05-08] Tick: 917,402587890625. Update duration: 0,51678466796875
+[12-05-08] Kaisa Gold: 450,449/6000,4673, Exp:6248,892/10
+[12-05-08] Graves Gold: 169,31375/4319,331, Exp:5159,0234/9
+[12-05-08] Irelia Gold: 102,815125/5732,838, Exp:6595,784/10
+[12-05-08] Viktor Gold: 976,3164/5251,3315, Exp:6622,3086/10
+[12-05-08] Warwick Gold: 928,50977/5178,523, Exp:4956,755/8
+[12-05-08] Vex Gold: 176,89796/5111,8, Exp:4820,6035/8
+[12-05-08] Yorick Gold: 497,31177/4347,331, Exp:7120,0767/10
+[12-05-08] Lulu Gold: 74,0515/3274,0818, Exp:3471,8606/7
+[12-05-08] Jinx Gold: 112,300095/3012,331, Exp:3934,12/7
+[12-05-08] Tristana Gold: 183,31195/4008,3313, Exp:7350,3584/11
+[12-05-08] Tick: 917,8930053710938. Update duration: 0,49041748046875
+[12-05-08] Kaisa Gold: 451,469/6001,4873, Exp:6248,892/10
+[12-05-08] Graves Gold: 170,33376/4320,351, Exp:5159,0234/9
+[12-05-08] Irelia Gold: 103,83512/5733,858, Exp:6595,784/10
+[12-05-08] Viktor Gold: 977,3364/5252,3516, Exp:6622,3086/10
+[12-05-08] Warwick Gold: 929,5298/5179,543, Exp:4956,755/8
+[12-05-08] Vex Gold: 178,06796/5112,9697, Exp:4820,6035/8
+[12-05-08] Yorick Gold: 498,33176/4348,351, Exp:7120,0767/10
+[12-05-08] Lulu Gold: 75,2215/3275,2517, Exp:3471,8606/7
+[12-05-08] Jinx Gold: 113,32009/3013,351, Exp:3934,12/7
+[12-05-08] Tristana Gold: 184,33195/4009,3513, Exp:7350,3584/11
+[12-05-09] Tick: 918,3853149414062. Update duration: 0,4923095703125
+[12-05-09] Kaisa Gold: 466,48898/6016,5073, Exp:6267,452/10
+[12-05-09] Graves Gold: 171,35376/4321,371, Exp:5159,0234/9
+[12-05-09] Irelia Gold: 104,85512/5734,878, Exp:6595,784/10
+[12-05-09] Viktor Gold: 978,35645/5253,3716, Exp:6622,3086/10
+[12-05-09] Warwick Gold: 930,5498/5180,563, Exp:5017,205/8
+[12-05-09] Vex Gold: 179,23796/5114,1396, Exp:4839,1636/8
+[12-05-09] Yorick Gold: 499,35175/4349,371, Exp:7120,0767/10
+[12-05-09] Lulu Gold: 76,391495/3276,4216, Exp:3471,8606/7
+[12-05-09] Jinx Gold: 114,34009/3014,371, Exp:3934,12/7
+[12-05-09] Tristana Gold: 185,35196/4010,3713, Exp:7350,3584/11
+[12-05-09] Tick: 918,8856811523438. Update duration: 0,5003662109375
+[12-05-09] Kaisa Gold: 467,50897/6017,5273, Exp:6267,452/10
+[12-05-09] Graves Gold: 172,37376/4322,391, Exp:5159,0234/9
+[12-05-09] Irelia Gold: 105,875114/5735,898, Exp:6595,784/10
+[12-05-09] Viktor Gold: 979,37646/5254,3916, Exp:6622,3086/10
+[12-05-09] Warwick Gold: 931,5698/5181,583, Exp:5017,205/8
+[12-05-09] Vex Gold: 180,40796/5115,3096, Exp:4839,1636/8
+[12-05-09] Yorick Gold: 500,37173/4350,391, Exp:7120,0767/10
+[12-05-09] Lulu Gold: 77,56149/3277,5916, Exp:3471,8606/7
+[12-05-09] Jinx Gold: 115,360085/3015,391, Exp:3934,12/7
+[12-05-09] Tristana Gold: 200,37196/4025,3914, Exp:7380,118/11
+[12-05-10] Tick: 919,3916625976562. Update duration: 0,5059814453125
+[12-05-10] Kaisa Gold: 468,52896/6018,5474, Exp:6267,452/10
+[12-05-10] Graves Gold: 173,39377/4323,411, Exp:5159,0234/9
+[12-05-10] Irelia Gold: 106,89511/5736,918, Exp:6595,784/10
+[12-05-10] Viktor Gold: 980,3965/5255,4116, Exp:6622,3086/10
+[12-05-10] Warwick Gold: 932,58984/5182,603, Exp:5017,205/8
+[12-05-10] Vex Gold: 181,57796/5116,4795, Exp:4839,1636/8
+[12-05-10] Yorick Gold: 501,39172/4351,411, Exp:7120,0767/10
+[12-05-10] Lulu Gold: 78,73149/3278,7615, Exp:3471,8606/7
+[12-05-10] Jinx Gold: 116,38008/3016,4111, Exp:3934,12/7
+[12-05-10] Tristana Gold: 201,39197/4026,4114, Exp:7380,118/11
+[12-05-10] Tick: 919,8981323242188. Update duration: 0,5064697265625
+[12-05-10] Kaisa Gold: 469,54895/6019,5674, Exp:6267,452/10
+[12-05-10] Graves Gold: 174,41377/4324,431, Exp:5159,0234/9
+[12-05-10] Irelia Gold: 107,91511/5737,938, Exp:6595,784/10
+[12-05-10] Viktor Gold: 981,4165/5256,4316, Exp:6622,3086/10
+[12-05-10] Warwick Gold: 933,60986/5183,623, Exp:5017,205/8
+[12-05-10] Vex Gold: 182,74796/5117,6494, Exp:4839,1636/8
+[12-05-10] Yorick Gold: 502,4117/4352,431, Exp:7120,0767/10
+[12-05-10] Lulu Gold: 79,90149/3279,9314, Exp:3471,8606/7
+[12-05-10] Jinx Gold: 117,40008/3017,4312, Exp:3934,12/7
+[12-05-10] Tristana Gold: 216,41197/4041,4314, Exp:7409,878/11
+[12-05-11] Tick: 920,3961181640625. Update duration: 0,49798583984375
+[12-05-11] Kaisa Gold: 470,56894/6020,5874, Exp:6267,452/10
+[12-05-11] Graves Gold: 175,43378/4325,451, Exp:5159,0234/9
+[12-05-11] Irelia Gold: 108,935104/5738,958, Exp:6595,784/10
+[12-05-11] Viktor Gold: 982,4365/5257,4517, Exp:6622,3086/10
+[12-05-11] Warwick Gold: 934,6299/5184,643, Exp:5017,205/8
+[12-05-11] Vex Gold: 183,91795/5118,8193, Exp:4839,1636/8
+[12-05-11] Yorick Gold: 503,4317/4353,451, Exp:7120,0767/10
+[12-05-11] Lulu Gold: 81,07149/3281,1013, Exp:3471,8606/7
+[12-05-11] Jinx Gold: 118,420074/3018,4512, Exp:3934,12/7
+[12-05-11] Tristana Gold: 231,43198/4056,4514, Exp:7439,6377/11
+[12-05-11] Tick: 920,8905639648438. Update duration: 0,49444580078125
+[12-05-11] Kaisa Gold: 471,58893/6021,6074, Exp:6267,452/10
+[12-05-11] Graves Gold: 176,45378/4326,471, Exp:5159,0234/9
+[12-05-11] Irelia Gold: 109,9551/5739,978, Exp:6595,784/10
+[12-05-11] Viktor Gold: 983,45654/5258,4717, Exp:6622,3086/10
+[12-05-11] Warwick Gold: 935,6499/5185,663, Exp:5017,205/8
+[12-05-11] Vex Gold: 185,08795/5119,9893, Exp:4839,1636/8
+[12-05-11] Yorick Gold: 504,4517/4354,471, Exp:7120,0767/10
+[12-05-11] Lulu Gold: 82,241486/3282,2712, Exp:3471,8606/7
+[12-05-11] Jinx Gold: 119,44007/3019,4712, Exp:3934,12/7
+[12-05-11] Tristana Gold: 232,45198/4057,4714, Exp:7439,6377/11
+[12-05-12] Tick: 921,386962890625. Update duration: 0,49639892578125
+[12-05-12] Kaisa Gold: 472,60892/6022,6274, Exp:6267,452/10
+[12-05-12] Graves Gold: 177,47379/4327,491, Exp:5159,0234/9
+[12-05-12] Irelia Gold: 110,9751/5740,998, Exp:6595,784/10
+[12-05-12] Viktor Gold: 984,47656/5259,4917, Exp:6622,3086/10
+[12-05-12] Warwick Gold: 936,6699/5186,683, Exp:5046,965/9
+[12-05-12] Vex Gold: 186,25795/5121,159, Exp:4839,1636/8
+[12-05-12] Yorick Gold: 505,47168/4355,491, Exp:7120,0767/10
+[12-05-12] Lulu Gold: 83,41148/3283,4412, Exp:3471,8606/7
+[12-05-12] Jinx Gold: 120,46007/3020,4912, Exp:3934,12/7
+[12-05-12] Tristana Gold: 233,47198/4058,4915, Exp:7439,6377/11
+[12-05-12] Tick: 921,8821411132812. Update duration: 0,49517822265625
+[12-05-12] Kaisa Gold: 473,6289/6023,6475, Exp:6267,452/10
+[12-05-12] Graves Gold: 178,49379/4328,511, Exp:5159,0234/9
+[12-05-12] Irelia Gold: 111,995094/5742,018, Exp:6595,784/10
+[12-05-12] Viktor Gold: 985,4966/5260,5117, Exp:6622,3086/10
+[12-05-12] Warwick Gold: 951,68994/5201,703, Exp:5076,7246/9
+[12-05-12] Vex Gold: 187,42795/5122,329, Exp:4839,1636/8
+[12-05-12] Yorick Gold: 506,49167/4356,511, Exp:7120,0767/10
+[12-05-12] Lulu Gold: 84,58148/3284,611, Exp:3471,8606/7
+[12-05-12] Jinx Gold: 121,480064/3021,5112, Exp:3934,12/7
+[12-05-12] Tristana Gold: 234,49199/4059,5115, Exp:7439,6377/11
+[12-05-13] Tick: 922,3941040039062. Update duration: 0,511962890625
+[12-05-13] Kaisa Gold: 474,6489/6024,6675, Exp:6267,452/10
+[12-05-13] Graves Gold: 179,5138/4329,5312, Exp:5159,0234/9
+[12-05-13] Irelia Gold: 113,01509/5743,038, Exp:6595,784/10
+[12-05-13] Viktor Gold: 986,5166/5261,5317, Exp:6622,3086/10
+[12-05-13] Warwick Gold: 952,70996/5202,723, Exp:5076,7246/9
+[12-05-13] Vex Gold: 188,59795/5123,499, Exp:4839,1636/8
+[12-05-13] Yorick Gold: 507,51166/4357,5312, Exp:7120,0767/10
+[12-05-13] Lulu Gold: 85,75148/3285,781, Exp:3471,8606/7
+[12-05-13] Jinx Gold: 122,50006/3022,5312, Exp:3934,12/7
+[12-05-13] Tristana Gold: 235,512/4060,5315, Exp:7439,6377/11
+[12-05-13] Tick: 922,8973388671875. Update duration: 0,50323486328125
+[12-05-13] Kaisa Gold: 475,66888/6025,6875, Exp:6267,452/10
+[12-05-13] Graves Gold: 180,5338/4330,5513, Exp:5159,0234/9
+[12-05-13] Irelia Gold: 114,03509/5744,058, Exp:6595,784/10
+[12-05-13] Viktor Gold: 987,5366/5262,552, Exp:6622,3086/10
+[12-05-13] Warwick Gold: 967,73/5217,743, Exp:5106,4844/9
+[12-05-13] Vex Gold: 189,76794/5124,669, Exp:4839,1636/8
+[12-05-13] Yorick Gold: 508,53165/4358,5513, Exp:7120,0767/10
+[12-05-13] Lulu Gold: 86,92148/3286,951, Exp:3522,14/7
+[12-05-13] Jinx Gold: 123,52006/3023,5513, Exp:3980,4387/7
+[12-05-13] Tristana Gold: 236,532/4061,5515, Exp:7439,6377/11
+[12-05-14] Tick: 923,3984985351562. Update duration: 0,50115966796875
+[12-05-14] Kaisa Gold: 476,68887/6026,7075, Exp:6267,452/10
+[12-05-14] Graves Gold: 181,5538/4331,5713, Exp:5159,0234/9
+[12-05-14] Irelia Gold: 115,055084/5745,078, Exp:6595,784/10
+[12-05-14] Viktor Gold: 988,55664/5263,572, Exp:6622,3086/10
+[12-05-14] Warwick Gold: 968,75/5218,763, Exp:5106,4844/9
+[12-05-14] Vex Gold: 190,93794/5125,839, Exp:4839,1636/8
+[12-05-14] Yorick Gold: 509,55164/4359,5713, Exp:7120,0767/10
+[12-05-14] Lulu Gold: 88,09148/3288,1208, Exp:3522,14/7
+[12-05-14] Jinx Gold: 124,540054/3024,5713, Exp:3980,4387/7
+[12-05-14] Tristana Gold: 237,552/4062,5715, Exp:7439,6377/11
+[12-05-14] Tick: 923,9000244140625. Update duration: 0,50152587890625
+[12-05-14] Kaisa Gold: 477,70886/6027,7275, Exp:6267,452/10
+[12-05-14] Graves Gold: 182,5738/4332,5913, Exp:5159,0234/9
+[12-05-14] Irelia Gold: 116,07508/5746,098, Exp:6595,784/10
+[12-05-14] Viktor Gold: 989,57666/5264,592, Exp:6622,3086/10
+[12-05-14] Warwick Gold: 969,77/5219,783, Exp:5106,4844/9
+[12-05-14] Vex Gold: 192,10794/5127,009, Exp:4839,1636/8
+[12-05-14] Yorick Gold: 510,57162/4360,5913, Exp:7120,0767/10
+[12-05-14] Lulu Gold: 89,261475/3289,2908, Exp:3522,14/7
+[12-05-14] Jinx Gold: 125,56005/3025,5913, Exp:3980,4387/7
+[12-05-14] Tristana Gold: 238,572/4063,5916, Exp:7439,6377/11
+[12-05-15] Tick: 924,3998413085938. Update duration: 0,49981689453125
+[12-05-15] Kaisa Gold: 478,72885/6028,7476, Exp:6267,452/10
+[12-05-15] Graves Gold: 183,59381/4333,6113, Exp:5159,0234/9
+[12-05-15] Irelia Gold: 117,09508/5747,118, Exp:6595,784/10
+[12-05-15] Viktor Gold: 990,5967/5265,612, Exp:6622,3086/10
+[12-05-15] Warwick Gold: 970,79004/5220,803, Exp:5106,4844/9
+[12-05-15] Vex Gold: 193,27794/5128,1787, Exp:4839,1636/8
+[12-05-15] Yorick Gold: 511,5916/4361,6113, Exp:7120,0767/10
+[12-05-15] Lulu Gold: 90,43147/3290,4607, Exp:3522,14/7
+[12-05-15] Jinx Gold: 126,58005/3026,6113, Exp:3980,4387/7
+[12-05-15] Tristana Gold: 239,59201/4064,6116, Exp:7439,6377/11
+[12-05-15] Tick: 924,8922729492188. Update duration: 0,492431640625
+[12-05-15] Kaisa Gold: 479,74884/6029,7676, Exp:6267,452/10
+[12-05-15] Graves Gold: 184,61382/4334,6313, Exp:5159,0234/9
+[12-05-15] Irelia Gold: 118,115074/5748,138, Exp:6595,784/10
+[12-05-15] Viktor Gold: 991,6167/5266,632, Exp:6622,3086/10
+[12-05-15] Warwick Gold: 971,81006/5221,823, Exp:5106,4844/9
+[12-05-15] Vex Gold: 194,44794/5129,3486, Exp:4839,1636/8
+[12-05-15] Yorick Gold: 512,61163/4362,6313, Exp:7120,0767/10
+[12-05-15] Lulu Gold: 91,60147/3291,6306, Exp:3522,14/7
+[12-05-15] Jinx Gold: 127,600044/3027,6313, Exp:3980,4387/7
+[12-05-15] Tristana Gold: 240,61201/4065,6316, Exp:7439,6377/11
+[12-05-16] Ingame.json change detected
+[12-05-16] Tick: 925,3898315429688. Update duration: 0,49755859375
+[12-05-16] Kaisa Gold: 480,76883/6030,7876, Exp:6267,452/10
+[12-05-16] Graves Gold: 185,63382/4335,6514, Exp:5159,0234/9
+[12-05-16] Irelia Gold: 119,13507/5749,158, Exp:6595,784/10
+[12-05-16] Viktor Gold: 992,6367/5267,652, Exp:6622,3086/10
+[12-05-16] Warwick Gold: 972,8301/5222,8433, Exp:5106,4844/9
+[12-05-16] Vex Gold: 195,61794/5130,5186, Exp:4839,1636/8
+[12-05-16] Yorick Gold: 513,63165/4363,6514, Exp:7120,0767/10
+[12-05-16] Lulu Gold: 92,77147/3292,8005, Exp:3571,9883/7
+[12-05-16] Jinx Gold: 128,62004/3028,6514, Exp:4026,3604/7
+[12-05-16] Tristana Gold: 241,63202/4066,6516, Exp:7439,6377/11
+[12-05-16] Found Ingame.json. Reading values
+[12-05-16] {
+  "Inhib": {
+    "Position": {
+      "X": 0.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 306.0,
+      "Y": 118.0
+    },
+    "UseBackgroundImage": true,
+    "UseBackgroundVideo": false,
+    "Color": "rgba(19,24,63,255)",
+    "Font": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "15px",
+      "Align": "right",
+      "Color": "rgb(255,255,255)"
+    },
+    "IconSize": 40.0,
+    "HideWhenNoneDestroyed": true,
+    "UseTeamColors": true,
+    "BlueTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 20.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(0,0,0)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "RedTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 80.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(255,255,255)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "LaneOrder": [
+      "bot",
+      "mid",
+      "top"
+    ]
+  },
+  "Score": {
+    "Position": {
+      "X": 960.0,
+      "Y": 0.0
+    },
+    "Size": {
+      "X": 1280.0,
+      "Y": 110.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "Vanguard CF",
+      "Size": "16px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "TimePosition": {
+      "X": 0.0,
+      "Y": 85.0
+    },
+    "BlueTeam": {
+      "Kills": {
+        "Position": {
+          "X": -25.0,
+          "Y": 7.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "52px",
+          "Align": "right",
+          "Color": "rgb(238,239,228)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": -265.0,
+          "Y": 17.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "31px",
+          "Align": "right",
+          "Color": "rgb(238,239,228)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": -165.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "25px",
+          "Align": "left",
+          "Color": "rgb(238,239,228)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 50.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": -80.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": -18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": -540.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "40px",
+          "Align": "left",
+          "Color": "rgb(38,38,38)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": -600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": -380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": 25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "RedTeam": {
+      "Kills": {
+        "Position": {
+          "X": 27.0,
+          "Y": 7.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "52px",
+          "Align": "left",
+          "Color": "rgb(242,179,61)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": 310.0,
+          "Y": 17.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "31px",
+          "Align": "left",
+          "Color": "rgb(242,179,61)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": 175.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "25px",
+          "Align": "left",
+          "Color": "rgb(242,179,61)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": 80.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": 18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": 510.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "40px",
+          "Align": "right",
+          "Color": "rgb(242,179,61)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": 600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": 10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": 380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": -25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(0,0,0,0)"
+    },
+    "Misc": {
+      "Animation": "Simple",
+      "ShowCenterIcon": true,
+      "CenterIconPosition": {
+        "X": 3.0,
+        "Y": 33.0
+      },
+      "CenterIconSize": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "DrakeIconSize": {
+        "X": 20.0,
+        "Y": 20.0
+      }
+    }
+  },
+  "ObjectiveKill": {
+    "ShowTeamIcon": false,
+    "SoulPointScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "ElderKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DragonKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "BaronKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ObjectiveSpawn": {
+    "BaronSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DrakeSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ItemComplete": {
+    "UseCustomVideo": true,
+    "ShowItemName": false,
+    "ShowOnScoreboard": true,
+    "ShowOnChampionIndicator": true,
+    "InfoText": {
+      "Style": "Bold",
+      "Name": "Vanguard CF",
+      "Size": "20px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "ItemAnimationStates": [
+      {
+        "Scale": 0.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.1,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 3200.0,
+        "Ease": "Linear",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 2.5,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 0.0
+      }
+    ],
+    "InfoTextAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 1000.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 1800.0
+      }
+    ],
+    "InfoBackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 80.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 800.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -80.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 2200.0
+      }
+    ]
+  },
+  "LevelUp": {
+    "UseCustomVideo": false,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "LevelFont": {
+      "Style": "Bold",
+      "Name": "Vanguard CF",
+      "Size": "60px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "UseTeamColors": true,
+    "OrderColor": "rgb(0,0,255)",
+    "ChaosColor": "rgb(255,0,0)",
+    "NumberAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 70.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -30.0
+        },
+        "Mirror": true,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -130.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 3500.0
+      }
+    ],
+    "BackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 100.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": -90.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 4000.0
+      }
+    ]
+  },
+  "InfoPage": {
+    "Position": {
+      "X": 0.0,
+      "Y": 135.0
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "Gold": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "XP": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "CSPM": {
+          "X": 150.0,
+          "Y": 15.0
+        }
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Vanguard CF",
+        "Size": "26px",
+        "Align": "center",
+        "Color": "rgb(0,0,0)"
+      }
+    },
+    "TitleHeight": 45.0,
+    "TabConfig": {
+      "TabSize": {
+        "X": 300.0,
+        "Y": 55.0
+      },
+      "UseTeamColorsText": false,
+      "OrderColor": "rgb(255,255,255)",
+      "ChaosColor": "rgb(255,255,255)",
+      "ChampIcon": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "XP": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "CSPM": {
+            "X": 4.0,
+            "Y": 8.0
+          }
+        },
+        "Size": {
+          "X": 42.0,
+          "Y": 42.0
+        }
+      },
+      "Separator": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "XP": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "CSPM": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "Size": {
+          "X": 300.0,
+          "Y": 2.0
+        }
+      },
+      "PlayerName": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 6.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Vanguard CF",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "MinValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Vanguard CF",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "CurrentValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 270.0,
+            "Y": 15.0
+          },
+          "XP": {
+            "X": 280.0,
+            "Y": 15.0
+          },
+          "CSPM": {
+            "X": 280.0,
+            "Y": 15.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "20px",
+          "Align": "center",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "MaxValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 230.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 260.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 260.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Vanguard CF",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "ProgressBar": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "XP": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "CSPM": {
+            "X": 52.0,
+            "Y": 40.0
+          }
+        },
+        "Size": {
+          "Gold": {
+            "X": 180.0,
+            "Y": 10.0
+          },
+          "XP": {
+            "X": 210.0,
+            "Y": 10.0
+          },
+          "CSPM": {
+            "X": 210.0,
+            "Y": 10.0
+          }
+        },
+        "UseTeamColors": true,
+        "DefaultColor": "rgb(255,255,255)",
+        "OrderColor": "rgb(222,40,70)",
+        "ChaosColor": "rgb(0,151,196)",
+        "Animate": true
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgb(0, 0, 0)",
+      "Size": {
+        "X": 300.0,
+        "Y": 600.0
+      }
+    }
+  },
+  "GoldGraph": {
+    "Position": {
+      "X": 965.0,
+      "Y": 849.0
+    },
+    "Size": {
+      "X": 750.0,
+      "Y": 250.0
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(238,239,228,0)"
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "X": 0.0,
+        "Y": 10.0
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Vanguard CF",
+        "Size": "22px",
+        "Align": "left",
+        "Color": "rgb(0,0,0)"
+      },
+      "Text": "PREDICT STUDIO - DIFERENÇA DE OURO"
+    },
+    "Graph": {
+      "Position": {
+        "X": 5.0,
+        "Y": 40.0
+      },
+      "Size": {
+        "X": 710.0,
+        "Y": 190.0
+      },
+      "ShowVerticalGrid": false,
+      "ShowHorizontalGrid": true,
+      "LineTension": 0.1,
+      "GridColor": "rgba(255,255,255,0.5)",
+      "GridEdgeColor": "rgba(255,255,255, 0.1)",
+      "BorderUseTeamColors": true,
+      "BorderOrderColor": "rgb(0,0,0)",
+      "BorderChaosColor": "rgb(0,0,0)",
+      "FillUseTeamColors": true,
+      "FillOrderColor": "rgb(0,0,0)",
+      "FillChaosColor": "rgb(0,0,0)",
+      "InfoFont": {
+        "Style": "Bold",
+        "Name": "Vanguard CF",
+        "Size": "UNUSED",
+        "Align": "UNUSED",
+        "Color": "rgb(0,0,0)"
+      },
+      "TimeStepSize": 30,
+      "ShowTimeStepIndicators": true
+    }
+  },
+  "BaronTimer": {
+    "Position": {
+      "X": 1800.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 1750.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "right",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 25.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": -7.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 25.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": -10.0,
+      "Y": 0.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "ElderTimer": {
+    "Position": {
+      "X": 120.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 50.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "left",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 40.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 18.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": 22.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 18.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": 20.0,
+      "Y": -2.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "GoogleFonts": [
+    "News Cycle",
+    "News Cycle:bold",
+    "Montserrat:ExtraBold",
+    "Roboto:Black",
+    "Droid Sans",
+    "Vanguard CF:Bold"
+  ],
+  "FileVersion": "2.2"
+}
+[12-05-16] Config Ingame loaded
+[12-05-16] Tick: 925,9048461914062. Update duration: 0,5150146484375
+[12-05-16] Kaisa Gold: 481,78882/6031,8076, Exp:6267,452/10
+[12-05-16] Graves Gold: 186,65382/4336,6714, Exp:5159,0234/9
+[12-05-16] Irelia Gold: 120,15507/5750,178, Exp:6595,784/10
+[12-05-16] Viktor Gold: 993,65674/5268,672, Exp:6622,3086/10
+[12-05-16] Warwick Gold: 973,8501/5223,8633, Exp:5106,4844/9
+[12-05-16] Vex Gold: 196,78793/5131,6885, Exp:4839,1636/8
+[12-05-16] Yorick Gold: 514,6517/4364,6714, Exp:7120,0767/10
+[12-05-16] Lulu Gold: 93,94147/3293,9705, Exp:3596,3188/7
+[12-05-16] Jinx Gold: 143,64005/3043,6714, Exp:4048,7742/7
+[12-05-16] Tristana Gold: 242,65202/4067,6716, Exp:7439,6377/11
+[12-05-17] Tick: 926,3941040039062. Update duration: 0,4892578125
+[12-05-17] Kaisa Gold: 482,8088/6032,8276, Exp:6267,452/10
+[12-05-17] Graves Gold: 187,67383/4337,6914, Exp:5159,0234/9
+[12-05-17] Irelia Gold: 121,175064/5751,198, Exp:6595,784/10
+[12-05-17] Viktor Gold: 994,67676/5269,692, Exp:6622,3086/10
+[12-05-17] Warwick Gold: 974,8701/5224,8833, Exp:5106,4844/9
+[12-05-17] Vex Gold: 197,95793/5132,8584, Exp:4839,1636/8
+[12-05-17] Yorick Gold: 515,6717/4365,6914, Exp:7120,0767/10
+[12-05-17] Lulu Gold: 95,111465/3295,1404, Exp:3596,3188/7
+[12-05-17] Jinx Gold: 144,66005/3044,6914, Exp:4048,7742/7
+[12-05-17] Tristana Gold: 243,67203/4068,6917, Exp:7439,6377/11
+[12-05-17] Tick: 926,8961791992188. Update duration: 0,5020751953125
+[12-05-17] Kaisa Gold: 483,8288/6033,8477, Exp:6267,452/10
+[12-05-17] Graves Gold: 188,69383/4338,7114, Exp:5159,0234/9
+[12-05-17] Irelia Gold: 122,19506/5752,2183, Exp:6595,784/10
+[12-05-17] Viktor Gold: 995,6968/5270,712, Exp:6622,3086/10
+[12-05-17] Warwick Gold: 975,89014/5225,9033, Exp:5106,4844/9
+[12-05-17] Vex Gold: 199,12793/5134,0283, Exp:4839,1636/8
+[12-05-17] Yorick Gold: 516,6917/4366,7114, Exp:7120,0767/10
+[12-05-17] Lulu Gold: 96,28146/3296,3103, Exp:3596,3188/7
+[12-05-17] Jinx Gold: 145,68005/3045,7114, Exp:4048,7742/7
+[12-05-17] Tristana Gold: 244,69203/4069,7117, Exp:7439,6377/11
+[12-05-18] Saving all configs to file
+[12-05-18] Writing PickBan config to file
+[12-05-18] Updated PickBan config file
+[12-05-18] Writing Component config to file
+[12-05-18] Updated Component config file
+[12-05-18] Writing Farsight config to file
+[12-05-18] Updated Farsight config file
+[12-05-18] Writing Ingame config to file
+[12-05-18] Updated Ingame config file
+[12-05-18] Configs saved

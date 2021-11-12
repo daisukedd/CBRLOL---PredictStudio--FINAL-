@@ -17,7 +17,7 @@
     "IsActive": true,
     "UseLiveEvents": true,
     "DoLevelUp": true,
-    "DoItemCompleted": false,
+    "DoItemCompleted": true,
     "SeriesGameCount": 5,
     "Objectives": {
       "DoBaronKill": false,

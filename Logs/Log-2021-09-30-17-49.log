@@ -1,0 +1,3189 @@
+[17-49-19] Logging Init
+[17-49-19] Starting Config Controller
+[17-49-19] Config Provider started
+[17-49-19] Looking for config files at /Config
+[17-49-19] Found PickBan.json. Reading values
+[17-49-19] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": false,
+    "blueTeam": {
+      "name": "STORMTIGER",
+      "nameTag": "STT",
+      "score": 0,
+      "coach": "Daisuke",
+      "color": "rgb(0,235,226)"
+    },
+    "redTeam": {
+      "name": "BOOMSLANG",
+      "nameTag": "BSG",
+      "score": 0,
+      "coach": "Haaty",
+      "color": "rgb(255,89,0)"
+    },
+    "patch": "11.19.1"
+  },
+  "FileVersion": "1.0"
+}
+[17-49-19] Config PickBan loaded
+[17-49-19] Found Ingame.json. Reading values
+[17-49-19] {
+  "Inhib": {
+    "Position": {
+      "X": 0.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 306.0,
+      "Y": 118.0
+    },
+    "UseBackgroundImage": true,
+    "UseBackgroundVideo": false,
+    "Color": "rgba(19,24,63,255)",
+    "Font": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "15px",
+      "Align": "right",
+      "Color": "rgb(255,255,255)"
+    },
+    "IconSize": 40.0,
+    "HideWhenNoneDestroyed": true,
+    "UseTeamColors": true,
+    "BlueTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 20.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(0,0,0)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "RedTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 80.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(255,255,255)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "LaneOrder": [
+      "bot",
+      "mid",
+      "top"
+    ]
+  },
+  "Score": {
+    "Position": {
+      "X": 960.0,
+      "Y": 0.0
+    },
+    "Size": {
+      "X": 1280.0,
+      "Y": 110.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "Montserrat",
+      "Size": "30px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "TimePosition": {
+      "X": 0.0,
+      "Y": 95.0
+    },
+    "BlueTeam": {
+      "Kills": {
+        "Position": {
+          "X": -50.0,
+          "Y": 5.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "50px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": -364.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(0,235,226)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 20.0,
+            "Y": 25.0
+          },
+          "Offset": {
+            "X": 35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": -195.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(0,235,226)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 30.0,
+            "Y": 20.0
+          },
+          "Offset": {
+            "X": 35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": -140.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": -18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": -525.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "40px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": -600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": -380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": 25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "RedTeam": {
+      "Kills": {
+        "Position": {
+          "X": 50.0,
+          "Y": 5.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "50px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": 364.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(255,89,0)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 20.0,
+            "Y": 25.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": 195.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(255,89,0)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 30.0,
+            "Y": 20.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": 140.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": 18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": 520.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "40px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": 600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": 10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": 380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": -25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "FallbackColor": "rgba(19,24,63,255)"
+    },
+    "Misc": {
+      "Animation": "Simple",
+      "ShowCenterIcon": true,
+      "CenterIconPosition": {
+        "X": 3.0,
+        "Y": 33.0
+      },
+      "CenterIconSize": {
+        "X": 40.0,
+        "Y": 40.0
+      },
+      "DrakeIconSize": {
+        "X": 20.0,
+        "Y": 20.0
+      }
+    }
+  },
+  "ObjectiveKill": {
+    "ShowTeamIcon": false,
+    "SoulPointScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "ElderKillScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DragonKillScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "BaronKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldKillScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ObjectiveSpawn": {
+    "BaronSpawnScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DrakeSpawnScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldSpawnScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ItemComplete": {
+    "UseCustomVideo": true,
+    "ShowItemName": true,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "InfoText": {
+      "Style": "Bold",
+      "Name": "Montserrat",
+      "Size": "20px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "ItemAnimationStates": [
+      {
+        "Scale": 0.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.1,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 3200.0,
+        "Ease": "Linear",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 2.5,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 0.0
+      }
+    ],
+    "InfoTextAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 1000.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 1800.0
+      }
+    ],
+    "InfoBackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 80.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 800.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -80.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 2200.0
+      }
+    ]
+  },
+  "LevelUp": {
+    "UseCustomVideo": false,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "LevelFont": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "60px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "UseTeamColors": true,
+    "OrderColor": "rgb(0,0,255)",
+    "ChaosColor": "rgb(255,0,0)",
+    "NumberAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 70.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -30.0
+        },
+        "Mirror": true,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -130.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 3500.0
+      }
+    ],
+    "BackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 100.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": -90.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 4000.0
+      }
+    ]
+  },
+  "InfoPage": {
+    "Position": {
+      "X": 0.0,
+      "Y": 135.0
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "Gold": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "XP": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "CSPM": {
+          "X": 150.0,
+          "Y": 15.0
+        }
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "26px",
+        "Align": "center",
+        "Color": "rgb(255,255,255)"
+      }
+    },
+    "TitleHeight": 45.0,
+    "TabConfig": {
+      "TabSize": {
+        "X": 300.0,
+        "Y": 55.0
+      },
+      "UseTeamColorsText": false,
+      "OrderColor": "rgb(255,255,255)",
+      "ChaosColor": "rgb(255,255,255)",
+      "ChampIcon": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "XP": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "CSPM": {
+            "X": 4.0,
+            "Y": 8.0
+          }
+        },
+        "Size": {
+          "X": 42.0,
+          "Y": 42.0
+        }
+      },
+      "Separator": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "XP": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "CSPM": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "Size": {
+          "X": 300.0,
+          "Y": 2.0
+        }
+      },
+      "PlayerName": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 6.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MinValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "CurrentValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 270.0,
+            "Y": 15.0
+          },
+          "XP": {
+            "X": 280.0,
+            "Y": 15.0
+          },
+          "CSPM": {
+            "X": 280.0,
+            "Y": 15.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "20px",
+          "Align": "center",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MaxValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 230.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 260.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 260.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "ProgressBar": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "XP": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "CSPM": {
+            "X": 52.0,
+            "Y": 40.0
+          }
+        },
+        "Size": {
+          "Gold": {
+            "X": 180.0,
+            "Y": 10.0
+          },
+          "XP": {
+            "X": 210.0,
+            "Y": 10.0
+          },
+          "CSPM": {
+            "X": 210.0,
+            "Y": 10.0
+          }
+        },
+        "UseTeamColors": true,
+        "DefaultColor": "rgb(0,0,0)",
+        "OrderColor": "rgb(222,40,70)",
+        "ChaosColor": "rgb(0,151,196)",
+        "Animate": true
+      }
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgb(0, 0, 0)",
+      "Size": {
+        "X": 300.0,
+        "Y": 600.0
+      }
+    }
+  },
+  "GoldGraph": {
+    "Position": {
+      "X": 965.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 740.0,
+      "Y": 235.0
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(0,0,0,)"
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "X": 0.0,
+        "Y": 10.0
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "22px",
+        "Align": "left",
+        "Color": "rgb(255,255,255)"
+      },
+      "Text": "DIFERENÇA DE OURO - PREDICT STUDIO"
+    },
+    "Graph": {
+      "Position": {
+        "X": 5.0,
+        "Y": 40.0
+      },
+      "Size": {
+        "X": 710.0,
+        "Y": 190.0
+      },
+      "ShowVerticalGrid": false,
+      "ShowHorizontalGrid": true,
+      "LineTension": 0.02,
+      "GridColor": "rgba(255,255,255,0.5)",
+      "GridEdgeColor": "rgba(255,255,255, 0.1)",
+      "BorderUseTeamColors": true,
+      "BorderOrderColor": "rgb(0,0,0)",
+      "BorderChaosColor": "rgb(0,0,0)",
+      "FillUseTeamColors": true,
+      "FillOrderColor": "rgb(0,0,0)",
+      "FillChaosColor": "rgb(0,0,0)",
+      "InfoFont": {
+        "Style": "Normal",
+        "Name": "Montserrat",
+        "Size": "UNUSED",
+        "Align": "UNUSED",
+        "Color": "rgb(255,255,255)"
+      },
+      "TimeStepSize": 30,
+      "ShowTimeStepIndicators": true
+    }
+  },
+  "BaronTimer": {
+    "Position": {
+      "X": 1800.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 1750.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "right",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 25.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": -7.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 25.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": -10.0,
+      "Y": 0.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "ElderTimer": {
+    "Position": {
+      "X": 120.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 50.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "left",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 40.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 18.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": 22.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 18.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": 20.0,
+      "Y": -2.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "GoogleFonts": [
+    "News Cycle",
+    "News Cycle:bold",
+    "Droid Sans"
+  ],
+  "FileVersion": "2.2"
+}
+[17-49-19] Config Ingame loaded
+[17-49-19] Found Component.json. Reading values
+[17-49-19] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "de_DE",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": true,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(0,235,226)",
+    "DefaultRedColor": "rgb(255,89,0)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": true,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 5,
+    "Objectives": {
+      "DoBaronKill": false,
+      "DoDragonKill": false,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": true,
+      "DoObjectiveKillPopUp": true
+    },
+    "Teams": {
+      "DoTeamNames": true,
+      "DoTeamIcons": true,
+      "DoTeamScores": false
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 3,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[17-49-19] Config Component loaded
+[17-49-19] Loading config watchers
+[17-49-19] Watching PickBan.json for changes
+[17-49-19] Watching Component.json for changes
+[17-49-19] Watching Ingame.json for changes
+[17-49-19] Log Level set to Verbose
+[17-49-19] League Broadcast Version 1.4.97
+[17-49-19] [Update] Checking for Updates
+[17-49-20] [Update] Latest release version v1.4.97 vs. current version 1.4.97
+[17-49-20] [Update] Local version up to date
+[17-49-20] Using current Version
+[17-49-20] Early Init Complete in 1366.516ms
+[17-49-20] DataDragon Provider Init
+[17-49-20] Getting latest versions from dataDragon
+[17-49-20] Retrieving latest patch info
+[17-49-20] Downloading https://ddragon.leagueoflegends.com/realms/euw.json
+[17-49-25] https://ddragon.leagueoflegends.com/realms/euw.json downloaded
+[17-49-25] Champion: 11.19.1, Item: 11.19.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[17-49-25] Downloading https://ddragon.leagueoflegends.com/cdn/11.19.1/data/de_DE/champion.json
+[17-49-26] https://ddragon.leagueoflegends.com/cdn/11.19.1/data/de_DE/champion.json downloaded
+[17-49-30] Loaded 157 champions
+[17-49-30] Downloading https://ddragon.leagueoflegends.com/cdn/11.19.1/data/de_DE/summoner.json
+[17-49-30] https://ddragon.leagueoflegends.com/cdn/11.19.1/data/de_DE/summoner.json downloaded
+[17-49-30] Loaded 15 summoner spells
+[17-49-30] Downloading https://ddragon.leagueoflegends.com/cdn/11.19.1/data/de_DE/item.json
+[17-49-31] https://ddragon.leagueoflegends.com/cdn/11.19.1/data/de_DE/item.json downloaded
+[17-49-31] Detected 199 items
+[17-49-31] Loaded 94 full items
+[17-49-31] Checking Local Cache
+[17-49-31] Cache C:\Users\kevin\Desktop\Dev - Predict\Codando - PredictStudio\LP - PredictStudio\League Of Legends - PredictStudio/Cache/11.19.1 exists already
+[17-49-31] DDragon loaded
+[17-49-31] Loading PickBan Controller
+[17-49-31] Loading Ingame Controller
+[17-49-31] Checking League install for LiveEventsAPI
+[17-49-31] Found League install location
+[17-49-31] LiveEvents API found in Game config
+[17-49-31] [WARNING] Could not parse game config. Replay API may not be enabled!
+[17-49-31] Verifying LiveEvents list
+[17-49-31] Loading Replay Controller
+[17-49-31] Loading Farsight
+[17-49-31] Farsight loaded. Found 157 Champ names
+[17-49-31] Loading Frontend Webserver (HTTP/WS)
+[17-49-31] Server file system starting
+[17-49-31] WebServer New State - Loading
+[17-49-31] WebServer New State - Listening
+[17-49-31] WebServer running on http://*:9001/
+[17-49-31] Whats that ticking noise?
+[17-49-31] Init Complete in 11.256s
+[17-49-31] Opening main window
+[17-49-31] Team STORMTIGER loaded
+[17-49-31] Team BOOMSLANG loaded
+[17-49-31] Connection State Changed
+[17-49-31] New Client tjXXO/VyPk+fjaqflnn46w connected from http://localhost:9001
+[17-49-31] Loading State Controller
+[17-49-31] Connecting to League Client
+[17-49-40] PickBan Enabled
+[17-49-40] Ingame Enabled
+[17-49-40] Using direct PickBan
+[17-49-40] Starting LeagueBroadcast with tickrate of 2tps
+[17-49-40] Checking for running Game
+[17-49-40] Post Init Complete in 9195.6723ms
+[17-49-40] Total Startup time: 21.818s
+[17-49-40] Connection State Changed
+[17-49-40] Connected to League Client in 8973 ms
+[17-49-40] Local Client Version 11.19.1
+[17-49-40] Loading offsets for current patch
+[17-49-40] Found Farsight.json. Reading values
+[17-49-40] {
+  "GameVersion": "11.19.1",
+  "GameOffsets": {
+    "Manager": "0x1826420",
+    "MapCount": "0x2c",
+    "MapRoot": "0x28",
+    "MapNodeNetId": "0x10",
+    "MapNodeObject": "0x14"
+  },
+  "ObjectOffsets": {
+    "ID": "0x20",
+    "NetworkID": "0xcc",
+    "Team": "0x4c",
+    "Pos": "0xf0",
+    "Mana": "0x2b4",
+    "MaxMana": "0x2c4",
+    "Health": "0xdb4",
+    "MaxHealth": "0xdc4",
+    "CurrentGold": "0x1b98",
+    "GoldTotal": "0x1ba8",
+    "EXP": "0x3364",
+    "Name": "0x2bd4",
+    "ItemList": "0x0",
+    "SpellBook": "0x0",
+    "ItemListItem": "0x0",
+    "ItemInfo": "0x0",
+    "ItemInfoId": "0x0"
+  },
+  "FileVersion": "1.0"
+}
+[17-49-40] Config Farsight loaded
+[17-49-40] Watching Farsight.json for changes
+[17-49-40] Using offsets 11.19.1
+[17-52-13] Target process (League of Legends) detected.
+[17-52-13] Init Game State
+[17-52-13] Game State reset
+[17-52-13] Attached to League Process
+[17-52-13] Connection State Changed
+[17-52-13] game reponse invalid and discarded
+[17-52-14] game reponse invalid and discarded
+[17-52-14] game reponse invalid and discarded
+[17-52-15] game reponse invalid and discarded
+[17-52-15] game reponse invalid and discarded
+[17-52-16] game reponse invalid and discarded
+[17-52-16] game reponse invalid and discarded
+[17-52-17] game reponse invalid and discarded
+[17-52-17] game reponse invalid and discarded
+[17-52-18] game reponse invalid and discarded
+[17-52-18] game reponse invalid and discarded
+[17-52-19] game reponse invalid and discarded
+[17-52-19] game reponse invalid and discarded
+[17-52-20] game reponse invalid and discarded
+[17-52-20] game reponse invalid and discarded
+[17-52-21] game reponse invalid and discarded
+[17-52-21] game reponse invalid and discarded
+[17-52-22] game reponse invalid and discarded
+[17-52-22] game reponse invalid and discarded
+[17-52-23] game reponse invalid and discarded
+[17-52-23] game reponse invalid and discarded
+[17-52-24] game reponse invalid and discarded
+[17-52-24] game reponse invalid and discarded
+[17-52-25] Checking spectate endpoint to determine game type
+[17-52-25] Found spectate game
+[17-52-25] Game Loaded
+[17-52-25] Tick: 0. Update duration: 0
+[17-52-25] Game Paused
+[17-52-25] LiveEventAPI Connected
+[17-52-25] Tick: 2.046466827392578. Update duration: 2.046466827392578
+[17-52-25] Game Resumed
+[17-52-25] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-25] Twitch Gold: 500/500, Exp:0/1
+[17-52-25] Yasuo Gold: 500/500, Exp:0/1
+[17-52-25] Teemo Gold: 500/500, Exp:0/1
+[17-52-25] Lucian Gold: 500/500, Exp:0/1
+[17-52-25] Jinx Gold: 500/500, Exp:0/1
+[17-52-25] Aatrox Gold: 500/500, Exp:0/1
+[17-52-25] Nidalee Gold: 500/500, Exp:0/1
+[17-52-25] Morgana Gold: 500/500, Exp:0/1
+[17-52-25] Ashe Gold: 500/500, Exp:0/1
+[17-52-25] Init Team data
+[17-52-26] Tick: 2.5501883029937744. Update duration: 0.5037214756011963
+[17-52-26] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-26] Twitch Gold: 500/500, Exp:0/1
+[17-52-26] Yasuo Gold: 500/500, Exp:0/1
+[17-52-26] Teemo Gold: 500/500, Exp:0/1
+[17-52-26] Lucian Gold: 500/500, Exp:0/1
+[17-52-26] Jinx Gold: 500/500, Exp:0/1
+[17-52-26] Aatrox Gold: 500/500, Exp:0/1
+[17-52-26] Nidalee Gold: 500/500, Exp:0/1
+[17-52-26] Morgana Gold: 500/500, Exp:0/1
+[17-52-26] Ashe Gold: 500/500, Exp:0/1
+[17-52-26] Init UI
+[17-52-26] Sending game start key inputs
+[17-52-26] Disabling ingame score display
+[17-52-26] Tick: 3.041477918624878. Update duration: 0.4912896156311035
+[17-52-26] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-26] Twitch Gold: 500/500, Exp:0/1
+[17-52-26] Yasuo Gold: 500/500, Exp:0/1
+[17-52-26] Teemo Gold: 500/500, Exp:0/1
+[17-52-26] Lucian Gold: 500/500, Exp:0/1
+[17-52-26] Jinx Gold: 500/500, Exp:0/1
+[17-52-26] Aatrox Gold: 500/500, Exp:0/1
+[17-52-26] Nidalee Gold: 500/500, Exp:0/1
+[17-52-26] Morgana Gold: 500/500, Exp:0/1
+[17-52-26] Ashe Gold: 500/500, Exp:0/1
+[17-52-27] Tick: 3.5417637825012207. Update duration: 0.5002858638763428
+[17-52-27] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-27] Twitch Gold: 500/500, Exp:0/1
+[17-52-27] Yasuo Gold: 500/500, Exp:0/1
+[17-52-27] Teemo Gold: 500/500, Exp:0/1
+[17-52-27] Lucian Gold: 500/500, Exp:0/1
+[17-52-27] Jinx Gold: 0/500, Exp:0/1
+[17-52-27] Aatrox Gold: 500/500, Exp:0/1
+[17-52-27] Nidalee Gold: 500/500, Exp:0/1
+[17-52-27] Morgana Gold: 500/500, Exp:0/1
+[17-52-27] Ashe Gold: 500/500, Exp:0/1
+[17-52-27] Tick: 4.038999080657959. Update duration: 0.4972352981567383
+[17-52-27] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-27] Twitch Gold: 500/500, Exp:0/1
+[17-52-27] Yasuo Gold: 500/500, Exp:0/1
+[17-52-27] Teemo Gold: 500/500, Exp:0/1
+[17-52-27] Lucian Gold: 500/500, Exp:0/1
+[17-52-27] Jinx Gold: 0/500, Exp:0/1
+[17-52-27] Aatrox Gold: 500/500, Exp:0/1
+[17-52-27] Nidalee Gold: 500/500, Exp:0/1
+[17-52-27] Morgana Gold: 500/500, Exp:0/1
+[17-52-27] Ashe Gold: 500/500, Exp:0/1
+[17-52-28] Tick: 4.542117118835449. Update duration: 0.5031180381774902
+[17-52-28] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-28] Twitch Gold: 500/500, Exp:0/1
+[17-52-28] Yasuo Gold: 500/500, Exp:0/1
+[17-52-28] Teemo Gold: 500/500, Exp:0/1
+[17-52-28] Lucian Gold: 500/500, Exp:0/1
+[17-52-28] Jinx Gold: 0/500, Exp:0/1
+[17-52-28] Aatrox Gold: 500/500, Exp:0/1
+[17-52-28] Nidalee Gold: 500/500, Exp:0/1
+[17-52-28] Morgana Gold: 500/500, Exp:0/1
+[17-52-28] Ashe Gold: 500/500, Exp:0/1
+[17-52-28] Tick: 5.043046951293945. Update duration: 0.5009298324584961
+[17-52-28] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-28] Twitch Gold: 500/500, Exp:0/1
+[17-52-28] Yasuo Gold: 500/500, Exp:0/1
+[17-52-28] Teemo Gold: 500/500, Exp:0/1
+[17-52-28] Lucian Gold: 500/500, Exp:0/1
+[17-52-28] Jinx Gold: 0/500, Exp:0/1
+[17-52-28] Aatrox Gold: 500/500, Exp:0/1
+[17-52-28] Nidalee Gold: 500/500, Exp:0/1
+[17-52-28] Morgana Gold: 500/500, Exp:0/1
+[17-52-28] Ashe Gold: 500/500, Exp:0/1
+[17-52-29] Tick: 5.540680408477783. Update duration: 0.4976334571838379
+[17-52-29] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-29] Twitch Gold: 500/500, Exp:0/1
+[17-52-29] Yasuo Gold: 500/500, Exp:0/1
+[17-52-29] Teemo Gold: 500/500, Exp:0/1
+[17-52-29] Lucian Gold: 500/500, Exp:0/1
+[17-52-29] Jinx Gold: 0/500, Exp:0/1
+[17-52-29] Aatrox Gold: 500/500, Exp:0/1
+[17-52-29] Nidalee Gold: 500/500, Exp:0/1
+[17-52-29] Morgana Gold: 500/500, Exp:0/1
+[17-52-29] Ashe Gold: 500/500, Exp:0/1
+[17-52-29] Tick: 6.064539909362793. Update duration: 0.5238595008850098
+[17-52-29] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-29] Twitch Gold: 500/500, Exp:0/1
+[17-52-29] Yasuo Gold: 500/500, Exp:0/1
+[17-52-29] Teemo Gold: 0/500, Exp:0/1
+[17-52-29] Lucian Gold: 500/500, Exp:0/1
+[17-52-29] Jinx Gold: 0/500, Exp:0/1
+[17-52-29] Aatrox Gold: 500/500, Exp:0/1
+[17-52-29] Nidalee Gold: 500/500, Exp:0/1
+[17-52-29] Morgana Gold: 500/500, Exp:0/1
+[17-52-29] Ashe Gold: 500/500, Exp:0/1
+[17-52-30] Tick: 6.536343574523926. Update duration: 0.4718036651611328
+[17-52-30] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-30] Twitch Gold: 500/500, Exp:0/1
+[17-52-30] Yasuo Gold: 500/500, Exp:0/1
+[17-52-30] Teemo Gold: 0/500, Exp:0/1
+[17-52-30] Lucian Gold: 500/500, Exp:0/1
+[17-52-30] Jinx Gold: 0/500, Exp:0/1
+[17-52-30] Aatrox Gold: 500/500, Exp:0/1
+[17-52-30] Nidalee Gold: 500/500, Exp:0/1
+[17-52-30] Morgana Gold: 500/500, Exp:0/1
+[17-52-30] Ashe Gold: 500/500, Exp:0/1
+[17-52-30] Tick: 7.050113677978516. Update duration: 0.5137701034545898
+[17-52-30] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-30] Twitch Gold: 500/500, Exp:0/1
+[17-52-30] Yasuo Gold: 500/500, Exp:0/1
+[17-52-30] Teemo Gold: 0/500, Exp:0/1
+[17-52-30] Lucian Gold: 500/500, Exp:0/1
+[17-52-30] Jinx Gold: 0/500, Exp:0/1
+[17-52-30] Aatrox Gold: 500/500, Exp:0/1
+[17-52-30] Nidalee Gold: 500/500, Exp:0/1
+[17-52-30] Morgana Gold: 500/500, Exp:0/1
+[17-52-30] Ashe Gold: 500/500, Exp:0/1
+[17-52-31] Tick: 7.542501449584961. Update duration: 0.4923877716064453
+[17-52-31] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-31] Twitch Gold: 500/500, Exp:0/1
+[17-52-31] Yasuo Gold: 500/500, Exp:0/1
+[17-52-31] Teemo Gold: 0/500, Exp:0/1
+[17-52-31] Lucian Gold: 150/500, Exp:0/1
+[17-52-31] Jinx Gold: 0/500, Exp:0/1
+[17-52-31] Aatrox Gold: 500/500, Exp:0/1
+[17-52-31] Nidalee Gold: 500/500, Exp:0/1
+[17-52-31] Morgana Gold: 500/500, Exp:0/1
+[17-52-31] Ashe Gold: 500/500, Exp:0/1
+[17-52-31] Tick: 8.03626823425293. Update duration: 0.49376678466796875
+[17-52-31] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-31] Twitch Gold: 500/500, Exp:0/1
+[17-52-31] Yasuo Gold: 500/500, Exp:0/1
+[17-52-31] Teemo Gold: 0/500, Exp:0/1
+[17-52-31] Lucian Gold: 150/500, Exp:0/1
+[17-52-31] Jinx Gold: 0/500, Exp:0/1
+[17-52-31] Aatrox Gold: 500/500, Exp:0/1
+[17-52-31] Nidalee Gold: 500/500, Exp:0/1
+[17-52-31] Morgana Gold: 500/500, Exp:0/1
+[17-52-31] Ashe Gold: 500/500, Exp:0/1
+[17-52-32] Tick: 8.536917686462402. Update duration: 0.5006494522094727
+[17-52-32] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-32] Twitch Gold: 500/500, Exp:0/1
+[17-52-32] Yasuo Gold: 500/500, Exp:0/1
+[17-52-32] Teemo Gold: 0/500, Exp:0/1
+[17-52-32] Lucian Gold: 150/500, Exp:0/1
+[17-52-32] Jinx Gold: 0/500, Exp:0/1
+[17-52-32] Aatrox Gold: 500/500, Exp:0/1
+[17-52-32] Nidalee Gold: 500/500, Exp:0/1
+[17-52-32] Morgana Gold: 500/500, Exp:0/1
+[17-52-32] Ashe Gold: 0/500, Exp:0/1
+[17-52-32] Tick: 9.036393165588379. Update duration: 0.49947547912597656
+[17-52-32] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-32] Twitch Gold: 500/500, Exp:0/1
+[17-52-32] Yasuo Gold: 500/500, Exp:0/1
+[17-52-32] Teemo Gold: 0/500, Exp:0/1
+[17-52-32] Lucian Gold: 0/500, Exp:0/1
+[17-52-32] Jinx Gold: 0/500, Exp:0/1
+[17-52-32] Aatrox Gold: 500/500, Exp:0/1
+[17-52-32] Nidalee Gold: 500/500, Exp:0/1
+[17-52-32] Morgana Gold: 500/500, Exp:0/1
+[17-52-32] Ashe Gold: 0/500, Exp:0/1
+[17-52-33] Tick: 9.537769317626953. Update duration: 0.5013761520385742
+[17-52-33] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-33] Twitch Gold: 500/500, Exp:0/1
+[17-52-33] Yasuo Gold: 500/500, Exp:0/1
+[17-52-33] Teemo Gold: 0/500, Exp:0/1
+[17-52-33] Lucian Gold: 0/500, Exp:0/1
+[17-52-33] Jinx Gold: 0/500, Exp:0/1
+[17-52-33] Aatrox Gold: 500/500, Exp:0/1
+[17-52-33] Nidalee Gold: 500/500, Exp:0/1
+[17-52-33] Morgana Gold: 500/500, Exp:0/1
+[17-52-33] Ashe Gold: 0/500, Exp:0/1
+[17-52-33] Tick: 10.050823211669922. Update duration: 0.5130538940429688
+[17-52-33] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-33] Twitch Gold: 500/500, Exp:0/1
+[17-52-33] Yasuo Gold: 500/500, Exp:0/1
+[17-52-33] Teemo Gold: 0/500, Exp:0/1
+[17-52-33] Lucian Gold: 0/500, Exp:0/1
+[17-52-33] Jinx Gold: 0/500, Exp:0/1
+[17-52-33] Aatrox Gold: 500/500, Exp:0/1
+[17-52-33] Nidalee Gold: 500/500, Exp:0/1
+[17-52-33] Morgana Gold: 500/500, Exp:0/1
+[17-52-33] Ashe Gold: 0/500, Exp:0/1
+[17-52-34] Tick: 10.551410675048828. Update duration: 0.5005874633789062
+[17-52-34] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-34] Twitch Gold: 500/500, Exp:0/1
+[17-52-34] Yasuo Gold: 500/500, Exp:0/1
+[17-52-34] Teemo Gold: 0/500, Exp:0/1
+[17-52-34] Lucian Gold: 0/500, Exp:0/1
+[17-52-34] Jinx Gold: 0/500, Exp:0/1
+[17-52-34] Aatrox Gold: 500/500, Exp:0/1
+[17-52-34] Nidalee Gold: 500/500, Exp:0/1
+[17-52-34] Morgana Gold: 500/500, Exp:0/1
+[17-52-34] Ashe Gold: 0/500, Exp:0/1
+[17-52-34] Tick: 11.046297073364258. Update duration: 0.4948863983154297
+[17-52-34] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-34] Twitch Gold: 500/500, Exp:0/1
+[17-52-34] Yasuo Gold: 500/500, Exp:0/1
+[17-52-34] Teemo Gold: 0/500, Exp:0/1
+[17-52-34] Lucian Gold: 0/500, Exp:0/1
+[17-52-34] Jinx Gold: 0/500, Exp:0/1
+[17-52-34] Aatrox Gold: 500/500, Exp:0/1
+[17-52-34] Nidalee Gold: 500/500, Exp:0/1
+[17-52-34] Morgana Gold: 500/500, Exp:0/1
+[17-52-34] Ashe Gold: 0/500, Exp:0/1
+[17-52-35] Tick: 11.535622596740723. Update duration: 0.48932552337646484
+[17-52-35] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-35] Twitch Gold: 500/500, Exp:0/1
+[17-52-35] Yasuo Gold: 500/500, Exp:0/1
+[17-52-35] Teemo Gold: 0/500, Exp:0/1
+[17-52-35] Lucian Gold: 0/500, Exp:0/1
+[17-52-35] Jinx Gold: 0/500, Exp:0/1
+[17-52-35] Aatrox Gold: 500/500, Exp:0/1
+[17-52-35] Nidalee Gold: 500/500, Exp:0/1
+[17-52-35] Morgana Gold: 500/500, Exp:0/1
+[17-52-35] Ashe Gold: 0/500, Exp:0/1
+[17-52-35] Tick: 12.051593780517578. Update duration: 0.5159711837768555
+[17-52-35] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-35] Twitch Gold: 500/500, Exp:0/1
+[17-52-35] Yasuo Gold: 500/500, Exp:0/1
+[17-52-35] Teemo Gold: 0/500, Exp:0/1
+[17-52-35] Lucian Gold: 0/500, Exp:0/1
+[17-52-35] Jinx Gold: 0/500, Exp:0/1
+[17-52-35] Aatrox Gold: 500/500, Exp:0/1
+[17-52-35] Nidalee Gold: 500/500, Exp:0/1
+[17-52-35] Morgana Gold: 500/500, Exp:0/1
+[17-52-35] Ashe Gold: 0/500, Exp:0/1
+[17-52-36] Tick: 12.551126480102539. Update duration: 0.49953269958496094
+[17-52-36] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-36] Twitch Gold: 500/500, Exp:0/1
+[17-52-36] Yasuo Gold: 500/500, Exp:0/1
+[17-52-36] Teemo Gold: 0/500, Exp:0/1
+[17-52-36] Lucian Gold: 0/500, Exp:0/1
+[17-52-36] Jinx Gold: 0/500, Exp:0/1
+[17-52-36] Aatrox Gold: 500/500, Exp:0/1
+[17-52-36] Nidalee Gold: 500/500, Exp:0/1
+[17-52-36] Morgana Gold: 500/500, Exp:0/1
+[17-52-36] Ashe Gold: 0/500, Exp:0/1
+[17-52-36] Tick: 13.049866676330566. Update duration: 0.49874019622802734
+[17-52-36] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-36] Twitch Gold: 500/500, Exp:0/1
+[17-52-36] Yasuo Gold: 500/500, Exp:0/1
+[17-52-36] Teemo Gold: 0/500, Exp:0/1
+[17-52-36] Lucian Gold: 0/500, Exp:0/1
+[17-52-36] Jinx Gold: 0/500, Exp:0/1
+[17-52-36] Aatrox Gold: 500/500, Exp:0/1
+[17-52-36] Nidalee Gold: 500/500, Exp:0/1
+[17-52-36] Morgana Gold: 65/500, Exp:0/1
+[17-52-36] Ashe Gold: 0/500, Exp:0/1
+[17-52-37] Tick: 13.549873352050781. Update duration: 0.5000066757202148
+[17-52-37] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-37] Twitch Gold: 500/500, Exp:0/1
+[17-52-37] Yasuo Gold: 500/500, Exp:0/1
+[17-52-37] Teemo Gold: 0/500, Exp:0/1
+[17-52-37] Lucian Gold: 0/500, Exp:0/1
+[17-52-37] Jinx Gold: 0/500, Exp:0/1
+[17-52-37] Aatrox Gold: 500/500, Exp:0/1
+[17-52-37] Nidalee Gold: 500/500, Exp:0/1
+[17-52-37] Morgana Gold: 65/500, Exp:0/1
+[17-52-37] Ashe Gold: 0/500, Exp:0/1
+[17-52-37] Tick: 14.036471366882324. Update duration: 0.48659801483154297
+[17-52-37] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-37] Twitch Gold: 0/500, Exp:0/1
+[17-52-37] Yasuo Gold: 500/500, Exp:0/1
+[17-52-37] Teemo Gold: 0/500, Exp:0/1
+[17-52-37] Lucian Gold: 0/500, Exp:0/1
+[17-52-37] Jinx Gold: 0/500, Exp:0/1
+[17-52-37] Aatrox Gold: 500/500, Exp:0/1
+[17-52-37] Nidalee Gold: 500/500, Exp:0/1
+[17-52-37] Morgana Gold: 65/500, Exp:0/1
+[17-52-37] Ashe Gold: 0/500, Exp:0/1
+[17-52-38] Tick: 14.535442352294922. Update duration: 0.49897098541259766
+[17-52-38] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-38] Twitch Gold: 0/500, Exp:0/1
+[17-52-38] Yasuo Gold: 500/500, Exp:0/1
+[17-52-38] Teemo Gold: 0/500, Exp:0/1
+[17-52-38] Lucian Gold: 0/500, Exp:0/1
+[17-52-38] Jinx Gold: 0/500, Exp:0/1
+[17-52-38] Aatrox Gold: 500/500, Exp:0/1
+[17-52-38] Nidalee Gold: 500/500, Exp:0/1
+[17-52-38] Morgana Gold: 65/500, Exp:0/1
+[17-52-38] Ashe Gold: 0/500, Exp:0/1
+[17-52-38] Tick: 15.03539752960205. Update duration: 0.4999551773071289
+[17-52-38] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-38] Twitch Gold: 0/500, Exp:0/1
+[17-52-38] Yasuo Gold: 500/500, Exp:0/1
+[17-52-38] Teemo Gold: 0/500, Exp:0/1
+[17-52-38] Lucian Gold: 0/500, Exp:0/1
+[17-52-38] Jinx Gold: 0/500, Exp:0/1
+[17-52-38] Aatrox Gold: 500/500, Exp:0/1
+[17-52-38] Nidalee Gold: 500/500, Exp:0/1
+[17-52-38] Morgana Gold: 15/500, Exp:0/1
+[17-52-38] Ashe Gold: 0/500, Exp:0/1
+[17-52-39] Tick: 15.535340309143066. Update duration: 0.4999427795410156
+[17-52-39] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-39] Twitch Gold: 0/500, Exp:0/1
+[17-52-39] Yasuo Gold: 500/500, Exp:0/1
+[17-52-39] Teemo Gold: 0/500, Exp:0/1
+[17-52-39] Lucian Gold: 0/500, Exp:0/1
+[17-52-39] Jinx Gold: 0/500, Exp:0/1
+[17-52-39] Aatrox Gold: 500/500, Exp:0/1
+[17-52-39] Nidalee Gold: 500/500, Exp:0/1
+[17-52-39] Morgana Gold: 15/500, Exp:0/1
+[17-52-39] Ashe Gold: 0/500, Exp:0/1
+[17-52-39] Tick: 16.035945892333984. Update duration: 0.500605583190918
+[17-52-39] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-39] Twitch Gold: 0/500, Exp:0/1
+[17-52-39] Yasuo Gold: 0/500, Exp:0/1
+[17-52-39] Teemo Gold: 0/500, Exp:0/1
+[17-52-39] Lucian Gold: 0/500, Exp:0/1
+[17-52-39] Jinx Gold: 0/500, Exp:0/1
+[17-52-39] Aatrox Gold: 500/500, Exp:0/1
+[17-52-39] Nidalee Gold: 500/500, Exp:0/1
+[17-52-39] Morgana Gold: 15/500, Exp:0/1
+[17-52-39] Ashe Gold: 0/500, Exp:0/1
+[17-52-40] Tick: 16.54964256286621. Update duration: 0.5136966705322266
+[17-52-40] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-40] Twitch Gold: 0/500, Exp:0/1
+[17-52-40] Yasuo Gold: 0/500, Exp:0/1
+[17-52-40] Teemo Gold: 0/500, Exp:0/1
+[17-52-40] Lucian Gold: 0/500, Exp:0/1
+[17-52-40] Jinx Gold: 0/500, Exp:0/1
+[17-52-40] Aatrox Gold: 500/500, Exp:0/1
+[17-52-40] Nidalee Gold: 500/500, Exp:0/1
+[17-52-40] Morgana Gold: 15/500, Exp:0/1
+[17-52-40] Ashe Gold: 0/500, Exp:0/1
+[17-52-40] Tick: 17.04958152770996. Update duration: 0.49993896484375
+[17-52-40] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-40] Twitch Gold: 0/500, Exp:0/1
+[17-52-40] Yasuo Gold: 0/500, Exp:0/1
+[17-52-40] Teemo Gold: 0/500, Exp:0/1
+[17-52-40] Lucian Gold: 0/500, Exp:0/1
+[17-52-40] Jinx Gold: 0/500, Exp:0/1
+[17-52-40] Aatrox Gold: 500/500, Exp:0/1
+[17-52-40] Nidalee Gold: 500/500, Exp:0/1
+[17-52-40] Morgana Gold: 15/500, Exp:0/1
+[17-52-40] Ashe Gold: 0/500, Exp:0/1
+[17-52-41] Tick: 17.549556732177734. Update duration: 0.49997520446777344
+[17-52-41] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-41] Twitch Gold: 0/500, Exp:0/1
+[17-52-41] Yasuo Gold: 0/500, Exp:0/1
+[17-52-41] Teemo Gold: 0/500, Exp:0/1
+[17-52-41] Lucian Gold: 0/500, Exp:0/1
+[17-52-41] Jinx Gold: 0/500, Exp:0/1
+[17-52-41] Aatrox Gold: 500/500, Exp:0/1
+[17-52-41] Nidalee Gold: 500/500, Exp:0/1
+[17-52-41] Morgana Gold: 15/500, Exp:0/1
+[17-52-41] Ashe Gold: 0/500, Exp:0/1
+[17-52-41] Tick: 18.049514770507812. Update duration: 0.4999580383300781
+[17-52-41] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-41] Twitch Gold: 0/500, Exp:0/1
+[17-52-41] Yasuo Gold: 0/500, Exp:0/1
+[17-52-41] Teemo Gold: 0/500, Exp:0/1
+[17-52-41] Lucian Gold: 0/500, Exp:0/1
+[17-52-41] Jinx Gold: 0/500, Exp:0/1
+[17-52-41] Aatrox Gold: 500/500, Exp:0/1
+[17-52-41] Nidalee Gold: 500/500, Exp:0/1
+[17-52-41] Morgana Gold: 15/500, Exp:0/1
+[17-52-41] Ashe Gold: 0/500, Exp:0/1
+[17-52-42] Tick: 18.549470901489258. Update duration: 0.4999561309814453
+[17-52-42] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-42] Twitch Gold: 0/500, Exp:0/1
+[17-52-42] Yasuo Gold: 0/500, Exp:0/1
+[17-52-42] Teemo Gold: 0/500, Exp:0/1
+[17-52-42] Lucian Gold: 0/500, Exp:0/1
+[17-52-42] Jinx Gold: 0/500, Exp:0/1
+[17-52-42] Aatrox Gold: 500/500, Exp:0/1
+[17-52-42] Nidalee Gold: 0/500, Exp:0/1
+[17-52-42] Morgana Gold: 15/500, Exp:0/1
+[17-52-42] Ashe Gold: 0/500, Exp:0/1
+[17-52-42] Tick: 19.04939079284668. Update duration: 0.4999198913574219
+[17-52-42] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-42] Twitch Gold: 0/500, Exp:0/1
+[17-52-42] Yasuo Gold: 0/500, Exp:0/1
+[17-52-42] Teemo Gold: 0/500, Exp:0/1
+[17-52-42] Lucian Gold: 0/500, Exp:0/1
+[17-52-42] Jinx Gold: 0/500, Exp:0/1
+[17-52-42] Aatrox Gold: 500/500, Exp:0/1
+[17-52-42] Nidalee Gold: 0/500, Exp:0/1
+[17-52-42] Morgana Gold: 15/500, Exp:0/1
+[17-52-42] Ashe Gold: 0/500, Exp:0/1
+[17-52-43] Tick: 19.542387008666992. Update duration: 0.4929962158203125
+[17-52-43] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-43] Twitch Gold: 0/500, Exp:0/1
+[17-52-43] Yasuo Gold: 0/500, Exp:0/1
+[17-52-43] Teemo Gold: 0/500, Exp:0/1
+[17-52-43] Lucian Gold: 0/500, Exp:0/1
+[17-52-43] Jinx Gold: 0/500, Exp:0/1
+[17-52-43] Aatrox Gold: 500/500, Exp:0/1
+[17-52-43] Nidalee Gold: 0/500, Exp:0/1
+[17-52-43] Morgana Gold: 15/500, Exp:0/1
+[17-52-43] Ashe Gold: 0/500, Exp:0/1
+[17-52-43] Tick: 20.042430877685547. Update duration: 0.5000438690185547
+[17-52-43] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-43] Twitch Gold: 0/500, Exp:0/1
+[17-52-43] Yasuo Gold: 0/500, Exp:0/1
+[17-52-43] Teemo Gold: 0/500, Exp:0/1
+[17-52-43] Lucian Gold: 0/500, Exp:0/1
+[17-52-43] Jinx Gold: 0/500, Exp:0/1
+[17-52-43] Aatrox Gold: 500/500, Exp:0/1
+[17-52-43] Nidalee Gold: 0/500, Exp:0/1
+[17-52-43] Morgana Gold: 15/500, Exp:0/1
+[17-52-43] Ashe Gold: 0/500, Exp:0/1
+[17-52-44] Tick: 20.5400447845459. Update duration: 0.49761390686035156
+[17-52-44] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-44] Twitch Gold: 0/500, Exp:0/1
+[17-52-44] Yasuo Gold: 0/500, Exp:0/1
+[17-52-44] Teemo Gold: 0/500, Exp:0/1
+[17-52-44] Lucian Gold: 0/500, Exp:0/1
+[17-52-44] Jinx Gold: 0/500, Exp:0/1
+[17-52-44] Aatrox Gold: 500/500, Exp:0/1
+[17-52-44] Nidalee Gold: 0/500, Exp:0/1
+[17-52-44] Morgana Gold: 15/500, Exp:0/1
+[17-52-44] Ashe Gold: 0/500, Exp:0/1
+[17-52-44] Tick: 21.042831420898438. Update duration: 0.5027866363525391
+[17-52-44] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-44] Twitch Gold: 0/500, Exp:0/1
+[17-52-44] Yasuo Gold: 0/500, Exp:0/1
+[17-52-44] Teemo Gold: 0/500, Exp:0/1
+[17-52-44] Lucian Gold: 0/500, Exp:0/1
+[17-52-44] Jinx Gold: 0/500, Exp:0/1
+[17-52-44] Aatrox Gold: 500/500, Exp:0/1
+[17-52-44] Nidalee Gold: 0/500, Exp:0/1
+[17-52-44] Morgana Gold: 15/500, Exp:0/1
+[17-52-44] Ashe Gold: 0/500, Exp:0/1
+[17-52-45] Tick: 21.54034996032715. Update duration: 0.49751853942871094
+[17-52-45] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-45] Twitch Gold: 0/500, Exp:0/1
+[17-52-45] Yasuo Gold: 0/500, Exp:0/1
+[17-52-45] Teemo Gold: 0/500, Exp:0/1
+[17-52-45] Lucian Gold: 0/500, Exp:0/1
+[17-52-45] Jinx Gold: 0/500, Exp:0/1
+[17-52-45] Aatrox Gold: 500/500, Exp:0/1
+[17-52-45] Nidalee Gold: 0/500, Exp:0/1
+[17-52-45] Morgana Gold: 15/500, Exp:0/1
+[17-52-45] Ashe Gold: 0/500, Exp:0/1
+[17-52-45] Tick: 22.04603385925293. Update duration: 0.5056838989257812
+[17-52-45] Cassiopeia Gold: 500/500, Exp:0/1
+[17-52-45] Twitch Gold: 0/500, Exp:0/1
+[17-52-45] Yasuo Gold: 0/500, Exp:0/1
+[17-52-45] Teemo Gold: 0/500, Exp:0/1
+[17-52-45] Lucian Gold: 0/500, Exp:0/1
+[17-52-45] Jinx Gold: 0/500, Exp:0/1
+[17-52-45] Aatrox Gold: 500/500, Exp:0/1
+[17-52-45] Nidalee Gold: 0/500, Exp:0/1
+[17-52-45] Morgana Gold: 15/500, Exp:0/1
+[17-52-45] Ashe Gold: 0/500, Exp:0/1
+[17-52-46] Tick: 183.87815856933594. Update duration: 161.832124710083
+[17-52-46] Cassiopeia Gold: 1304.3099/1789.3099, Exp:434.87704/2
+[17-52-46] Twitch Gold: 371.92/996.92004, Exp:221.56/1
+[17-52-46] Lucian Gold: 1058.02/1558.02, Exp:609.57996/2
+[17-52-46] Yasuo Gold: 858.04004/1358.04, Exp:777.41/3
+[17-52-46] Teemo Gold: 820.6/1330.6, Exp:904.89014/3
+[17-52-46] Morgana Gold: 663.56/1148.5598, Exp:434.87704/2
+[17-52-46] Jinx Gold: 593.5901/1093.5898, Exp:434.87704/2
+[17-52-46] Aatrox Gold: 407.68002/1057.68, Exp:448.38004/2
+[17-52-46] Nidalee Gold: 517.92004/1017.92004, Exp:351.24802/2
+[17-52-46] Ashe Gold: 975.7001/1475.7, Exp:609.57996/2
+[17-52-46] Tick: 184.38265991210938. Update duration: 0.5045013427734375
+[17-52-46] Cassiopeia Gold: 1307.3099/1792.3099, Exp:434.87704/2
+[17-52-46] Twitch Gold: 374.92/999.92004, Exp:221.56/1
+[17-52-46] Lucian Gold: 1061.02/1561.02, Exp:609.57996/2
+[17-52-46] Yasuo Gold: 861.04004/1361.04, Exp:777.41/3
+[17-52-46] Teemo Gold: 823.6/1333.6, Exp:904.89014/3
+[17-52-46] Morgana Gold: 666.56/1151.5598, Exp:434.87704/2
+[17-52-46] Jinx Gold: 596.5901/1096.5898, Exp:434.87704/2
+[17-52-46] Aatrox Gold: 410.68002/1060.68, Exp:448.38004/2
+[17-52-46] Nidalee Gold: 520.92004/1020.92004, Exp:351.24802/2
+[17-52-46] Ashe Gold: 978.7001/1478.7, Exp:609.57996/2
+[17-52-47] Tick: 190.78492736816406. Update duration: 6.4022674560546875
+[17-52-47] Cassiopeia Gold: 1346.3099/1831.3099, Exp:434.87704/2
+[17-52-47] Twitch Gold: 413.92/1038.92, Exp:221.56/1
+[17-52-47] Lucian Gold: 1138.24/1638.24, Exp:700.05994/3
+[17-52-47] Yasuo Gold: 900.04004/1400.04, Exp:777.41/3
+[17-52-47] Teemo Gold: 862.6/1372.6, Exp:904.89014/3
+[17-52-47] Morgana Gold: 705.56/1190.5598, Exp:434.87704/2
+[17-52-47] Jinx Gold: 635.5901/1135.5898, Exp:434.87704/2
+[17-52-47] Aatrox Gold: 511.84003/1161.84, Exp:705.06/3
+[17-52-47] Nidalee Gold: 559.92004/1059.92, Exp:351.24802/2
+[17-52-47] Ashe Gold: 1055.92/1555.9199, Exp:700.05994/3
+[17-52-47] Tick: 205.53955078125. Update duration: 14.754623413085938
+[17-52-47] Cassiopeia Gold: 136.30994/1921.3099, Exp:434.87704/2
+[17-52-47] Lucian Gold: 1282.1399/1782.1399, Exp:793.43994/3
+[17-52-47] Twitch Gold: 262.72/1187.7201, Exp:378.73/2
+[17-52-47] Morgana Gold: 795.56/1280.5598, Exp:434.87704/2
+[17-52-47] Yasuo Gold: 1095.39/1595.39, Exp:889.736/3
+[17-52-47] Teemo Gold: 1011.88995/1521.8899, Exp:1017.2162/3
+[17-52-47] Jinx Gold: 725.5901/1225.5898, Exp:434.87704/2
+[17-52-47] Aatrox Gold: 637.12006/1287.1199, Exp:915.24005/3
+[17-52-47] Nidalee Gold: 676.38/1176.3799, Exp:486.03918/2
+[17-52-47] Ashe Gold: 1206.68/1706.6799, Exp:793.43994/3
+[17-52-48] Tick: 214.74447631835938. Update duration: 9.204925537109375
+[17-52-48] Cassiopeia Gold: 193.24994/1978.2499, Exp:449.69943/2
+[17-52-48] Lucian Gold: 1636.1399/2136.14, Exp:793.43994/3
+[17-52-48] Twitch Gold: 345.14/1270.14, Exp:486.98203/2
+[17-52-48] Morgana Gold: 852.5/1337.4998, Exp:449.69943/2
+[17-52-48] Yasuo Gold: 1149.39/1649.39, Exp:889.736/3
+[17-52-48] Teemo Gold: 1065.8899/1575.8899, Exp:1017.2162/3
+[17-52-48] Jinx Gold: 799.19006/1299.1898, Exp:449.69943/2
+[17-52-48] Aatrox Gold: 711.7001/1361.6998, Exp:1035.2101/3
+[17-52-48] Nidalee Gold: 730.38/1230.3799, Exp:486.03918/2
+[17-52-48] Ashe Gold: 1260.68/1760.6799, Exp:793.43994/3
+[17-52-48] Tick: 215.24256896972656. Update duration: 0.4980926513671875
+[17-52-48] Cassiopeia Gold: 196.24994/1981.2499, Exp:449.69943/2
+[17-52-48] Lucian Gold: 1639.1399/2139.14, Exp:793.43994/3
+[17-52-48] Twitch Gold: 348.14/1273.14, Exp:486.98203/2
+[17-52-48] Morgana Gold: 855.5/1340.4998, Exp:449.69943/2
+[17-52-48] Yasuo Gold: 1152.39/1652.39, Exp:889.736/3
+[17-52-48] Teemo Gold: 1068.8899/1578.8899, Exp:1017.2162/3
+[17-52-48] Jinx Gold: 802.19006/1302.1898, Exp:449.69943/2
+[17-52-48] Aatrox Gold: 720.5801/1370.5798, Exp:1064.9701/3
+[17-52-48] Nidalee Gold: 733.38/1233.3799, Exp:486.03918/2
+[17-52-48] Ashe Gold: 1263.68/1763.6799, Exp:793.43994/3
+[17-52-49] Tick: 227.30210876464844. Update duration: 12.059539794921875
+[17-52-49] Cassiopeia Gold: 268.24994/2053.25, Exp:449.69943/2
+[17-52-49] Lucian Gold: 1830.7/2330.6995, Exp:962.22/3
+[17-52-49] Twitch Gold: 484.82/1409.8201, Exp:667.774/3
+[17-52-49] Morgana Gold: 927.5/1412.4998, Exp:449.69943/2
+[17-52-49] Yasuo Gold: 1824.39/2324.3901, Exp:955.4116/3
+[17-52-49] Teemo Gold: 1460.8899/1970.8899, Exp:1116.7898/3
+[17-52-49] Jinx Gold: 874.19006/1374.1898, Exp:449.69943/2
+[17-52-49] Aatrox Gold: 972.5801/1442.5798, Exp:1064.9701/3
+[17-52-49] Nidalee Gold: 1145.38/1645.3799, Exp:581.0392/2
+[17-52-49] Ashe Gold: 1407.2198/1907.2197, Exp:962.22/3
+[17-52-49] New Event: {"EventID":1,"EventName":"ChampionKill","EventTime":217.91502380371094,"Assisters":["Lukedu233"],"KillerName":"El jogas","VictimName":"daisuked","Recipient":null,"InhibKilled":null,"TurretKilled":null,"KillStreak":null,"eventType":"ChampionKill"}
+[17-52-49] New Event: {"EventID":2,"EventName":"ChampionKill","EventTime":222.41578674316406,"Assisters":[],"KillerName":"FalkenHenry","VictimName":"ShreckJr","Recipient":null,"InhibKilled":null,"TurretKilled":null,"KillStreak":null,"eventType":"ChampionKill"}
+[17-52-49] New Event: {"EventID":3,"EventName":"ChampionKill","EventTime":223.75906372070312,"Assisters":["Lukedu233"],"KillerName":"El jogas","VictimName":"NarkAlves","Recipient":null,"InhibKilled":null,"TurretKilled":null,"KillStreak":null,"eventType":"ChampionKill"}
+[17-52-49] New Event: {"EventID":4,"EventName":"Multikill","EventTime":223.75906372070312,"Assisters":null,"KillerName":"El jogas","VictimName":null,"Recipient":null,"InhibKilled":null,"TurretKilled":null,"KillStreak":2,"eventType":"Multikill"}
+[17-52-49] Tick: 233.2411651611328. Update duration: 5.939056396484375
+[17-52-49] Cassiopeia Gold: 304.24994/2089.25, Exp:449.69943/2
+[17-52-49] Lucian Gold: 1866.7/2366.6995, Exp:962.22/3
+[17-52-49] Twitch Gold: 555.12/1480.12, Exp:787.744/3
+[17-52-49] Morgana Gold: 98.5/1448.4998, Exp:449.69943/2
+[17-52-49] Yasuo Gold: 1918.21/2418.2102, Exp:1024.1516/3
+[17-52-49] Teemo Gold: 1496.8899/2006.8899, Exp:1166.9697/4
+[17-52-49] Jinx Gold: 910.19006/1410.1898, Exp:449.69943/2
+[17-52-49] Aatrox Gold: 133.58008/1478.5798, Exp:1064.9701/3
+[17-52-49] Nidalee Gold: 1204.8999/1704.8998, Exp:663.5271/3
+[17-52-49] Ashe Gold: 1443.2198/1943.2197, Exp:962.22/3
+[17-52-50] Tick: 233.7370147705078. Update duration: 0.495849609375
+[17-52-50] Cassiopeia Gold: 307.24994/2092.25, Exp:449.69943/2
+[17-52-50] Lucian Gold: 1869.7/2369.6995, Exp:962.22/3
+[17-52-50] Twitch Gold: 577.72/1502.72, Exp:817.504/3
+[17-52-50] Morgana Gold: 101.5/1451.4998, Exp:449.69943/2
+[17-52-50] Yasuo Gold: 1921.21/2421.2102, Exp:1024.1516/3
+[17-52-50] Teemo Gold: 1499.8899/2009.8899, Exp:1166.9697/4
+[17-52-50] Jinx Gold: 913.19006/1413.1898, Exp:449.69943/2
+[17-52-50] Aatrox Gold: 136.58008/1481.5798, Exp:1064.9701/3
+[17-52-50] Nidalee Gold: 1207.8999/1707.8998, Exp:663.5271/3
+[17-52-50] Ashe Gold: 1446.2198/1946.2197, Exp:962.22/3
+[17-52-50] Fire spawned
+[17-52-50] Tick: 234.25253295898438. Update duration: 0.5155181884765625
+[17-52-50] Cassiopeia Gold: 310.24994/2095.25, Exp:449.69943/2
+[17-52-50] Lucian Gold: 1872.7/2372.6995, Exp:962.22/3
+[17-52-50] Twitch Gold: 580.72/1505.72, Exp:817.504/3
+[17-52-50] Morgana Gold: 104.5/1454.4998, Exp:449.69943/2
+[17-52-50] Yasuo Gold: 1924.21/2424.2102, Exp:1024.1516/3
+[17-52-50] Teemo Gold: 1502.8899/2012.8899, Exp:1166.9697/4
+[17-52-50] Jinx Gold: 566.19006/1416.1898, Exp:449.69943/2
+[17-52-50] Aatrox Gold: 139.58008/1484.5798, Exp:1064.9701/3
+[17-52-50] Nidalee Gold: 1210.8999/1710.8998, Exp:663.5271/3
+[17-52-50] Ashe Gold: 499.21985/1949.2197, Exp:962.22/3
+[17-52-51] Tick: 234.7442626953125. Update duration: 0.491729736328125
+[17-52-51] Cassiopeia Gold: 313.24994/2098.25, Exp:449.69943/2
+[17-52-51] Lucian Gold: 1875.7/2375.6995, Exp:962.22/3
+[17-52-51] Twitch Gold: 583.72/1508.72, Exp:817.504/3
+[17-52-51] Morgana Gold: 107.5/1457.4998, Exp:449.69943/2
+[17-52-51] Yasuo Gold: 1946.8099/2446.8103, Exp:1042.7117/3
+[17-52-51] Teemo Gold: 1505.8899/2015.8899, Exp:1166.9697/4
+[17-52-51] Jinx Gold: 219.19006/1419.1898, Exp:449.69943/2
+[17-52-51] Aatrox Gold: 142.58008/1487.5798, Exp:1064.9701/3
+[17-52-51] Nidalee Gold: 1219.7799/1719.7798, Exp:685.7991/3
+[17-52-51] Ashe Gold: 502.21985/1952.2197, Exp:962.22/3
+[17-52-51] Tick: 235.24818420410156. Update duration: 0.5039215087890625
+[17-52-51] Cassiopeia Gold: 316.24994/2101.25, Exp:449.69943/2
+[17-52-51] Lucian Gold: 1878.7/2378.6995, Exp:962.22/3
+[17-52-51] Twitch Gold: 586.72/1511.72, Exp:817.504/3
+[17-52-51] Morgana Gold: 110.5/1460.4998, Exp:449.69943/2
+[17-52-51] Yasuo Gold: 1949.8099/2449.8103, Exp:1042.7117/3
+[17-52-51] Teemo Gold: 1508.8899/2018.8899, Exp:1166.9697/4
+[17-52-51] Jinx Gold: 222.19006/1422.1898, Exp:449.69943/2
+[17-52-51] Aatrox Gold: 145.58008/1490.5798, Exp:1064.9701/3
+[17-52-51] Nidalee Gold: 1222.7799/1722.7798, Exp:685.7991/3
+[17-52-51] Ashe Gold: 505.21985/1955.2197, Exp:962.22/3
+[17-52-52] Tick: 235.74342346191406. Update duration: 0.4952392578125
+[17-52-52] Cassiopeia Gold: 319.24994/2104.25, Exp:449.69943/2
+[17-52-52] Lucian Gold: 931.69995/2381.6995, Exp:962.22/3
+[17-52-52] Twitch Gold: 589.72/1514.72, Exp:817.504/3
+[17-52-52] Morgana Gold: 113.5/1463.4998, Exp:449.69943/2
+[17-52-52] Yasuo Gold: 1952.8099/2452.8103, Exp:1042.7117/3
+[17-52-52] Teemo Gold: 1511.8899/2021.8899, Exp:1166.9697/4
+[17-52-52] Jinx Gold: 225.19006/1425.1898, Exp:449.69943/2
+[17-52-52] Aatrox Gold: 157.40009/1502.3998, Exp:1125.42/3
+[17-52-52] Nidalee Gold: 1225.7799/1725.7798, Exp:685.7991/3
+[17-52-52] Ashe Gold: 508.21985/1958.2197, Exp:962.22/3
+[17-52-52] Tick: 236.24876403808594. Update duration: 0.505340576171875
+[17-52-52] Cassiopeia Gold: 322.24994/2107.25, Exp:449.69943/2
+[17-52-52] Lucian Gold: 934.69995/2384.6995, Exp:962.22/3
+[17-52-52] Twitch Gold: 592.72/1517.72, Exp:817.504/3
+[17-52-52] Morgana Gold: 116.5/1466.4998, Exp:449.69943/2
+[17-52-52] Yasuo Gold: 1964.6299/2464.6304, Exp:1080.4116/3
+[17-52-52] Teemo Gold: 1514.8899/2024.8899, Exp:1166.9697/4
+[17-52-52] Jinx Gold: 228.19006/1428.1898, Exp:449.69943/2
+[17-52-52] Aatrox Gold: 160.40009/1505.3998, Exp:1125.42/3
+[17-52-52] Nidalee Gold: 1258.1799/1758.1798, Exp:731.03906/3
+[17-52-52] Ashe Gold: 511.21985/1961.2197, Exp:962.22/3
+[17-52-53] Tick: 236.7506866455078. Update duration: 0.501922607421875
+[17-52-53] Cassiopeia Gold: 325.24994/2110.25, Exp:449.69943/2
+[17-52-53] Lucian Gold: 62.69995/2387.6995, Exp:962.22/3
+[17-52-53] Twitch Gold: 595.72/1520.72, Exp:817.504/3
+[17-52-53] Morgana Gold: 119.5/1469.4998, Exp:449.69943/2
+[17-52-53] Yasuo Gold: 1973.5099/2473.5103, Exp:1098.9717/3
+[17-52-53] Teemo Gold: 1517.8899/2027.8899, Exp:1166.9697/4
+[17-52-53] Jinx Gold: 231.19006/1431.1898, Exp:449.69943/2
+[17-52-53] Aatrox Gold: 163.40009/1508.3998, Exp:1125.42/3
+[17-52-53] Nidalee Gold: 1267.0599/1767.0598, Exp:753.31104/3
+[17-52-53] Ashe Gold: 514.21985/1964.2197, Exp:962.22/3
+[17-52-53] Tick: 237.24832153320312. Update duration: 0.4976348876953125
+[17-52-53] Cassiopeia Gold: 328.24994/2113.25, Exp:449.69943/2
+[17-52-53] Lucian Gold: 65.69995/2390.6995, Exp:962.22/3
+[17-52-53] Twitch Gold: 604.6/1529.6, Exp:847.26404/3
+[17-52-53] Morgana Gold: 122.5/1472.4998, Exp:449.69943/2
+[17-52-53] Yasuo Gold: 1976.5099/2476.5103, Exp:1098.9717/3
+[17-52-53] Teemo Gold: 1520.8899/2030.8899, Exp:1166.9697/4
+[17-52-53] Jinx Gold: 234.19006/1434.1898, Exp:449.69943/2
+[17-52-53] Aatrox Gold: 172.28009/1517.2798, Exp:1155.18/4
+[17-52-53] Nidalee Gold: 1270.0599/1770.0598, Exp:753.31104/3
+[17-52-53] Ashe Gold: 517.21985/1967.2197, Exp:962.22/3
+[17-52-54] Tick: 237.7437286376953. Update duration: 0.4954071044921875
+[17-52-54] Cassiopeia Gold: 331.24994/2116.25, Exp:449.69943/2
+[17-52-54] Lucian Gold: 68.69995/2393.6995, Exp:962.22/3
+[17-52-54] Twitch Gold: 607.6/1532.6, Exp:847.26404/3
+[17-52-54] Morgana Gold: 125.5/1475.4998, Exp:449.69943/2
+[17-52-54] Yasuo Gold: 1979.5099/2479.5103, Exp:1098.9717/3
+[17-52-54] Teemo Gold: 673.8899/2033.8899, Exp:1166.9697/4
+[17-52-54] Jinx Gold: 237.19006/1437.1898, Exp:449.69943/2
+[17-52-54] Aatrox Gold: 175.28009/1520.2798, Exp:1155.18/4
+[17-52-54] Nidalee Gold: 1273.0599/1773.0598, Exp:753.31104/3
+[17-52-54] Ashe Gold: 520.21985/1970.2197, Exp:962.22/3
+[17-52-54] Tick: 238.24510192871094. Update duration: 0.501373291015625
+[17-52-54] Cassiopeia Gold: 334.24994/2119.25, Exp:449.69943/2
+[17-52-54] Lucian Gold: 71.69995/2396.6995, Exp:962.22/3
+[17-52-54] Twitch Gold: 610.6/1535.6, Exp:847.26404/3
+[17-52-54] Morgana Gold: 128.5/1478.4998, Exp:449.69943/2
+[17-52-54] Yasuo Gold: 1982.5099/2482.5103, Exp:1098.9717/3
+[17-52-54] Teemo Gold: 676.8899/2036.8899, Exp:1166.9697/4
+[17-52-54] Jinx Gold: 240.19006/1440.1898, Exp:449.69943/2
+[17-52-54] Aatrox Gold: 178.28009/1523.2798, Exp:1155.18/4
+[17-52-54] Nidalee Gold: 1276.0599/1776.0598, Exp:753.31104/3
+[17-52-54] Ashe Gold: 523.21985/1973.2197, Exp:962.22/3
+[17-52-55] Tick: 238.747802734375. Update duration: 0.5027008056640625
+[17-52-55] Cassiopeia Gold: 337.24994/2122.25, Exp:449.69943/2
+[17-52-55] Lucian Gold: 74.69995/2399.6995, Exp:962.22/3
+[17-52-55] Twitch Gold: 613.6/1538.6, Exp:847.26404/3
+[17-52-55] Morgana Gold: 131.5/1481.4998, Exp:449.69943/2
+[17-52-55] Yasuo Gold: 1985.5099/2485.5103, Exp:1098.9717/3
+[17-52-55] Teemo Gold: 379.8899/2039.8899, Exp:1166.9697/4
+[17-52-55] Jinx Gold: 243.19006/1443.1898, Exp:449.69943/2
+[17-52-55] Aatrox Gold: 200.8801/1545.8798, Exp:1184.9401/4
+[17-52-55] Nidalee Gold: 1279.0599/1779.0598, Exp:753.31104/3
+[17-52-55] Ashe Gold: 376.21985/1976.2197, Exp:962.22/3
+[17-52-55] Tick: 239.24649047851562. Update duration: 0.498687744140625
+[17-52-55] Cassiopeia Gold: 340.24994/2125.25, Exp:449.69943/2
+[17-52-55] Lucian Gold: 77.69995/2402.6995, Exp:962.22/3
+[17-52-55] Twitch Gold: 616.6/1541.6, Exp:847.26404/3
+[17-52-55] Morgana Gold: 134.5/1484.4998, Exp:449.69943/2
+[17-52-55] Yasuo Gold: 1988.5099/2488.5103, Exp:1098.9717/3
+[17-52-55] Teemo Gold: 382.8899/2042.8899, Exp:1166.9697/4
+[17-52-55] Jinx Gold: 246.19006/1446.1898, Exp:449.69943/2
+[17-52-55] Aatrox Gold: 203.8801/1548.8798, Exp:1184.9401/4
+[17-52-55] Nidalee Gold: 1282.0599/1782.0598, Exp:753.31104/3
+[17-52-55] Ashe Gold: 379.21985/1979.2197, Exp:962.22/3
+[17-52-56] Tick: 239.7421112060547. Update duration: 0.4956207275390625
+[17-52-56] Cassiopeia Gold: 343.24994/2128.25, Exp:449.69943/2
+[17-52-56] Lucian Gold: 80.69995/2405.6995, Exp:962.22/3
+[17-52-56] Twitch Gold: 619.6/1544.6, Exp:847.26404/3
+[17-52-56] Morgana Gold: 137.5/1487.4998, Exp:449.69943/2
+[17-52-56] Yasuo Gold: 1991.5099/2491.5103, Exp:1098.9717/3
+[17-52-56] Teemo Gold: 285.8899/2045.8899, Exp:1166.9697/4
+[17-52-56] Jinx Gold: 249.19006/1449.1898, Exp:449.69943/2
+[17-52-56] Aatrox Gold: 226.4801/1571.4797, Exp:1214.7001/4
+[17-52-56] Nidalee Gold: 1285.0599/1785.0598, Exp:753.31104/3
+[17-52-56] Ashe Gold: 382.21985/1982.2197, Exp:962.22/3
+[17-52-56] Tick: 240.2421112060547. Update duration: 0.5
+[17-52-56] Cassiopeia Gold: 375.64993/2160.65, Exp:522.23944/2
+[17-52-56] Lucian Gold: 83.69995/2408.6995, Exp:962.22/3
+[17-52-56] Twitch Gold: 622.6/1547.6, Exp:847.26404/3
+[17-52-56] Morgana Gold: 140.5/1490.4998, Exp:449.69943/2
+[17-52-56] Yasuo Gold: 1994.5099/2494.5103, Exp:1098.9717/3
+[17-52-56] Teemo Gold: 238.8899/2048.89, Exp:1166.9697/4
+[17-52-56] Jinx Gold: 252.19006/1452.1898, Exp:449.69943/2
+[17-52-56] Aatrox Gold: 229.4801/1574.4797, Exp:1214.7001/4
+[17-52-56] Nidalee Gold: 1288.0599/1788.0598, Exp:753.31104/3
+[17-52-56] Ashe Gold: 535.21985/1985.2197, Exp:962.22/3
+[17-52-57] Tick: 240.7415008544922. Update duration: 0.4993896484375
+[17-52-57] Cassiopeia Gold: 378.64993/2163.65, Exp:522.23944/2
+[17-52-57] Lucian Gold: 86.69995/2411.6995, Exp:962.22/3
+[17-52-57] Twitch Gold: 625.6/1550.6, Exp:847.26404/3
+[17-52-57] Morgana Gold: 143.5/1493.4998, Exp:449.69943/2
+[17-52-57] Yasuo Gold: 1997.5099/2497.5103, Exp:1098.9717/3
+[17-52-57] Teemo Gold: 241.8899/2051.89, Exp:1166.9697/4
+[17-52-57] Jinx Gold: 255.19006/1455.1898, Exp:449.69943/2
+[17-52-57] Aatrox Gold: 232.4801/1577.4797, Exp:1214.7001/4
+[17-52-57] Nidalee Gold: 1291.0599/1791.0598, Exp:753.31104/3
+[17-52-57] Ashe Gold: 538.21985/1988.2197, Exp:962.22/3
+[17-52-57] Tick: 241.24986267089844. Update duration: 0.50836181640625
+[17-52-57] Cassiopeia Gold: 381.64993/2166.65, Exp:522.23944/2
+[17-52-57] Lucian Gold: 89.69995/2414.6995, Exp:962.22/3
+[17-52-57] Twitch Gold: 628.6/1553.6, Exp:847.26404/3
+[17-52-57] Morgana Gold: 146.5/1496.4998, Exp:449.69943/2
+[17-52-57] Yasuo Gold: 2000.5099/2500.5103, Exp:1098.9717/3
+[17-52-57] Teemo Gold: 244.8899/2054.89, Exp:1166.9697/4
+[17-52-57] Jinx Gold: 258.19006/1458.1898, Exp:449.69943/2
+[17-52-57] Aatrox Gold: 235.4801/1580.4797, Exp:1214.7001/4
+[17-52-57] Nidalee Gold: 1294.0599/1794.0598, Exp:753.31104/3
+[17-52-57] Ashe Gold: 391.21985/1991.2197, Exp:962.22/3
+[17-52-58] Tick: 241.7543182373047. Update duration: 0.50445556640625
+[17-52-58] Cassiopeia Gold: 393.46994/2178.47, Exp:606.86945/2
+[17-52-58] Lucian Gold: 92.69995/2417.6995, Exp:962.22/3
+[17-52-58] Twitch Gold: 631.6/1556.6, Exp:847.26404/3
+[17-52-58] Morgana Gold: 149.5/1499.4998, Exp:449.69943/2
+[17-52-58] Yasuo Gold: 2003.5099/2503.5103, Exp:1098.9717/3
+[17-52-58] Teemo Gold: 247.8899/2057.89, Exp:1166.9697/4
+[17-52-58] Jinx Gold: 261.19006/1461.1898, Exp:449.69943/2
+[17-52-58] Aatrox Gold: 238.4801/1583.4797, Exp:1214.7001/4
+[17-52-58] Nidalee Gold: 1297.0599/1797.0598, Exp:753.31104/3
+[17-52-58] Ashe Gold: 394.21985/1994.2197, Exp:962.22/3
+[17-52-58] Tick: 242.24778747558594. Update duration: 0.49346923828125
+[17-52-58] Cassiopeia Gold: 396.46994/2181.47, Exp:606.86945/2
+[17-52-58] Lucian Gold: 95.69995/2420.6995, Exp:962.22/3
+[17-52-58] Twitch Gold: 634.6/1559.6, Exp:847.26404/3
+[17-52-58] Morgana Gold: 152.5/1502.4998, Exp:449.69943/2
+[17-52-58] Yasuo Gold: 2006.5099/2506.5103, Exp:1098.9717/3
+[17-52-58] Teemo Gold: 250.8899/2060.89, Exp:1166.9697/4
+[17-52-58] Jinx Gold: 264.19006/1464.1898, Exp:449.69943/2
+[17-52-58] Aatrox Gold: 241.4801/1586.4797, Exp:1214.7001/4
+[17-52-58] Nidalee Gold: 1300.0599/1800.0598, Exp:753.31104/3
+[17-52-58] Ashe Gold: 397.21985/1997.2197, Exp:962.22/3
+[17-52-59] Tick: 242.75086975097656. Update duration: 0.503082275390625
+[17-52-59] Cassiopeia Gold: 408.28995/2193.29, Exp:691.49945/3
+[17-52-59] Lucian Gold: 98.69995/2423.6995, Exp:962.22/3
+[17-52-59] Twitch Gold: 637.6/1562.6, Exp:847.26404/3
+[17-52-59] Morgana Gold: 155.5/1505.4998, Exp:449.69943/2
+[17-52-59] Yasuo Gold: 2009.5099/2509.5103, Exp:1098.9717/3
+[17-52-59] Teemo Gold: 253.8899/2063.89, Exp:1166.9697/4
+[17-52-59] Jinx Gold: 267.19006/1467.1898, Exp:449.69943/2
+[17-52-59] Aatrox Gold: 244.4801/1589.4797, Exp:1214.7001/4
+[17-52-59] Nidalee Gold: 1303.0599/1803.0598, Exp:753.31104/3
+[17-52-59] Ashe Gold: 400.21985/2000.2197, Exp:962.22/3
+[17-52-59] Tick: 243.24440002441406. Update duration: 0.4935302734375
+[17-52-59] Cassiopeia Gold: 411.28995/2196.29, Exp:691.49945/3
+[17-52-59] Lucian Gold: 101.69995/2426.6995, Exp:962.22/3
+[17-52-59] Twitch Gold: 640.6/1565.6, Exp:847.26404/3
+[17-52-59] Morgana Gold: 158.5/1508.4998, Exp:449.69943/2
+[17-52-59] Yasuo Gold: 2012.5099/2512.5103, Exp:1098.9717/3
+[17-52-59] Teemo Gold: 256.8899/2066.89, Exp:1166.9697/4
+[17-52-59] Jinx Gold: 270.19006/1470.1898, Exp:449.69943/2
+[17-52-59] Aatrox Gold: 247.4801/1592.4797, Exp:1214.7001/4
+[17-52-59] Nidalee Gold: 1306.0599/1806.0598, Exp:753.31104/3
+[17-52-59] Ashe Gold: 403.21985/2003.2197, Exp:962.22/3
+[17-53-00] Tick: 243.7429656982422. Update duration: 0.498565673828125
+[17-53-00] Cassiopeia Gold: 414.28995/2199.29, Exp:691.49945/3
+[17-53-00] Lucian Gold: 104.69995/2429.6995, Exp:962.22/3
+[17-53-00] Twitch Gold: 673/1598, Exp:919.804/3
+[17-53-00] Morgana Gold: 161.5/1511.4998, Exp:449.69943/2
+[17-53-00] Yasuo Gold: 2015.5099/2515.5103, Exp:1098.9717/3
+[17-53-00] Teemo Gold: 259.8899/2069.89, Exp:1166.9697/4
+[17-53-00] Jinx Gold: 273.19006/1473.1898, Exp:449.69943/2
+[17-53-00] Aatrox Gold: 250.4801/1595.4797, Exp:1214.7001/4
+[17-53-00] Nidalee Gold: 1309.0599/1809.0598, Exp:753.31104/3
+[17-53-00] Ashe Gold: 406.21985/2006.2197, Exp:962.22/3
+[17-53-00] Tick: 244.2428436279297. Update duration: 0.4998779296875
+[17-53-00] Cassiopeia Gold: 417.28995/2202.29, Exp:691.49945/3
+[17-53-00] Lucian Gold: 107.69995/2432.6995, Exp:962.22/3
+[17-53-00] Twitch Gold: 676/1601, Exp:919.804/3
+[17-53-00] Morgana Gold: 164.5/1514.4998, Exp:449.69943/2
+[17-53-00] Yasuo Gold: 2018.5099/2518.5103, Exp:1098.9717/3
+[17-53-00] Teemo Gold: 262.8899/2072.89, Exp:1166.9697/4
+[17-53-00] Jinx Gold: 276.19006/1476.1898, Exp:449.69943/2
+[17-53-00] Aatrox Gold: 253.4801/1598.4797, Exp:1214.7001/4
+[17-53-00] Nidalee Gold: 1312.0599/1812.0598, Exp:753.31104/3
+[17-53-00] Ashe Gold: 409.21985/2009.2197, Exp:962.22/3
+[17-53-01] Tick: 244.7575225830078. Update duration: 0.514678955078125
+[17-53-01] Cassiopeia Gold: 439.88995/2224.8901, Exp:727.2114/3
+[17-53-01] Lucian Gold: 110.69995/2435.6995, Exp:962.22/3
+[17-53-01] Twitch Gold: 679/1604, Exp:919.804/3
+[17-53-01] Morgana Gold: 167.5/1517.4998, Exp:449.69943/2
+[17-53-01] Yasuo Gold: 2021.5099/2521.5103, Exp:1098.9717/3
+[17-53-01] Teemo Gold: 265.8899/2075.89, Exp:1166.9697/4
+[17-53-01] Jinx Gold: 285.07007/1485.0698, Exp:491.36343/2
+[17-53-01] Aatrox Gold: 256.4801/1601.4797, Exp:1214.7001/4
+[17-53-01] Nidalee Gold: 1315.0599/1815.0598, Exp:753.31104/3
+[17-53-01] Ashe Gold: 412.21985/2012.2197, Exp:962.22/3
+[17-53-01] Tick: 245.24557495117188. Update duration: 0.4880523681640625
+[17-53-01] Cassiopeia Gold: 442.88995/2227.8901, Exp:727.2114/3
+[17-53-01] Lucian Gold: 113.69995/2438.6995, Exp:962.22/3
+[17-53-01] Twitch Gold: 682/1607, Exp:919.804/3
+[17-53-01] Morgana Gold: 170.5/1520.4998, Exp:449.69943/2
+[17-53-01] Yasuo Gold: 2024.5099/2524.5103, Exp:1098.9717/3
+[17-53-01] Teemo Gold: 268.8899/2078.89, Exp:1166.9697/4
+[17-53-01] Jinx Gold: 288.07007/1488.0698, Exp:491.36343/2
+[17-53-01] Aatrox Gold: 259.4801/1604.4797, Exp:1214.7001/4
+[17-53-01] Nidalee Gold: 1318.0599/1818.0598, Exp:753.31104/3
+[17-53-01] Ashe Gold: 415.21985/2015.2197, Exp:962.22/3
+[17-53-02] Tick: 245.74652099609375. Update duration: 0.500946044921875
+[17-53-02] Cassiopeia Gold: 494.88995/2279.8901, Exp:794.7234/3
+[17-53-02] Lucian Gold: 116.69995/2441.6995, Exp:962.22/3
+[17-53-02] Twitch Gold: 685/1610, Exp:919.804/3
+[17-53-02] Morgana Gold: 182.32/1532.3197, Exp:528.46344/2
+[17-53-02] Yasuo Gold: 2027.5099/2527.5103, Exp:1098.9717/3
+[17-53-02] Teemo Gold: 271.8899/2081.89, Exp:1166.9697/4
+[17-53-02] Jinx Gold: 291.07007/1491.0698, Exp:491.36343/2
+[17-53-02] Aatrox Gold: 262.4801/1607.4797, Exp:1214.7001/4
+[17-53-02] Nidalee Gold: 1321.0599/1821.0598, Exp:753.31104/3
+[17-53-02] Ashe Gold: 418.21985/2018.2197, Exp:962.22/3
+[17-53-02] Tick: 246.24652099609375. Update duration: 0.5
+[17-53-02] Cassiopeia Gold: 497.88995/2282.8901, Exp:794.7234/3
+[17-53-02] Lucian Gold: 119.69995/2444.6995, Exp:962.22/3
+[17-53-02] Twitch Gold: 688/1613, Exp:919.804/3
+[17-53-02] Morgana Gold: 185.32/1535.3197, Exp:528.46344/2
+[17-53-02] Yasuo Gold: 2030.5099/2530.5103, Exp:1098.9717/3
+[17-53-02] Teemo Gold: 274.8899/2084.89, Exp:1166.9697/4
+[17-53-02] Jinx Gold: 294.07007/1494.0698, Exp:491.36343/2
+[17-53-02] Aatrox Gold: 265.4801/1610.4797, Exp:1214.7001/4
+[17-53-02] Nidalee Gold: 1324.0599/1824.0598, Exp:753.31104/3
+[17-53-02] Ashe Gold: 421.21985/2021.2197, Exp:962.22/3
+[17-53-03] Tick: 246.7433319091797. Update duration: 0.4968109130859375
+[17-53-03] Cassiopeia Gold: 500.88995/2285.8901, Exp:794.7234/3
+[17-53-03] Lucian Gold: 122.69995/2447.6995, Exp:962.22/3
+[17-53-03] Twitch Gold: 720.4/1645.4, Exp:992.344/3
+[17-53-03] Morgana Gold: 188.32/1538.3197, Exp:528.46344/2
+[17-53-03] Yasuo Gold: 2033.5099/2533.5103, Exp:1098.9717/3
+[17-53-03] Teemo Gold: 277.8899/2087.89, Exp:1166.9697/4
+[17-53-03] Jinx Gold: 297.07007/1497.0698, Exp:491.36343/2
+[17-53-03] Aatrox Gold: 268.4801/1613.4797, Exp:1214.7001/4
+[17-53-03] Nidalee Gold: 1327.0599/1827.0598, Exp:753.31104/3
+[17-53-03] Ashe Gold: 424.21985/2024.2197, Exp:962.22/3
+[17-53-03] Tick: 247.23948669433594. Update duration: 0.49615478515625
+[17-53-03] Cassiopeia Gold: 503.88995/2288.8901, Exp:794.7234/3
+[17-53-03] Lucian Gold: 125.69995/2450.6995, Exp:962.22/3
+[17-53-03] Twitch Gold: 723.4/1648.4, Exp:992.344/3
+[17-53-03] Morgana Gold: 191.32/1541.3197, Exp:528.46344/2
+[17-53-03] Yasuo Gold: 2036.5099/2536.5103, Exp:1098.9717/3
+[17-53-03] Teemo Gold: 280.8899/2090.89, Exp:1166.9697/4
+[17-53-03] Jinx Gold: 300.07007/1500.0698, Exp:491.36343/2
+[17-53-03] Aatrox Gold: 271.4801/1616.4797, Exp:1214.7001/4
+[17-53-03] Nidalee Gold: 1330.0599/1830.0598, Exp:753.31104/3
+[17-53-03] Ashe Gold: 427.21985/2027.2197, Exp:962.22/3
+[17-53-04] Tick: 247.75318908691406. Update duration: 0.513702392578125
+[17-53-04] Cassiopeia Gold: 506.88995/2291.8901, Exp:794.7234/3
+[17-53-04] Lucian Gold: 128.69995/2453.6995, Exp:962.22/3
+[17-53-04] Twitch Gold: 726.4/1651.4, Exp:992.344/3
+[17-53-04] Morgana Gold: 194.32/1544.3197, Exp:528.46344/2
+[17-53-04] Yasuo Gold: 2039.5099/2539.5103, Exp:1098.9717/3
+[17-53-04] Teemo Gold: 283.8899/2093.89, Exp:1166.9697/4
+[17-53-04] Jinx Gold: 303.07007/1503.0698, Exp:491.36343/2
+[17-53-04] Aatrox Gold: 274.4801/1619.4797, Exp:1214.7001/4
+[17-53-04] Nidalee Gold: 1333.0599/1833.0598, Exp:753.31104/3
+[17-53-04] Ashe Gold: 430.21985/2030.2197, Exp:962.22/3
+[17-53-04] Tick: 248.24752807617188. Update duration: 0.4943389892578125
+[17-53-04] Cassiopeia Gold: 513.80994/2298.81, Exp:809.5458/3
+[17-53-04] Lucian Gold: 131.69995/2456.6995, Exp:962.22/3
+[17-53-04] Twitch Gold: 729.4/1654.4, Exp:992.344/3
+[17-53-04] Morgana Gold: 201.24/1551.2397, Exp:545.7562/2
+[17-53-04] Yasuo Gold: 2042.5099/2542.5103, Exp:1098.9717/3
+[17-53-04] Teemo Gold: 286.8899/2096.89, Exp:1166.9697/4
+[17-53-04] Jinx Gold: 306.07007/1506.0698, Exp:491.36343/2
+[17-53-04] Aatrox Gold: 277.4801/1622.4797, Exp:1214.7001/4
+[17-53-04] Nidalee Gold: 1336.0599/1836.0598, Exp:753.31104/3
+[17-53-04] Ashe Gold: 437.13986/2037.1398, Exp:977.04236/3
+[17-53-05] Tick: 248.74363708496094. Update duration: 0.4961090087890625
+[17-53-05] Cassiopeia Gold: 516.80994/2301.81, Exp:809.5458/3
+[17-53-05] Lucian Gold: 134.69995/2459.6995, Exp:962.22/3
+[17-53-05] Twitch Gold: 761.80005/1686.8, Exp:1064.884/3
+[17-53-05] Morgana Gold: 204.24/1554.2397, Exp:545.7562/2
+[17-53-05] Yasuo Gold: 945.5099/2545.5103, Exp:1098.9717/3
+[17-53-05] Teemo Gold: 289.8899/2099.89, Exp:1166.9697/4
+[17-53-05] Jinx Gold: 338.47006/1538.4698, Exp:575.9934/2
+[17-53-05] Aatrox Gold: 280.4801/1625.4797, Exp:1214.7001/4
+[17-53-05] Nidalee Gold: 1339.0599/1839.0598, Exp:753.31104/3
+[17-53-05] Ashe Gold: 440.13986/2040.1398, Exp:977.04236/3
+[17-53-05] Tick: 249.24217224121094. Update duration: 0.49853515625
+[17-53-05] Cassiopeia Gold: 519.80994/2304.81, Exp:809.5458/3
+[17-53-05] Lucian Gold: 137.69995/2462.6995, Exp:962.22/3
+[17-53-05] Twitch Gold: 764.80005/1689.8, Exp:1064.884/3
+[17-53-05] Morgana Gold: 207.24/1557.2397, Exp:545.7562/2
+[17-53-05] Yasuo Gold: 948.5099/2548.5103, Exp:1098.9717/3
+[17-53-05] Teemo Gold: 292.8899/2102.89, Exp:1166.9697/4
+[17-53-05] Jinx Gold: 341.47006/1541.4698, Exp:575.9934/2
+[17-53-05] Aatrox Gold: 283.4801/1628.4797, Exp:1214.7001/4
+[17-53-05] Nidalee Gold: 1342.0599/1842.0598, Exp:753.31104/3
+[17-53-05] Ashe Gold: 443.13986/2043.1398, Exp:977.04236/3
+[17-53-06] Tick: 249.7472686767578. Update duration: 0.505096435546875
+[17-53-06] Cassiopeia Gold: 522.80994/2307.81, Exp:809.5458/3
+[17-53-06] Lucian Gold: 140.69995/2465.6995, Exp:962.22/3
+[17-53-06] Twitch Gold: 767.80005/1692.8, Exp:1064.884/3
+[17-53-06] Morgana Gold: 210.24/1560.2397, Exp:545.7562/2
+[17-53-06] Yasuo Gold: 951.5099/2551.5103, Exp:1098.9717/3
+[17-53-06] Teemo Gold: 295.8899/2105.89, Exp:1166.9697/4
+[17-53-06] Jinx Gold: 344.47006/1544.4698, Exp:575.9934/2
+[17-53-06] Aatrox Gold: 286.4801/1631.4797, Exp:1214.7001/4
+[17-53-06] Nidalee Gold: 1345.0599/1845.0598, Exp:753.31104/3
+[17-53-06] Ashe Gold: 446.13986/2046.1398, Exp:977.04236/3
+[17-53-06] Tick: 250.24124145507812. Update duration: 0.4939727783203125
+[17-53-06] Cassiopeia Gold: 525.80994/2310.81, Exp:809.5458/3
+[17-53-06] Lucian Gold: 143.69995/2468.6995, Exp:962.22/3
+[17-53-06] Twitch Gold: 770.80005/1695.8, Exp:1064.884/3
+[17-53-06] Morgana Gold: 213.24/1563.2397, Exp:545.7562/2
+[17-53-06] Yasuo Gold: 954.5099/2554.5103, Exp:1098.9717/3
+[17-53-06] Teemo Gold: 298.8899/2108.89, Exp:1166.9697/4
+[17-53-06] Jinx Gold: 347.47006/1547.4698, Exp:575.9934/2
+[17-53-06] Aatrox Gold: 289.4801/1634.4797, Exp:1214.7001/4
+[17-53-06] Nidalee Gold: 1348.0599/1848.0598, Exp:753.31104/3
+[17-53-06] Ashe Gold: 449.13986/2049.1396, Exp:977.04236/3
+[17-53-07] Tick: 250.7408447265625. Update duration: 0.499603271484375
+[17-53-07] Cassiopeia Gold: 528.80994/2313.81, Exp:809.5458/3
+[17-53-07] Lucian Gold: 146.69995/2471.6995, Exp:962.22/3
+[17-53-07] Twitch Gold: 773.80005/1698.8, Exp:1064.884/3
+[17-53-07] Morgana Gold: 216.24/1566.2397, Exp:545.7562/2
+[17-53-07] Yasuo Gold: 657.5099/2557.5103, Exp:1098.9717/3
+[17-53-07] Teemo Gold: 301.8899/2111.89, Exp:1166.9697/4
+[17-53-07] Jinx Gold: 350.47006/1550.4698, Exp:575.9934/2
+[17-53-07] Aatrox Gold: 292.4801/1637.4797, Exp:1214.7001/4
+[17-53-07] Nidalee Gold: 1351.0599/1851.0598, Exp:753.31104/3
+[17-53-07] Ashe Gold: 452.13986/2052.1396, Exp:977.04236/3
+[17-53-07] Tick: 251.24769592285156. Update duration: 0.5068511962890625
+[17-53-07] Cassiopeia Gold: 531.80994/2316.81, Exp:809.5458/3
+[17-53-07] Lucian Gold: 149.69995/2474.6995, Exp:962.22/3
+[17-53-07] Twitch Gold: 776.80005/1701.8, Exp:1064.884/3
+[17-53-07] Morgana Gold: 219.24/1569.2397, Exp:545.7562/2
+[17-53-07] Yasuo Gold: 360.5099/2560.5103, Exp:1098.9717/3
+[17-53-07] Teemo Gold: 304.8899/2114.89, Exp:1166.9697/4
+[17-53-07] Jinx Gold: 353.47006/1553.4698, Exp:575.9934/2
+[17-53-07] Aatrox Gold: 295.4801/1640.4797, Exp:1214.7001/4
+[17-53-07] Nidalee Gold: 1354.0599/1854.0598, Exp:753.31104/3
+[17-53-07] Ashe Gold: 455.13986/2055.1396, Exp:977.04236/3
+[17-53-08] Tick: 251.73959350585938. Update duration: 0.4918975830078125
+[17-53-08] Cassiopeia Gold: 534.80994/2319.81, Exp:809.5458/3
+[17-53-08] Lucian Gold: 152.69995/2477.6995, Exp:1034.76/3
+[17-53-08] Twitch Gold: 779.80005/1704.8, Exp:1064.884/3
+[17-53-08] Morgana Gold: 222.24/1572.2397, Exp:545.7562/2
+[17-53-08] Yasuo Gold: 363.5099/2563.5103, Exp:1098.9717/3
+[17-53-08] Teemo Gold: 307.8899/2117.89, Exp:1166.9697/4
+[17-53-08] Jinx Gold: 356.47006/1556.4698, Exp:575.9934/2
+[17-53-08] Aatrox Gold: 298.4801/1643.4797, Exp:1214.7001/4
+[17-53-08] Nidalee Gold: 1357.0599/1857.0598, Exp:753.31104/3
+[17-53-08] Ashe Gold: 458.13986/2058.1396, Exp:977.04236/3
+[17-53-08] Tick: 252.2350616455078. Update duration: 0.4954681396484375
+[17-53-08] Cassiopeia Gold: 537.80994/2322.81, Exp:809.5458/3
+[17-53-08] Lucian Gold: 155.69995/2480.6995, Exp:1034.76/3
+[17-53-08] Twitch Gold: 782.80005/1707.8, Exp:1064.884/3
+[17-53-08] Morgana Gold: 225.24/1575.2397, Exp:545.7562/2
+[17-53-08] Yasuo Gold: 366.5099/2566.5103, Exp:1098.9717/3
+[17-53-08] Teemo Gold: 310.8899/2120.89, Exp:1166.9697/4
+[17-53-08] Jinx Gold: 359.47006/1559.4698, Exp:575.9934/2
+[17-53-08] Aatrox Gold: 301.4801/1646.4797, Exp:1214.7001/4
+[17-53-08] Nidalee Gold: 1360.0599/1860.0598, Exp:753.31104/3
+[17-53-08] Ashe Gold: 461.13986/2061.1396, Exp:977.04236/3
+[17-53-09] Tick: 252.7454071044922. Update duration: 0.510345458984375
+[17-53-09] Cassiopeia Gold: 540.80994/2325.81, Exp:809.5458/3
+[17-53-09] Lucian Gold: 158.69995/2483.6995, Exp:1034.76/3
+[17-53-09] Twitch Gold: 785.80005/1710.8, Exp:1064.884/3
+[17-53-09] Morgana Gold: 228.24/1578.2397, Exp:545.7562/2
+[17-53-09] Yasuo Gold: 369.5099/2569.5103, Exp:1098.9717/3
+[17-53-09] Teemo Gold: 313.8899/2123.89, Exp:1166.9697/4
+[17-53-09] Jinx Gold: 362.47006/1562.4698, Exp:575.9934/2
+[17-53-09] Aatrox Gold: 304.4801/1649.4797, Exp:1214.7001/4
+[17-53-09] Nidalee Gold: 1363.0599/1863.0598, Exp:753.31104/3
+[17-53-09] Ashe Gold: 464.13986/2064.1396, Exp:977.04236/3
+[17-53-09] Tick: 253.2490997314453. Update duration: 0.503692626953125
+[17-53-09] Cassiopeia Gold: 573.20996/2358.21, Exp:839.65375/3
+[17-53-09] Lucian Gold: 161.69995/2486.6995, Exp:1034.76/3
+[17-53-09] Twitch Gold: 788.80005/1713.8, Exp:1064.884/3
+[17-53-09] Morgana Gold: 235.65001/1585.6498, Exp:580.8822/2
+[17-53-09] Yasuo Gold: 672.5099/2572.5103, Exp:1098.9717/3
+[17-53-09] Teemo Gold: 316.8899/2126.89, Exp:1166.9697/4
+[17-53-09] Jinx Gold: 414.47006/1614.4698, Exp:702.2874/3
+[17-53-09] Aatrox Gold: 307.4801/1652.4797, Exp:1214.7001/4
+[17-53-09] Nidalee Gold: 1366.0599/1866.0598, Exp:753.31104/3
+[17-53-09] Ashe Gold: 471.54987/2071.5496, Exp:1007.1503/3
+[17-53-10] Tick: 253.74774169921875. Update duration: 0.4986419677734375
+[17-53-10] Cassiopeia Gold: 576.20996/2361.21, Exp:839.65375/3
+[17-53-10] Lucian Gold: 164.69995/2489.6995, Exp:1034.76/3
+[17-53-10] Twitch Gold: 791.80005/1716.8, Exp:1064.884/3
+[17-53-10] Morgana Gold: 238.65001/1588.6498, Exp:580.8822/2
+[17-53-10] Yasuo Gold: 675.5099/2575.5103, Exp:1098.9717/3
+[17-53-10] Teemo Gold: 349.2899/2159.2898, Exp:1204.6697/4
+[17-53-10] Jinx Gold: 417.47006/1617.4698, Exp:702.2874/3
+[17-53-10] Aatrox Gold: 319.3001/1664.2997, Exp:1252.4/4
+[17-53-10] Nidalee Gold: 1369.0599/1869.0598, Exp:753.31104/3
+[17-53-10] Ashe Gold: 474.54987/2074.5496, Exp:1007.1503/3
+[17-53-10] Tick: 254.25631713867188. Update duration: 0.508575439453125
+[17-53-10] Cassiopeia Gold: 585.08997/2370.0898, Exp:869.7617/3
+[17-53-10] Lucian Gold: 167.69995/2492.6995, Exp:1034.76/3
+[17-53-10] Twitch Gold: 876.48004/1811.4801, Exp:1212.196/4
+[17-53-10] Morgana Gold: 247.53001/1597.5298, Exp:616.0082/2
+[17-53-10] Yasuo Gold: 78.50989/2578.5103, Exp:1098.9717/3
+[17-53-10] Teemo Gold: 352.2899/2162.2898, Exp:1204.6697/4
+[17-53-10] Jinx Gold: 420.47006/1620.4698, Exp:702.2874/3
+[17-53-10] Aatrox Gold: 322.3001/1667.2997, Exp:1252.4/4
+[17-53-10] Nidalee Gold: 1380.8799/1880.8798, Exp:825.851/3
+[17-53-10] Ashe Gold: 483.42987/2083.4294, Exp:1037.2583/3
+[17-53-11] Tick: 254.74945068359375. Update duration: 0.493133544921875
+[17-53-11] Cassiopeia Gold: 588.08997/2373.0898, Exp:869.7617/3
+[17-53-11] Lucian Gold: 170.69995/2495.6995, Exp:1034.76/3
+[17-53-11] Twitch Gold: 885.36005/1820.3601, Exp:1241.956/4
+[17-53-11] Morgana Gold: 250.53001/1600.5298, Exp:616.0082/2
+[17-53-11] Yasuo Gold: 81.50989/2581.5103, Exp:1098.9717/3
+[17-53-11] Teemo Gold: 355.2899/2165.2898, Exp:1204.6697/4
+[17-53-11] Jinx Gold: 452.87006/1652.8699, Exp:774.8274/3
+[17-53-11] Aatrox Gold: 325.3001/1670.2997, Exp:1252.4/4
+[17-53-11] Nidalee Gold: 1383.8799/1883.8798, Exp:825.851/3
+[17-53-11] Ashe Gold: 486.42987/2086.4294, Exp:1037.2583/3
+[17-53-11] Tick: 255.2509765625. Update duration: 0.50152587890625
+[17-53-11] Cassiopeia Gold: 591.08997/2376.0898, Exp:869.7617/3
+[17-53-11] Lucian Gold: 173.69995/2498.6995, Exp:1034.76/3
+[17-53-11] Twitch Gold: 888.36005/1823.3601, Exp:1241.956/4
+[17-53-11] Morgana Gold: 253.53001/1603.5298, Exp:616.0082/2
+[17-53-11] Yasuo Gold: 84.50989/2584.5103, Exp:1098.9717/3
+[17-53-11] Teemo Gold: 358.2899/2168.2898, Exp:1204.6697/4
+[17-53-11] Jinx Gold: 455.87006/1655.8699, Exp:774.8274/3
+[17-53-11] Aatrox Gold: 328.3001/1673.2997, Exp:1252.4/4
+[17-53-11] Nidalee Gold: 1386.8799/1886.8798, Exp:825.851/3
+[17-53-11] Ashe Gold: 489.42987/2089.4294, Exp:1037.2583/3
+[17-53-12] Tick: 255.74267578125. Update duration: 0.49169921875
+[17-53-12] Cassiopeia Gold: 594.08997/2379.0898, Exp:869.7617/3
+[17-53-12] Lucian Gold: 176.69995/2501.6995, Exp:1034.76/3
+[17-53-12] Twitch Gold: 910.96/1845.9601, Exp:1271.7161/4
+[17-53-12] Morgana Gold: 256.53003/1606.5298, Exp:616.0082/2
+[17-53-12] Yasuo Gold: 87.50989/2587.5103, Exp:1098.9717/3
+[17-53-12] Teemo Gold: 361.2899/2171.2898, Exp:1204.6697/4
+[17-53-12] Jinx Gold: 458.87006/1658.8699, Exp:774.8274/3
+[17-53-12] Aatrox Gold: 331.3001/1676.2997, Exp:1252.4/4
+[17-53-12] Nidalee Gold: 1389.8799/1889.8798, Exp:825.851/3
+[17-53-12] Ashe Gold: 492.42987/2092.4294, Exp:1037.2583/3
+[17-53-12] Tick: 256.2425537109375. Update duration: 0.4998779296875
+[17-53-12] Cassiopeia Gold: 597.08997/2382.0898, Exp:869.7617/3
+[17-53-12] Lucian Gold: 209.09995/2534.0994, Exp:1107.3/3
+[17-53-12] Twitch Gold: 913.96/1848.9601, Exp:1271.7161/4
+[17-53-12] Morgana Gold: 259.53003/1609.5298, Exp:616.0082/2
+[17-53-12] Yasuo Gold: 90.50989/2590.5103, Exp:1098.9717/3
+[17-53-12] Teemo Gold: 364.2899/2174.2898, Exp:1204.6697/4
+[17-53-12] Jinx Gold: 461.87006/1661.8699, Exp:774.8274/3
+[17-53-12] Aatrox Gold: 334.3001/1679.2997, Exp:1252.4/4
+[17-53-12] Nidalee Gold: 1392.8799/1892.8798, Exp:825.851/3
+[17-53-12] Ashe Gold: 495.42987/2095.4294, Exp:1037.2583/3
+[17-53-13] Tick: 256.75. Update duration: 0.5074462890625
+[17-53-13] Cassiopeia Gold: 629.49/2414.4897, Exp:899.8697/3
+[17-53-13] Lucian Gold: 212.09995/2537.0994, Exp:1107.3/3
+[17-53-13] Twitch Gold: 916.96/1851.9601, Exp:1271.7161/4
+[17-53-13] Morgana Gold: 266.94003/1616.9398, Exp:651.13416/2
+[17-53-13] Yasuo Gold: 93.50989/2593.5103, Exp:1098.9717/3
+[17-53-13] Teemo Gold: 396.68988/2206.6897, Exp:1242.3696/4
+[17-53-13] Jinx Gold: 464.87006/1664.8699, Exp:774.8274/3
+[17-53-13] Aatrox Gold: 346.12012/1691.1196, Exp:1290.1/4
+[17-53-13] Nidalee Gold: 1395.8799/1895.8798, Exp:825.851/3
+[17-53-13] Ashe Gold: 502.83987/2102.8394, Exp:1067.3663/3
+[17-53-13] Tick: 257.2390441894531. Update duration: 0.489044189453125
+[17-53-13] Cassiopeia Gold: 632.49/2417.4897, Exp:899.8697/3
+[17-53-13] Lucian Gold: 215.09995/2540.0994, Exp:1107.3/3
+[17-53-13] Twitch Gold: 919.96/1854.9601, Exp:1271.7161/4
+[17-53-13] Morgana Gold: 269.94003/1619.9398, Exp:651.13416/2
+[17-53-13] Yasuo Gold: 96.50989/2596.5103, Exp:1098.9717/3
+[17-53-13] Teemo Gold: 399.68988/2209.6897, Exp:1242.3696/4
+[17-53-13] Jinx Gold: 467.87006/1667.8699, Exp:774.8274/3
+[17-53-13] Aatrox Gold: 349.12012/1694.1196, Exp:1290.1/4
+[17-53-13] Nidalee Gold: 1398.8799/1898.8798, Exp:825.851/3
+[17-53-13] Ashe Gold: 505.83987/2105.8394, Exp:1067.3663/3
+[17-53-14] Tick: 257.7456970214844. Update duration: 0.50665283203125
+[17-53-14] Cassiopeia Gold: 635.49/2420.4897, Exp:899.8697/3
+[17-53-14] Lucian Gold: 218.09995/2543.0994, Exp:1107.3/3
+[17-53-14] Twitch Gold: 922.96/1857.9601, Exp:1271.7161/4
+[17-53-14] Morgana Gold: 272.94003/1622.9398, Exp:651.13416/2
+[17-53-14] Yasuo Gold: 99.50989/2599.5103, Exp:1098.9717/3
+[17-53-14] Teemo Gold: 402.68988/2212.6897, Exp:1242.3696/4
+[17-53-14] Jinx Gold: 470.87006/1670.8699, Exp:774.8274/3
+[17-53-14] Aatrox Gold: 352.12012/1697.1196, Exp:1290.1/4
+[17-53-14] Nidalee Gold: 1401.8799/1901.8798, Exp:825.851/3
+[17-53-14] Ashe Gold: 508.83987/2108.8394, Exp:1067.3663/3
+[17-53-14] Tick: 258.25408935546875. Update duration: 0.508392333984375
+[17-53-14] Cassiopeia Gold: 654.45/2439.4497, Exp:946.1897/3
+[17-53-14] Lucian Gold: 221.09995/2546.0994, Exp:1107.3/3
+[17-53-14] Twitch Gold: 925.96/1860.9601, Exp:1271.7161/4
+[17-53-14] Morgana Gold: 291.90002/1641.8998, Exp:705.17413/3
+[17-53-14] Yasuo Gold: 102.50989/2602.5103, Exp:1098.9717/3
+[17-53-14] Teemo Gold: 405.68988/2215.6897, Exp:1242.3696/4
+[17-53-14] Jinx Gold: 473.87006/1673.8699, Exp:774.8274/3
+[17-53-14] Aatrox Gold: 355.12012/1700.1196, Exp:1290.1/4
+[17-53-14] Nidalee Gold: 1404.8799/1904.8798, Exp:825.851/3
+[17-53-14] Ashe Gold: 527.79987/2127.7993, Exp:1113.6863/3
+[17-53-15] Tick: 258.75408935546875. Update duration: 0.5
+[17-53-15] Cassiopeia Gold: 657.45/2442.4497, Exp:946.1897/3
+[17-53-15] Lucian Gold: 224.09995/2549.0994, Exp:1107.3/3
+[17-53-15] Twitch Gold: 928.96/1863.9601, Exp:1271.7161/4
+[17-53-15] Morgana Gold: 294.90002/1644.8998, Exp:705.17413/3
+[17-53-15] Yasuo Gold: 105.50989/2605.5103, Exp:1098.9717/3
+[17-53-15] Teemo Gold: 438.08987/2248.0896, Exp:1280.0696/4
+[17-53-15] Jinx Gold: 476.87006/1676.8699, Exp:774.8274/3
+[17-53-15] Aatrox Gold: 366.94012/1711.9396, Exp:1327.7999/4
+[17-53-15] Nidalee Gold: 1407.8799/1907.8798, Exp:825.851/3
+[17-53-15] Ashe Gold: 530.79987/2130.7993, Exp:1113.6863/3
+[17-53-15] Tick: 259.25177001953125. Update duration: 0.4976806640625
+[17-53-15] Cassiopeia Gold: 660.45/2445.4497, Exp:946.1897/3
+[17-53-15] Lucian Gold: 227.09995/2552.0994, Exp:1107.3/3
+[17-53-15] Twitch Gold: 931.96/1866.9601, Exp:1271.7161/4
+[17-53-15] Morgana Gold: 297.90002/1647.8998, Exp:705.17413/3
+[17-53-15] Yasuo Gold: 108.50989/2608.5103, Exp:1098.9717/3
+[17-53-15] Teemo Gold: 441.08987/2251.0896, Exp:1280.0696/4
+[17-53-15] Jinx Gold: 479.87006/1679.8699, Exp:774.8274/3
+[17-53-15] Aatrox Gold: 369.94012/1714.9396, Exp:1327.7999/4
+[17-53-15] Nidalee Gold: 1410.8799/1910.8798, Exp:825.851/3
+[17-53-15] Ashe Gold: 533.79987/2133.7993, Exp:1113.6863/3
+[17-53-16] Tick: 259.75445556640625. Update duration: 0.502685546875
+[17-53-16] Cassiopeia Gold: 669.33/2454.3296, Exp:961.0121/3
+[17-53-16] Lucian Gold: 230.09995/2555.0994, Exp:1107.3/3
+[17-53-16] Twitch Gold: 934.96/1869.9601, Exp:1271.7161/4
+[17-53-16] Morgana Gold: 320.50003/1670.4998, Exp:719.9965/3
+[17-53-16] Yasuo Gold: 111.50989/2611.5103, Exp:1098.9717/3
+[17-53-16] Teemo Gold: 444.08987/2254.0896, Exp:1280.0696/4
+[17-53-16] Jinx Gold: 482.87006/1682.8699, Exp:774.8274/3
+[17-53-16] Aatrox Gold: 372.94012/1717.9396, Exp:1327.7999/4
+[17-53-16] Nidalee Gold: 1413.8799/1913.8798, Exp:825.851/3
+[17-53-16] Ashe Gold: 536.79987/2136.7993, Exp:1128.5087/3
+[17-53-16] Tick: 260.24700927734375. Update duration: 0.4925537109375
+[17-53-16] Cassiopeia Gold: 672.33/2457.3296, Exp:961.0121/3
+[17-53-16] Lucian Gold: 233.09995/2558.0994, Exp:1107.3/3
+[17-53-16] Twitch Gold: 937.96/1872.9601, Exp:1271.7161/4
+[17-53-16] Morgana Gold: 323.50003/1673.4998, Exp:719.9965/3
+[17-53-16] Yasuo Gold: 114.50989/2614.5103, Exp:1098.9717/3
+[17-53-16] Teemo Gold: 447.08987/2257.0896, Exp:1280.0696/4
+[17-53-16] Jinx Gold: 485.87006/1685.8699, Exp:774.8274/3
+[17-53-16] Aatrox Gold: 375.94012/1720.9396, Exp:1327.7999/4
+[17-53-16] Nidalee Gold: 1416.8799/1916.8798, Exp:825.851/3
+[17-53-16] Ashe Gold: 539.79987/2139.7993, Exp:1128.5087/3
+[17-53-17] Tick: 260.7456970214844. Update duration: 0.498687744140625
+[17-53-17] Cassiopeia Gold: 681.21/2466.2095, Exp:983.28406/3
+[17-53-17] Lucian Gold: 236.09995/2561.0994, Exp:1107.3/3
+[17-53-17] Twitch Gold: 940.96/1875.9601, Exp:1271.7161/4
+[17-53-17] Morgana Gold: 346.10004/1696.0997, Exp:742.2685/3
+[17-53-17] Yasuo Gold: 117.50989/2617.5103, Exp:1098.9717/3
+[17-53-17] Teemo Gold: 450.08987/2260.0896, Exp:1280.0696/4
+[17-53-17] Jinx Gold: 488.87006/1688.8699, Exp:774.8274/3
+[17-53-17] Aatrox Gold: 378.94012/1723.9396, Exp:1327.7999/4
+[17-53-17] Nidalee Gold: 1419.8799/1919.8798, Exp:825.851/3
+[17-53-17] Ashe Gold: 542.79987/2142.7993, Exp:1128.5087/3
+[17-53-17] Tick: 261.25323486328125. Update duration: 0.507537841796875
+[17-53-17] Cassiopeia Gold: 684.21/2469.2095, Exp:983.28406/3
+[17-53-17] Lucian Gold: 239.09995/2564.0994, Exp:1107.3/3
+[17-53-17] Twitch Gold: 943.96/1878.9601, Exp:1271.7161/4
+[17-53-17] Morgana Gold: 349.10004/1699.0997, Exp:742.2685/3
+[17-53-17] Yasuo Gold: 120.50989/2620.5103, Exp:1098.9717/3
+[17-53-17] Teemo Gold: 453.08987/2263.0896, Exp:1280.0696/4
+[17-53-17] Jinx Gold: 491.87006/1691.8699, Exp:774.8274/3
+[17-53-17] Aatrox Gold: 381.94012/1726.9396, Exp:1327.7999/4
+[17-53-17] Nidalee Gold: 1422.8799/1922.8798, Exp:825.851/3
+[17-53-17] Ashe Gold: 545.79987/2145.7993, Exp:1128.5087/3
+[17-53-18] Tick: 261.73944091796875. Update duration: 0.4862060546875
+[17-53-18] Cassiopeia Gold: 687.21/2472.2095, Exp:983.28406/3
+[17-53-18] Lucian Gold: 242.09995/2567.0994, Exp:1107.3/3
+[17-53-18] Twitch Gold: 946.96/1881.9601, Exp:1271.7161/4
+[17-53-18] Morgana Gold: 352.10004/1702.0997, Exp:742.2685/3
+[17-53-18] Yasuo Gold: 123.50989/2623.5103, Exp:1098.9717/3
+[17-53-18] Teemo Gold: 456.08987/2266.0896, Exp:1280.0696/4
+[17-53-18] Jinx Gold: 494.87006/1694.8699, Exp:774.8274/3
+[17-53-18] Aatrox Gold: 384.94012/1729.9396, Exp:1327.7999/4
+[17-53-18] Nidalee Gold: 1425.8799/1925.8798, Exp:825.851/3
+[17-53-18] Ashe Gold: 548.79987/2148.7993, Exp:1128.5087/3
+[17-53-18] Tick: 262.25335693359375. Update duration: 0.513916015625
+[17-53-18] Cassiopeia Gold: 696.09/2481.0894, Exp:1005.556/3
+[17-53-18] Lucian Gold: 245.09995/2570.0994, Exp:1107.3/3
+[17-53-18] Twitch Gold: 949.96/1884.9601, Exp:1271.7161/4
+[17-53-18] Morgana Gold: 360.98004/1710.9797, Exp:764.54047/3
+[17-53-18] Yasuo Gold: 126.50989/2626.5103, Exp:1098.9717/3
+[17-53-18] Teemo Gold: 464.96988/2274.9695, Exp:1298.6296/4
+[17-53-18] Jinx Gold: 497.87006/1697.8699, Exp:774.8274/3
+[17-53-18] Aatrox Gold: 407.54013/1752.5396, Exp:1346.36/4
+[17-53-18] Nidalee Gold: 1428.8799/1928.8798, Exp:825.851/3
+[17-53-18] Ashe Gold: 551.79987/2151.7993, Exp:1128.5087/3
+[17-53-19] Tick: 262.7483215332031. Update duration: 0.494964599609375
+[17-53-19] Cassiopeia Gold: 699.09/2484.0894, Exp:1005.556/3
+[17-53-19] Lucian Gold: 248.09995/2573.0994, Exp:1107.3/3
+[17-53-19] Twitch Gold: 952.96/1887.9601, Exp:1271.7161/4
+[17-53-19] Morgana Gold: 363.98004/1713.9797, Exp:764.54047/3
+[17-53-19] Yasuo Gold: 129.50989/2629.5103, Exp:1098.9717/3
+[17-53-19] Teemo Gold: 467.96988/2277.9695, Exp:1298.6296/4
+[17-53-19] Jinx Gold: 520.47003/1720.4698, Exp:810.53937/3
+[17-53-19] Aatrox Gold: 410.54013/1755.5396, Exp:1346.36/4
+[17-53-19] Nidalee Gold: 1431.8799/1931.8798, Exp:825.851/3
+[17-53-19] Ashe Gold: 554.79987/2154.7993, Exp:1128.5087/3
+[17-53-19] Tick: 263.24444580078125. Update duration: 0.496124267578125
+[17-53-19] Cassiopeia Gold: 702.09/2487.0894, Exp:1005.556/3
+[17-53-19] Lucian Gold: 251.09995/2576.0994, Exp:1107.3/3
+[17-53-19] Twitch Gold: 1255.96/2190.96, Exp:1271.7161/4
+[17-53-19] Morgana Gold: 366.98004/1716.9797, Exp:764.54047/3
+[17-53-19] Yasuo Gold: 132.50989/2632.5103, Exp:1098.9717/3
+[17-53-19] Teemo Gold: 470.96988/2280.9695, Exp:1298.6296/4
+[17-53-19] Jinx Gold: 523.47003/1723.4698, Exp:810.53937/3
+[17-53-19] Aatrox Gold: 413.54013/1758.5396, Exp:1346.36/4
+[17-53-19] Nidalee Gold: 1434.8799/1934.8798, Exp:825.851/3
+[17-53-19] Ashe Gold: 557.79987/2157.7993, Exp:1128.5087/3
+[17-53-20] Tick: 263.7505798339844. Update duration: 0.506134033203125
+[17-53-20] Cassiopeia Gold: 705.09/2490.0894, Exp:1005.556/3
+[17-53-20] Lucian Gold: 254.09995/2579.0994, Exp:1107.3/3
+[17-53-20] Twitch Gold: 1258.96/2193.96, Exp:1271.7161/4
+[17-53-20] Morgana Gold: 369.98004/1719.9797, Exp:764.54047/3
+[17-53-20] Yasuo Gold: 135.50989/2635.5103, Exp:1098.9717/3
+[17-53-20] Teemo Gold: 473.96988/2283.9695, Exp:1298.6296/4
+[17-53-20] Jinx Gold: 526.47003/1726.4698, Exp:810.53937/3
+[17-53-20] Aatrox Gold: 416.54013/1761.5396, Exp:1346.36/4
+[17-53-20] Nidalee Gold: 1437.8799/1937.8798, Exp:825.851/3
+[17-53-20] Ashe Gold: 560.79987/2160.7993, Exp:1128.5087/3
+[17-53-20] Tick: 264.2467041015625. Update duration: 0.496124267578125
+[17-53-20] Cassiopeia Gold: 708.09/2493.0894, Exp:1005.556/3
+[17-53-20] Lucian Gold: 257.09995/2582.0994, Exp:1107.3/3
+[17-53-20] Twitch Gold: 1261.96/2196.96, Exp:1271.7161/4
+[17-53-20] Morgana Gold: 372.98004/1722.9797, Exp:764.54047/3
+[17-53-20] Yasuo Gold: 138.50989/2638.5103, Exp:1098.9717/3
+[17-53-20] Teemo Gold: 476.96988/2286.9695, Exp:1298.6296/4
+[17-53-20] Jinx Gold: 592.61/1792.6097, Exp:993.5633/3
+[17-53-20] Aatrox Gold: 419.54013/1764.5396, Exp:1346.36/4
+[17-53-20] Nidalee Gold: 1440.8799/1940.8798, Exp:825.851/3
+[17-53-20] Ashe Gold: 563.79987/2163.7993, Exp:1128.5087/3
+[17-53-21] Tick: 264.7445983886719. Update duration: 0.497894287109375
+[17-53-21] Cassiopeia Gold: 711.09/2496.0894, Exp:1005.556/3
+[17-53-21] Lucian Gold: 260.09995/2585.0994, Exp:1107.3/3
+[17-53-21] Twitch Gold: 1264.96/2199.96, Exp:1271.7161/4
+[17-53-21] Morgana Gold: 375.98004/1725.9797, Exp:764.54047/3
+[17-53-21] Yasuo Gold: 141.50989/2641.5103, Exp:1098.9717/3
+[17-53-21] Teemo Gold: 479.96988/2289.9695, Exp:1298.6296/4
+[17-53-21] Jinx Gold: 595.61/1795.6097, Exp:993.5633/3
+[17-53-21] Aatrox Gold: 422.54013/1767.5396, Exp:1346.36/4
+[17-53-21] Nidalee Gold: 1443.8799/1943.8798, Exp:825.851/3
+[17-53-21] Ashe Gold: 566.79987/2166.7993, Exp:1128.5087/3
+[17-53-21] Tick: 265.2633361816406. Update duration: 0.51873779296875
+[17-53-21] Cassiopeia Gold: 714.09/2499.0894, Exp:1005.556/3
+[17-53-21] Lucian Gold: 263.09995/2588.0994, Exp:1107.3/3
+[17-53-21] Twitch Gold: 1267.96/2202.96, Exp:1271.7161/4
+[17-53-21] Morgana Gold: 378.98004/1728.9797, Exp:764.54047/3
+[17-53-21] Yasuo Gold: 144.50989/2644.5103, Exp:1098.9717/3
+[17-53-21] Teemo Gold: 482.96988/2292.9695, Exp:1298.6296/4
+[17-53-21] Jinx Gold: 598.61/1798.6097, Exp:993.5633/3
+[17-53-21] Aatrox Gold: 425.54013/1770.5396, Exp:1346.36/4
+[17-53-21] Nidalee Gold: 1446.8799/1946.8798, Exp:825.851/3
+[17-53-21] Ashe Gold: 569.79987/2169.7993, Exp:1128.5087/3
+[17-53-22] Tick: 265.7388916015625. Update duration: 0.475555419921875
+[17-53-22] Cassiopeia Gold: 717.09/2502.0894, Exp:1005.556/3
+[17-53-22] Lucian Gold: 266.09995/2591.0994, Exp:1107.3/3
+[17-53-22] Twitch Gold: 1270.96/2205.96, Exp:1271.7161/4
+[17-53-22] Morgana Gold: 381.98004/1731.9797, Exp:764.54047/3
+[17-53-22] Yasuo Gold: 147.50989/2647.5103, Exp:1098.9717/3
+[17-53-22] Teemo Gold: 485.96988/2295.9695, Exp:1298.6296/4
+[17-53-22] Jinx Gold: 601.61/1801.6097, Exp:993.5633/3
+[17-53-22] Aatrox Gold: 428.54013/1773.5396, Exp:1346.36/4
+[17-53-22] Nidalee Gold: 1449.8799/1949.8798, Exp:825.851/3
+[17-53-22] Ashe Gold: 572.79987/2172.7993, Exp:1128.5087/3
+[17-53-22] Tick: 266.24310302734375. Update duration: 0.50421142578125
+[17-53-22] Cassiopeia Gold: 720.09/2505.0894, Exp:1005.556/3
+[17-53-22] Lucian Gold: 269.09995/2594.0994, Exp:1107.3/3
+[17-53-22] Twitch Gold: 1273.96/2208.96, Exp:1271.7161/4
+[17-53-22] Morgana Gold: 384.98004/1734.9797, Exp:764.54047/3
+[17-53-22] Yasuo Gold: 150.50989/2650.5103, Exp:1098.9717/3
+[17-53-22] Teemo Gold: 494.84988/2304.8494, Exp:1317.1897/4
+[17-53-22] Jinx Gold: 604.61/1804.6097, Exp:993.5633/3
+[17-53-22] Aatrox Gold: 451.14014/1796.1395, Exp:1364.92/4
+[17-53-22] Nidalee Gold: 1452.8799/1952.8798, Exp:825.851/3
+[17-53-22] Ashe Gold: 575.79987/2175.7993, Exp:1128.5087/3
+[17-53-23] Tick: 266.7499694824219. Update duration: 0.506866455078125
+[17-53-23] Cassiopeia Gold: 723.09/2508.0894, Exp:1005.556/3
+[17-53-23] Lucian Gold: 272.09995/2597.0994, Exp:1107.3/3
+[17-53-23] Twitch Gold: 1276.96/2211.96, Exp:1271.7161/4
+[17-53-23] Morgana Gold: 387.98004/1737.9797, Exp:764.54047/3
+[17-53-23] Yasuo Gold: 153.50989/2653.5103, Exp:1098.9717/3
+[17-53-23] Teemo Gold: 497.84988/2307.8494, Exp:1317.1897/4
+[17-53-23] Jinx Gold: 607.61/1807.6097, Exp:993.5633/3
+[17-53-23] Aatrox Gold: 454.14014/1799.1395, Exp:1364.92/4
+[17-53-23] Nidalee Gold: 1455.8799/1955.8798, Exp:825.851/3
+[17-53-23] Ashe Gold: 578.79987/2178.7993, Exp:1128.5087/3
+[17-53-23] Tick: 267.2557067871094. Update duration: 0.5057373046875
+[17-53-23] Cassiopeia Gold: 726.09/2511.0894, Exp:1005.556/3
+[17-53-23] Lucian Gold: 275.09995/2600.0994, Exp:1107.3/3
+[17-53-23] Twitch Gold: 1279.96/2214.96, Exp:1271.7161/4
+[17-53-23] Morgana Gold: 390.98004/1740.9797, Exp:764.54047/3
+[17-53-23] Yasuo Gold: 185.90988/2685.9102, Exp:1144.2117/4
+[17-53-23] Teemo Gold: 506.7299/2316.7292, Exp:1335.7498/4
+[17-53-23] Jinx Gold: 610.61/1810.6097, Exp:993.5633/3
+[17-53-23] Aatrox Gold: 463.02014/1808.0195, Exp:1383.4801/4
+[17-53-23] Nidalee Gold: 1467.6998/1967.6997, Exp:871.091/3
+[17-53-23] Ashe Gold: 581.79987/2181.7993, Exp:1128.5087/3
+[17-53-24] Tick: 267.7561340332031. Update duration: 0.50042724609375
+[17-53-24] Cassiopeia Gold: 729.09/2514.0894, Exp:1005.556/3
+[17-53-24] Lucian Gold: 278.09995/2603.0994, Exp:1107.3/3
+[17-53-24] Twitch Gold: 1282.96/2217.96, Exp:1271.7161/4
+[17-53-24] Morgana Gold: 393.98004/1743.9797, Exp:764.54047/3
+[17-53-24] Yasuo Gold: 188.90988/2688.9102, Exp:1144.2117/4
+[17-53-24] Teemo Gold: 509.7299/2319.7292, Exp:1335.7498/4
+[17-53-24] Jinx Gold: 613.61/1813.6097, Exp:993.5633/3
+[17-53-24] Aatrox Gold: 466.02014/1811.0195, Exp:1383.4801/4
+[17-53-24] Nidalee Gold: 1470.6998/1970.6997, Exp:871.091/3
+[17-53-24] Ashe Gold: 584.79987/2184.7993, Exp:1128.5087/3
+[17-53-24] Tick: 268.24365234375. Update duration: 0.487518310546875
+[17-53-24] Cassiopeia Gold: 732.09/2517.0894, Exp:1005.556/3
+[17-53-24] Lucian Gold: 281.09995/2606.0994, Exp:1107.3/3
+[17-53-24] Twitch Gold: 1285.96/2220.96, Exp:1271.7161/4
+[17-53-24] Morgana Gold: 396.98004/1746.9797, Exp:764.54047/3
+[17-53-24] Yasuo Gold: 191.90988/2691.9102, Exp:1144.2117/4
+[17-53-24] Teemo Gold: 512.72986/2322.7292, Exp:1335.7498/4
+[17-53-24] Jinx Gold: 616.61/1816.6097, Exp:993.5633/3
+[17-53-24] Aatrox Gold: 469.02014/1814.0195, Exp:1383.4801/4
+[17-53-24] Nidalee Gold: 1473.6998/1973.6997, Exp:871.091/3
+[17-53-24] Ashe Gold: 587.79987/2187.7993, Exp:1128.5087/3
+[17-53-25] Tick: 268.7341003417969. Update duration: 0.490447998046875
+[17-53-25] Cassiopeia Gold: 735.09/2520.0894, Exp:1005.556/3
+[17-53-25] Lucian Gold: 284.09995/2609.0994, Exp:1107.3/3
+[17-53-25] Twitch Gold: 1288.96/2223.96, Exp:1271.7161/4
+[17-53-25] Morgana Gold: 399.98004/1749.9797, Exp:764.54047/3
+[17-53-25] Yasuo Gold: 194.90988/2694.9102, Exp:1144.2117/4
+[17-53-25] Teemo Gold: 515.72986/2325.7292, Exp:1335.7498/4
+[17-53-25] Jinx Gold: 619.61/1819.6097, Exp:993.5633/3
+[17-53-25] Aatrox Gold: 472.02014/1817.0195, Exp:1383.4801/4
+[17-53-25] Nidalee Gold: 1476.6998/1976.6997, Exp:871.091/3
+[17-53-25] Ashe Gold: 590.79987/2190.7993, Exp:1128.5087/3
+[17-53-25] Tick: 269.2495422363281. Update duration: 0.51544189453125
+[17-53-25] Cassiopeia Gold: 738.09/2523.0894, Exp:1005.556/3
+[17-53-25] Lucian Gold: 287.09995/2612.0994, Exp:1107.3/3
+[17-53-25] Twitch Gold: 1291.96/2226.96, Exp:1271.7161/4
+[17-53-25] Morgana Gold: 402.98004/1752.9797, Exp:764.54047/3
+[17-53-25] Yasuo Gold: 206.72989/2706.7302, Exp:1181.9116/4
+[17-53-25] Teemo Gold: 518.72986/2328.7292, Exp:1335.7498/4
+[17-53-25] Jinx Gold: 622.61/1822.6097, Exp:993.5633/3
+[17-53-25] Aatrox Gold: 475.02014/1820.0195, Exp:1383.4801/4
+[17-53-25] Nidalee Gold: 1488.5198/1988.5197, Exp:916.331/3
+[17-53-25] Ashe Gold: 593.79987/2193.7993, Exp:1128.5087/3
+[17-53-26] Tick: 269.7474670410156. Update duration: 0.4979248046875
+[17-53-26] Cassiopeia Gold: 741.09/2526.0894, Exp:1005.556/3
+[17-53-26] Lucian Gold: 290.09995/2615.0994, Exp:1107.3/3
+[17-53-26] Twitch Gold: 1294.96/2229.96, Exp:1271.7161/4
+[17-53-26] Morgana Gold: 405.98004/1755.9797, Exp:764.54047/3
+[17-53-26] Yasuo Gold: 209.72989/2709.7302, Exp:1181.9116/4
+[17-53-26] Teemo Gold: 521.72986/2331.7292, Exp:1335.7498/4
+[17-53-26] Jinx Gold: 625.61/1825.6097, Exp:993.5633/3
+[17-53-26] Aatrox Gold: 478.02014/1823.0195, Exp:1383.4801/4
+[17-53-26] Nidalee Gold: 1491.5198/1991.5197, Exp:916.331/3
+[17-53-26] Ashe Gold: 596.79987/2196.7993, Exp:1128.5087/3
+[17-53-26] Tick: 270.2413024902344. Update duration: 0.49383544921875
+[17-53-26] Cassiopeia Gold: 744.09/2529.0894, Exp:1005.556/3
+[17-53-26] Lucian Gold: 293.09995/2618.0994, Exp:1107.3/3
+[17-53-26] Twitch Gold: 1297.96/2232.96, Exp:1271.7161/4
+[17-53-26] Morgana Gold: 408.98004/1758.9797, Exp:764.54047/3
+[17-53-26] Yasuo Gold: 212.72989/2712.7302, Exp:1181.9116/4
+[17-53-26] Teemo Gold: 524.72986/2334.7292, Exp:1335.7498/4
+[17-53-26] Jinx Gold: 628.61/1828.6097, Exp:993.5633/3
+[17-53-26] Aatrox Gold: 481.02014/1826.0195, Exp:1383.4801/4
+[17-53-26] Nidalee Gold: 1494.5198/1994.5197, Exp:916.331/3
+[17-53-26] Ashe Gold: 599.79987/2199.7993, Exp:1128.5087/3
+[17-53-27] Tick: 270.7471008300781. Update duration: 0.50579833984375
+[17-53-27] Cassiopeia Gold: 747.09/2532.0894, Exp:1005.556/3
+[17-53-27] Lucian Gold: 296.09995/2621.0994, Exp:1107.3/3
+[17-53-27] Twitch Gold: 1300.96/2235.96, Exp:1271.7161/4
+[17-53-27] Morgana Gold: 411.98004/1761.9797, Exp:764.54047/3
+[17-53-27] Yasuo Gold: 215.72989/2715.7302, Exp:1181.9116/4
+[17-53-27] Teemo Gold: 613.52985/2423.5293, Exp:1393.7498/4
+[17-53-27] Jinx Gold: 631.61/1831.6097, Exp:993.5633/3
+[17-53-27] Aatrox Gold: 507.96014/1852.9595, Exp:1441.4801/4
+[17-53-27] Nidalee Gold: 1497.5198/1997.5197, Exp:916.331/3
+[17-53-27] Ashe Gold: 602.79987/2202.7993, Exp:1128.5087/3
+[17-53-27] Tick: 271.2375183105469. Update duration: 0.49041748046875
+[17-53-27] Cassiopeia Gold: 750.09/2535.0894, Exp:1005.556/3
+[17-53-27] Lucian Gold: 299.09995/2624.0994, Exp:1107.3/3
+[17-53-27] Twitch Gold: 1303.96/2238.96, Exp:1271.7161/4
+[17-53-27] Morgana Gold: 414.98004/1764.9797, Exp:764.54047/3
+[17-53-27] Yasuo Gold: 218.72989/2718.7302, Exp:1181.9116/4
+[17-53-27] Teemo Gold: 616.52985/2426.5293, Exp:1393.7498/4
+[17-53-27] Jinx Gold: 634.61/1834.6097, Exp:993.5633/3
+[17-53-27] Aatrox Gold: 510.96014/1855.9595, Exp:1441.4801/4
+[17-53-27] Nidalee Gold: 1500.5198/2000.5197, Exp:916.331/3
+[17-53-27] Ashe Gold: 605.79987/2205.7993, Exp:1128.5087/3
+[17-53-28] Tick: 271.74517822265625. Update duration: 0.507659912109375
+[17-53-28] Cassiopeia Gold: 753.09/2538.0894, Exp:1005.556/3
+[17-53-28] Lucian Gold: 302.09995/2627.0994, Exp:1107.3/3
+[17-53-28] Twitch Gold: 1306.96/2241.96, Exp:1271.7161/4
+[17-53-28] Morgana Gold: 417.98004/1767.9797, Exp:764.54047/3
+[17-53-28] Yasuo Gold: 221.72989/2721.7302, Exp:1181.9116/4
+[17-53-28] Teemo Gold: 619.52985/2429.5293, Exp:1393.7498/4
+[17-53-28] Jinx Gold: 637.61/1837.6097, Exp:993.5633/3
+[17-53-28] Aatrox Gold: 513.96014/1858.9595, Exp:1441.4801/4
+[17-53-28] Nidalee Gold: 1503.5198/2003.5197, Exp:916.331/3
+[17-53-28] Ashe Gold: 608.79987/2208.7993, Exp:1128.5087/3
+[17-53-28] Tick: 540.392822265625. Update duration: 268.64764404296875
+[17-53-28] Cassiopeia Gold: 295.94998/5805.948, Exp:3497.7815/7
+[17-53-28] Twitch Gold: 654.8195/4599.818, Exp:3472.6536/7
+[17-53-28] Lucian Gold: 924.7599/7589.7583, Exp:3838.524/7
+[17-53-28] Yasuo Gold: 1162.8728/6012.872, Exp:3516.7163/7
+[17-53-28] Teemo Gold: 1279.53/5939.5264, Exp:3930.5437/7
+[17-53-28] Morgana Gold: 774.4002/4024.3992, Exp:2611.762/6
+[17-53-28] Jinx Gold: 4570.1294/5780.1284, Exp:3980.9006/7
+[17-53-28] Aatrox Gold: 1765.4802/6135.478, Exp:4231.6484/8
+[17-53-28] Nidalee Gold: 423.8192/4423.8184, Exp:2728.2988/6
+[17-53-28] Ashe Gold: 687.57983/6087.577, Exp:3791.8206/7
+[17-53-28] Player 0 lvl up
+[17-53-28] Player 0 finished Item 6672
+[17-53-28] Player 1 lvl up
+[17-53-28] Player 1 finished Item 6672
+[17-53-28] Player 2 lvl up
+[17-53-28] Player 2 finished Item 6653
+[17-53-28] Player 3 lvl up
+[17-53-28] Player 3 finished Item 6653
+[17-53-28] Player 4 lvl up
+[17-53-28] Player 5 lvl up
+[17-53-28] Player 6 lvl up
+[17-53-28] Player 6 finished Item 6630
+[17-53-28] Player 7 lvl up
+[17-53-28] Player 7 finished Item 3115
+[17-53-28] Player 8 lvl up
+[17-53-28] Player 8 finished Item 6655
+[17-53-28] Player 9 lvl up
+[17-53-28] Player 9 finished Item 6655
+[17-53-29] Tick: 554.1537475585938. Update duration: 13.76092529296875
+[17-53-29] Cassiopeia Gold: 379.94998/5889.948, Exp:3497.7815/7
+[17-53-29] Lucian Gold: 308.7599/7673.7583, Exp:3838.524/7
+[17-53-29] Twitch Gold: 1032.3795/4987.3774, Exp:3980.4333/7
+[17-53-29] Morgana Gold: 858.4002/4108.3994, Exp:2611.762/6
+[17-53-29] Yasuo Gold: 96.8728/6146.872, Exp:3516.7163/7
+[17-53-29] Teemo Gold: 1712.51/6372.506, Exp:4125.5396/8
+[17-53-29] Jinx Gold: 904.1294/5864.1284, Exp:3980.9006/7
+[17-53-29] Aatrox Gold: 2191.6/6561.5977, Exp:4400.429/8
+[17-53-29] Nidalee Gold: 587.21924/4587.2183, Exp:2812.9287/6
+[17-53-29] Ashe Gold: 621.57983/6171.577, Exp:3791.8206/7
+[17-53-29] New Event: {"EventID":5,"EventName":"TurretKilled","EventTime":551.2708740234375,"Assisters":["FalkenHenry"],"KillerName":"blrekoen","VictimName":null,"Recipient":null,"InhibKilled":null,"TurretKilled":"Turret_T1_R_03_A","KillStreak":null,"eventType":"TurretKilled"}
+[17-53-29] New Event: {"EventID":6,"EventName":"FirstBrick","EventTime":551.2708740234375,"Assisters":null,"KillerName":"blrekoen","VictimName":null,"Recipient":null,"InhibKilled":null,"TurretKilled":null,"KillStreak":null,"eventType":"FirstBrick"}
+[17-53-29] Player 4 finished Item 6671
+[17-53-29] Player 5 finished Item 6673
+[17-53-29] Tick: 566.9578857421875. Update duration: 12.80413818359375
+[17-53-29] Cassiopeia Gold: 454.94998/5964.948, Exp:3497.7815/7
+[17-53-29] Lucian Gold: 540.7599/7905.7583, Exp:4151.3755/8
+[17-53-29] Twitch Gold: 1107.3795/5062.3774, Exp:3980.4333/7
+[17-53-29] Morgana Gold: 933.4002/4183.3994, Exp:2611.762/6
+[17-53-29] Yasuo Gold: 225.77283/6275.772, Exp:3669.5122/7
+[17-53-29] Teemo Gold: 1787.51/6447.506, Exp:4125.5396/8
+[17-53-29] Jinx Gold: 737.9293/5997.9287, Exp:4088.0364/8
+[17-53-29] Aatrox Gold: 2266.6/6636.5977, Exp:4400.429/8
+[17-53-29] Nidalee Gold: 662.21924/4662.2183, Exp:2864.8965/6
+[17-53-29] Ashe Gold: 696.57983/6246.577, Exp:3791.8206/7
+[17-53-30] Tick: 567.46875. Update duration: 0.5108642578125
+[17-53-30] Cassiopeia Gold: 457.94998/5967.948, Exp:3497.7815/7
+[17-53-30] Lucian Gold: 543.7599/7908.7583, Exp:4151.3755/8
+[17-53-30] Twitch Gold: 1110.3795/5065.3774, Exp:3980.4333/7
+[17-53-30] Morgana Gold: 936.4002/4186.3994, Exp:2611.762/6
+[17-53-30] Yasuo Gold: 228.77283/6278.772, Exp:3669.5122/7
+[17-53-30] Teemo Gold: 1790.51/6450.506, Exp:4125.5396/8
+[17-53-30] Jinx Gold: 740.9293/6000.9287, Exp:4088.0364/8
+[17-53-30] Aatrox Gold: 2269.6/6639.5977, Exp:4400.429/8
+[17-53-30] Nidalee Gold: 665.21924/4665.2183, Exp:2864.8965/6
+[17-53-30] Ashe Gold: 699.57983/6249.577, Exp:3791.8206/7
+[17-53-30] Tick: 567.9548950195312. Update duration: 0.48614501953125
+[17-53-30] Cassiopeia Gold: 519.75/6029.748, Exp:3642.8616/7
+[17-53-30] Lucian Gold: 546.7599/7911.7583, Exp:4151.3755/8
+[17-53-30] Twitch Gold: 1113.3795/5068.3774, Exp:3980.4333/7
+[17-53-30] Morgana Gold: 939.4002/4189.3994, Exp:2611.762/6
+[17-53-30] Yasuo Gold: 231.77283/6281.772, Exp:3669.5122/7
+[17-53-30] Teemo Gold: 1793.51/6453.506, Exp:4125.5396/8
+[17-53-30] Jinx Gold: 743.9293/6003.9287, Exp:4088.0364/8
+[17-53-30] Aatrox Gold: 2272.6/6642.5977, Exp:4400.429/8
+[17-53-30] Nidalee Gold: 668.21924/4668.2183, Exp:2864.8965/6
+[17-53-30] Ashe Gold: 702.57983/6252.577, Exp:3791.8206/7
+[17-53-31] Tick: 568.453857421875. Update duration: 0.49896240234375
+[17-53-31] Cassiopeia Gold: 522.75/6032.748, Exp:3642.8616/7
+[17-53-31] Lucian Gold: 559.7599/7924.7583, Exp:4151.3755/8
+[17-53-31] Twitch Gold: 1116.3795/5071.3774, Exp:3980.4333/7
+[17-53-31] Morgana Gold: 942.4002/4192.3994, Exp:2611.762/6
+[17-53-31] Yasuo Gold: 234.77283/6284.772, Exp:3669.5122/7
+[17-53-31] Teemo Gold: 1796.51/6456.506, Exp:4125.5396/8
+[17-53-31] Jinx Gold: 746.9293/6006.9287, Exp:4088.0364/8
+[17-53-31] Aatrox Gold: 2275.6/6645.5977, Exp:4400.429/8
+[17-53-31] Nidalee Gold: 671.21924/4671.2183, Exp:2864.8965/6
+[17-53-31] Ashe Gold: 705.57983/6255.577, Exp:3791.8206/7
+[17-53-31] Tick: 568.955322265625. Update duration: 0.50146484375
+[17-53-31] Cassiopeia Gold: 545.35/6055.348, Exp:3665.1335/7
+[17-53-31] Lucian Gold: 562.7599/7927.7583, Exp:4151.3755/8
+[17-53-31] Twitch Gold: 1119.3795/5074.3774, Exp:3980.4333/7
+[17-53-31] Morgana Gold: 945.4002/4195.3994, Exp:2637.7458/6
+[17-53-31] Yasuo Gold: 237.77283/6287.772, Exp:3669.5122/7
+[17-53-31] Teemo Gold: 1799.51/6459.506, Exp:4125.5396/8
+[17-53-31] Jinx Gold: 749.9293/6009.9287, Exp:4088.0364/8
+[17-53-31] Aatrox Gold: 2278.6/6648.5977, Exp:4400.429/8
+[17-53-31] Nidalee Gold: 674.21924/4674.2183, Exp:2864.8965/6
+[17-53-31] Ashe Gold: 708.57983/6258.577, Exp:3791.8206/7
+[17-53-32] Tick: 569.4528198242188. Update duration: 0.49749755859375
+[17-53-32] Cassiopeia Gold: 567.94995/6077.948, Exp:3687.4055/7
+[17-53-32] Lucian Gold: 565.7599/7930.7583, Exp:4151.3755/8
+[17-53-32] Twitch Gold: 1122.3795/5077.3774, Exp:3980.4333/7
+[17-53-32] Morgana Gold: 954.2802/4204.2793, Exp:2663.7297/6
+[17-53-32] Yasuo Gold: 240.77283/6290.772, Exp:3669.5122/7
+[17-53-32] Teemo Gold: 1802.51/6462.506, Exp:4125.5396/8
+[17-53-32] Jinx Gold: 752.9293/6012.9287, Exp:4088.0364/8
+[17-53-32] Aatrox Gold: 2281.6/6651.5977, Exp:4400.429/8
+[17-53-32] Nidalee Gold: 677.21924/4677.2183, Exp:2864.8965/6
+[17-53-32] Ashe Gold: 711.57983/6261.577, Exp:3791.8206/7
+[17-53-32] Tick: 569.956787109375. Update duration: 0.50396728515625
+[17-53-32] Cassiopeia Gold: 590.5499/6100.5483, Exp:3709.6775/7
+[17-53-32] Lucian Gold: 578.7599/7943.7583, Exp:4151.3755/8
+[17-53-32] Twitch Gold: 1125.3795/5080.3774, Exp:3980.4333/7
+[17-53-32] Morgana Gold: 963.1602/4213.159, Exp:2689.7136/6
+[17-53-32] Yasuo Gold: 243.77283/6293.772, Exp:3669.5122/7
+[17-53-32] Teemo Gold: 1805.51/6465.506, Exp:4125.5396/8
+[17-53-32] Jinx Gold: 755.9293/6015.9287, Exp:4088.0364/8
+[17-53-32] Aatrox Gold: 2284.6/6654.5977, Exp:4400.429/8
+[17-53-32] Nidalee Gold: 680.21924/4680.2183, Exp:2864.8965/6
+[17-53-32] Ashe Gold: 714.57983/6264.577, Exp:3791.8206/7
+[17-53-33] Tick: 570.44775390625. Update duration: 0.490966796875
+[17-53-33] Cassiopeia Gold: 593.5499/6103.5483, Exp:3709.6775/7
+[17-53-33] Lucian Gold: 581.7599/7946.7583, Exp:4151.3755/8
+[17-53-33] Twitch Gold: 1128.3795/5083.3774, Exp:3980.4333/7
+[17-53-33] Morgana Gold: 966.1602/4216.159, Exp:2689.7136/6
+[17-53-33] Yasuo Gold: 246.77283/6296.772, Exp:3669.5122/7
+[17-53-33] Teemo Gold: 1808.51/6468.506, Exp:4125.5396/8
+[17-53-33] Jinx Gold: 758.9293/6018.9287, Exp:4088.0364/8
+[17-53-33] Aatrox Gold: 2287.6/6657.5977, Exp:4400.429/8
+[17-53-33] Nidalee Gold: 683.21924/4683.2183, Exp:2864.8965/6
+[17-53-33] Ashe Gold: 717.57983/6267.577, Exp:3791.8206/7
+[17-53-33] Tick: 570.946044921875. Update duration: 0.498291015625
+[17-53-33] Cassiopeia Gold: 596.5499/6106.5483, Exp:3709.6775/7
+[17-53-33] Lucian Gold: 584.7599/7949.7583, Exp:4151.3755/8
+[17-53-33] Twitch Gold: 1131.3795/5086.3774, Exp:3980.4333/7
+[17-53-33] Morgana Gold: 969.1602/4219.159, Exp:2689.7136/6
+[17-53-33] Yasuo Gold: 249.77283/6299.772, Exp:3669.5122/7
+[17-53-33] Teemo Gold: 1811.51/6471.506, Exp:4125.5396/8
+[17-53-33] Jinx Gold: 761.9293/6021.9287, Exp:4088.0364/8
+[17-53-33] Aatrox Gold: 2290.6/6660.5977, Exp:4400.429/8
+[17-53-33] Nidalee Gold: 686.21924/4686.2183, Exp:2864.8965/6
+[17-53-33] Ashe Gold: 720.57983/6270.577, Exp:3791.8206/7
+[17-53-34] Tick: 571.4595336914062. Update duration: 0.51348876953125
+[17-53-34] Cassiopeia Gold: 599.5499/6109.5483, Exp:3709.6775/7
+[17-53-34] Lucian Gold: 587.7599/7952.7583, Exp:4151.3755/8
+[17-53-34] Twitch Gold: 1134.3795/5089.3774, Exp:3980.4333/7
+[17-53-34] Morgana Gold: 972.1602/4222.159, Exp:2689.7136/6
+[17-53-34] Yasuo Gold: 252.77283/6302.772, Exp:3669.5122/7
+[17-53-34] Teemo Gold: 1814.51/6474.506, Exp:4125.5396/8
+[17-53-34] Jinx Gold: 764.9293/6024.9287, Exp:4088.0364/8
+[17-53-34] Aatrox Gold: 2293.6/6663.5977, Exp:4400.429/8
+[17-53-34] Nidalee Gold: 689.21924/4689.2183, Exp:2864.8965/6
+[17-53-34] Ashe Gold: 723.57983/6273.577, Exp:3791.8206/7
+[17-53-34] Tick: 571.9527587890625. Update duration: 0.49322509765625
+[17-53-34] Cassiopeia Gold: 602.5499/6112.5483, Exp:3709.6775/7
+[17-53-34] Lucian Gold: 590.7599/7955.7583, Exp:4151.3755/8
+[17-53-34] Twitch Gold: 1137.3795/5092.3774, Exp:3980.4333/7
+[17-53-34] Morgana Gold: 975.1602/4225.159, Exp:2689.7136/6
+[17-53-34] Yasuo Gold: 255.77283/6305.772, Exp:3669.5122/7
+[17-53-34] Teemo Gold: 1817.51/6477.506, Exp:4125.5396/8
+[17-53-34] Jinx Gold: 767.9293/6027.9287, Exp:4088.0364/8
+[17-53-34] Aatrox Gold: 2296.6/6666.5977, Exp:4400.429/8
+[17-53-34] Nidalee Gold: 692.21924/4692.2183, Exp:2864.8965/6
+[17-53-34] Ashe Gold: 726.57983/6276.577, Exp:3791.8206/7
+[17-53-35] Tick: 572.4520874023438. Update duration: 0.49932861328125
+[17-53-35] Cassiopeia Gold: 605.5499/6115.5483, Exp:3709.6775/7
+[17-53-35] Lucian Gold: 593.7599/7958.7583, Exp:4151.3755/8
+[17-53-35] Twitch Gold: 1140.3795/5095.3774, Exp:3980.4333/7
+[17-53-35] Morgana Gold: 978.1602/4228.159, Exp:2689.7136/6
+[17-53-35] Yasuo Gold: 258.77283/6308.772, Exp:3669.5122/7
+[17-53-35] Teemo Gold: 1820.51/6480.506, Exp:4125.5396/8
+[17-53-35] Jinx Gold: 770.9293/6030.9287, Exp:4088.0364/8
+[17-53-35] Aatrox Gold: 2299.6/6669.5977, Exp:4400.429/8
+[17-53-35] Nidalee Gold: 695.21924/4695.2183, Exp:2864.8965/6
+[17-53-35] Ashe Gold: 729.57983/6279.577, Exp:3791.8206/7
+[17-53-35] Tick: 572.9472045898438. Update duration: 0.4951171875
+[17-53-35] Cassiopeia Gold: 608.5499/6118.5483, Exp:3709.6775/7
+[17-53-35] Lucian Gold: 596.7599/7961.7583, Exp:4151.3755/8
+[17-53-35] Twitch Gold: 1143.3795/5098.3774, Exp:3980.4333/7
+[17-53-35] Morgana Gold: 981.1602/4231.159, Exp:2689.7136/6
+[17-53-35] Yasuo Gold: 261.77283/6311.772, Exp:3669.5122/7
+[17-53-35] Teemo Gold: 1823.51/6483.506, Exp:4125.5396/8
+[17-53-35] Jinx Gold: 773.9293/6033.9287, Exp:4088.0364/8
+[17-53-35] Aatrox Gold: 1802.6001/6672.5977, Exp:4400.429/8
+[17-53-35] Nidalee Gold: 698.21924/4698.2183, Exp:2864.8965/6
+[17-53-35] Ashe Gold: 732.57983/6282.577, Exp:3791.8206/7
+[17-53-36] Tick: 573.4595947265625. Update duration: 0.51239013671875
+[17-53-36] Cassiopeia Gold: 611.5499/6121.5483, Exp:3709.6775/7
+[17-53-36] Lucian Gold: 599.7599/7964.7583, Exp:4151.3755/8
+[17-53-36] Twitch Gold: 1146.3795/5101.3774, Exp:3980.4333/7
+[17-53-36] Morgana Gold: 984.1602/4234.159, Exp:2689.7136/6
+[17-53-36] Yasuo Gold: 264.77283/6314.772, Exp:3669.5122/7
+[17-53-36] Teemo Gold: 1826.51/6486.506, Exp:4125.5396/8
+[17-53-36] Jinx Gold: 776.9293/6036.9287, Exp:4088.0364/8
+[17-53-36] Aatrox Gold: 1805.6001/6675.5977, Exp:4400.429/8
+[17-53-36] Nidalee Gold: 701.21924/4701.2183, Exp:2864.8965/6
+[17-53-36] Ashe Gold: 735.57983/6285.577, Exp:3791.8206/7
+[17-53-36] Tick: 573.9588012695312. Update duration: 0.49920654296875
+[17-53-36] Cassiopeia Gold: 614.5499/6124.5483, Exp:3709.6775/7
+[17-53-36] Lucian Gold: 602.7599/7967.7583, Exp:4151.3755/8
+[17-53-36] Twitch Gold: 1149.3795/5104.3774, Exp:3980.4333/7
+[17-53-36] Morgana Gold: 987.1602/4237.159, Exp:2689.7136/6
+[17-53-36] Yasuo Gold: 267.77283/6317.772, Exp:3669.5122/7
+[17-53-36] Teemo Gold: 1829.51/6489.506, Exp:4125.5396/8
+[17-53-36] Jinx Gold: 779.9293/6039.9287, Exp:4088.0364/8
+[17-53-36] Aatrox Gold: 1808.6001/6678.5977, Exp:4400.429/8
+[17-53-36] Nidalee Gold: 704.21924/4704.2183, Exp:2864.8965/6
+[17-53-36] Ashe Gold: 738.57983/6288.577, Exp:3791.8206/7
+[17-53-37] Tick: 574.455322265625. Update duration: 0.49652099609375
+[17-53-37] Cassiopeia Gold: 617.5499/6127.5483, Exp:3709.6775/7
+[17-53-37] Lucian Gold: 605.7599/7970.7583, Exp:4151.3755/8
+[17-53-37] Twitch Gold: 1152.3795/5107.3774, Exp:3980.4333/7
+[17-53-37] Morgana Gold: 990.1602/4240.159, Exp:2689.7136/6
+[17-53-37] Yasuo Gold: 270.77283/6320.772, Exp:3669.5122/7
+[17-53-37] Teemo Gold: 1832.51/6492.506, Exp:4125.5396/8
+[17-53-37] Jinx Gold: 782.9293/6042.9287, Exp:4088.0364/8
+[17-53-37] Aatrox Gold: 1811.6001/6681.5977, Exp:4400.429/8
+[17-53-37] Nidalee Gold: 707.21924/4707.2183, Exp:2864.8965/6
+[17-53-37] Ashe Gold: 841.57983/6391.577, Exp:3923.8206/7
+[17-53-37] Tick: 574.9494018554688. Update duration: 0.49407958984375
+[17-53-37] Cassiopeia Gold: 620.5499/6130.5483, Exp:3709.6775/7
+[17-53-37] Lucian Gold: 608.7599/7973.7583, Exp:4151.3755/8
+[17-53-37] Twitch Gold: 1155.3795/5110.3774, Exp:3980.4333/7
+[17-53-37] Morgana Gold: 993.1602/4243.159, Exp:2689.7136/6
+[17-53-37] Yasuo Gold: 273.77283/6323.772, Exp:3669.5122/7
+[17-53-37] Teemo Gold: 1835.51/6495.506, Exp:4125.5396/8
+[17-53-37] Jinx Gold: 785.9293/6045.9287, Exp:4088.0364/8
+[17-53-37] Aatrox Gold: 1814.6001/6684.5977, Exp:4400.429/8
+[17-53-37] Nidalee Gold: 710.21924/4710.2183, Exp:2864.8965/6
+[17-53-37] Ashe Gold: 844.57983/6394.577, Exp:3923.8206/7
+[17-53-38] Tick: 575.44384765625. Update duration: 0.49444580078125
+[17-53-38] Cassiopeia Gold: 623.5499/6133.5483, Exp:3709.6775/7
+[17-53-38] Lucian Gold: 611.7599/7976.7583, Exp:4151.3755/8
+[17-53-38] Twitch Gold: 1158.3795/5113.3774, Exp:3980.4333/7
+[17-53-38] Morgana Gold: 996.1602/4246.159, Exp:2689.7136/6
+[17-53-38] Yasuo Gold: 276.77283/6326.772, Exp:3669.5122/7
+[17-53-38] Teemo Gold: 1838.51/6498.506, Exp:4125.5396/8
+[17-53-38] Jinx Gold: 788.9293/6048.9287, Exp:4088.0364/8
+[17-53-38] Aatrox Gold: 717.6001/6687.5977, Exp:4400.429/8
+[17-53-38] Nidalee Gold: 713.21924/4713.2183, Exp:2864.8965/6
+[17-53-38] Ashe Gold: 847.57983/6397.577, Exp:3923.8206/7
+[17-53-38] Tick: 575.9505004882812. Update duration: 0.50665283203125
+[17-53-38] Cassiopeia Gold: 626.5499/6136.5483, Exp:3709.6775/7
+[17-53-38] Lucian Gold: 614.7599/7979.7583, Exp:4151.3755/8
+[17-53-38] Twitch Gold: 1161.3795/5116.3774, Exp:3980.4333/7
+[17-53-38] Morgana Gold: 999.1602/4249.159, Exp:2689.7136/6
+[17-53-38] Yasuo Gold: 309.17282/6359.172, Exp:3714.7522/7
+[17-53-38] Teemo Gold: 1841.51/6501.506, Exp:4125.5396/8
+[17-53-38] Jinx Gold: 791.9293/6051.9287, Exp:4088.0364/8
+[17-53-38] Aatrox Gold: 720.6001/6690.5977, Exp:4400.429/8
+[17-53-38] Nidalee Gold: 725.03925/4725.038, Exp:2917.6765/6
+[17-53-38] Ashe Gold: 850.57983/6400.577, Exp:3923.8206/7
+[17-53-39] Tick: 576.4612426757812. Update duration: 0.5107421875
+[17-53-39] Cassiopeia Gold: 629.5499/6139.5483, Exp:3709.6775/7
+[17-53-39] Lucian Gold: 617.7599/7982.7583, Exp:4151.3755/8
+[17-53-39] Twitch Gold: 1164.3795/5119.3774, Exp:3980.4333/7
+[17-53-39] Morgana Gold: 1002.1602/4252.159, Exp:2689.7136/6
+[17-53-39] Yasuo Gold: 312.17282/6362.172, Exp:3714.7522/7
+[17-53-39] Teemo Gold: 1844.51/6504.506, Exp:4125.5396/8
+[17-53-39] Jinx Gold: 794.9293/6054.9287, Exp:4088.0364/8
+[17-53-39] Aatrox Gold: 323.6001/6693.5977, Exp:4400.429/8
+[17-53-39] Nidalee Gold: 728.03925/4728.038, Exp:2917.6765/6
+[17-53-39] Ashe Gold: 853.57983/6403.577, Exp:3923.8206/7
+[17-53-39] Tick: 576.9557495117188. Update duration: 0.4945068359375
+[17-53-39] Cassiopeia Gold: 632.5499/6142.5483, Exp:3709.6775/7
+[17-53-39] Lucian Gold: 620.7599/7985.7583, Exp:4151.3755/8
+[17-53-39] Twitch Gold: 1167.3795/5122.3774, Exp:3980.4333/7
+[17-53-39] Morgana Gold: 1005.1602/4255.159, Exp:2689.7136/6
+[17-53-39] Yasuo Gold: 315.17282/6365.172, Exp:3714.7522/7
+[17-53-39] Teemo Gold: 1847.51/6507.506, Exp:4125.5396/8
+[17-53-39] Jinx Gold: 797.9293/6057.9287, Exp:4088.0364/8
+[17-53-39] Aatrox Gold: 326.6001/6696.5977, Exp:4400.429/8
+[17-53-39] Nidalee Gold: 731.03925/4731.038, Exp:2917.6765/6
+[17-53-39] Ashe Gold: 856.57983/6406.577, Exp:3923.8206/7
+[17-53-40] Tick: 577.455810546875. Update duration: 0.50006103515625
+[17-53-40] Cassiopeia Gold: 635.5499/6145.5483, Exp:3709.6775/7
+[17-53-40] Lucian Gold: 623.7599/7988.7583, Exp:4151.3755/8
+[17-53-40] Twitch Gold: 1170.3795/5125.3774, Exp:3980.4333/7
+[17-53-40] Morgana Gold: 1008.1602/4258.159, Exp:2689.7136/6
+[17-53-40] Yasuo Gold: 318.17282/6368.172, Exp:3714.7522/7
+[17-53-40] Teemo Gold: 1850.51/6510.506, Exp:4125.5396/8
+[17-53-40] Jinx Gold: 800.9293/6060.9287, Exp:4088.0364/8
+[17-53-40] Aatrox Gold: 329.6001/6699.5977, Exp:4400.429/8
+[17-53-40] Nidalee Gold: 734.03925/4734.038, Exp:2917.6765/6
+[17-53-40] Ashe Gold: 859.57983/6409.577, Exp:3923.8206/7
+[17-53-40] Tick: 577.9519653320312. Update duration: 0.49615478515625
+[17-53-40] Cassiopeia Gold: 638.5499/6148.5483, Exp:3709.6775/7
+[17-53-40] Lucian Gold: 626.7599/7991.7583, Exp:4151.3755/8
+[17-53-40] Twitch Gold: 1173.3795/5128.3774, Exp:3980.4333/7
+[17-53-40] Morgana Gold: 1011.1602/4261.159, Exp:2689.7136/6
+[17-53-40] Yasuo Gold: 321.17282/6371.172, Exp:3714.7522/7
+[17-53-40] Teemo Gold: 1853.51/6513.506, Exp:4125.5396/8
+[17-53-40] Jinx Gold: 803.9293/6063.9287, Exp:4088.0364/8
+[17-53-40] Aatrox Gold: 332.6001/6702.5977, Exp:4400.429/8
+[17-53-40] Nidalee Gold: 737.03925/4737.038, Exp:2917.6765/6
+[17-53-40] Ashe Gold: 862.57983/6412.577, Exp:3923.8206/7
+[17-53-41] Tick: 578.4702758789062. Update duration: 0.518310546875
+[17-53-41] Cassiopeia Gold: 641.5499/6151.5483, Exp:3709.6775/7
+[17-53-41] Lucian Gold: 629.7599/7994.7583, Exp:4151.3755/8
+[17-53-41] Twitch Gold: 1176.3795/5131.3774, Exp:3980.4333/7
+[17-53-41] Morgana Gold: 1014.1602/4264.159, Exp:2689.7136/6
+[17-53-41] Yasuo Gold: 353.5728/6403.572, Exp:3759.9922/7
+[17-53-41] Teemo Gold: 1856.51/6516.506, Exp:4125.5396/8
+[17-53-41] Jinx Gold: 806.9293/6066.9287, Exp:4088.0364/8
+[17-53-41] Aatrox Gold: 335.6001/6705.5977, Exp:4400.429/8
+[17-53-41] Nidalee Gold: 748.85925/4748.858, Exp:2970.4565/6
+[17-53-41] Ashe Gold: 865.57983/6415.577, Exp:3923.8206/7
+[17-53-41] Tick: 578.9434814453125. Update duration: 0.47320556640625
+[17-53-41] Cassiopeia Gold: 644.5499/6154.5483, Exp:3709.6775/7
+[17-53-41] Lucian Gold: 632.7599/7997.7583, Exp:4151.3755/8
+[17-53-41] Twitch Gold: 1179.3795/5134.3774, Exp:3980.4333/7
+[17-53-41] Morgana Gold: 1017.1602/4267.159, Exp:2689.7136/6
+[17-53-41] Yasuo Gold: 356.5728/6406.572, Exp:3759.9922/7
+[17-53-41] Teemo Gold: 1859.51/6519.506, Exp:4125.5396/8
+[17-53-41] Jinx Gold: 809.9293/6069.9287, Exp:4088.0364/8
+[17-53-41] Aatrox Gold: 338.6001/6708.5977, Exp:4400.429/8
+[17-53-41] Nidalee Gold: 751.85925/4751.858, Exp:2970.4565/6
+[17-53-41] Ashe Gold: 868.57983/6418.577, Exp:3923.8206/7
+[17-53-42] Tick: 579.4515991210938. Update duration: 0.50811767578125
+[17-53-42] Cassiopeia Gold: 647.5499/6157.5483, Exp:3709.6775/7
+[17-53-42] Lucian Gold: 635.7599/8000.7583, Exp:4151.3755/8
+[17-53-42] Twitch Gold: 1182.3795/5137.3774, Exp:3980.4333/7
+[17-53-42] Morgana Gold: 1020.1602/4270.159, Exp:2689.7136/6
+[17-53-42] Yasuo Gold: 359.5728/6409.572, Exp:3759.9922/7
+[17-53-42] Teemo Gold: 1862.51/6522.506, Exp:4125.5396/8
+[17-53-42] Jinx Gold: 812.9293/6072.9287, Exp:4088.0364/8
+[17-53-42] Aatrox Gold: 341.6001/6711.5977, Exp:4400.429/8
+[17-53-42] Nidalee Gold: 754.85925/4754.858, Exp:2970.4565/6
+[17-53-42] Ashe Gold: 871.57983/6421.577, Exp:3923.8206/7
+[17-53-42] Tick: 579.96240234375. Update duration: 0.51080322265625
+[17-53-42] Cassiopeia Gold: 650.5499/6160.5483, Exp:3709.6775/7
+[17-53-42] Lucian Gold: 638.7599/8003.7583, Exp:4151.3755/8
+[17-53-42] Twitch Gold: 1185.3795/5140.3774, Exp:3980.4333/7
+[17-53-42] Morgana Gold: 1023.1602/4273.159, Exp:2689.7136/6
+[17-53-42] Yasuo Gold: 368.45282/6418.4517, Exp:3782.2642/7
+[17-53-42] Teemo Gold: 1865.51/6525.506, Exp:4125.5396/8
+[17-53-42] Jinx Gold: 815.9293/6075.9287, Exp:4088.0364/8
+[17-53-42] Aatrox Gold: 344.6001/6714.5977, Exp:4400.429/8
+[17-53-42] Nidalee Gold: 777.4592/4777.458, Exp:2996.4404/6
+[17-53-42] Ashe Gold: 874.57983/6424.577, Exp:3923.8206/7
+[17-53-43] Tick: 580.4589233398438. Update duration: 0.49652099609375
+[17-53-43] Cassiopeia Gold: 653.5499/6163.5483, Exp:3709.6775/7
+[17-53-43] Lucian Gold: 641.7599/8006.7583, Exp:4151.3755/8
+[17-53-43] Twitch Gold: 1188.3795/5143.3774, Exp:3980.4333/7
+[17-53-43] Morgana Gold: 1026.1602/4276.159, Exp:2689.7136/6
+[17-53-43] Yasuo Gold: 371.45282/6421.4517, Exp:3782.2642/7
+[17-53-43] Teemo Gold: 1868.51/6528.506, Exp:4125.5396/8
+[17-53-43] Jinx Gold: 818.9293/6078.9287, Exp:4088.0364/8
+[17-53-43] Aatrox Gold: 347.6001/6717.5977, Exp:4400.429/8
+[17-53-43] Nidalee Gold: 780.4592/4780.458, Exp:2996.4404/6
+[17-53-43] Ashe Gold: 877.57983/6427.577, Exp:3923.8206/7
+[17-53-43] Yasuo Gold: 0/0, Exp:11597.589/14
+[17-53-43] Tick: 580.9620971679688. Update duration: 0.503173828125
+[17-53-43] Cassiopeia Gold: 656.5499/6166.5483, Exp:3709.6775/7
+[17-53-43] Lucian Gold: 644.7599/8009.7583, Exp:4151.3755/8
+[17-53-43] Twitch Gold: 1191.3795/5146.3774, Exp:3980.4333/7
+[17-53-43] Yasuo Gold: 0/0, Exp:11597.589/14
+[17-53-43] Morgana Gold: 1029.1602/4279.159, Exp:2689.7136/6
+[17-53-43] Yasuo Gold: 374.45282/6424.4517, Exp:3782.2642/7
+[17-53-43] Teemo Gold: 1871.51/6531.506, Exp:4125.5396/8
+[17-53-43] Jinx Gold: 821.9293/6081.9287, Exp:4088.0364/8
+[17-53-43] Aatrox Gold: 350.6001/6720.5977, Exp:4400.429/8
+[17-53-43] Nidalee Gold: 783.4592/4783.458, Exp:2996.4404/6
+[17-53-43] Ashe Gold: 880.57983/6430.577, Exp:3923.8206/7
+[17-53-44] Tick: 581.4574584960938. Update duration: 0.495361328125
+[17-53-44] Cassiopeia Gold: 659.5499/6169.5483, Exp:3709.6775/7
+[17-53-44] Lucian Gold: 647.7599/8012.7583, Exp:4151.3755/8
+[17-53-44] Twitch Gold: 1194.3795/5149.3774, Exp:3980.4333/7
+[17-53-44] Yasuo Gold: 0/0, Exp:11597.589/14
+[17-53-44] Morgana Gold: 1032.1602/4282.159, Exp:2689.7136/6
+[17-53-44] Yasuo Gold: 377.45282/6427.4517, Exp:3782.2642/7
+[17-53-44] Teemo Gold: 1874.51/6534.506, Exp:4125.5396/8
+[17-53-44] Jinx Gold: 824.9293/6084.9287, Exp:4088.0364/8
+[17-53-44] Aatrox Gold: 353.6001/6723.5977, Exp:4400.429/8
+[17-53-44] Nidalee Gold: 786.4592/4786.458, Exp:2996.4404/6
+[17-53-44] Ashe Gold: 883.57983/6433.577, Exp:3923.8206/7
+[17-53-44] Log Level set to Verbose
+[17-53-44] Tick: 581.9644165039062. Update duration: 0.5069580078125
+[17-53-44] Cassiopeia Gold: 662.5499/6172.5483, Exp:3709.6775/7
+[17-53-44] Yasuo Gold: 0/0, Exp:11597.589/14
+[17-53-44] Lucian Gold: 650.7599/8015.7583, Exp:4151.3755/8
+[17-53-44] Twitch Gold: 1197.3795/5152.3774, Exp:3980.4333/7
+[17-53-44] Morgana Gold: 1035.1602/4285.159, Exp:2689.7136/6
+[17-53-44] Yasuo Gold: 380.45282/6430.4517, Exp:3782.2642/7
+[17-53-44] Teemo Gold: 1877.51/6537.506, Exp:4125.5396/8
+[17-53-44] Jinx Gold: 827.9293/6087.9287, Exp:4088.0364/8
+[17-53-44] Aatrox Gold: 356.6001/6726.5977, Exp:4400.429/8
+[17-53-44] Nidalee Gold: 789.4592/4789.458, Exp:2996.4404/6
+[17-53-44] Ashe Gold: 886.57983/6436.577, Exp:3923.8206/7
+[17-53-45] Tick: 582.4610595703125. Update duration: 0.49664306640625
+[17-53-45] Cassiopeia Gold: 665.5499/6175.5483, Exp:3709.6775/7
+[17-53-45] Yasuo Gold: 0/0, Exp:11597.589/14
+[17-53-45] Lucian Gold: 653.7599/8018.7583, Exp:4151.3755/8
+[17-53-45] Twitch Gold: 1200.3795/5155.3774, Exp:3980.4333/7
+[17-53-45] Morgana Gold: 1038.1602/4288.159, Exp:2689.7136/6
+[17-53-45] Yasuo Gold: 383.45282/6433.4517, Exp:3782.2642/7
+[17-53-45] Teemo Gold: 1880.51/6540.506, Exp:4125.5396/8
+[17-53-45] Jinx Gold: 830.9293/6090.9287, Exp:4088.0364/8
+[17-53-45] Aatrox Gold: 359.6001/6729.5977, Exp:4400.429/8
+[17-53-45] Nidalee Gold: 792.4592/4792.458, Exp:2996.4404/6
+[17-53-45] Ashe Gold: 889.57983/6439.577, Exp:3923.8206/7
+[17-53-45] Tick: 582.9483642578125. Update duration: 0.4873046875
+[17-53-45] Cassiopeia Gold: 668.5499/6178.5483, Exp:3709.6775/7
+[17-53-45] Yasuo Gold: 0/0, Exp:11597.589/14
+[17-53-45] Lucian Gold: 656.7599/8021.7583, Exp:4151.3755/8
+[17-53-45] Twitch Gold: 403.37952/5158.3774, Exp:3980.4333/7
+[17-53-45] Morgana Gold: 1041.1602/4291.159, Exp:2689.7136/6
+[17-53-45] Yasuo Gold: 386.45282/6436.4517, Exp:3782.2642/7
+[17-53-45] Teemo Gold: 1883.51/6543.506, Exp:4125.5396/8
+[17-53-45] Jinx Gold: 833.9293/6093.9287, Exp:4088.0364/8
+[17-53-45] Aatrox Gold: 362.6001/6732.5977, Exp:4400.429/8
+[17-53-45] Nidalee Gold: 795.4592/4795.458, Exp:2996.4404/6
+[17-53-45] Ashe Gold: 892.57983/6442.577, Exp:3923.8206/7
+[17-53-46] Tick: 583.4586791992188. Update duration: 0.51031494140625
+[17-53-46] Cassiopeia Gold: 671.5499/6181.5483, Exp:3709.6775/7
+[17-53-46] Yasuo Gold: 0/0, Exp:11597.589/14
+[17-53-46] Lucian Gold: 659.7599/8024.7583, Exp:4151.3755/8
+[17-53-46] Twitch Gold: 406.37952/5161.3774, Exp:3980.4333/7
+[17-53-46] Morgana Gold: 1044.1602/4294.159, Exp:2689.7136/6
+[17-53-46] Yasuo Gold: 389.45282/6439.4517, Exp:3782.2642/7
+[17-53-46] Teemo Gold: 1886.51/6546.506, Exp:4125.5396/8
+[17-53-46] Jinx Gold: 836.9293/6096.9287, Exp:4088.0364/8
+[17-53-46] Aatrox Gold: 365.6001/6735.5977, Exp:4400.429/8
+[17-53-46] Nidalee Gold: 798.4592/4798.458, Exp:2996.4404/6
+[17-53-46] Ashe Gold: 965.57983/6515.577, Exp:4061.8206/8
+[17-53-46] Tick: 583.9521484375. Update duration: 0.49346923828125
+[17-53-46] Cassiopeia Gold: 674.5499/6184.5483, Exp:3709.6775/7
+[17-53-46] Yasuo Gold: 0/0, Exp:11597.589/14
+[17-53-46] Lucian Gold: 662.7599/8027.7583, Exp:4151.3755/8
+[17-53-46] Twitch Gold: 409.37952/5164.3774, Exp:3980.4333/7
+[17-53-46] Morgana Gold: 1047.1602/4297.159, Exp:2689.7136/6
+[17-53-46] Yasuo Gold: 392.45282/6442.4517, Exp:3782.2642/7
+[17-53-46] Teemo Gold: 1889.51/6549.506, Exp:4125.5396/8
+[17-53-46] Jinx Gold: 839.9293/6099.9287, Exp:4088.0364/8
+[17-53-46] Aatrox Gold: 368.6001/6738.5977, Exp:4400.429/8
+[17-53-46] Nidalee Gold: 801.4592/4801.458, Exp:2996.4404/6
+[17-53-46] Ashe Gold: 968.57983/6518.577, Exp:4061.8206/8
+[17-53-46] Locale set to pt_BR
+[17-53-46] Writing Component config to file
+[17-53-46] Updated Component config file
+[17-53-46] Component.json change detected
+[17-53-47] Tick: 584.453125. Update duration: 0.5009765625
+[17-53-47] Cassiopeia Gold: 677.5499/6187.5483, Exp:3709.6775/7
+[17-53-47] Lucian Gold: 665.7599/8030.7583, Exp:4151.3755/8
+[17-53-47] Twitch Gold: 412.37952/5167.3774, Exp:3980.4333/7
+[17-53-47] Morgana Gold: 1050.1602/4300.159, Exp:2689.7136/6
+[17-53-47] Yasuo Gold: 395.45282/6445.4517, Exp:3782.2642/7
+[17-53-47] Teemo Gold: 1892.51/6552.506, Exp:4125.5396/8
+[17-53-47] Jinx Gold: 842.9293/6102.9287, Exp:4088.0364/8
+[17-53-47] Aatrox Gold: 371.6001/6741.5977, Exp:4400.429/8
+[17-53-47] Nidalee Gold: 804.4592/4804.458, Exp:2996.4404/6
+[17-53-47] Ashe Gold: 971.57983/6521.577, Exp:4061.8206/8
+[17-53-47] Tick: 584.9449462890625. Update duration: 0.4918212890625
+[17-53-47] Cassiopeia Gold: 680.5499/6190.5483, Exp:3709.6775/7
+[17-53-47] Lucian Gold: 668.7599/8033.7583, Exp:4151.3755/8
+[17-53-47] Twitch Gold: 415.37952/5170.3774, Exp:3980.4333/7
+[17-53-47] Morgana Gold: 1053.1602/4303.159, Exp:2689.7136/6
+[17-53-47] Yasuo Gold: 548.4528/6598.4517, Exp:4019.2642/7
+[17-53-47] Teemo Gold: 1895.51/6555.506, Exp:4125.5396/8
+[17-53-47] Jinx Gold: 845.9293/6105.9287, Exp:4088.0364/8
+[17-53-47] Aatrox Gold: 374.6001/6744.5977, Exp:4400.429/8
+[17-53-47] Nidalee Gold: 1257.4592/5257.458, Exp:3272.9404/7
+[17-53-47] Ashe Gold: 974.57983/6524.577, Exp:4061.8206/8
+[17-53-47] New Event: {"EventID":7,"EventName":"ChampionKill","EventTime":584.6292114257812,"Assisters":["El jogas"],"KillerName":"Lukedu233","VictimName":"daisuked","Recipient":null,"InhibKilled":null,"TurretKilled":null,"KillStreak":null,"eventType":"ChampionKill"}
+[17-53-47] Saving all configs to file
+[17-53-47] Writing PickBan config to file
+[17-53-47] Updated PickBan config file
+[17-53-47] Writing Component config to file
+[17-53-47] Updated Component config file
+[17-53-47] Writing Farsight config to file
+[17-53-47] Updated Farsight config file
+[17-53-47] Writing Ingame config to file
+[17-53-47] Updated Ingame config file
+[17-53-47] Configs saved

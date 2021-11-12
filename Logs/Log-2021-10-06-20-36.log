@@ -1,0 +1,2285 @@
+[20-36-38] Logging Init
+[20-36-38] Starting Config Controller
+[20-36-38] Config Provider started
+[20-36-38] Looking for config files at /Config
+[20-36-38] Found PickBan.json. Reading values
+[20-36-39] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": false,
+    "blueTeam": {
+      "name": "BOOMSLANG",
+      "nameTag": "BSG",
+      "score": 0,
+      "coach": "Haaty",
+      "color": "rgb(38,38,38)"
+    },
+    "redTeam": {
+      "name": "STORMTIGER",
+      "nameTag": "STT",
+      "score": 0,
+      "coach": "Daisuke",
+      "color": "rgb(242,179,61)"
+    },
+    "patch": "11.20.1"
+  },
+  "FileVersion": "1.0"
+}
+[20-36-39] Config PickBan loaded
+[20-36-39] Found Ingame.json. Reading values
+[20-36-39] {
+  "Inhib": {
+    "Position": {
+      "X": 0.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 306.0,
+      "Y": 118.0
+    },
+    "UseBackgroundImage": true,
+    "UseBackgroundVideo": false,
+    "Color": "rgba(19,24,63,255)",
+    "Font": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "15px",
+      "Align": "right",
+      "Color": "rgb(255,255,255)"
+    },
+    "IconSize": 40.0,
+    "HideWhenNoneDestroyed": true,
+    "UseTeamColors": true,
+    "BlueTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 20.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(0,0,0)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "RedTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 80.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(255,255,255)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "LaneOrder": [
+      "bot",
+      "mid",
+      "top"
+    ]
+  },
+  "Score": {
+    "Position": {
+      "X": 960.0,
+      "Y": 0.0
+    },
+    "Size": {
+      "X": 1280.0,
+      "Y": 110.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "Montserrat",
+      "Size": "30px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "TimePosition": {
+      "X": 0.0,
+      "Y": 95.0
+    },
+    "BlueTeam": {
+      "Kills": {
+        "Position": {
+          "X": -50.0,
+          "Y": 5.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "50px",
+          "Align": "right",
+          "Color": "rgb(38,38,38)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": -364.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(38,38,38)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 20.0,
+            "Y": 25.0
+          },
+          "Offset": {
+            "X": 35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": -195.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(38,38,38)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 30.0,
+            "Y": 20.0
+          },
+          "Offset": {
+            "X": 35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": -140.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": -18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": -525.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "40px",
+          "Align": "left",
+          "Color": "rgb(38,38,38)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": -600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": -380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": 25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "RedTeam": {
+      "Kills": {
+        "Position": {
+          "X": 50.0,
+          "Y": 5.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "50px",
+          "Align": "left",
+          "Color": "rgb(242,176,61)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": 364.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(242,176,61)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 20.0,
+            "Y": 25.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": 195.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(242,176,61)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 30.0,
+            "Y": 20.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": 140.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": 18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": 520.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "40px",
+          "Align": "right",
+          "Color": "rgb(242,176,61)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": 600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": 10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": 380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": -25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "FallbackColor": "rgba(19,24,63,255)"
+    },
+    "Misc": {
+      "Animation": "Simple",
+      "ShowCenterIcon": true,
+      "CenterIconPosition": {
+        "X": 3.0,
+        "Y": 33.0
+      },
+      "CenterIconSize": {
+        "X": 40.0,
+        "Y": 40.0
+      },
+      "DrakeIconSize": {
+        "X": 20.0,
+        "Y": 20.0
+      }
+    }
+  },
+  "ObjectiveKill": {
+    "ShowTeamIcon": false,
+    "SoulPointScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "ElderKillScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DragonKillScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "BaronKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldKillScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ObjectiveSpawn": {
+    "BaronSpawnScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DrakeSpawnScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldSpawnScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ItemComplete": {
+    "UseCustomVideo": true,
+    "ShowItemName": true,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "InfoText": {
+      "Style": "Bold",
+      "Name": "Montserrat",
+      "Size": "20px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "ItemAnimationStates": [
+      {
+        "Scale": 0.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.1,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 3200.0,
+        "Ease": "Linear",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 2.5,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 0.0
+      }
+    ],
+    "InfoTextAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 1000.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 1800.0
+      }
+    ],
+    "InfoBackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 80.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 800.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -80.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 2200.0
+      }
+    ]
+  },
+  "LevelUp": {
+    "UseCustomVideo": false,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "LevelFont": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "60px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "UseTeamColors": true,
+    "OrderColor": "rgb(0,0,255)",
+    "ChaosColor": "rgb(255,0,0)",
+    "NumberAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 70.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -30.0
+        },
+        "Mirror": true,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -130.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 3500.0
+      }
+    ],
+    "BackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 100.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": -90.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 4000.0
+      }
+    ]
+  },
+  "InfoPage": {
+    "Position": {
+      "X": 0.0,
+      "Y": 135.0
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "Gold": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "XP": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "CSPM": {
+          "X": 150.0,
+          "Y": 15.0
+        }
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "26px",
+        "Align": "center",
+        "Color": "rgb(255,255,255)"
+      }
+    },
+    "TitleHeight": 45.0,
+    "TabConfig": {
+      "TabSize": {
+        "X": 300.0,
+        "Y": 55.0
+      },
+      "UseTeamColorsText": false,
+      "OrderColor": "rgb(255,255,255)",
+      "ChaosColor": "rgb(255,255,255)",
+      "ChampIcon": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "XP": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "CSPM": {
+            "X": 4.0,
+            "Y": 8.0
+          }
+        },
+        "Size": {
+          "X": 42.0,
+          "Y": 42.0
+        }
+      },
+      "Separator": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "XP": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "CSPM": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "Size": {
+          "X": 300.0,
+          "Y": 2.0
+        }
+      },
+      "PlayerName": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 6.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MinValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "CurrentValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 270.0,
+            "Y": 15.0
+          },
+          "XP": {
+            "X": 280.0,
+            "Y": 15.0
+          },
+          "CSPM": {
+            "X": 280.0,
+            "Y": 15.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "20px",
+          "Align": "center",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MaxValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 230.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 260.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 260.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "ProgressBar": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "XP": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "CSPM": {
+            "X": 52.0,
+            "Y": 40.0
+          }
+        },
+        "Size": {
+          "Gold": {
+            "X": 180.0,
+            "Y": 10.0
+          },
+          "XP": {
+            "X": 210.0,
+            "Y": 10.0
+          },
+          "CSPM": {
+            "X": 210.0,
+            "Y": 10.0
+          }
+        },
+        "UseTeamColors": true,
+        "DefaultColor": "rgb(0,0,0)",
+        "OrderColor": "rgb(222,40,70)",
+        "ChaosColor": "rgb(0,151,196)",
+        "Animate": true
+      }
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgb(0, 0, 0)",
+      "Size": {
+        "X": 300.0,
+        "Y": 600.0
+      }
+    }
+  },
+  "GoldGraph": {
+    "Position": {
+      "X": 965.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 740.0,
+      "Y": 235.0
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(0,0,0,)"
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "X": 0.0,
+        "Y": 10.0
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "22px",
+        "Align": "left",
+        "Color": "rgb(255,255,255)"
+      },
+      "Text": "DIFERENÇA DE OURO - PREDICT STUDIO"
+    },
+    "Graph": {
+      "Position": {
+        "X": 5.0,
+        "Y": 40.0
+      },
+      "Size": {
+        "X": 710.0,
+        "Y": 190.0
+      },
+      "ShowVerticalGrid": false,
+      "ShowHorizontalGrid": true,
+      "LineTension": 0.02,
+      "GridColor": "rgba(255,255,255,0.5)",
+      "GridEdgeColor": "rgba(255,255,255, 0.1)",
+      "BorderUseTeamColors": true,
+      "BorderOrderColor": "rgb(0,0,0)",
+      "BorderChaosColor": "rgb(0,0,0)",
+      "FillUseTeamColors": true,
+      "FillOrderColor": "rgb(0,0,0)",
+      "FillChaosColor": "rgb(0,0,0)",
+      "InfoFont": {
+        "Style": "Normal",
+        "Name": "Montserrat",
+        "Size": "UNUSED",
+        "Align": "UNUSED",
+        "Color": "rgb(255,255,255)"
+      },
+      "TimeStepSize": 30,
+      "ShowTimeStepIndicators": true
+    }
+  },
+  "BaronTimer": {
+    "Position": {
+      "X": 1800.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 1750.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "right",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 25.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": -7.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 25.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": -10.0,
+      "Y": 0.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "ElderTimer": {
+    "Position": {
+      "X": 120.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 50.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "left",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 40.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 18.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": 22.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 18.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": 20.0,
+      "Y": -2.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "GoogleFonts": [
+    "News Cycle",
+    "News Cycle:bold",
+    "Droid Sans"
+  ],
+  "FileVersion": "2.2"
+}
+[20-36-39] Config Ingame loaded
+[20-36-39] Found Component.json. Reading values
+[20-36-39] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "pt_BR",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": true,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(38,38,38)",
+    "DefaultRedColor": "rgb(242,179,61)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": true,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 5,
+    "Objectives": {
+      "DoBaronKill": false,
+      "DoDragonKill": false,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": true,
+      "DoObjectiveKillPopUp": true
+    },
+    "Teams": {
+      "DoTeamNames": true,
+      "DoTeamIcons": true,
+      "DoTeamScores": false
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 3,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[20-36-39] Config Component loaded
+[20-36-39] Loading config watchers
+[20-36-39] Watching PickBan.json for changes
+[20-36-39] Watching Component.json for changes
+[20-36-39] Watching Ingame.json for changes
+[20-36-39] Log Level set to Verbose
+[20-36-39] League Broadcast Version 1.4.97
+[20-36-39] [Update] Checking for Updates
+[20-36-39] [Update] Latest release version v1.4.97 vs. current version 1.4.97
+[20-36-39] [Update] Local version up to date
+[20-36-39] Using current Version
+[20-36-39] Early Init Complete in 1428.8031ms
+[20-36-39] DataDragon Provider Init
+[20-36-39] Getting latest versions from dataDragon
+[20-36-39] Retrieving latest patch info
+[20-36-39] Downloading https://ddragon.leagueoflegends.com/realms/euw.json
+[20-36-40] https://ddragon.leagueoflegends.com/realms/euw.json downloaded
+[20-36-40] Champion: 11.20.1, Item: 11.20.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[20-36-40] Downloading https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/champion.json
+[20-36-40] https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/champion.json downloaded
+[20-36-40] Loaded 157 champions
+[20-36-40] Downloading https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/summoner.json
+[20-36-41] https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/summoner.json downloaded
+[20-36-41] Loaded 15 summoner spells
+[20-36-41] Downloading https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/item.json
+[20-36-41] https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/item.json downloaded
+[20-36-41] Detected 199 items
+[20-36-41] Loaded 94 full items
+[20-36-41] Checking Local Cache
+[20-36-41] Cache C:\Users\kevin\Desktop\Dev - Predict\CBRLOL - PredictStudio/Cache/11.20.1 exists already
+[20-36-41] DDragon loaded
+[20-36-41] Loading PickBan Controller
+[20-36-41] Loading Ingame Controller
+[20-36-41] Checking League install for LiveEventsAPI
+[20-36-41] Found League install location
+[20-36-41] LiveEvents API found in Game config
+[20-36-41] [WARNING] Could not parse game config. Replay API may not be enabled!
+[20-36-41] Verifying LiveEvents list
+[20-36-41] Loading Replay Controller
+[20-36-41] Loading Farsight
+[20-36-41] Farsight loaded. Found 157 Champ names
+[20-36-41] Loading Frontend Webserver (HTTP/WS)
+[20-36-41] Server file system starting
+[20-36-41] WebServer New State - Loading
+[20-36-41] WebServer New State - Listening
+[20-36-41] WebServer running on http://*:9001/
+[20-36-41] Whats that ticking noise?
+[20-36-41] Init Complete in 1.913s
+[20-36-41] Opening main window
+[20-36-41] Team BOOMSLANG loaded
+[20-36-41] Team STORMTIGER loaded
+[20-36-41] Connection State Changed
+[20-36-41] New Client ss27/tlt4E+Iwk7RYJ6ekg connected from http://localhost:9001
+[20-36-42] Loading State Controller
+[20-36-42] Connecting to League Client
+[20-36-42] PickBan Enabled
+[20-36-42] Ingame Enabled
+[20-36-42] Using direct PickBan
+[20-36-42] Starting LeagueBroadcast with tickrate of 2tps
+[20-36-42] Checking for running Game
+[20-36-42] Target process (League of Legends) detected.
+[20-36-42] Init Game State
+[20-36-42] Game State reset
+[20-36-42] Attached to League Process
+[20-36-42] Connection State Changed
+[20-36-42] Post Init Complete in 349.7288ms
+[20-36-42] Total Startup time: 3.691s
+[20-36-42] Connected to League Client in 107 ms
+[20-36-42] Local Client Version 11.20.1
+[20-36-42] Loading offsets for current patch
+[20-36-42] Found Farsight.json. Reading values
+[20-36-42] Outdated Offsets detected. Downloading new ones
+[20-36-42] Fetching new offsets from https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/Offsets-11.20.1.json
+[20-36-42] Downloading https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/Offsets-11.20.1.json
+[20-36-42] New Client h0zLsZ0ngkiLkzJm7oTaZg connected from http://localhost:9001
+[20-36-42] Checking spectate endpoint to determine game type
+[20-36-42] Found spectate game
+[20-36-42] Game Loaded
+[20-36-42] Tick: 0. Update duration: 0
+[20-36-42] Game Paused
+[20-36-42] LiveEventAPI Connected
+[20-36-42] [WARNING] Could not download https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/Offsets-11.20.1.json: The remote server returned an error: (404) Not Found.
+[20-36-42] Received updated offsets
+[20-36-42] New Offsets not yet online. Checking to make sure if new patch should already be used
+[20-36-42] Night before patch. Using old offsets
+[20-36-42] Saving new Offsets to file
+[20-36-42] Writing Farsight config to file
+[20-36-42] Updated Farsight config file
+[20-36-42] {
+  "GameVersion": "11.19.1",
+  "GameOffsets": {
+    "Manager": "0x1826420",
+    "MapCount": "0x2c",
+    "MapRoot": "0x28",
+    "MapNodeNetId": "0x10",
+    "MapNodeObject": "0x14"
+  },
+  "ObjectOffsets": {
+    "ID": "0x20",
+    "NetworkID": "0xcc",
+    "Team": "0x4c",
+    "Pos": "0xf0",
+    "Mana": "0x2b4",
+    "MaxMana": "0x2c4",
+    "Health": "0xdb4",
+    "MaxHealth": "0xdc4",
+    "CurrentGold": "0x1b98",
+    "GoldTotal": "0x1ba8",
+    "EXP": "0x3364",
+    "Name": "0x2bd4",
+    "ItemList": "0x0",
+    "SpellBook": "0x0",
+    "ItemListItem": "0x0",
+    "ItemInfo": "0x0",
+    "ItemInfoId": "0x0"
+  },
+  "FileVersion": "1.0"
+}
+[20-36-42] Config Farsight loaded
+[20-36-42] Watching Farsight.json for changes
+[20-36-42] Using offsets 11.19.1
+[20-36-43] Tick: 91.03628540039062. Update duration: 91.03628540039062
+[20-36-43] Game Resumed
+[20-36-43] Init Team data
+[20-36-43] Tick: 91.53641510009766. Update duration: 0.5001296997070312
+[20-36-43] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-43] [WARNING] Sequence contains no matching element
+[20-36-43] Players:
+[{"id":0,"summonerName":"Pro no Minecraft","championName":"Jax","championID":"Jax","isDead":false,"items":[{"itemID":2033,"displayName":"Poção Corrupta","canUse":true,"consumable":false,"count":1,"price":350,"slot":0,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":1,"position":"TOP","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Conquistador","id":8010},"primaryRuneTree":{"displayName":"Precisão","id":8000},"secondaryRuneTree":{"displayName":"Determinação","id":8400}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Teleporte","rawDescription":"GeneratedTip_SummonerSpell_SummonerTeleport_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerTeleport_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":1,"summonerName":"yuwumii","championName":"Zac","championID":"Zac","isDead":false,"items":[{"itemID":1035,"displayName":"Lâmina Cálida","canUse":false,"consumable":false,"count":1,"price":350,"slot":0,"icon":null},{"itemID":2031,"displayName":"Poção com Refil","canUse":true,"consumable":false,"count":1,"price":150,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":1,"position":"JUNGLE","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Pós-choque","id":8439},"primaryRuneTree":{"displayName":"Determinação","id":8400},"secondaryRuneTree":{"displayName":"Precisão","id":8000}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Golpear","rawDescription":"GeneratedTip_SummonerSpell_SummonerSmite_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerSmite_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":2,"summonerName":"capitao guigui","championName":"Pyke","championID":"Pyke","isDead":false,"items":[{"itemID":1036,"displayName":"Espada Longa","canUse":false,"consumable":false,"count":1,"price":350,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":3,"price":50,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":1,"position":"MIDDLE","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Chuva de Lâminas","id":9923},"primaryRuneTree":{"displayName":"Dominação","id":8100},"secondaryRuneTree":{"displayName":"Inspiração","id":8300}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Incendiar","rawDescription":"GeneratedTip_SummonerSpell_SummonerDot_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerDot_DisplayName"},"summonerSpellTwo":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":3,"summonerName":"Blooded Stardust","championName":"Kai'Sa","championID":"Kaisa","isDead":false,"items":[{"itemID":1055,"displayName":"Lâmina de Doran","canUse":false,"consumable":false,"count":1,"price":450,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":1,"price":50,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":1,"position":"BOTTOM","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Chuva de Lâminas","id":9923},"primaryRuneTree":{"displayName":"Dominação","id":8100},"secondaryRuneTree":{"displayName":"Feitiçaria","id":8200}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Curar","rawDescription":"GeneratedTip_SummonerSpell_SummonerHeal_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerHeal_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":4,"summonerName":"TãoUsandoMeuNome","championName":"Leona","championID":"Leona","isDead":false,"items":[{"itemID":3858,"displayName":"Escudo Relicário","canUse":false,"consumable":false,"count":1,"price":400,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":2,"price":50,"slot":5,"icon":null},{"itemID":3364,"displayName":"Lente do Oráculo","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":1,"position":"UTILITY","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Pós-choque","id":8439},"primaryRuneTree":{"displayName":"Determinação","id":8400},"secondaryRuneTree":{"displayName":"Inspiração","id":8300}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Incendiar","rawDescription":"GeneratedTip_SummonerSpell_SummonerDot_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerDot_DisplayName"},"summonerSpellTwo":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":5,"summonerName":"Ahri of my Eve","championName":"Poppy","championID":"Poppy","isDead":false,"items":[{"itemID":2033,"displayName":"Poção Corrupta","canUse":true,"consumable":false,"count":1,"price":350,"slot":0,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":1,"position":"TOP","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Aperto dos Mortos-Vivos","id":8437},"primaryRuneTree":{"displayName":"Determinação","id":8400},"secondaryRuneTree":{"displayName":"Precisão","id":8000}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Teleporte","rawDescription":"GeneratedTip_SummonerSpell_SummonerTeleport_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerTeleport_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":6,"summonerName":"fofo e atencioso","championName":"Nunu e Willump","championID":"Nunu","isDead":false,"items":[{"itemID":1039,"displayName":"Lâmina Álgida","canUse":false,"consumable":false,"count":1,"price":350,"slot":0,"icon":null},{"itemID":2031,"displayName":"Poção com Refil","canUse":true,"consumable":false,"count":1,"price":150,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":1,"position":"JUNGLE","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Colheita Sombria","id":8128},"primaryRuneTree":{"displayName":"Dominação","id":8100},"secondaryRuneTree":{"displayName":"Feitiçaria","id":8200}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Golpear","rawDescription":"GeneratedTip_SummonerSpell_SummonerSmite_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerSmite_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":7,"summonerName":"Flora Ellifayng","championName":"Gwen","championID":"Gwen","isDead":false,"items":[{"itemID":1055,"displayName":"Lâmina de Doran","canUse":false,"consumable":false,"count":1,"price":450,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":1,"price":50,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":1,"position":"MIDDLE","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Conquistador","id":8010},"primaryRuneTree":{"displayName":"Precisão","id":8000},"secondaryRuneTree":{"displayName":"Dominação","id":8100}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Incendiar","rawDescription":"GeneratedTip_SummonerSpell_SummonerDot_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerDot_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":8,"summonerName":"carilline s2","championName":"Xayah","championID":"Xayah","isDead":false,"items":[{"itemID":1055,"displayName":"Lâmina de Doran","canUse":false,"consumable":false,"count":1,"price":450,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":1,"price":50,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":1,"position":"BOTTOM","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Ritmo Fatal","id":8008},"primaryRuneTree":{"displayName":"Precisão","id":8000},"secondaryRuneTree":{"displayName":"Dominação","id":8100}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Purificar","rawDescription":"GeneratedTip_SummonerSpell_SummonerBoost_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerBoost_DisplayName"},"summonerSpellTwo":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":9,"summonerName":"PaschoalFenix","championName":"Morgana","championID":"Morgana","isDead":false,"items":[{"itemID":2419,"displayName":"Cronômetro Inicial","canUse":false,"consumable":false,"count":1,"price":0,"slot":0,"icon":null},{"itemID":3850,"displayName":"Gume do Ladrão Arcano","canUse":false,"consumable":false,"count":1,"price":400,"slot":1,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":2,"price":50,"slot":2,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":1,"position":"UTILITY","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Cometa Arcano","id":8229},"primaryRuneTree":{"displayName":"Feitiçaria","id":8200},"secondaryRuneTree":{"displayName":"Inspiração","id":8300}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Exaustão","rawDescription":"GeneratedTip_SummonerSpell_SummonerExhaust_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerExhaust_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false}]
+Snapshot:
+[]
+[20-36-43] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-43] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-43] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-43] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-43] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-43] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-43] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-43] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-43] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-43] Init UI
+[20-36-43] Sending game start key inputs
+[20-36-43] Disabling ingame score display
+[20-36-44] Tick: 92.03047943115234. Update duration: 0.4940643310546875
+[20-36-44] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-44] Client ss27/tlt4E+Iwk7RYJ6ekg disconnected
+[20-36-44] Tick: 92.53654479980469. Update duration: 0.5060653686523438
+[20-36-44] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-44] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-44] New Client VUhfMmwr90KhShTu/+vJNQ connected from http://localhost:9001
+[20-36-45] Tick: 93.0284423828125. Update duration: 0.4918975830078125
+[20-36-45] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-45] Tick: 93.52426147460938. Update duration: 0.495819091796875
+[20-36-45] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-45] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-46] Tick: 94.03780364990234. Update duration: 0.5135421752929688
+[20-36-46] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-46] Tick: 94.5224609375. Update duration: 0.48465728759765625
+[20-36-46] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-46] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-47] Tick: 95.03717041015625. Update duration: 0.51470947265625
+[20-36-47] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-47] Tick: 95.5368423461914. Update duration: 0.49967193603515625
+[20-36-47] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-47] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-48] Tick: 96.03682708740234. Update duration: 0.4999847412109375
+[20-36-48] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-48] Tick: 96.55123138427734. Update duration: 0.514404296875
+[20-36-48] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-48] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-49] Tick: 97.03072357177734. Update duration: 0.4794921875
+[20-36-49] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-49] Tick: 97.52727508544922. Update duration: 0.496551513671875
+[20-36-49] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-49] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-50] Tick: 98.02328491210938. Update duration: 0.49600982666015625
+[20-36-50] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-50] Tick: 98.52932739257812. Update duration: 0.50604248046875
+[20-36-50] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-50] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-51] Tick: 99.03611755371094. Update duration: 0.5067901611328125
+[20-36-51] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-51] Tick: 99.53692626953125. Update duration: 0.5008087158203125
+[20-36-51] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-51] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-52] Tick: 100.02935028076172. Update duration: 0.49242401123046875
+[20-36-52] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-52] Tick: 100.52934265136719. Update duration: 0.49999237060546875
+[20-36-52] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-52] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-53] Tick: 101.03736877441406. Update duration: 0.508026123046875
+[20-36-53] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-53] Tick: 101.53179168701172. Update duration: 0.49442291259765625
+[20-36-53] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-53] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-54] Tick: 102.0255126953125. Update duration: 0.49372100830078125
+[20-36-54] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-54] Tick: 102.54002380371094. Update duration: 0.5145111083984375
+[20-36-54] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-54] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-55] Tick: 103.03238677978516. Update duration: 0.49236297607421875
+[20-36-55] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-55] Tick: 103.52532196044922. Update duration: 0.4929351806640625
+[20-36-55] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-55] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-56] Tick: 104.03639221191406. Update duration: 0.5110702514648438
+[20-36-56] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-56] Tick: 104.53640747070312. Update duration: 0.5000152587890625
+[20-36-56] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-56] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-57] Tick: 105.02616882324219. Update duration: 0.4897613525390625
+[20-36-57] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-57] Tick: 105.53804779052734. Update duration: 0.5118789672851562
+[20-36-57] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-57] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-58] Tick: 106.02999877929688. Update duration: 0.49195098876953125
+[20-36-58] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-58] Tick: 106.53446197509766. Update duration: 0.5044631958007812
+[20-36-58] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-58] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-59] Tick: 107.02970886230469. Update duration: 0.49524688720703125
+[20-36-59] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-36-59] Tick: 107.53518676757812. Update duration: 0.5054779052734375
+[20-36-59] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-36-59] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-00] Tick: 108.02255249023438. Update duration: 0.48736572265625
+[20-37-00] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-00] Tick: 108.53378295898438. Update duration: 0.51123046875
+[20-37-00] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-00] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-01] Tick: 109.03252410888672. Update duration: 0.49874114990234375
+[20-37-01] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-01] Tick: 109.53239440917969. Update duration: 0.49987030029296875
+[20-37-01] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-01] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-02] Tick: 110.02415466308594. Update duration: 0.49176025390625
+[20-37-02] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-02] Tick: 110.5324935913086. Update duration: 0.5083389282226562
+[20-37-02] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-02] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-03] Tick: 111.03865814208984. Update duration: 0.50616455078125
+[20-37-03] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-03] Tick: 111.52449035644531. Update duration: 0.48583221435546875
+[20-37-03] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-03] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-04] Tick: 112.0575942993164. Update duration: 0.5331039428710938
+[20-37-04] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-04] Tick: 112.53095245361328. Update duration: 0.473358154296875
+[20-37-04] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-04] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-05] Tick: 113.03089904785156. Update duration: 0.49994659423828125
+[20-37-05] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-05] Tick: 113.5289077758789. Update duration: 0.49800872802734375
+[20-37-05] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-05] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-06] Tick: 114.02568817138672. Update duration: 0.4967803955078125
+[20-37-06] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-06] Tick: 114.53577423095703. Update duration: 0.5100860595703125
+[20-37-06] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-06] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-07] Tick: 115.02462005615234. Update duration: 0.4888458251953125
+[20-37-07] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-07] Tick: 115.53614807128906. Update duration: 0.5115280151367188
+[20-37-07] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-07] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-08] Tick: 116.02430725097656. Update duration: 0.4881591796875
+[20-37-08] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-08] Tick: 116.5333023071289. Update duration: 0.5089950561523438
+[20-37-08] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-08] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-09] Tick: 117.0259780883789. Update duration: 0.49267578125
+[20-37-09] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-09] Tick: 117.53547668457031. Update duration: 0.5094985961914062
+[20-37-09] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-09] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-10] Tick: 118.0285873413086. Update duration: 0.49311065673828125
+[20-37-10] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-10] Tick: 118.52882385253906. Update duration: 0.5002365112304688
+[20-37-10] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-10] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-11] Tick: 119.02833557128906. Update duration: 0.49951171875
+[20-37-11] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-11] Tick: 119.53919219970703. Update duration: 0.5108566284179688
+[20-37-11] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-11] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-12] Tick: 120.03196716308594. Update duration: 0.49277496337890625
+[20-37-12] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-12] Tick: 120.52973175048828. Update duration: 0.49776458740234375
+[20-37-12] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-12] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-13] Tick: 121.0225601196289. Update duration: 0.492828369140625
+[20-37-13] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-13] Tick: 121.53942108154297. Update duration: 0.5168609619140625
+[20-37-13] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-13] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-14] Tick: 122.03019714355469. Update duration: 0.49077606201171875
+[20-37-14] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-14] Tick: 122.52206420898438. Update duration: 0.4918670654296875
+[20-37-14] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-14] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-15] Tick: 123.03177642822266. Update duration: 0.5097122192382812
+[20-37-15] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-15] Tick: 123.5226821899414. Update duration: 0.49090576171875
+[20-37-15] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-15] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-16] Tick: 124.02996063232422. Update duration: 0.5072784423828125
+[20-37-16] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-16] Tick: 124.53892517089844. Update duration: 0.5089645385742188
+[20-37-16] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-16] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-17] Tick: 125.02813720703125. Update duration: 0.4892120361328125
+[20-37-17] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-17] Tick: 125.54044342041016. Update duration: 0.5123062133789062
+[20-37-17] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-17] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-18] Tick: 126.03858184814453. Update duration: 0.498138427734375
+[20-37-18] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-18] Tick: 126.5343246459961. Update duration: 0.4957427978515625
+[20-37-18] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-18] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-19] Tick: 127.0244140625. Update duration: 0.49008941650390625
+[20-37-19] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-19] Tick: 127.53540802001953. Update duration: 0.5109939575195312
+[20-37-19] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-19] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-20] Tick: 128.025634765625. Update duration: 0.49022674560546875
+[20-37-20] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-20] Tick: 128.52532958984375. Update duration: 0.49969482421875
+[20-37-20] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-20] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-21] Tick: 129.0305938720703. Update duration: 0.5052642822265625
+[20-37-21] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-21] Tick: 129.52281188964844. Update duration: 0.492218017578125
+[20-37-21] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-21] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-22] Tick: 130.032470703125. Update duration: 0.5096588134765625
+[20-37-22] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-22] Tick: 130.52577209472656. Update duration: 0.4933013916015625
+[20-37-22] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-22] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-23] Tick: 131.03555297851562. Update duration: 0.5097808837890625
+[20-37-23] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-23] Tick: 131.52499389648438. Update duration: 0.48944091796875
+[20-37-23] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-23] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-24] Tick: 132.02638244628906. Update duration: 0.5013885498046875
+[20-37-24] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-24] Tick: 132.53067016601562. Update duration: 0.5042877197265625
+[20-37-24] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-24] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-25] Tick: 133.0283660888672. Update duration: 0.4976959228515625
+[20-37-25] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-25] Tick: 133.54698181152344. Update duration: 0.51861572265625
+[20-37-25] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-25] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-26] Tick: 134.03189086914062. Update duration: 0.4849090576171875
+[20-37-26] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-26] Tick: 134.52505493164062. Update duration: 0.4931640625
+[20-37-26] [WARNING] Jax not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Zac not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Pyke not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Poppy not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Nunu e Willump not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[20-37-26] [WARNING] Morgana not found in memory snapshot. Values will be incorrect!
+[20-37-26] Saving all configs to file
+[20-37-26] Writing PickBan config to file
+[20-37-26] Updated PickBan config file
+[20-37-26] Writing Component config to file
+[20-37-26] Updated Component config file
+[20-37-26] Writing Farsight config to file
+[20-37-26] Updated Farsight config file
+[20-37-26] Writing Ingame config to file
+[20-37-26] Updated Ingame config file
+[20-37-26] Configs saved

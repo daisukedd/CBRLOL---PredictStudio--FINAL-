@@ -1,0 +1,25 @@
+--- LeagueBroadcast Crash Report --- 
+Gotta fix this somehow... Up Up Down Down Left Right Left Right B A Enter... Nah, still broken
+
+Time: 2021.10.07-10:28
+Description: Access is denied.
+
+Stacktrace: 
+   at System.Diagnostics.ProcessManager.OpenProcess(Int32 processId, Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.GetOrOpenProcessHandle()
+   at System.Diagnostics.Process.EnsureWatchingForExit()
+   at System.Diagnostics.Process.set_EnableRaisingEvents(Boolean value)
+   at LCUSharp.Utility.LeagueProcessHandler.WaitForProcessAsync() in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LCUSharp\Utility\LeagueProcessHandler.cs:line 46
+   at LCUSharp.LeagueClientApi.GetAuthCredentialsAsync() in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LCUSharp\LeagueClientApi.cs:line 92
+   at LCUSharp.LeagueClientApi.ReconnectAsync() in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LCUSharp\LeagueClientApi.cs:line 71
+   at LeagueBroadcast.Common.Controllers.AppStateController.<InitConnection>b__20_0(Object e, EventArgs a) in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LeagueBroadcast\Common\Controllers\AppStateController.cs:line 116
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__139_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.<>c.<.cctor>b__6_0(QueueUserWorkItemCallback quwi)
+   at System.Threading.ExecutionContext.RunForThreadPoolUnsafe[TState](ExecutionContext executionContext, Action`1 callback, TState& state)
+   at System.Threading.QueueUserWorkItemCallback.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+-- System Details -- 
+League Broadcast Version: 1.4.97.21252
+OS: Win 10 2009

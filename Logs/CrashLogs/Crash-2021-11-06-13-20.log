@@ -1,0 +1,25 @@
+--- LeagueBroadcast Crash Report --- 
+Still more stable than the League Client
+
+Time: 2021.11.06-13:20
+Description: Access to the path '\\?\D:\DESKTOP\Dev - Predict\CBRLOL - PredictStudio\Cache\11.19.1\champion' is denied.
+
+Stacktrace: 
+   at System.IO.FileSystem.RemoveDirectoryInternal(String fullPath, Boolean topLevel, Boolean allowDirectoryNotEmpty)
+   at System.IO.FileSystem.RemoveDirectoryRecursive(String fullPath, WIN32_FIND_DATA& findData, Boolean topLevel)
+   at System.IO.FileSystem.RemoveDirectory(String fullPath, Boolean recursive)
+   at LeagueBroadcast.Common.Data.Provider.DataDragonUtils.Empty(DirectoryInfo directory) in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LeagueBroadcast\Common\Data\Provider\DataDragon.cs:line 431
+   at LeagueBroadcast.Common.Data.Provider.DataDragon.<>c.<CheckLocalCache>b__23_2(String dir) in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LeagueBroadcast\Common\Data\Provider\DataDragon.cs:line 229
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at LeagueBroadcast.Common.Data.Provider.DataDragon.CheckLocalCache() in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LeagueBroadcast\Common\Data\Provider\DataDragon.cs:line 227
+   at LeagueBroadcast.Common.Data.Provider.DataDragon.Init() in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LeagueBroadcast\Common\Data\Provider\DataDragon.cs:line 155
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__139_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.<>c.<.cctor>b__6_0(QueueUserWorkItemCallback quwi)
+   at System.Threading.ExecutionContext.RunForThreadPoolUnsafe[TState](ExecutionContext executionContext, Action`1 callback, TState& state)
+   at System.Threading.QueueUserWorkItemCallback.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+-- System Details -- 
+League Broadcast Version: 1.4.97.21252
+OS: Win 10 2009

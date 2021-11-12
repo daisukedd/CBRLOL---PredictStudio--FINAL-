@@ -1,0 +1,20 @@
+--- LeagueBroadcast Crash Report --- 
+Everything went according to plan. Seriously, this is the best case scenario.
+
+Time: 2021.10.23-20:31
+Description: Object reference not set to an instance of an object.
+
+Stacktrace: 
+   at LCUSharp.Utility.LeagueProcessHandler.WaitForProcessAsync() in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LCUSharp\Utility\LeagueProcessHandler.cs:line 48
+   at LCUSharp.LeagueClientApi.GetAuthCredentialsAsync() in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LCUSharp\LeagueClientApi.cs:line 92
+   at LCUSharp.LeagueClientApi.ReconnectAsync() in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LCUSharp\LeagueClientApi.cs:line 71
+   at LeagueBroadcast.Common.Controllers.AppStateController.<InitConnection>b__20_0(Object e, EventArgs a) in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LeagueBroadcast\Common\Controllers\AppStateController.cs:line 116
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__139_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.<>c.<.cctor>b__6_0(QueueUserWorkItemCallback quwi)
+   at System.Threading.ExecutionContext.RunForThreadPoolUnsafe[TState](ExecutionContext executionContext, Action`1 callback, TState& state)
+   at System.Threading.QueueUserWorkItemCallback.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+-- System Details -- 
+League Broadcast Version: 1.4.97.21252
+OS: Win 10 2009

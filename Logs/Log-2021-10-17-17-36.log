@@ -1,0 +1,1349 @@
+[17-36-41] Logging Init
+[17-36-41] Starting Config Controller
+[17-36-41] Config Provider started
+[17-36-41] Looking for config files at /Config
+[17-36-41] Found PickBan.json. Reading values
+[17-36-41] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": false,
+    "blueTeam": {
+      "name": "BOOMSLANG",
+      "nameTag": "BSG",
+      "score": 0,
+      "coach": "Haaty",
+      "color": "rgb(38,38,38)"
+    },
+    "redTeam": {
+      "name": "STORMTIGER",
+      "nameTag": "STT",
+      "score": 0,
+      "coach": "Daisuke",
+      "color": "rgb(242,179,61)"
+    },
+    "patch": "11.20.1"
+  },
+  "FileVersion": "1.0"
+}
+[17-36-41] Config PickBan loaded
+[17-36-41] Found Ingame.json. Reading values
+[17-36-41] {
+  "Inhib": {
+    "Position": {
+      "X": 0.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 306.0,
+      "Y": 118.0
+    },
+    "UseBackgroundImage": true,
+    "UseBackgroundVideo": false,
+    "Color": "rgba(19,24,63,255)",
+    "Font": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "15px",
+      "Align": "right",
+      "Color": "rgb(255,255,255)"
+    },
+    "IconSize": 40.0,
+    "HideWhenNoneDestroyed": true,
+    "UseTeamColors": true,
+    "BlueTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 20.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(0,0,0)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "RedTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 80.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(255,255,255)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "LaneOrder": [
+      "bot",
+      "mid",
+      "top"
+    ]
+  },
+  "Score": {
+    "Position": {
+      "X": 960.0,
+      "Y": 0.0
+    },
+    "Size": {
+      "X": 1280.0,
+      "Y": 110.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "Montserrat",
+      "Size": "25px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "TimePosition": {
+      "X": 0.0,
+      "Y": 95.0
+    },
+    "BlueTeam": {
+      "Kills": {
+        "Position": {
+          "X": -90.0,
+          "Y": 7.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "45px",
+          "Align": "right",
+          "Color": "rgb(38,38,38)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": -362.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(38,38,38)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": -210.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(38,38,38)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 50.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": -80.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": -18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": -540.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "40px",
+          "Align": "left",
+          "Color": "rgb(38,38,38)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": -600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": -380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": 25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "RedTeam": {
+      "Kills": {
+        "Position": {
+          "X": 90.0,
+          "Y": 5.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "50px",
+          "Align": "left",
+          "Color": "rgb(242,176,61)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": 364.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(242,176,61)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": 210.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(242,176,61)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": 80.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": 18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": 510.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "40px",
+          "Align": "right",
+          "Color": "rgb(242,176,61)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": 600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": 10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": 380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": -25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(0,0,0,0)"
+    },
+    "Misc": {
+      "Animation": "Simple",
+      "ShowCenterIcon": true,
+      "CenterIconPosition": {
+        "X": 3.0,
+        "Y": 33.0
+      },
+      "CenterIconSize": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "DrakeIconSize": {
+        "X": 20.0,
+        "Y": 20.0
+      }
+    }
+  },
+  "ObjectiveKill": {
+    "ShowTeamIcon": false,
+    "SoulPointScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "ElderKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DragonKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "BaronKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ObjectiveSpawn": {
+    "BaronSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DrakeSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ItemComplete": {
+    "UseCustomVideo": true,
+    "ShowItemName": true,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "InfoText": {
+      "Style": "Bold",
+      "Name": "Montserrat",
+      "Size": "20px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "ItemAnimationStates": [
+      {
+        "Scale": 0.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.1,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 3200.0,
+        "Ease": "Linear",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 2.5,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 0.0
+      }
+    ],
+    "InfoTextAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 1000.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 1800.0
+      }
+    ],
+    "InfoBackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 80.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 800.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -80.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 2200.0
+      }
+    ]
+  },
+  "LevelUp": {
+    "UseCustomVideo": false,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "LevelFont": {
+      "Style": "Bold",
+      "Name": "Montserrat",
+      "Size": "60px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "UseTeamColors": true,
+    "OrderColor": "rgb(0,0,255)",
+    "ChaosColor": "rgb(255,0,0)",
+    "NumberAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 70.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -30.0
+        },
+        "Mirror": true,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -130.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 3500.0
+      }
+    ],
+    "BackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 100.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": -90.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 4000.0
+      }
+    ]
+  },
+  "InfoPage": {
+    "Position": {
+      "X": 0.0,
+      "Y": 135.0
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "Gold": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "XP": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "CSPM": {
+          "X": 150.0,
+          "Y": 15.0
+        }
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "26px",
+        "Align": "center",
+        "Color": "rgb(0,0,0)"
+      }
+    },
+    "TitleHeight": 45.0,
+    "TabConfig": {
+      "TabSize": {
+        "X": 300.0,
+        "Y": 55.0
+      },
+      "UseTeamColorsText": false,
+      "OrderColor": "rgb(255,255,255)",
+      "ChaosColor": "rgb(255,255,255)",
+      "ChampIcon": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "XP": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "CSPM": {
+            "X": 4.0,
+            "Y": 8.0
+          }
+        },
+        "Size": {
+          "X": 42.0,
+          "Y": 42.0
+        }
+      },
+      "Separator": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "XP": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "CSPM": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "Size": {
+          "X": 300.0,
+          "Y": 2.0
+        }
+      },
+      "PlayerName": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 6.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "MinValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "CurrentValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 270.0,
+            "Y": 15.0
+          },
+          "XP": {
+            "X": 280.0,
+            "Y": 15.0
+          },
+          "CSPM": {
+            "X": 280.0,
+            "Y": 15.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "20px",
+          "Align": "center",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "MaxValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 230.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 260.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 260.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "ProgressBar": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "XP": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "CSPM": {
+            "X": 52.0,
+            "Y": 40.0
+          }
+        },
+        "Size": {
+          "Gold": {
+            "X": 180.0,
+            "Y": 10.0
+          },
+          "XP": {
+            "X": 210.0,
+            "Y": 10.0
+          },
+          "CSPM": {
+            "X": 210.0,
+            "Y": 10.0
+          }
+        },
+        "UseTeamColors": true,
+        "DefaultColor": "rgb(255,255,255)",
+        "OrderColor": "rgb(222,40,70)",
+        "ChaosColor": "rgb(0,151,196)",
+        "Animate": true
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgb(0, 0, 0)",
+      "Size": {
+        "X": 300.0,
+        "Y": 600.0
+      }
+    }
+  },
+  "GoldGraph": {
+    "Position": {
+      "X": 965.0,
+      "Y": 849.0
+    },
+    "Size": {
+      "X": 750.0,
+      "Y": 250.0
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(238,239,228,0)"
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "X": 0.0,
+        "Y": 10.0
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "22px",
+        "Align": "left",
+        "Color": "rgb(0,0,0)"
+      },
+      "Text": "DIFERENÇA DE OURO - PREDICT STUDIO"
+    },
+    "Graph": {
+      "Position": {
+        "X": 5.0,
+        "Y": 40.0
+      },
+      "Size": {
+        "X": 710.0,
+        "Y": 190.0
+      },
+      "ShowVerticalGrid": false,
+      "ShowHorizontalGrid": true,
+      "LineTension": 0.05,
+      "GridColor": "rgba(255,255,255,0.5)",
+      "GridEdgeColor": "rgba(255,255,255, 0.1)",
+      "BorderUseTeamColors": true,
+      "BorderOrderColor": "rgb(0,0,0)",
+      "BorderChaosColor": "rgb(0,0,0)",
+      "FillUseTeamColors": true,
+      "FillOrderColor": "rgb(0,0,0)",
+      "FillChaosColor": "rgb(0,0,0)",
+      "InfoFont": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "UNUSED",
+        "Align": "UNUSED",
+        "Color": "rgb(0,0,0)"
+      },
+      "TimeStepSize": 30,
+      "ShowTimeStepIndicators": true
+    }
+  },
+  "BaronTimer": {
+    "Position": {
+      "X": 1800.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 1750.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "right",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 25.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": -7.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 25.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": -10.0,
+      "Y": 0.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "ElderTimer": {
+    "Position": {
+      "X": 120.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 50.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "left",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 40.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 18.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": 22.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 18.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": 20.0,
+      "Y": -2.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "GoogleFonts": [
+    "News Cycle",
+    "News Cycle:bold",
+    "Montserrat:ExtraBold",
+    "Roboto:Black",
+    "Droid Sans"
+  ],
+  "FileVersion": "2.2"
+}
+[17-36-41] Config Ingame loaded
+[17-36-41] Found Component.json. Reading values
+[17-36-41] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "pt_BR",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": true,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(38,38,38)",
+    "DefaultRedColor": "rgb(242,179,61)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": true,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 5,
+    "Objectives": {
+      "DoBaronKill": false,
+      "DoDragonKill": false,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": false,
+      "DoObjectiveKillPopUp": false
+    },
+    "Teams": {
+      "DoTeamNames": false,
+      "DoTeamIcons": false,
+      "DoTeamScores": false
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 3,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[17-36-41] Config Component loaded
+[17-36-41] Loading config watchers
+[17-36-41] Watching PickBan.json for changes
+[17-36-41] Watching Component.json for changes
+[17-36-41] Watching Ingame.json for changes
+[17-36-41] Log Level set to Verbose
+[17-36-41] League Broadcast Version 1.4.97
+[17-36-41] [Update] Checking for Updates
+[17-36-42] [Update] Latest release version v1.4.97 vs. current version 1.4.97
+[17-36-42] [Update] Local version up to date
+[17-36-42] Using current Version
+[17-36-42] Early Init Complete in 1602.7443ms
+[17-36-42] DataDragon Provider Init
+[17-36-42] Getting latest versions from dataDragon
+[17-36-42] Retrieving latest patch info
+[17-36-42] Downloading https://ddragon.leagueoflegends.com/realms/euw.json
+[17-36-43] https://ddragon.leagueoflegends.com/realms/euw.json downloaded
+[17-36-43] Champion: 11.20.1, Item: 11.20.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[17-36-43] Downloading https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/champion.json
+[17-36-43] https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/champion.json downloaded
+[17-36-43] Loaded 157 champions
+[17-36-43] Downloading https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/summoner.json
+[17-36-44] https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/summoner.json downloaded
+[17-36-44] Loaded 15 summoner spells
+[17-36-44] Downloading https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/item.json
+[17-36-44] https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/item.json downloaded
+[17-36-44] Detected 199 items
+[17-36-44] Loaded 94 full items
+[17-36-44] Checking Local Cache
+[17-36-44] Cache C:\Users\kevin\Desktop\Dev - Predict\CBRLOL - PredictStudio/Cache/11.20.1 exists already
+[17-36-44] DDragon loaded
+[17-36-44] Loading PickBan Controller
+[17-36-44] Loading Ingame Controller
+[17-36-44] Checking League install for LiveEventsAPI
+[17-36-44] Found League install location
+[17-36-44] LiveEvents API found in Game config
+[17-36-44] Replay API found in Game config
+[17-36-44] Verifying LiveEvents list
+[17-36-44] Loading Replay Controller
+[17-36-44] Loading Farsight
+[17-36-44] Farsight loaded. Found 157 Champ names
+[17-36-44] Loading Frontend Webserver (HTTP/WS)
+[17-36-44] Server file system starting
+[17-36-44] WebServer New State - Loading
+[17-36-44] WebServer New State - Listening
+[17-36-44] WebServer running on http://*:9001/
+[17-36-44] Whats that ticking noise?
+[17-36-44] Init Complete in 2.210s
+[17-36-44] Opening main window
+[17-36-44] Team BOOMSLANG loaded
+[17-36-44] Team STORMTIGER loaded
+[17-36-44] Connection State Changed
+[17-36-45] New Client imr/1r2QEEKM8ZaxNZGkmA connected from http://localhost:9001
+[17-36-45] New Client ATWAO7EoQUWJNy16xraTzw connected from http://localhost:9001
+[17-36-45] Loading State Controller
+[17-36-45] Connecting to League Client
+[17-36-45] PickBan Enabled
+[17-36-45] Ingame Enabled
+[17-36-45] Using direct PickBan
+[17-36-45] Starting LeagueBroadcast with tickrate of 2tps
+[17-36-45] Checking for running Game
+[17-36-45] Target process (League of Legends) detected.
+[17-36-45] Init Game State
+[17-36-45] Game State reset
+[17-36-45] Attached to League Process
+[17-36-45] Connection State Changed
+[17-36-45] Post Init Complete in 456.0023ms
+[17-36-45] Total Startup time: 4.269s
+[17-36-45] Checking spectate endpoint to determine game type
+[17-36-45] Found spectate game
+[17-36-45] Game Loaded
+[17-36-45] Tick: 0. Update duration: 0
+[17-36-45] Game Paused
+[17-36-45] LiveEventAPI Connected
+[17-36-46] Tick: 175.86709594726562. Update duration: 175.86709594726562
+[17-36-46] Game Resumed
+[17-36-46] Init Team data
+[17-36-46] Tick: 175.86709594726562. Update duration: 0
+[17-36-46] Game Paused
+[17-36-46] Init UI
+[17-36-46] Sending game start key inputs
+[17-36-47] Tick: 175.86709594726562. Update duration: 0
+[17-36-47] Tick: 175.86709594726562. Update duration: 0
+[17-36-48] Tick: 175.86709594726562. Update duration: 0
+[17-36-48] Tick: 175.86709594726562. Update duration: 0
+[17-36-49] Tick: 175.86709594726562. Update duration: 0
+[17-36-49] Tick: 175.86709594726562. Update duration: 0
+[17-36-50] Tick: 175.86709594726562. Update duration: 0
+[17-36-50] Tick: 175.86709594726562. Update duration: 0
+[17-36-51] Tick: 175.86709594726562. Update duration: 0
+[17-36-51] Tick: 175.86709594726562. Update duration: 0
+[17-36-52] Tick: 175.86709594726562. Update duration: 0
+[17-36-52] Tick: 175.86709594726562. Update duration: 0
+[17-36-53] Tick: 175.86709594726562. Update duration: 0
+[17-36-53] Tick: 175.86709594726562. Update duration: 0
+[17-36-54] Tick: 175.86709594726562. Update duration: 0
+[17-36-54] Tick: 175.86709594726562. Update duration: 0
+[17-36-55] Tick: 175.86709594726562. Update duration: 0
+[17-36-55] Tick: 175.86709594726562. Update duration: 0
+[17-36-56] Tick: 175.86709594726562. Update duration: 0
+[17-36-56] Tick: 175.86709594726562. Update duration: 0
+[17-36-57] Tick: 175.86709594726562. Update duration: 0
+[17-36-57] Tick: 175.86709594726562. Update duration: 0
+[17-36-58] Tick: 175.86709594726562. Update duration: 0
+[17-36-58] Tick: 175.86709594726562. Update duration: 0
+[17-36-59] Tick: 175.86709594726562. Update duration: 0
+[17-36-59] Tick: 175.86709594726562. Update duration: 0
+[17-37-00] Tick: 175.86709594726562. Update duration: 0
+[17-37-00] Tick: 175.86709594726562. Update duration: 0
+[17-37-01] Tick: 175.86709594726562. Update duration: 0
+[17-37-01] Tick: 175.86709594726562. Update duration: 0
+[17-37-02] Tick: 175.86709594726562. Update duration: 0
+[17-37-02] Tick: 175.86709594726562. Update duration: 0
+[17-37-03] Tick: 175.86709594726562. Update duration: 0
+[17-37-03] Tick: 175.86709594726562. Update duration: 0
+[17-37-04] Tick: 175.86709594726562. Update duration: 0
+[17-37-04] Tick: 175.86709594726562. Update duration: 0
+[17-37-05] Tick: 175.86709594726562. Update duration: 0
+[17-37-05] Tick: 175.86709594726562. Update duration: 0
+[17-37-06] Tick: 175.86709594726562. Update duration: 0
+[17-37-06] Tick: 175.86709594726562. Update duration: 0
+[17-37-07] Tick: 175.86709594726562. Update duration: 0
+[17-37-07] Tick: 175.86709594726562. Update duration: 0
+[17-37-08] Tick: 175.86709594726562. Update duration: 0
+[17-37-08] Tick: 175.86709594726562. Update duration: 0
+[17-37-09] Tick: 175.86709594726562. Update duration: 0
+[17-37-09] Tick: 175.86709594726562. Update duration: 0
+[17-37-10] Tick: 175.86709594726562. Update duration: 0
+[17-37-10] Tick: 175.86709594726562. Update duration: 0
+[17-37-11] Tick: 175.86709594726562. Update duration: 0
+[17-37-11] Tick: 175.86709594726562. Update duration: 0
+[17-37-12] Tick: 122.98821258544922. Update duration: -52.878883361816406
+[17-37-12] Game Resumed
+[17-37-12] Scrolled back in timeline, reverting state
+[17-37-12] 122.98821258544922
+[17-37-12] Rolling back Players
+[17-37-12] Rolling back Objectives
+[17-37-12] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Sequence contains no matching element
+[17-37-12] Players:
+[{"id":0,"summonerName":"EMZ MurdokX","championName":"Camille","championID":"Camille","isDead":false,"items":[{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":1,"price":50,"slot":0,"icon":null},{"itemID":1054,"displayName":"Escudo de Doran","canUse":false,"consumable":false,"count":1,"price":450,"slot":1,"icon":null},{"itemID":2010,"displayName":"Biscoito Total da Determinação Eterna","canUse":true,"consumable":true,"count":1,"price":50,"slot":2,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":3,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Aperto dos Mortos-Vivos","id":8437},"primaryRuneTree":{"displayName":"Determinação","id":8400},"secondaryRuneTree":{"displayName":"Inspiração","id":8300}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Incendiar","rawDescription":"GeneratedTip_SummonerSpell_SummonerDot_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerDot_DisplayName"},"summonerSpellTwo":{"displayName":"Teleporte","rawDescription":"GeneratedTip_SummonerSpell_SummonerTeleport_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerTeleport_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":1,"summonerName":"Garibas","championName":"Hecarim","championID":"Hecarim","isDead":false,"items":[{"itemID":1039,"displayName":"Lâmina Álgida","canUse":false,"consumable":false,"count":1,"price":350,"slot":0,"icon":null},{"itemID":2031,"displayName":"Poção com Refil","canUse":true,"consumable":false,"count":1,"price":150,"slot":1,"icon":null},{"itemID":3364,"displayName":"Lente do Oráculo","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":3,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Conquistador","id":8010},"primaryRuneTree":{"displayName":"Precisão","id":8000},"secondaryRuneTree":{"displayName":"Dominação","id":8100}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":1.4405372},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Golpear","rawDescription":"GeneratedTip_SummonerSpell_SummonerSmite_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerSmite_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":2,"summonerName":"ffour","championName":"Sylas","championID":"Sylas","isDead":false,"items":[{"itemID":2033,"displayName":"Poção Corrupta","canUse":true,"consumable":false,"count":1,"price":350,"slot":0,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":3,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Conquistador","id":8010},"primaryRuneTree":{"displayName":"Precisão","id":8000},"secondaryRuneTree":{"displayName":"Determinação","id":8400}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Teleporte","rawDescription":"GeneratedTip_SummonerSpell_SummonerTeleport_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerTeleport_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":3,"summonerName":"pabu fangirl ","championName":"Miss Fortune","championID":"MissFortune","isDead":false,"items":[{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":1,"price":50,"slot":0,"icon":null},{"itemID":1055,"displayName":"Lâmina de Doran","canUse":false,"consumable":false,"count":1,"price":450,"slot":1,"icon":null},{"itemID":2010,"displayName":"Biscoito Total da Determinação Eterna","canUse":true,"consumable":true,"count":1,"price":50,"slot":2,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":2,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Cometa Arcano","id":8229},"primaryRuneTree":{"displayName":"Feitiçaria","id":8200},"secondaryRuneTree":{"displayName":"Inspiração","id":8300}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Purificar","rawDescription":"GeneratedTip_SummonerSpell_SummonerBoost_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerBoost_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":4,"summonerName":"PTZ DSS","championName":"Rakan","championID":"Rakan","isDead":false,"items":[{"itemID":3850,"displayName":"Gume do Ladrão Arcano","canUse":false,"consumable":false,"count":1,"price":400,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":2,"price":50,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":2,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Guardião","id":8465},"primaryRuneTree":{"displayName":"Determinação","id":8400},"secondaryRuneTree":{"displayName":"Dominação","id":8100}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":1.5023875},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Exaustão","rawDescription":"GeneratedTip_SummonerSpell_SummonerExhaust_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerExhaust_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":5,"summonerName":"EMZ MurdokX","championName":"Camille","championID":"Camille","isDead":false,"items":[{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":1,"price":50,"slot":0,"icon":null},{"itemID":1054,"displayName":"Escudo de Doran","canUse":false,"consumable":false,"count":1,"price":450,"slot":1,"icon":null},{"itemID":2010,"displayName":"Biscoito Total da Determinação Eterna","canUse":true,"consumable":true,"count":1,"price":50,"slot":2,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":3,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Aperto dos Mortos-Vivos","id":8437},"primaryRuneTree":{"displayName":"Determinação","id":8400},"secondaryRuneTree":{"displayName":"Inspiração","id":8300}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Incendiar","rawDescription":"GeneratedTip_SummonerSpell_SummonerDot_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerDot_DisplayName"},"summonerSpellTwo":{"displayName":"Teleporte","rawDescription":"GeneratedTip_SummonerSpell_SummonerTeleport_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerTeleport_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":6,"summonerName":"Garibas","championName":"Hecarim","championID":"Hecarim","isDead":false,"items":[{"itemID":1039,"displayName":"Lâmina Álgida","canUse":false,"consumable":false,"count":1,"price":350,"slot":0,"icon":null},{"itemID":2031,"displayName":"Poção com Refil","canUse":true,"consumable":false,"count":1,"price":150,"slot":1,"icon":null},{"itemID":3364,"displayName":"Lente do Oráculo","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":3,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Conquistador","id":8010},"primaryRuneTree":{"displayName":"Precisão","id":8000},"secondaryRuneTree":{"displayName":"Dominação","id":8100}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":1.4405372},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Golpear","rawDescription":"GeneratedTip_SummonerSpell_SummonerSmite_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerSmite_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":7,"summonerName":"ffour","championName":"Sylas","championID":"Sylas","isDead":false,"items":[{"itemID":2033,"displayName":"Poção Corrupta","canUse":true,"consumable":false,"count":1,"price":350,"slot":0,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":3,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Conquistador","id":8010},"primaryRuneTree":{"displayName":"Precisão","id":8000},"secondaryRuneTree":{"displayName":"Determinação","id":8400}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Teleporte","rawDescription":"GeneratedTip_SummonerSpell_SummonerTeleport_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerTeleport_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":8,"summonerName":"pabu fangirl ","championName":"Miss Fortune","championID":"MissFortune","isDead":false,"items":[{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":1,"price":50,"slot":0,"icon":null},{"itemID":1055,"displayName":"Lâmina de Doran","canUse":false,"consumable":false,"count":1,"price":450,"slot":1,"icon":null},{"itemID":2010,"displayName":"Biscoito Total da Determinação Eterna","canUse":true,"consumable":true,"count":1,"price":50,"slot":2,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":2,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Cometa Arcano","id":8229},"primaryRuneTree":{"displayName":"Feitiçaria","id":8200},"secondaryRuneTree":{"displayName":"Inspiração","id":8300}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Purificar","rawDescription":"GeneratedTip_SummonerSpell_SummonerBoost_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerBoost_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":9,"summonerName":"PTZ DSS","championName":"Rakan","championID":"Rakan","isDead":false,"items":[{"itemID":3850,"displayName":"Gume do Ladrão Arcano","canUse":false,"consumable":false,"count":1,"price":400,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":2,"price":50,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":2,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Guardião","id":8465},"primaryRuneTree":{"displayName":"Determinação","id":8400},"secondaryRuneTree":{"displayName":"Dominação","id":8100}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":1.5023875},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Exaustão","rawDescription":"GeneratedTip_SummonerSpell_SummonerExhaust_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerExhaust_DisplayName"}},"team":"ORDER","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":5,"summonerName":"Kauanzinhos2","championName":"Gwen","championID":"Gwen","isDead":false,"items":[{"itemID":1056,"displayName":"Anel de Doran","canUse":false,"consumable":false,"count":1,"price":400,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":2,"price":50,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":2,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Conquistador","id":8010},"primaryRuneTree":{"displayName":"Precisão","id":8000},"secondaryRuneTree":{"displayName":"Determinação","id":8400}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":1.4376392},"summonerSpells":{"summonerSpellOne":{"displayName":"Teleporte","rawDescription":"GeneratedTip_SummonerSpell_SummonerTeleport_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerTeleport_DisplayName"},"summonerSpellTwo":{"displayName":"Incendiar","rawDescription":"GeneratedTip_SummonerSpell_SummonerDot_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerDot_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":6,"summonerName":"Druvolkz","championName":"Jarvan IV","championID":"JarvanIV","isDead":false,"items":[{"itemID":1035,"displayName":"Lâmina Cálida","canUse":false,"consumable":false,"count":1,"price":350,"slot":0,"icon":null},{"itemID":2031,"displayName":"Poção com Refil","canUse":true,"consumable":false,"count":1,"price":150,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":3,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Conquistador","id":8010},"primaryRuneTree":{"displayName":"Precisão","id":8000},"secondaryRuneTree":{"displayName":"Dominação","id":8100}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Golpear","rawDescription":"GeneratedTip_SummonerSpell_SummonerSmite_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerSmite_DisplayName"},"summonerSpellTwo":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":7,"summonerName":"Vlaz","championName":"Ahri","championID":"Ahri","isDead":false,"items":[{"itemID":1056,"displayName":"Anel de Doran","canUse":false,"consumable":false,"count":1,"price":400,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":2,"price":50,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":3,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Eletrocutar","id":8112},"primaryRuneTree":{"displayName":"Dominação","id":8100},"secondaryRuneTree":{"displayName":"Feitiçaria","id":8200}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":1.4379646},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Incendiar","rawDescription":"GeneratedTip_SummonerSpell_SummonerDot_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerDot_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":8,"summonerName":"Life ls Dynamite","championName":"Caitlyn","championID":"Caitlyn","isDead":false,"items":[{"itemID":1055,"displayName":"Lâmina de Doran","canUse":false,"consumable":false,"count":1,"price":450,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":1,"price":50,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":2,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Pressione o Ataque","id":8005},"primaryRuneTree":{"displayName":"Precisão","id":8000},"secondaryRuneTree":{"displayName":"Dominação","id":8100}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Exaustão","rawDescription":"GeneratedTip_SummonerSpell_SummonerExhaust_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerExhaust_DisplayName"},"summonerSpellTwo":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":9,"summonerName":"Alchemy Cain","championName":"Leona","championID":"Leona","isDead":false,"items":[{"itemID":3858,"displayName":"Escudo Relicário","canUse":false,"consumable":false,"count":1,"price":400,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":2,"price":50,"slot":1,"icon":null},{"itemID":3364,"displayName":"Lente do Oráculo","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":2,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Guardião","id":8465},"primaryRuneTree":{"displayName":"Determinação","id":8400},"secondaryRuneTree":{"displayName":"Feitiçaria","id":8200}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":1.9383769},"summonerSpells":{"summonerSpellOne":{"displayName":"Incendiar","rawDescription":"GeneratedTip_SummonerSpell_SummonerDot_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerDot_DisplayName"},"summonerSpellTwo":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":10,"summonerName":"Kauanzinhos2","championName":"Gwen","championID":"Gwen","isDead":false,"items":[{"itemID":1056,"displayName":"Anel de Doran","canUse":false,"consumable":false,"count":1,"price":400,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":2,"price":50,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":2,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Conquistador","id":8010},"primaryRuneTree":{"displayName":"Precisão","id":8000},"secondaryRuneTree":{"displayName":"Determinação","id":8400}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":1.4376392},"summonerSpells":{"summonerSpellOne":{"displayName":"Teleporte","rawDescription":"GeneratedTip_SummonerSpell_SummonerTeleport_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerTeleport_DisplayName"},"summonerSpellTwo":{"displayName":"Incendiar","rawDescription":"GeneratedTip_SummonerSpell_SummonerDot_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerDot_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":11,"summonerName":"Druvolkz","championName":"Jarvan IV","championID":"JarvanIV","isDead":false,"items":[{"itemID":1035,"displayName":"Lâmina Cálida","canUse":false,"consumable":false,"count":1,"price":350,"slot":0,"icon":null},{"itemID":2031,"displayName":"Poção com Refil","canUse":true,"consumable":false,"count":1,"price":150,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":3,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Conquistador","id":8010},"primaryRuneTree":{"displayName":"Precisão","id":8000},"secondaryRuneTree":{"displayName":"Dominação","id":8100}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Golpear","rawDescription":"GeneratedTip_SummonerSpell_SummonerSmite_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerSmite_DisplayName"},"summonerSpellTwo":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":12,"summonerName":"Vlaz","championName":"Ahri","championID":"Ahri","isDead":false,"items":[{"itemID":1056,"displayName":"Anel de Doran","canUse":false,"consumable":false,"count":1,"price":400,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":2,"price":50,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":3,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Eletrocutar","id":8112},"primaryRuneTree":{"displayName":"Dominação","id":8100},"secondaryRuneTree":{"displayName":"Feitiçaria","id":8200}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":1.4379646},"summonerSpells":{"summonerSpellOne":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"},"summonerSpellTwo":{"displayName":"Incendiar","rawDescription":"GeneratedTip_SummonerSpell_SummonerDot_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerDot_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":13,"summonerName":"Life ls Dynamite","championName":"Caitlyn","championID":"Caitlyn","isDead":false,"items":[{"itemID":1055,"displayName":"Lâmina de Doran","canUse":false,"consumable":false,"count":1,"price":450,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":1,"price":50,"slot":1,"icon":null},{"itemID":3340,"displayName":"Sentinela Invisível","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":2,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Pressione o Ataque","id":8005},"primaryRuneTree":{"displayName":"Precisão","id":8000},"secondaryRuneTree":{"displayName":"Dominação","id":8100}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":0.0},"summonerSpells":{"summonerSpellOne":{"displayName":"Exaustão","rawDescription":"GeneratedTip_SummonerSpell_SummonerExhaust_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerExhaust_DisplayName"},"summonerSpellTwo":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false},{"id":14,"summonerName":"Alchemy Cain","championName":"Leona","championID":"Leona","isDead":false,"items":[{"itemID":3858,"displayName":"Escudo Relicário","canUse":false,"consumable":false,"count":1,"price":400,"slot":0,"icon":null},{"itemID":2003,"displayName":"Poção de Vida","canUse":true,"consumable":true,"count":2,"price":50,"slot":1,"icon":null},{"itemID":3364,"displayName":"Lente do Oráculo","canUse":true,"consumable":false,"count":1,"price":0,"slot":6,"icon":null}],"level":2,"position":"","respawnTimer":0.0,"runes":{"keystone":{"displayName":"Guardião","id":8465},"primaryRuneTree":{"displayName":"Determinação","id":8400},"secondaryRuneTree":{"displayName":"Feitiçaria","id":8200}},"scores":{"assists":0,"creepScore":0,"deaths":0,"kills":0,"wardScore":1.9383769},"summonerSpells":{"summonerSpellOne":{"displayName":"Incendiar","rawDescription":"GeneratedTip_SummonerSpell_SummonerDot_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerDot_DisplayName"},"summonerSpellTwo":{"displayName":"Flash","rawDescription":"GeneratedTip_SummonerSpell_SummonerFlash_Description","rawDisplayName":"GeneratedTip_SummonerSpell_SummonerFlash_DisplayName"}},"team":"CHAOS","farsightObject":null,"csHistory":{"0":0},"goldHistory":{"0":500.0},"diedDuringBaron":false,"diedDuringElder":false}]
+Snapshot:
+[]
+[17-37-12] [WARNING] Hecarim not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Sylas not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Miss Fortune not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Rakan not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Hecarim not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Sylas not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Miss Fortune not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Rakan not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Jarvan IV not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Ahri not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Caitlyn not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Gwen not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Jarvan IV not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Ahri not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Caitlyn not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] Leona not found in memory snapshot. Values will be incorrect!
+[17-37-12] [WARNING] App Crash detected. Writing Crash report to CrashLogs\Crash-2021-10-17-17-37.log

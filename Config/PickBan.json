@@ -4,20 +4,20 @@
     "spellsEnabled": true,
     "coachesEnabled": false,
     "blueTeam": {
-      "name": "STORMTIGER",
-      "nameTag": "STT",
-      "score": 0,
-      "coach": "Daisuke",
-      "color": "rgb(0,235,226)"
-    },
-    "redTeam": {
       "name": "BOOMSLANG",
       "nameTag": "BSG",
       "score": 0,
       "coach": "Haaty",
-      "color": "rgb(255,89,0)"
+      "color": "rgb(38,38,38)"
     },
-    "patch": "11.19.1"
+    "redTeam": {
+      "name": "STORMTIGER",
+      "nameTag": "STT",
+      "score": 0,
+      "coach": "Daisuke",
+      "color": "rgb(242,179,61)"
+    },
+    "patch": "11.22.1"
   },
   "FileVersion": "1.0"
 }

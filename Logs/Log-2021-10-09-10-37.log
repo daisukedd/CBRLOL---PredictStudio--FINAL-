@@ -1,0 +1,2182 @@
+[10-37-34] Logging Init
+[10-37-34] Starting Config Controller
+[10-37-34] Config Provider started
+[10-37-34] Looking for config files at /Config
+[10-37-35] Found PickBan.json. Reading values
+[10-37-35] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": false,
+    "blueTeam": {
+      "name": "BOOMSLANG",
+      "nameTag": "BSG",
+      "score": 0,
+      "coach": "Haaty",
+      "color": "rgb(38,38,38)"
+    },
+    "redTeam": {
+      "name": "STORMTIGER",
+      "nameTag": "STT",
+      "score": 0,
+      "coach": "Daisuke",
+      "color": "rgb(242,179,61)"
+    },
+    "patch": "11.20.1"
+  },
+  "FileVersion": "1.0"
+}
+[10-37-35] Config PickBan loaded
+[10-37-35] Found Ingame.json. Reading values
+[10-37-35] {
+  "Inhib": {
+    "Position": {
+      "X": 0.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 306.0,
+      "Y": 118.0
+    },
+    "UseBackgroundImage": true,
+    "UseBackgroundVideo": false,
+    "Color": "rgba(19,24,63,255)",
+    "Font": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "15px",
+      "Align": "right",
+      "Color": "rgb(255,255,255)"
+    },
+    "IconSize": 40.0,
+    "HideWhenNoneDestroyed": true,
+    "UseTeamColors": true,
+    "BlueTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 20.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(0,0,0)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "RedTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 80.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(255,255,255)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "LaneOrder": [
+      "bot",
+      "mid",
+      "top"
+    ]
+  },
+  "Score": {
+    "Position": {
+      "X": 960.0,
+      "Y": 0.0
+    },
+    "Size": {
+      "X": 1280.0,
+      "Y": 110.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "Montserrat",
+      "Size": "25px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "TimePosition": {
+      "X": 0.0,
+      "Y": 95.0
+    },
+    "BlueTeam": {
+      "Kills": {
+        "Position": {
+          "X": -90.0,
+          "Y": 7.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "45px",
+          "Align": "right",
+          "Color": "rgb(38,38,38)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": -362.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(38,38,38)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": -210.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(38,38,38)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 50.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": -80.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": -18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": -540.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "40px",
+          "Align": "left",
+          "Color": "rgb(38,38,38)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": -600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": -380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": 25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "RedTeam": {
+      "Kills": {
+        "Position": {
+          "X": 90.0,
+          "Y": 5.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "50px",
+          "Align": "left",
+          "Color": "rgb(242,176,61)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": 364.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(242,176,61)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": 210.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(242,176,61)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": 80.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": 18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": 510.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "40px",
+          "Align": "right",
+          "Color": "rgb(242,176,61)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": 600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": 10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": 380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": -25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(0,0,0,0)"
+    },
+    "Misc": {
+      "Animation": "Simple",
+      "ShowCenterIcon": true,
+      "CenterIconPosition": {
+        "X": 3.0,
+        "Y": 33.0
+      },
+      "CenterIconSize": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "DrakeIconSize": {
+        "X": 20.0,
+        "Y": 20.0
+      }
+    }
+  },
+  "ObjectiveKill": {
+    "ShowTeamIcon": false,
+    "SoulPointScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "ElderKillScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DragonKillScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "BaronKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldKillScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ObjectiveSpawn": {
+    "BaronSpawnScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DrakeSpawnScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldSpawnScoreboardPopUp": {
+      "Enabled": true,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ItemComplete": {
+    "UseCustomVideo": true,
+    "ShowItemName": true,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "InfoText": {
+      "Style": "Bold",
+      "Name": "Montserrat",
+      "Size": "20px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "ItemAnimationStates": [
+      {
+        "Scale": 0.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.1,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 3200.0,
+        "Ease": "Linear",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 2.5,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 0.0
+      }
+    ],
+    "InfoTextAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 1000.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 1800.0
+      }
+    ],
+    "InfoBackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 80.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 800.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -80.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 2200.0
+      }
+    ]
+  },
+  "LevelUp": {
+    "UseCustomVideo": false,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "LevelFont": {
+      "Style": "Bold",
+      "Name": "Montserrat",
+      "Size": "60px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "UseTeamColors": true,
+    "OrderColor": "rgb(0,0,255)",
+    "ChaosColor": "rgb(255,0,0)",
+    "NumberAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 70.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -30.0
+        },
+        "Mirror": true,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -130.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 3500.0
+      }
+    ],
+    "BackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 100.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": -90.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 4000.0
+      }
+    ]
+  },
+  "InfoPage": {
+    "Position": {
+      "X": 0.0,
+      "Y": 135.0
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "Gold": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "XP": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "CSPM": {
+          "X": 150.0,
+          "Y": 15.0
+        }
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "26px",
+        "Align": "center",
+        "Color": "rgb(0,0,0)"
+      }
+    },
+    "TitleHeight": 45.0,
+    "TabConfig": {
+      "TabSize": {
+        "X": 300.0,
+        "Y": 55.0
+      },
+      "UseTeamColorsText": false,
+      "OrderColor": "rgb(255,255,255)",
+      "ChaosColor": "rgb(255,255,255)",
+      "ChampIcon": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "XP": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "CSPM": {
+            "X": 4.0,
+            "Y": 8.0
+          }
+        },
+        "Size": {
+          "X": 42.0,
+          "Y": 42.0
+        }
+      },
+      "Separator": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "XP": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "CSPM": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "Size": {
+          "X": 300.0,
+          "Y": 2.0
+        }
+      },
+      "PlayerName": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 6.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "MinValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "CurrentValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 270.0,
+            "Y": 15.0
+          },
+          "XP": {
+            "X": 280.0,
+            "Y": 15.0
+          },
+          "CSPM": {
+            "X": 280.0,
+            "Y": 15.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "20px",
+          "Align": "center",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "MaxValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 230.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 260.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 260.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "ProgressBar": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "XP": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "CSPM": {
+            "X": 52.0,
+            "Y": 40.0
+          }
+        },
+        "Size": {
+          "Gold": {
+            "X": 180.0,
+            "Y": 10.0
+          },
+          "XP": {
+            "X": 210.0,
+            "Y": 10.0
+          },
+          "CSPM": {
+            "X": 210.0,
+            "Y": 10.0
+          }
+        },
+        "UseTeamColors": true,
+        "DefaultColor": "rgb(255,255,255)",
+        "OrderColor": "rgb(222,40,70)",
+        "ChaosColor": "rgb(0,151,196)",
+        "Animate": true
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgb(0, 0, 0)",
+      "Size": {
+        "X": 300.0,
+        "Y": 600.0
+      }
+    }
+  },
+  "GoldGraph": {
+    "Position": {
+      "X": 965.0,
+      "Y": 849.0
+    },
+    "Size": {
+      "X": 750.0,
+      "Y": 250.0
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(238,239,228,0)"
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "X": 0.0,
+        "Y": 10.0
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "22px",
+        "Align": "left",
+        "Color": "rgb(0,0,0)"
+      },
+      "Text": "DIFERENÇA DE OURO - PREDICT STUDIO"
+    },
+    "Graph": {
+      "Position": {
+        "X": 5.0,
+        "Y": 40.0
+      },
+      "Size": {
+        "X": 710.0,
+        "Y": 190.0
+      },
+      "ShowVerticalGrid": false,
+      "ShowHorizontalGrid": true,
+      "LineTension": 0.05,
+      "GridColor": "rgba(255,255,255,0.5)",
+      "GridEdgeColor": "rgba(255,255,255, 0.1)",
+      "BorderUseTeamColors": true,
+      "BorderOrderColor": "rgb(0,0,0)",
+      "BorderChaosColor": "rgb(0,0,0)",
+      "FillUseTeamColors": true,
+      "FillOrderColor": "rgb(0,0,0)",
+      "FillChaosColor": "rgb(0,0,0)",
+      "InfoFont": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "UNUSED",
+        "Align": "UNUSED",
+        "Color": "rgb(0,0,0)"
+      },
+      "TimeStepSize": 30,
+      "ShowTimeStepIndicators": true
+    }
+  },
+  "BaronTimer": {
+    "Position": {
+      "X": 1800.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 1750.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "right",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 25.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": -7.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 25.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": -10.0,
+      "Y": 0.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "ElderTimer": {
+    "Position": {
+      "X": 120.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 50.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "left",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 40.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 18.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": 22.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 18.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": 20.0,
+      "Y": -2.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "GoogleFonts": [
+    "News Cycle",
+    "News Cycle:bold",
+    "Montserrat:ExtraBold",
+    "Roboto:Black",
+    "Droid Sans"
+  ],
+  "FileVersion": "2.2"
+}
+[10-37-35] Config Ingame loaded
+[10-37-35] Found Component.json. Reading values
+[10-37-35] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "pt_BR",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": true,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(38,38,38)",
+    "DefaultRedColor": "rgb(242,179,61)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": true,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 5,
+    "Objectives": {
+      "DoBaronKill": false,
+      "DoDragonKill": false,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": false,
+      "DoObjectiveKillPopUp": false
+    },
+    "Teams": {
+      "DoTeamNames": false,
+      "DoTeamIcons": false,
+      "DoTeamScores": false
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 3,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[10-37-35] Config Component loaded
+[10-37-35] Loading config watchers
+[10-37-35] Watching PickBan.json for changes
+[10-37-35] Watching Component.json for changes
+[10-37-35] Watching Ingame.json for changes
+[10-37-35] Log Level set to Verbose
+[10-37-35] League Broadcast Version 1.4.97
+[10-37-35] [Update] Checking for Updates
+[10-37-35] [Update] Latest release version v1.4.97 vs. current version 1.4.97
+[10-37-35] [Update] Local version up to date
+[10-37-35] Using current Version
+[10-37-35] Early Init Complete in 1609.1387ms
+[10-37-35] DataDragon Provider Init
+[10-37-35] Getting latest versions from dataDragon
+[10-37-35] Retrieving latest patch info
+[10-37-35] Downloading https://ddragon.leagueoflegends.com/realms/euw.json
+[10-37-36] https://ddragon.leagueoflegends.com/realms/euw.json downloaded
+[10-37-36] Champion: 11.20.1, Item: 11.20.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[10-37-36] Downloading https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/champion.json
+[10-37-36] https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/champion.json downloaded
+[10-37-36] Loaded 157 champions
+[10-37-36] Downloading https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/summoner.json
+[10-37-37] https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/summoner.json downloaded
+[10-37-37] Loaded 15 summoner spells
+[10-37-37] Downloading https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/item.json
+[10-37-37] https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/item.json downloaded
+[10-37-37] Detected 199 items
+[10-37-37] Loaded 94 full items
+[10-37-37] Checking Local Cache
+[10-37-37] Cache C:\Users\kevin\Desktop\Dev - Predict\CBRLOL - PredictStudio/Cache/11.20.1 exists already
+[10-37-37] DDragon loaded
+[10-37-37] Loading PickBan Controller
+[10-37-37] Loading Ingame Controller
+[10-37-37] Checking League install for LiveEventsAPI
+[10-37-37] Found League install location
+[10-37-37] LiveEvents API found in Game config
+[10-37-37] [WARNING] Could not parse game config. Replay API may not be enabled!
+[10-37-37] Verifying LiveEvents list
+[10-37-37] Loading Replay Controller
+[10-37-37] Loading Farsight
+[10-37-37] Farsight loaded. Found 157 Champ names
+[10-37-37] Loading Frontend Webserver (HTTP/WS)
+[10-37-37] Server file system starting
+[10-37-37] WebServer New State - Loading
+[10-37-37] WebServer New State - Listening
+[10-37-37] WebServer running on http://*:9001/
+[10-37-37] Whats that ticking noise?
+[10-37-37] Init Complete in 1.913s
+[10-37-37] Opening main window
+[10-37-37] Team BOOMSLANG loaded
+[10-37-37] Team STORMTIGER loaded
+[10-37-37] Connection State Changed
+[10-37-38] Loading State Controller
+[10-37-38] Connecting to League Client
+[10-37-38] PickBan Enabled
+[10-37-38] Ingame Enabled
+[10-37-38] Using direct PickBan
+[10-37-38] Starting LeagueBroadcast with tickrate of 2tps
+[10-37-38] Checking for running Game
+[10-37-38] Target process (League of Legends) detected.
+[10-37-38] Init Game State
+[10-37-38] Game State reset
+[10-37-38] Attached to League Process
+[10-37-38] Connection State Changed
+[10-37-38] Post Init Complete in 436.9706ms
+[10-37-38] Total Startup time: 3.960s
+[10-37-38] Connected to League Client in 140 ms
+[10-37-38] Local Client Version 11.20.1
+[10-37-38] Loading offsets for current patch
+[10-37-38] Found Farsight.json. Reading values
+[10-37-38] {
+  "GameVersion": "11.20.1",
+  "GameOffsets": {
+    "Manager": "0x18445a0",
+    "MapCount": "0x2c",
+    "MapRoot": "0x28",
+    "MapNodeNetId": "0x10",
+    "MapNodeObject": "0x14"
+  },
+  "ObjectOffsets": {
+    "ID": "0x20",
+    "NetworkID": "0xcc",
+    "Team": "0x4c",
+    "Pos": "0xf0",
+    "Mana": "0x2b4",
+    "MaxMana": "0x2c4",
+    "Health": "0xdb4",
+    "MaxHealth": "0xdc4",
+    "CurrentGold": "0x1b98",
+    "GoldTotal": "0x1ba8",
+    "EXP": "0x3384",
+    "Name": "0x2bdc",
+    "ItemList": "0x0",
+    "SpellBook": "0x0",
+    "ItemListItem": "0x0",
+    "ItemInfo": "0x0",
+    "ItemInfoId": "0x0"
+  },
+  "FileVersion": "1.0"
+}
+[10-37-38] Config Farsight loaded
+[10-37-38] Watching Farsight.json for changes
+[10-37-38] Using offsets 11.20.1
+[10-37-38] game reponse invalid and discarded
+[10-37-39] New Client K86NpbYREEGCPhc8fxBCeQ connected from http://localhost:9001
+[10-37-39] game reponse invalid and discarded
+[10-37-39] Checking spectate endpoint to determine game type
+[10-37-39] Found spectate game
+[10-37-39] Game Loaded
+[10-37-39] Tick: 0. Update duration: 0
+[10-37-39] Game Paused
+[10-37-39] LiveEventAPI Connected
+[10-37-40] Tick: 0. Update duration: 0
+[10-37-40] Tick: 0. Update duration: 0
+[10-37-40] Init UI
+[10-37-40] Sending game start key inputs
+[10-37-40] Disabling ingame score display
+[10-37-41] Tick: 0. Update duration: 0
+[10-37-41] Tick: 0. Update duration: 0
+[10-37-42] Tick: 0. Update duration: 0
+[10-37-42] Tick: 0. Update duration: 0
+[10-37-43] Tick: 0. Update duration: 0
+[10-37-43] Tick: 0. Update duration: 0
+[10-37-44] Tick: 0. Update duration: 0
+[10-37-44] game reponse invalid and discarded
+[10-37-45] game reponse invalid and discarded
+[10-37-45] Tick: 0.10000000149011612. Update duration: 0.10000000149011612
+[10-37-45] Game Resumed
+[10-37-45] Ezreal Gold: 500/0, Exp:0/1
+[10-37-45] Vladimir Gold: 500/0, Exp:0/1
+[10-37-45] Singed Gold: 500/0, Exp:0/1
+[10-37-45] Janna Gold: 500/0, Exp:0/1
+[10-37-45] Khazix Gold: 500/0, Exp:0/1
+[10-37-45] Nami Gold: 500/0, Exp:0/1
+[10-37-45] Talon Gold: 500/0, Exp:0/1
+[10-37-45] Draven Gold: 500/0, Exp:0/1
+[10-37-45] Leblanc Gold: 500/0, Exp:0/1
+[10-37-45] Irelia Gold: 500/0, Exp:0/1
+[10-37-45] Init Team data
+[10-37-46] Tick: 0.10000000149011612. Update duration: 0
+[10-37-46] Game Paused
+[10-37-46] Tick: 0.10000000149011612. Update duration: 0
+[10-37-47] Tick: 0.10000000149011612. Update duration: 0
+[10-37-47] Tick: 0.10000000149011612. Update duration: 0
+[10-37-48] Tick: 0.10000000149011612. Update duration: 0
+[10-37-48] Tick: 0.10000000149011612. Update duration: 0
+[10-37-49] Tick: 0.10000000149011612. Update duration: 0
+[10-37-49] Tick: 0.10000000149011612. Update duration: 0
+[10-37-50] Tick: 0.10000000149011612. Update duration: 0
+[10-37-50] Tick: 0.10000000149011612. Update duration: 0
+[10-37-51] Tick: 0.10000000149011612. Update duration: 0
+[10-37-51] Tick: 0.10000000149011612. Update duration: 0
+[10-37-52] Tick: 0.10000000149011612. Update duration: 0
+[10-37-52] Tick: 0.10000000149011612. Update duration: 0
+[10-37-53] Tick: 0.10000000149011612. Update duration: 0
+[10-37-53] Tick: 0.10000000149011612. Update duration: 0
+[10-37-54] Tick: 0.10000000149011612. Update duration: 0
+[10-37-54] Tick: 0.10000000149011612. Update duration: 0
+[10-37-55] Tick: 0.10000000149011612. Update duration: 0
+[10-37-55] Tick: 0.10000000149011612. Update duration: 0
+[10-37-56] Tick: 0.10000000149011612. Update duration: 0
+[10-37-56] Tick: 0.2631818950176239. Update duration: 0.16318189352750778
+[10-37-56] Game Resumed
+[10-37-56] Ezreal Gold: 500/500, Exp:0/1
+[10-37-56] Vladimir Gold: 500/500, Exp:0/1
+[10-37-56] Singed Gold: 500/500, Exp:0/1
+[10-37-56] Janna Gold: 500/500, Exp:0/1
+[10-37-56] Khazix Gold: 500/500, Exp:0/1
+[10-37-56] Nami Gold: 500/500, Exp:0/1
+[10-37-56] Talon Gold: 500/500, Exp:0/1
+[10-37-56] Draven Gold: 500/500, Exp:0/1
+[10-37-56] Leblanc Gold: 500/500, Exp:0/1
+[10-37-56] Irelia Gold: 500/500, Exp:0/1
+[10-37-57] Tick: 0.6733443737030029. Update duration: 0.41016247868537903
+[10-37-57] Ezreal Gold: 500/500, Exp:0/1
+[10-37-57] Vladimir Gold: 500/500, Exp:0/1
+[10-37-57] Singed Gold: 500/500, Exp:0/1
+[10-37-57] Janna Gold: 500/500, Exp:0/1
+[10-37-57] Khazix Gold: 500/500, Exp:0/1
+[10-37-57] Nami Gold: 500/500, Exp:0/1
+[10-37-57] Talon Gold: 500/500, Exp:0/1
+[10-37-57] Draven Gold: 500/500, Exp:0/1
+[10-37-57] Leblanc Gold: 500/500, Exp:0/1
+[10-37-57] Irelia Gold: 500/500, Exp:0/1
+[10-37-57] Tick: 1.171618103981018. Update duration: 0.49827373027801514
+[10-37-57] Ezreal Gold: 500/500, Exp:0/1
+[10-37-57] Vladimir Gold: 500/500, Exp:0/1
+[10-37-57] Singed Gold: 500/500, Exp:0/1
+[10-37-57] Janna Gold: 500/500, Exp:0/1
+[10-37-57] Khazix Gold: 500/500, Exp:0/1
+[10-37-57] Nami Gold: 500/500, Exp:0/1
+[10-37-57] Talon Gold: 500/500, Exp:0/1
+[10-37-57] Draven Gold: 500/500, Exp:0/1
+[10-37-57] Leblanc Gold: 500/500, Exp:0/1
+[10-37-57] Irelia Gold: 500/500, Exp:0/1
+[10-37-58] Tick: 1.6697704792022705. Update duration: 0.49815237522125244
+[10-37-58] Ezreal Gold: 500/500, Exp:0/1
+[10-37-58] Vladimir Gold: 500/500, Exp:0/1
+[10-37-58] Singed Gold: 500/500, Exp:0/1
+[10-37-58] Janna Gold: 500/500, Exp:0/1
+[10-37-58] Khazix Gold: 500/500, Exp:0/1
+[10-37-58] Nami Gold: 500/500, Exp:0/1
+[10-37-58] Talon Gold: 500/500, Exp:0/1
+[10-37-58] Draven Gold: 500/500, Exp:0/1
+[10-37-58] Leblanc Gold: 500/500, Exp:0/1
+[10-37-58] Irelia Gold: 500/500, Exp:0/1
+[10-37-58] Tick: 2.1603055000305176. Update duration: 0.49053502082824707
+[10-37-58] Ezreal Gold: 500/500, Exp:0/1
+[10-37-58] Vladimir Gold: 500/500, Exp:0/1
+[10-37-58] Singed Gold: 500/500, Exp:0/1
+[10-37-58] Janna Gold: 500/500, Exp:0/1
+[10-37-58] Khazix Gold: 500/500, Exp:0/1
+[10-37-58] Nami Gold: 500/500, Exp:0/1
+[10-37-58] Talon Gold: 500/500, Exp:0/1
+[10-37-58] Draven Gold: 500/500, Exp:0/1
+[10-37-58] Leblanc Gold: 500/500, Exp:0/1
+[10-37-58] Irelia Gold: 500/500, Exp:0/1
+[10-37-59] Tick: 2.6598081588745117. Update duration: 0.49950265884399414
+[10-37-59] Ezreal Gold: 500/500, Exp:0/1
+[10-37-59] Vladimir Gold: 500/500, Exp:0/1
+[10-37-59] Singed Gold: 500/500, Exp:0/1
+[10-37-59] Janna Gold: 500/500, Exp:0/1
+[10-37-59] Khazix Gold: 500/500, Exp:0/1
+[10-37-59] Nami Gold: 500/500, Exp:0/1
+[10-37-59] Talon Gold: 500/500, Exp:0/1
+[10-37-59] Draven Gold: 500/500, Exp:0/1
+[10-37-59] Leblanc Gold: 500/500, Exp:0/1
+[10-37-59] Irelia Gold: 500/500, Exp:0/1
+[10-37-59] Tick: 3.17275071144104. Update duration: 0.5129425525665283
+[10-37-59] Ezreal Gold: 500/500, Exp:0/1
+[10-37-59] Vladimir Gold: 500/500, Exp:0/1
+[10-37-59] Singed Gold: 500/500, Exp:0/1
+[10-37-59] Janna Gold: 500/500, Exp:0/1
+[10-37-59] Khazix Gold: 500/500, Exp:0/1
+[10-37-59] Nami Gold: 500/500, Exp:0/1
+[10-37-59] Talon Gold: 500/500, Exp:0/1
+[10-37-59] Draven Gold: 500/500, Exp:0/1
+[10-37-59] Leblanc Gold: 500/500, Exp:0/1
+[10-37-59] Irelia Gold: 500/500, Exp:0/1
+[10-38-00] Tick: 3.6725690364837646. Update duration: 0.4998183250427246
+[10-38-00] Ezreal Gold: 500/500, Exp:0/1
+[10-38-00] Vladimir Gold: 500/500, Exp:0/1
+[10-38-00] Singed Gold: 500/500, Exp:0/1
+[10-38-00] Janna Gold: 500/500, Exp:0/1
+[10-38-00] Khazix Gold: 500/500, Exp:0/1
+[10-38-00] Nami Gold: 500/500, Exp:0/1
+[10-38-00] Talon Gold: 500/500, Exp:0/1
+[10-38-00] Draven Gold: 500/500, Exp:0/1
+[10-38-00] Leblanc Gold: 500/500, Exp:0/1
+[10-38-00] Irelia Gold: 500/500, Exp:0/1
+[10-38-00] Tick: 4.166056156158447. Update duration: 0.4934871196746826
+[10-38-00] Ezreal Gold: 500/500, Exp:0/1
+[10-38-00] Vladimir Gold: 500/500, Exp:0/1
+[10-38-00] Singed Gold: 500/500, Exp:0/1
+[10-38-00] Janna Gold: 500/500, Exp:0/1
+[10-38-00] Khazix Gold: 500/500, Exp:0/1
+[10-38-00] Nami Gold: 500/500, Exp:0/1
+[10-38-00] Talon Gold: 500/500, Exp:0/1
+[10-38-00] Draven Gold: 500/500, Exp:0/1
+[10-38-00] Leblanc Gold: 500/500, Exp:0/1
+[10-38-00] Irelia Gold: 500/500, Exp:0/1
+[10-38-01] Tick: 4.6600446701049805. Update duration: 0.4939885139465332
+[10-38-01] Ezreal Gold: 500/500, Exp:0/1
+[10-38-01] Vladimir Gold: 500/500, Exp:0/1
+[10-38-01] Singed Gold: 0/500, Exp:0/1
+[10-38-01] Janna Gold: 500/500, Exp:0/1
+[10-38-01] Khazix Gold: 500/500, Exp:0/1
+[10-38-01] Nami Gold: 500/500, Exp:0/1
+[10-38-01] Talon Gold: 500/500, Exp:0/1
+[10-38-01] Draven Gold: 500/500, Exp:0/1
+[10-38-01] Leblanc Gold: 0/500, Exp:0/1
+[10-38-01] Irelia Gold: 500/500, Exp:0/1
+[10-38-01] Tick: 5.1563849449157715. Update duration: 0.496340274810791
+[10-38-01] Ezreal Gold: 500/500, Exp:0/1
+[10-38-01] Vladimir Gold: 500/500, Exp:0/1
+[10-38-01] Singed Gold: 0/500, Exp:0/1
+[10-38-01] Janna Gold: 500/500, Exp:0/1
+[10-38-01] Khazix Gold: 500/500, Exp:0/1
+[10-38-01] Nami Gold: 500/500, Exp:0/1
+[10-38-01] Talon Gold: 500/500, Exp:0/1
+[10-38-01] Draven Gold: 500/500, Exp:0/1
+[10-38-01] Leblanc Gold: 0/500, Exp:0/1
+[10-38-01] Irelia Gold: 500/500, Exp:0/1
+[10-38-02] Tick: 5.671652317047119. Update duration: 0.5152673721313477
+[10-38-02] Ezreal Gold: 500/500, Exp:0/1
+[10-38-02] Vladimir Gold: 500/500, Exp:0/1
+[10-38-02] Singed Gold: 0/500, Exp:0/1
+[10-38-02] Janna Gold: 500/500, Exp:0/1
+[10-38-02] Khazix Gold: 500/500, Exp:0/1
+[10-38-02] Nami Gold: 500/500, Exp:0/1
+[10-38-02] Talon Gold: 500/500, Exp:0/1
+[10-38-02] Draven Gold: 500/500, Exp:0/1
+[10-38-02] Leblanc Gold: 0/500, Exp:0/1
+[10-38-02] Irelia Gold: 500/500, Exp:0/1
+[10-38-02] Tick: 6.16898250579834. Update duration: 0.4973301887512207
+[10-38-02] Ezreal Gold: 500/500, Exp:0/1
+[10-38-02] Vladimir Gold: 500/500, Exp:0/1
+[10-38-02] Singed Gold: 0/500, Exp:0/1
+[10-38-02] Janna Gold: 500/500, Exp:0/1
+[10-38-02] Khazix Gold: 500/500, Exp:0/1
+[10-38-02] Nami Gold: 500/500, Exp:0/1
+[10-38-02] Talon Gold: 500/500, Exp:0/1
+[10-38-02] Draven Gold: 500/500, Exp:0/1
+[10-38-02] Leblanc Gold: 0/500, Exp:0/1
+[10-38-02] Irelia Gold: 500/500, Exp:0/1
+[10-38-03] Tick: 6.656857013702393. Update duration: 0.48787450790405273
+[10-38-03] Ezreal Gold: 500/500, Exp:0/1
+[10-38-03] Vladimir Gold: 500/500, Exp:0/1
+[10-38-03] Singed Gold: 0/500, Exp:0/1
+[10-38-03] Janna Gold: 500/500, Exp:0/1
+[10-38-03] Khazix Gold: 500/500, Exp:0/1
+[10-38-03] Nami Gold: 500/500, Exp:0/1
+[10-38-03] Talon Gold: 500/500, Exp:0/1
+[10-38-03] Draven Gold: 500/500, Exp:0/1
+[10-38-03] Leblanc Gold: 0/500, Exp:0/1
+[10-38-03] Irelia Gold: 500/500, Exp:0/1
+[10-38-03] Tick: 7.168971538543701. Update duration: 0.5121145248413086
+[10-38-03] Ezreal Gold: 500/500, Exp:0/1
+[10-38-03] Vladimir Gold: 500/500, Exp:0/1
+[10-38-03] Singed Gold: 0/500, Exp:0/1
+[10-38-03] Janna Gold: 500/500, Exp:0/1
+[10-38-03] Khazix Gold: 500/500, Exp:0/1
+[10-38-03] Nami Gold: 500/500, Exp:0/1
+[10-38-03] Talon Gold: 500/500, Exp:0/1
+[10-38-03] Draven Gold: 500/500, Exp:0/1
+[10-38-03] Leblanc Gold: 0/500, Exp:0/1
+[10-38-03] Irelia Gold: 500/500, Exp:0/1
+[10-38-04] Tick: 7.671567916870117. Update duration: 0.502596378326416
+[10-38-04] Ezreal Gold: 500/500, Exp:0/1
+[10-38-04] Vladimir Gold: 500/500, Exp:0/1
+[10-38-04] Singed Gold: 0/500, Exp:0/1
+[10-38-04] Janna Gold: 500/500, Exp:0/1
+[10-38-04] Khazix Gold: 500/500, Exp:0/1
+[10-38-04] Nami Gold: 500/500, Exp:0/1
+[10-38-04] Talon Gold: 500/500, Exp:0/1
+[10-38-04] Draven Gold: 500/500, Exp:0/1
+[10-38-04] Leblanc Gold: 0/500, Exp:0/1
+[10-38-04] Irelia Gold: 500/500, Exp:0/1
+[10-38-04] Tick: 8.160452842712402. Update duration: 0.48888492584228516
+[10-38-04] Ezreal Gold: 500/500, Exp:0/1
+[10-38-04] Vladimir Gold: 500/500, Exp:0/1
+[10-38-04] Singed Gold: 0/500, Exp:0/1
+[10-38-04] Janna Gold: 500/500, Exp:0/1
+[10-38-04] Khazix Gold: 500/500, Exp:0/1
+[10-38-04] Nami Gold: 500/500, Exp:0/1
+[10-38-04] Talon Gold: 500/500, Exp:0/1
+[10-38-04] Draven Gold: 500/500, Exp:0/1
+[10-38-04] Leblanc Gold: 0/500, Exp:0/1
+[10-38-04] Irelia Gold: 500/500, Exp:0/1
+[10-38-05] Tick: 8.666359901428223. Update duration: 0.5059070587158203
+[10-38-05] Ezreal Gold: 500/500, Exp:0/1
+[10-38-05] Vladimir Gold: 500/500, Exp:0/1
+[10-38-05] Singed Gold: 0/500, Exp:0/1
+[10-38-05] Janna Gold: 500/500, Exp:0/1
+[10-38-05] Khazix Gold: 500/500, Exp:0/1
+[10-38-05] Nami Gold: 500/500, Exp:0/1
+[10-38-05] Talon Gold: 500/500, Exp:0/1
+[10-38-05] Draven Gold: 500/500, Exp:0/1
+[10-38-05] Leblanc Gold: 0/500, Exp:0/1
+[10-38-05] Irelia Gold: 500/500, Exp:0/1
+[10-38-05] Tick: 9.17158317565918. Update duration: 0.505223274230957
+[10-38-05] Ezreal Gold: 500/500, Exp:0/1
+[10-38-05] Vladimir Gold: 500/500, Exp:0/1
+[10-38-05] Singed Gold: 0/500, Exp:0/1
+[10-38-05] Janna Gold: 500/500, Exp:0/1
+[10-38-05] Khazix Gold: 500/500, Exp:0/1
+[10-38-05] Nami Gold: 500/500, Exp:0/1
+[10-38-05] Talon Gold: 500/500, Exp:0/1
+[10-38-05] Draven Gold: 500/500, Exp:0/1
+[10-38-05] Leblanc Gold: 0/500, Exp:0/1
+[10-38-05] Irelia Gold: 500/500, Exp:0/1
+[10-38-06] Tick: 9.671518325805664. Update duration: 0.4999351501464844
+[10-38-06] Ezreal Gold: 500/500, Exp:0/1
+[10-38-06] Vladimir Gold: 500/500, Exp:0/1
+[10-38-06] Singed Gold: 0/500, Exp:0/1
+[10-38-06] Janna Gold: 500/500, Exp:0/1
+[10-38-06] Khazix Gold: 500/500, Exp:0/1
+[10-38-06] Nami Gold: 0/500, Exp:0/1
+[10-38-06] Talon Gold: 500/500, Exp:0/1
+[10-38-06] Draven Gold: 500/500, Exp:0/1
+[10-38-06] Leblanc Gold: 0/500, Exp:0/1
+[10-38-06] Irelia Gold: 500/500, Exp:0/1
+[10-38-06] Tick: 10.160943984985352. Update duration: 0.4894256591796875
+[10-38-06] Ezreal Gold: 500/500, Exp:0/1
+[10-38-06] Vladimir Gold: 500/500, Exp:0/1
+[10-38-06] Singed Gold: 0/500, Exp:0/1
+[10-38-06] Janna Gold: 500/500, Exp:0/1
+[10-38-06] Khazix Gold: 500/500, Exp:0/1
+[10-38-06] Nami Gold: 0/500, Exp:0/1
+[10-38-06] Talon Gold: 500/500, Exp:0/1
+[10-38-06] Draven Gold: 500/500, Exp:0/1
+[10-38-06] Leblanc Gold: 0/500, Exp:0/1
+[10-38-06] Irelia Gold: 500/500, Exp:0/1
+[10-38-07] Tick: 10.682794570922852. Update duration: 0.5218505859375
+[10-38-07] Ezreal Gold: 500/500, Exp:0/1
+[10-38-07] Vladimir Gold: 500/500, Exp:0/1
+[10-38-07] Singed Gold: 0/500, Exp:0/1
+[10-38-07] Janna Gold: 500/500, Exp:0/1
+[10-38-07] Khazix Gold: 500/500, Exp:0/1
+[10-38-07] Nami Gold: 0/500, Exp:0/1
+[10-38-07] Talon Gold: 500/500, Exp:0/1
+[10-38-07] Draven Gold: 500/500, Exp:0/1
+[10-38-07] Leblanc Gold: 0/500, Exp:0/1
+[10-38-07] Irelia Gold: 500/500, Exp:0/1
+[10-38-07] Tick: 11.16249942779541. Update duration: 0.4797048568725586
+[10-38-07] Ezreal Gold: 500/500, Exp:0/1
+[10-38-07] Vladimir Gold: 500/500, Exp:0/1
+[10-38-07] Singed Gold: 0/500, Exp:0/1
+[10-38-07] Janna Gold: 500/500, Exp:0/1
+[10-38-07] Khazix Gold: 500/500, Exp:0/1
+[10-38-07] Nami Gold: 0/500, Exp:0/1
+[10-38-07] Talon Gold: 500/500, Exp:0/1
+[10-38-07] Draven Gold: 500/500, Exp:0/1
+[10-38-07] Leblanc Gold: 500/500, Exp:0/1
+[10-38-07] Irelia Gold: 500/500, Exp:0/1
+[10-38-08] Tick: 11.660752296447754. Update duration: 0.49825286865234375
+[10-38-08] Ezreal Gold: 500/500, Exp:0/1
+[10-38-08] Vladimir Gold: 500/500, Exp:0/1
+[10-38-08] Singed Gold: 0/500, Exp:0/1
+[10-38-08] Janna Gold: 500/500, Exp:0/1
+[10-38-08] Khazix Gold: 500/500, Exp:0/1
+[10-38-08] Nami Gold: 0/500, Exp:0/1
+[10-38-08] Talon Gold: 500/500, Exp:0/1
+[10-38-08] Draven Gold: 500/500, Exp:0/1
+[10-38-08] Leblanc Gold: 500/500, Exp:0/1
+[10-38-08] Irelia Gold: 500/500, Exp:0/1
+[10-38-08] Tick: 12.190876960754395. Update duration: 0.5301246643066406
+[10-38-08] Ezreal Gold: 500/500, Exp:0/1
+[10-38-08] Vladimir Gold: 500/500, Exp:0/1
+[10-38-08] Singed Gold: 0/500, Exp:0/1
+[10-38-08] Janna Gold: 500/500, Exp:0/1
+[10-38-08] Khazix Gold: 500/500, Exp:0/1
+[10-38-08] Nami Gold: 0/500, Exp:0/1
+[10-38-08] Talon Gold: 500/500, Exp:0/1
+[10-38-08] Draven Gold: 500/500, Exp:0/1
+[10-38-08] Leblanc Gold: 100/500, Exp:0/1
+[10-38-08] Irelia Gold: 500/500, Exp:0/1
+[10-38-09] Tick: 12.672844886779785. Update duration: 0.4819679260253906
+[10-38-09] Ezreal Gold: 500/500, Exp:0/1
+[10-38-09] Vladimir Gold: 500/500, Exp:0/1
+[10-38-09] Singed Gold: 0/500, Exp:0/1
+[10-38-09] Janna Gold: 500/500, Exp:0/1
+[10-38-09] Khazix Gold: 500/500, Exp:0/1
+[10-38-09] Nami Gold: 0/500, Exp:0/1
+[10-38-09] Talon Gold: 500/500, Exp:0/1
+[10-38-09] Draven Gold: 500/500, Exp:0/1
+[10-38-09] Leblanc Gold: 0/500, Exp:0/1
+[10-38-09] Irelia Gold: 500/500, Exp:0/1
+[10-38-09] Tick: 13.163573265075684. Update duration: 0.49072837829589844
+[10-38-09] Ezreal Gold: 500/500, Exp:0/1
+[10-38-09] Vladimir Gold: 500/500, Exp:0/1
+[10-38-09] Singed Gold: 0/500, Exp:0/1
+[10-38-09] Janna Gold: 500/500, Exp:0/1
+[10-38-09] Khazix Gold: 500/500, Exp:0/1
+[10-38-09] Nami Gold: 0/500, Exp:0/1
+[10-38-09] Talon Gold: 500/500, Exp:0/1
+[10-38-09] Draven Gold: 500/500, Exp:0/1
+[10-38-09] Leblanc Gold: 0/500, Exp:0/1
+[10-38-09] Irelia Gold: 500/500, Exp:0/1
+[10-38-10] Tick: 13.662487983703613. Update duration: 0.4989147186279297
+[10-38-10] Ezreal Gold: 500/500, Exp:0/1
+[10-38-10] Vladimir Gold: 500/500, Exp:0/1
+[10-38-10] Singed Gold: 0/500, Exp:0/1
+[10-38-10] Janna Gold: 500/500, Exp:0/1
+[10-38-10] Khazix Gold: 500/500, Exp:0/1
+[10-38-10] Nami Gold: 0/500, Exp:0/1
+[10-38-10] Talon Gold: 500/500, Exp:0/1
+[10-38-10] Draven Gold: 500/500, Exp:0/1
+[10-38-10] Leblanc Gold: 0/500, Exp:0/1
+[10-38-10] Irelia Gold: 500/500, Exp:0/1
+[10-38-10] Tick: 14.161520957946777. Update duration: 0.49903297424316406
+[10-38-10] Ezreal Gold: 500/500, Exp:0/1
+[10-38-10] Vladimir Gold: 500/500, Exp:0/1
+[10-38-10] Singed Gold: 0/500, Exp:0/1
+[10-38-10] Janna Gold: 500/500, Exp:0/1
+[10-38-10] Khazix Gold: 500/500, Exp:0/1
+[10-38-10] Nami Gold: 0/500, Exp:0/1
+[10-38-10] Talon Gold: 500/500, Exp:0/1
+[10-38-10] Draven Gold: 500/500, Exp:0/1
+[10-38-10] Leblanc Gold: 0/500, Exp:0/1
+[10-38-10] Irelia Gold: 500/500, Exp:0/1
+[10-38-11] Tick: 14.671789169311523. Update duration: 0.5102682113647461
+[10-38-11] Ezreal Gold: 500/500, Exp:0/1
+[10-38-11] Vladimir Gold: 500/500, Exp:0/1
+[10-38-11] Singed Gold: 0/500, Exp:0/1
+[10-38-11] Janna Gold: 500/500, Exp:0/1
+[10-38-11] Khazix Gold: 500/500, Exp:0/1
+[10-38-11] Nami Gold: 0/500, Exp:0/1
+[10-38-11] Talon Gold: 500/500, Exp:0/1
+[10-38-11] Draven Gold: 500/500, Exp:0/1
+[10-38-11] Leblanc Gold: 0/500, Exp:0/1
+[10-38-11] Irelia Gold: 50/500, Exp:0/1
+[10-38-11] Tick: 15.168713569641113. Update duration: 0.49692440032958984
+[10-38-11] Ezreal Gold: 500/500, Exp:0/1
+[10-38-11] Vladimir Gold: 500/500, Exp:0/1
+[10-38-11] Singed Gold: 0/500, Exp:0/1
+[10-38-11] Janna Gold: 500/500, Exp:0/1
+[10-38-11] Khazix Gold: 500/500, Exp:0/1
+[10-38-11] Nami Gold: 0/500, Exp:0/1
+[10-38-11] Talon Gold: 500/500, Exp:0/1
+[10-38-11] Draven Gold: 500/500, Exp:0/1
+[10-38-11] Leblanc Gold: 0/500, Exp:0/1
+[10-38-11] Irelia Gold: 0/500, Exp:0/1
+[10-38-12] Tick: 15.667251586914062. Update duration: 0.4985380172729492
+[10-38-12] Ezreal Gold: 500/500, Exp:0/1
+[10-38-12] Vladimir Gold: 150/500, Exp:0/1
+[10-38-12] Singed Gold: 0/500, Exp:0/1
+[10-38-12] Janna Gold: 500/500, Exp:0/1
+[10-38-12] Khazix Gold: 500/500, Exp:0/1
+[10-38-12] Nami Gold: 0/500, Exp:0/1
+[10-38-12] Talon Gold: 500/500, Exp:0/1
+[10-38-12] Draven Gold: 150/500, Exp:0/1
+[10-38-12] Leblanc Gold: 0/500, Exp:0/1
+[10-38-12] Irelia Gold: 0/500, Exp:0/1
+[10-38-12] Tick: 16.17401695251465. Update duration: 0.5067653656005859
+[10-38-12] Ezreal Gold: 500/500, Exp:0/1
+[10-38-12] Vladimir Gold: 150/500, Exp:0/1
+[10-38-12] Singed Gold: 0/500, Exp:0/1
+[10-38-12] Janna Gold: 500/500, Exp:0/1
+[10-38-12] Khazix Gold: 500/500, Exp:0/1
+[10-38-12] Nami Gold: 0/500, Exp:0/1
+[10-38-12] Talon Gold: 500/500, Exp:0/1
+[10-38-12] Draven Gold: 50/500, Exp:0/1
+[10-38-12] Leblanc Gold: 0/500, Exp:0/1
+[10-38-12] Irelia Gold: 0/500, Exp:0/1
+[10-38-13] Tick: 16.67159652709961. Update duration: 0.49757957458496094
+[10-38-13] Ezreal Gold: 500/500, Exp:0/1
+[10-38-13] Vladimir Gold: 150/500, Exp:0/1
+[10-38-13] Singed Gold: 0/500, Exp:0/1
+[10-38-13] Janna Gold: 500/500, Exp:0/1
+[10-38-13] Khazix Gold: 500/500, Exp:0/1
+[10-38-13] Nami Gold: 0/500, Exp:0/1
+[10-38-13] Talon Gold: 500/500, Exp:0/1
+[10-38-13] Draven Gold: 0/500, Exp:0/1
+[10-38-13] Leblanc Gold: 0/500, Exp:0/1
+[10-38-13] Irelia Gold: 0/500, Exp:0/1
+[10-38-13] Tick: 17.17121124267578. Update duration: 0.4996147155761719
+[10-38-13] Ezreal Gold: 500/500, Exp:0/1
+[10-38-13] Vladimir Gold: 0/500, Exp:0/1
+[10-38-13] Singed Gold: 0/500, Exp:0/1
+[10-38-13] Janna Gold: 500/500, Exp:0/1
+[10-38-13] Khazix Gold: 500/500, Exp:0/1
+[10-38-13] Nami Gold: 0/500, Exp:0/1
+[10-38-13] Talon Gold: 150/500, Exp:0/1
+[10-38-13] Draven Gold: 0/500, Exp:0/1
+[10-38-13] Leblanc Gold: 0/500, Exp:0/1
+[10-38-13] Irelia Gold: 0/500, Exp:0/1
+[10-38-14] Tick: 17.672313690185547. Update duration: 0.5011024475097656
+[10-38-14] Ezreal Gold: 500/500, Exp:0/1
+[10-38-14] Vladimir Gold: 0/500, Exp:0/1
+[10-38-14] Singed Gold: 0/500, Exp:0/1
+[10-38-14] Janna Gold: 500/500, Exp:0/1
+[10-38-14] Khazix Gold: 500/500, Exp:0/1
+[10-38-14] Nami Gold: 0/500, Exp:0/1
+[10-38-14] Talon Gold: 0/500, Exp:0/1
+[10-38-14] Draven Gold: 0/500, Exp:0/1
+[10-38-14] Leblanc Gold: 0/500, Exp:0/1
+[10-38-14] Irelia Gold: 0/500, Exp:0/1
+[10-38-14] Tick: 18.170700073242188. Update duration: 0.4983863830566406
+[10-38-14] Ezreal Gold: 500/500, Exp:0/1
+[10-38-14] Vladimir Gold: 0/500, Exp:0/1
+[10-38-14] Singed Gold: 0/500, Exp:0/1
+[10-38-14] Janna Gold: 500/500, Exp:0/1
+[10-38-14] Khazix Gold: 500/500, Exp:0/1
+[10-38-14] Nami Gold: 0/500, Exp:0/1
+[10-38-14] Talon Gold: 0/500, Exp:0/1
+[10-38-14] Draven Gold: 0/500, Exp:0/1
+[10-38-14] Leblanc Gold: 0/500, Exp:0/1
+[10-38-14] Irelia Gold: 0/500, Exp:0/1
+[10-38-15] Tick: 18.666738510131836. Update duration: 0.49603843688964844
+[10-38-15] Ezreal Gold: 0/500, Exp:0/1
+[10-38-15] Vladimir Gold: 0/500, Exp:0/1
+[10-38-15] Singed Gold: 0/500, Exp:0/1
+[10-38-15] Janna Gold: 500/500, Exp:0/1
+[10-38-15] Khazix Gold: 500/500, Exp:0/1
+[10-38-15] Nami Gold: 0/500, Exp:0/1
+[10-38-15] Talon Gold: 0/500, Exp:0/1
+[10-38-15] Draven Gold: 0/500, Exp:0/1
+[10-38-15] Leblanc Gold: 0/500, Exp:0/1
+[10-38-15] Irelia Gold: 0/500, Exp:0/1
+[10-38-15] Tick: 19.159500122070312. Update duration: 0.49276161193847656
+[10-38-15] Ezreal Gold: 0/500, Exp:0/1
+[10-38-15] Vladimir Gold: 0/500, Exp:0/1
+[10-38-15] Singed Gold: 0/500, Exp:0/1
+[10-38-15] Janna Gold: 500/500, Exp:0/1
+[10-38-15] Khazix Gold: 500/500, Exp:0/1
+[10-38-15] Nami Gold: 0/500, Exp:0/1
+[10-38-15] Talon Gold: 0/500, Exp:0/1
+[10-38-15] Draven Gold: 0/500, Exp:0/1
+[10-38-15] Leblanc Gold: 0/500, Exp:0/1
+[10-38-15] Irelia Gold: 0/500, Exp:0/1
+[10-38-16] Tick: 19.657527923583984. Update duration: 0.4980278015136719
+[10-38-16] Ezreal Gold: 0/500, Exp:0/1
+[10-38-16] Vladimir Gold: 0/500, Exp:0/1
+[10-38-16] Singed Gold: 0/500, Exp:0/1
+[10-38-16] Janna Gold: 500/500, Exp:0/1
+[10-38-16] Khazix Gold: 500/500, Exp:0/1
+[10-38-16] Nami Gold: 0/500, Exp:0/1
+[10-38-16] Talon Gold: 0/500, Exp:0/1
+[10-38-16] Draven Gold: 0/500, Exp:0/1
+[10-38-16] Leblanc Gold: 0/500, Exp:0/1
+[10-38-16] Irelia Gold: 0/500, Exp:0/1
+[10-38-16] Tick: 20.166488647460938. Update duration: 0.5089607238769531
+[10-38-16] Ezreal Gold: 0/500, Exp:0/1
+[10-38-16] Vladimir Gold: 0/500, Exp:0/1
+[10-38-16] Singed Gold: 0/500, Exp:0/1
+[10-38-16] Janna Gold: 500/500, Exp:0/1
+[10-38-16] Khazix Gold: 500/500, Exp:0/1
+[10-38-16] Nami Gold: 0/500, Exp:0/1
+[10-38-16] Talon Gold: 0/500, Exp:0/1
+[10-38-16] Draven Gold: 0/500, Exp:0/1
+[10-38-16] Leblanc Gold: 0/500, Exp:0/1
+[10-38-16] Irelia Gold: 0/500, Exp:0/1
+[10-38-17] Tick: 20.669824600219727. Update duration: 0.5033359527587891
+[10-38-17] Ezreal Gold: 0/500, Exp:0/1
+[10-38-17] Vladimir Gold: 0/500, Exp:0/1
+[10-38-17] Singed Gold: 0/500, Exp:0/1
+[10-38-17] Janna Gold: 500/500, Exp:0/1
+[10-38-17] Khazix Gold: 500/500, Exp:0/1
+[10-38-17] Nami Gold: 0/500, Exp:0/1
+[10-38-17] Talon Gold: 0/500, Exp:0/1
+[10-38-17] Draven Gold: 0/500, Exp:0/1
+[10-38-17] Leblanc Gold: 0/500, Exp:0/1
+[10-38-17] Irelia Gold: 0/500, Exp:0/1
+[10-38-17] Tick: 21.165014266967773. Update duration: 0.4951896667480469
+[10-38-17] Ezreal Gold: 0/500, Exp:0/1
+[10-38-17] Vladimir Gold: 0/500, Exp:0/1
+[10-38-17] Singed Gold: 0/500, Exp:0/1
+[10-38-17] Janna Gold: 500/500, Exp:0/1
+[10-38-17] Khazix Gold: 500/500, Exp:0/1
+[10-38-17] Nami Gold: 0/500, Exp:0/1
+[10-38-17] Talon Gold: 0/500, Exp:0/1
+[10-38-17] Draven Gold: 0/500, Exp:0/1
+[10-38-17] Leblanc Gold: 0/500, Exp:0/1
+[10-38-17] Irelia Gold: 0/500, Exp:0/1
+[10-38-18] Tick: 21.664398193359375. Update duration: 0.49938392639160156
+[10-38-18] Ezreal Gold: 0/500, Exp:0/1
+[10-38-18] Vladimir Gold: 0/500, Exp:0/1
+[10-38-18] Singed Gold: 0/500, Exp:0/1
+[10-38-18] Janna Gold: 500/500, Exp:0/1
+[10-38-18] Khazix Gold: 500/500, Exp:0/1
+[10-38-18] Nami Gold: 0/500, Exp:0/1
+[10-38-18] Talon Gold: 0/500, Exp:0/1
+[10-38-18] Draven Gold: 0/500, Exp:0/1
+[10-38-18] Leblanc Gold: 0/500, Exp:0/1
+[10-38-18] Irelia Gold: 0/500, Exp:0/1
+[10-38-18] Tick: 22.158899307250977. Update duration: 0.49450111389160156
+[10-38-18] Ezreal Gold: 0/500, Exp:0/1
+[10-38-18] Vladimir Gold: 0/500, Exp:0/1
+[10-38-18] Singed Gold: 0/500, Exp:0/1
+[10-38-18] Janna Gold: 500/500, Exp:0/1
+[10-38-18] Khazix Gold: 350/500, Exp:0/1
+[10-38-18] Nami Gold: 0/500, Exp:0/1
+[10-38-18] Talon Gold: 0/500, Exp:0/1
+[10-38-18] Draven Gold: 0/500, Exp:0/1
+[10-38-18] Leblanc Gold: 0/500, Exp:0/1
+[10-38-18] Irelia Gold: 0/500, Exp:0/1
+[10-38-19] Tick: 22.660449981689453. Update duration: 0.5015506744384766
+[10-38-19] Ezreal Gold: 0/500, Exp:0/1
+[10-38-19] Vladimir Gold: 0/500, Exp:0/1
+[10-38-19] Singed Gold: 0/500, Exp:0/1
+[10-38-19] Janna Gold: 500/500, Exp:0/1
+[10-38-19] Khazix Gold: 350/500, Exp:0/1
+[10-38-19] Nami Gold: 0/500, Exp:0/1
+[10-38-19] Talon Gold: 0/500, Exp:0/1
+[10-38-19] Draven Gold: 0/500, Exp:0/1
+[10-38-19] Leblanc Gold: 0/500, Exp:0/1
+[10-38-19] Irelia Gold: 0/500, Exp:0/1
+[10-38-19] Tick: 23.17380714416504. Update duration: 0.5133571624755859
+[10-38-19] Ezreal Gold: 0/500, Exp:0/1
+[10-38-19] Vladimir Gold: 0/500, Exp:0/1
+[10-38-19] Singed Gold: 0/500, Exp:0/1
+[10-38-19] Janna Gold: 500/500, Exp:0/1
+[10-38-19] Khazix Gold: 0/500, Exp:0/1
+[10-38-19] Nami Gold: 0/500, Exp:0/1
+[10-38-19] Talon Gold: 0/500, Exp:0/1
+[10-38-19] Draven Gold: 0/500, Exp:0/1
+[10-38-19] Leblanc Gold: 0/500, Exp:0/1
+[10-38-19] Irelia Gold: 0/500, Exp:0/1
+[10-38-20] Tick: 23.671005249023438. Update duration: 0.49719810485839844
+[10-38-20] Ezreal Gold: 0/500, Exp:0/1
+[10-38-20] Vladimir Gold: 0/500, Exp:0/1
+[10-38-20] Singed Gold: 0/500, Exp:0/1
+[10-38-20] Janna Gold: 500/500, Exp:0/1
+[10-38-20] Khazix Gold: 0/500, Exp:0/1
+[10-38-20] Nami Gold: 0/500, Exp:0/1
+[10-38-20] Talon Gold: 0/500, Exp:0/1
+[10-38-20] Draven Gold: 0/500, Exp:0/1
+[10-38-20] Leblanc Gold: 0/500, Exp:0/1
+[10-38-20] Irelia Gold: 0/500, Exp:0/1
+[10-38-20] Tick: 24.16082000732422. Update duration: 0.48981475830078125
+[10-38-20] Ezreal Gold: 0/500, Exp:0/1
+[10-38-20] Vladimir Gold: 0/500, Exp:0/1
+[10-38-20] Singed Gold: 0/500, Exp:0/1
+[10-38-20] Janna Gold: 500/500, Exp:0/1
+[10-38-20] Khazix Gold: 0/500, Exp:0/1
+[10-38-20] Nami Gold: 0/500, Exp:0/1
+[10-38-20] Talon Gold: 0/500, Exp:0/1
+[10-38-20] Draven Gold: 0/500, Exp:0/1
+[10-38-20] Leblanc Gold: 0/500, Exp:0/1
+[10-38-20] Irelia Gold: 0/500, Exp:0/1
+[10-38-21] Tick: 24.668424606323242. Update duration: 0.5076045989990234
+[10-38-21] Ezreal Gold: 0/500, Exp:0/1
+[10-38-21] Vladimir Gold: 0/500, Exp:0/1
+[10-38-21] Singed Gold: 0/500, Exp:0/1
+[10-38-21] Janna Gold: 500/500, Exp:0/1
+[10-38-21] Khazix Gold: 0/500, Exp:0/1
+[10-38-21] Nami Gold: 0/500, Exp:0/1
+[10-38-21] Talon Gold: 0/500, Exp:0/1
+[10-38-21] Draven Gold: 0/500, Exp:0/1
+[10-38-21] Leblanc Gold: 0/500, Exp:0/1
+[10-38-21] Irelia Gold: 0/500, Exp:0/1
+[10-38-21] Tick: 25.16254425048828. Update duration: 0.49411964416503906
+[10-38-21] Ezreal Gold: 0/500, Exp:0/1
+[10-38-21] Vladimir Gold: 0/500, Exp:0/1
+[10-38-21] Singed Gold: 0/500, Exp:0/1
+[10-38-21] Janna Gold: 500/500, Exp:0/1
+[10-38-21] Khazix Gold: 0/500, Exp:0/1
+[10-38-21] Nami Gold: 0/500, Exp:0/1
+[10-38-21] Talon Gold: 0/500, Exp:0/1
+[10-38-21] Draven Gold: 0/500, Exp:0/1
+[10-38-21] Leblanc Gold: 0/500, Exp:0/1
+[10-38-21] Irelia Gold: 0/500, Exp:0/1
+[10-38-22] Tick: 25.658966064453125. Update duration: 0.49642181396484375
+[10-38-22] Ezreal Gold: 0/500, Exp:0/1
+[10-38-22] Vladimir Gold: 0/500, Exp:0/1
+[10-38-22] Singed Gold: 0/500, Exp:0/1
+[10-38-22] Janna Gold: 100/500, Exp:0/1
+[10-38-22] Khazix Gold: 0/500, Exp:0/1
+[10-38-22] Nami Gold: 0/500, Exp:0/1
+[10-38-22] Talon Gold: 0/500, Exp:0/1
+[10-38-22] Draven Gold: 0/500, Exp:0/1
+[10-38-22] Leblanc Gold: 0/500, Exp:0/1
+[10-38-22] Irelia Gold: 0/500, Exp:0/1
+[10-38-22] Tick: 26.176359176635742. Update duration: 0.5173931121826172
+[10-38-22] Ezreal Gold: 0/500, Exp:0/1
+[10-38-22] Vladimir Gold: 0/500, Exp:0/1
+[10-38-22] Singed Gold: 0/500, Exp:0/1
+[10-38-22] Janna Gold: 50/500, Exp:0/1
+[10-38-22] Khazix Gold: 0/500, Exp:0/1
+[10-38-22] Nami Gold: 0/500, Exp:0/1
+[10-38-22] Talon Gold: 0/500, Exp:0/1
+[10-38-22] Draven Gold: 0/500, Exp:0/1
+[10-38-22] Leblanc Gold: 0/500, Exp:0/1
+[10-38-22] Irelia Gold: 0/500, Exp:0/1
+[10-38-23] Tick: 26.6712646484375. Update duration: 0.4949054718017578
+[10-38-23] Ezreal Gold: 0/500, Exp:0/1
+[10-38-23] Vladimir Gold: 0/500, Exp:0/1
+[10-38-23] Singed Gold: 0/500, Exp:0/1
+[10-38-23] Janna Gold: 0/500, Exp:0/1
+[10-38-23] Khazix Gold: 0/500, Exp:0/1
+[10-38-23] Nami Gold: 0/500, Exp:0/1
+[10-38-23] Talon Gold: 0/500, Exp:0/1
+[10-38-23] Draven Gold: 0/500, Exp:0/1
+[10-38-23] Leblanc Gold: 0/500, Exp:0/1
+[10-38-23] Irelia Gold: 0/500, Exp:0/1
+[10-38-23] Tick: 27.172733306884766. Update duration: 0.5014686584472656
+[10-38-23] Ezreal Gold: 0/500, Exp:0/1
+[10-38-23] Vladimir Gold: 0/500, Exp:0/1
+[10-38-23] Singed Gold: 0/500, Exp:0/1
+[10-38-23] Janna Gold: 0/500, Exp:0/1
+[10-38-23] Khazix Gold: 0/500, Exp:0/1
+[10-38-23] Nami Gold: 0/500, Exp:0/1
+[10-38-23] Talon Gold: 0/500, Exp:0/1
+[10-38-23] Draven Gold: 0/500, Exp:0/1
+[10-38-23] Leblanc Gold: 0/500, Exp:0/1
+[10-38-23] Irelia Gold: 0/500, Exp:0/1
+[10-38-24] Tick: 27.667217254638672. Update duration: 0.49448394775390625
+[10-38-24] Ezreal Gold: 0/500, Exp:0/1
+[10-38-24] Vladimir Gold: 0/500, Exp:0/1
+[10-38-24] Singed Gold: 0/500, Exp:0/1
+[10-38-24] Janna Gold: 0/500, Exp:0/1
+[10-38-24] Khazix Gold: 0/500, Exp:0/1
+[10-38-24] Nami Gold: 0/500, Exp:0/1
+[10-38-24] Talon Gold: 0/500, Exp:0/1
+[10-38-24] Draven Gold: 0/500, Exp:0/1
+[10-38-24] Leblanc Gold: 0/500, Exp:0/1
+[10-38-24] Irelia Gold: 0/500, Exp:0/1
+[10-38-24] Tick: 28.166053771972656. Update duration: 0.4988365173339844
+[10-38-24] Ezreal Gold: 0/500, Exp:0/1
+[10-38-24] Vladimir Gold: 0/500, Exp:0/1
+[10-38-24] Singed Gold: 0/500, Exp:0/1
+[10-38-24] Janna Gold: 0/500, Exp:0/1
+[10-38-24] Khazix Gold: 0/500, Exp:0/1
+[10-38-24] Nami Gold: 0/500, Exp:0/1
+[10-38-24] Talon Gold: 0/500, Exp:0/1
+[10-38-24] Draven Gold: 0/500, Exp:0/1
+[10-38-24] Leblanc Gold: 0/500, Exp:0/1
+[10-38-24] Irelia Gold: 0/500, Exp:0/1
+[10-38-25] Tick: 28.67136573791504. Update duration: 0.5053119659423828
+[10-38-25] Ezreal Gold: 0/500, Exp:0/1
+[10-38-25] Vladimir Gold: 0/500, Exp:0/1
+[10-38-25] Singed Gold: 0/500, Exp:0/1
+[10-38-25] Janna Gold: 0/500, Exp:0/1
+[10-38-25] Khazix Gold: 0/500, Exp:0/1
+[10-38-25] Nami Gold: 0/500, Exp:0/1
+[10-38-25] Talon Gold: 0/500, Exp:0/1
+[10-38-25] Draven Gold: 0/500, Exp:0/1
+[10-38-25] Leblanc Gold: 0/500, Exp:0/1
+[10-38-25] Irelia Gold: 0/500, Exp:0/1
+[10-38-25] Tick: 29.175128936767578. Update duration: 0.5037631988525391
+[10-38-25] Ezreal Gold: 0/500, Exp:0/1
+[10-38-25] Vladimir Gold: 0/500, Exp:0/1
+[10-38-25] Singed Gold: 0/500, Exp:0/1
+[10-38-25] Janna Gold: 0/500, Exp:0/1
+[10-38-25] Khazix Gold: 0/500, Exp:0/1
+[10-38-25] Nami Gold: 0/500, Exp:0/1
+[10-38-25] Talon Gold: 0/500, Exp:0/1
+[10-38-25] Draven Gold: 0/500, Exp:0/1
+[10-38-25] Leblanc Gold: 0/500, Exp:0/1
+[10-38-25] Irelia Gold: 0/500, Exp:0/1
+[10-38-26] Tick: 29.67009925842285. Update duration: 0.49497032165527344
+[10-38-26] Ezreal Gold: 0/500, Exp:0/1
+[10-38-26] Vladimir Gold: 0/500, Exp:0/1
+[10-38-26] Singed Gold: 0/500, Exp:0/1
+[10-38-26] Janna Gold: 0/500, Exp:0/1
+[10-38-26] Khazix Gold: 0/500, Exp:0/1
+[10-38-26] Nami Gold: 0/500, Exp:0/1
+[10-38-26] Talon Gold: 0/500, Exp:0/1
+[10-38-26] Draven Gold: 0/500, Exp:0/1
+[10-38-26] Leblanc Gold: 0/500, Exp:0/1
+[10-38-26] Irelia Gold: 0/500, Exp:0/1
+[10-38-26] Tick: 30.16498374938965. Update duration: 0.4948844909667969
+[10-38-26] Ezreal Gold: 0/500, Exp:0/1
+[10-38-26] Vladimir Gold: 0/500, Exp:0/1
+[10-38-26] Singed Gold: 0/500, Exp:0/1
+[10-38-26] Janna Gold: 0/500, Exp:0/1
+[10-38-26] Khazix Gold: 0/500, Exp:0/1
+[10-38-26] Nami Gold: 0/500, Exp:0/1
+[10-38-26] Talon Gold: 0/500, Exp:0/1
+[10-38-26] Draven Gold: 0/500, Exp:0/1
+[10-38-26] Leblanc Gold: 0/500, Exp:0/1
+[10-38-26] Irelia Gold: 0/500, Exp:0/1
+[10-38-27] Tick: 30.673295974731445. Update duration: 0.5083122253417969
+[10-38-27] Ezreal Gold: 0/500, Exp:0/1
+[10-38-27] Vladimir Gold: 0/500, Exp:0/1
+[10-38-27] Singed Gold: 0/500, Exp:0/1
+[10-38-27] Janna Gold: 0/500, Exp:0/1
+[10-38-27] Khazix Gold: 0/500, Exp:0/1
+[10-38-27] Nami Gold: 0/500, Exp:0/1
+[10-38-27] Talon Gold: 0/500, Exp:0/1
+[10-38-27] Draven Gold: 0/500, Exp:0/1
+[10-38-27] Leblanc Gold: 0/500, Exp:0/1
+[10-38-27] Irelia Gold: 0/500, Exp:0/1
+[10-38-27] Tick: 31.1715087890625. Update duration: 0.4982128143310547
+[10-38-27] Ezreal Gold: 0/500, Exp:0/1
+[10-38-27] Vladimir Gold: 0/500, Exp:0/1
+[10-38-27] Singed Gold: 0/500, Exp:0/1
+[10-38-27] Janna Gold: 0/500, Exp:0/1
+[10-38-27] Khazix Gold: 0/500, Exp:0/1
+[10-38-27] Nami Gold: 0/500, Exp:0/1
+[10-38-27] Talon Gold: 0/500, Exp:0/1
+[10-38-27] Draven Gold: 0/500, Exp:0/1
+[10-38-27] Leblanc Gold: 0/500, Exp:0/1
+[10-38-27] Irelia Gold: 0/500, Exp:0/1
+[10-38-28] Tick: 31.66558837890625. Update duration: 0.49407958984375
+[10-38-28] Ezreal Gold: 0/500, Exp:0/1
+[10-38-28] Vladimir Gold: 0/500, Exp:0/1
+[10-38-28] Singed Gold: 0/500, Exp:0/1
+[10-38-28] Janna Gold: 0/500, Exp:0/1
+[10-38-28] Khazix Gold: 0/500, Exp:0/1
+[10-38-28] Nami Gold: 0/500, Exp:0/1
+[10-38-28] Talon Gold: 0/500, Exp:0/1
+[10-38-28] Draven Gold: 0/500, Exp:0/1
+[10-38-28] Leblanc Gold: 0/500, Exp:0/1
+[10-38-28] Irelia Gold: 0/500, Exp:0/1
+[10-38-28] Tick: 32.160003662109375. Update duration: 0.494415283203125
+[10-38-28] Ezreal Gold: 0/500, Exp:0/1
+[10-38-28] Vladimir Gold: 0/500, Exp:0/1
+[10-38-28] Singed Gold: 0/500, Exp:0/1
+[10-38-28] Janna Gold: 0/500, Exp:0/1
+[10-38-28] Khazix Gold: 0/500, Exp:0/1
+[10-38-28] Nami Gold: 0/500, Exp:0/1
+[10-38-28] Talon Gold: 0/500, Exp:0/1
+[10-38-28] Draven Gold: 0/500, Exp:0/1
+[10-38-28] Leblanc Gold: 0/500, Exp:0/1
+[10-38-28] Irelia Gold: 0/500, Exp:0/1
+[10-38-29] Tick: 32.672340393066406. Update duration: 0.5123367309570312
+[10-38-29] Ezreal Gold: 0/500, Exp:0/1
+[10-38-29] Vladimir Gold: 0/500, Exp:0/1
+[10-38-29] Singed Gold: 0/500, Exp:0/1
+[10-38-29] Janna Gold: 0/500, Exp:0/1
+[10-38-29] Khazix Gold: 0/500, Exp:0/1
+[10-38-29] Nami Gold: 0/500, Exp:0/1
+[10-38-29] Talon Gold: 0/500, Exp:0/1
+[10-38-29] Draven Gold: 0/500, Exp:0/1
+[10-38-29] Leblanc Gold: 0/500, Exp:0/1
+[10-38-29] Irelia Gold: 0/500, Exp:0/1
+[10-38-29] Tick: 33.17265319824219. Update duration: 0.5003128051757812
+[10-38-29] Ezreal Gold: 0/500, Exp:0/1
+[10-38-29] Vladimir Gold: 0/500, Exp:0/1
+[10-38-29] Singed Gold: 0/500, Exp:0/1
+[10-38-29] Janna Gold: 0/500, Exp:0/1
+[10-38-29] Khazix Gold: 0/500, Exp:0/1
+[10-38-29] Nami Gold: 0/500, Exp:0/1
+[10-38-29] Talon Gold: 0/500, Exp:0/1
+[10-38-29] Draven Gold: 0/500, Exp:0/1
+[10-38-29] Leblanc Gold: 0/500, Exp:0/1
+[10-38-29] Irelia Gold: 0/500, Exp:0/1
+[10-38-30] Tick: 33.68172836303711. Update duration: 0.5090751647949219
+[10-38-30] Ezreal Gold: 0/500, Exp:0/1
+[10-38-30] Vladimir Gold: 0/500, Exp:0/1
+[10-38-30] Singed Gold: 0/500, Exp:0/1
+[10-38-30] Janna Gold: 0/500, Exp:0/1
+[10-38-30] Khazix Gold: 0/500, Exp:0/1
+[10-38-30] Nami Gold: 0/500, Exp:0/1
+[10-38-30] Talon Gold: 0/500, Exp:0/1
+[10-38-30] Draven Gold: 0/500, Exp:0/1
+[10-38-30] Leblanc Gold: 0/500, Exp:0/1
+[10-38-30] Irelia Gold: 0/500, Exp:0/1
+[10-38-30] Tick: 34.1717529296875. Update duration: 0.4900245666503906
+[10-38-30] Ezreal Gold: 0/500, Exp:0/1
+[10-38-30] Vladimir Gold: 0/500, Exp:0/1
+[10-38-30] Singed Gold: 0/500, Exp:0/1
+[10-38-30] Janna Gold: 0/500, Exp:0/1
+[10-38-30] Khazix Gold: 0/500, Exp:0/1
+[10-38-30] Nami Gold: 0/500, Exp:0/1
+[10-38-30] Talon Gold: 0/500, Exp:0/1
+[10-38-30] Draven Gold: 0/500, Exp:0/1
+[10-38-30] Leblanc Gold: 0/500, Exp:0/1
+[10-38-30] Irelia Gold: 0/500, Exp:0/1
+[10-38-31] Tick: 34.67250442504883. Update duration: 0.5007514953613281
+[10-38-31] Ezreal Gold: 0/500, Exp:0/1
+[10-38-31] Vladimir Gold: 0/500, Exp:0/1
+[10-38-31] Singed Gold: 0/500, Exp:0/1
+[10-38-31] Janna Gold: 0/500, Exp:0/1
+[10-38-31] Khazix Gold: 0/500, Exp:0/1
+[10-38-31] Nami Gold: 0/500, Exp:0/1
+[10-38-31] Talon Gold: 0/500, Exp:0/1
+[10-38-31] Draven Gold: 0/500, Exp:0/1
+[10-38-31] Leblanc Gold: 0/500, Exp:0/1
+[10-38-31] Irelia Gold: 0/500, Exp:0/1
+[10-38-31] Tick: 35.1608772277832. Update duration: 0.488372802734375
+[10-38-31] Ezreal Gold: 0/500, Exp:0/1
+[10-38-31] Vladimir Gold: 0/500, Exp:0/1
+[10-38-31] Singed Gold: 0/500, Exp:0/1
+[10-38-31] Janna Gold: 0/500, Exp:0/1
+[10-38-31] Khazix Gold: 0/500, Exp:0/1
+[10-38-31] Nami Gold: 0/500, Exp:0/1
+[10-38-31] Talon Gold: 0/500, Exp:0/1
+[10-38-31] Draven Gold: 0/500, Exp:0/1
+[10-38-31] Leblanc Gold: 0/500, Exp:0/1
+[10-38-31] Irelia Gold: 0/500, Exp:0/1
+[10-38-32] Tick: 35.66954803466797. Update duration: 0.5086708068847656
+[10-38-32] Ezreal Gold: 0/500, Exp:0/1
+[10-38-32] Vladimir Gold: 0/500, Exp:0/1
+[10-38-32] Singed Gold: 0/500, Exp:0/1
+[10-38-32] Janna Gold: 0/500, Exp:0/1
+[10-38-32] Khazix Gold: 0/500, Exp:0/1
+[10-38-32] Nami Gold: 0/500, Exp:0/1
+[10-38-32] Talon Gold: 0/500, Exp:0/1
+[10-38-32] Draven Gold: 0/500, Exp:0/1
+[10-38-32] Leblanc Gold: 0/500, Exp:0/1
+[10-38-32] Irelia Gold: 0/500, Exp:0/1
+[10-38-32] Tick: 36.169517517089844. Update duration: 0.499969482421875
+[10-38-32] Ezreal Gold: 0/500, Exp:0/1
+[10-38-32] Vladimir Gold: 0/500, Exp:0/1
+[10-38-32] Singed Gold: 0/500, Exp:0/1
+[10-38-32] Janna Gold: 0/500, Exp:0/1
+[10-38-32] Khazix Gold: 0/500, Exp:0/1
+[10-38-32] Nami Gold: 0/500, Exp:0/1
+[10-38-32] Talon Gold: 0/500, Exp:0/1
+[10-38-32] Draven Gold: 0/500, Exp:0/1
+[10-38-32] Leblanc Gold: 0/500, Exp:0/1
+[10-38-32] Irelia Gold: 0/500, Exp:0/1
+[10-38-33] Tick: 36.66282653808594. Update duration: 0.49330902099609375
+[10-38-33] Ezreal Gold: 0/500, Exp:0/1
+[10-38-33] Vladimir Gold: 0/500, Exp:0/1
+[10-38-33] Singed Gold: 0/500, Exp:0/1
+[10-38-33] Janna Gold: 0/500, Exp:0/1
+[10-38-33] Khazix Gold: 0/500, Exp:0/1
+[10-38-33] Nami Gold: 0/500, Exp:0/1
+[10-38-33] Talon Gold: 0/500, Exp:0/1
+[10-38-33] Draven Gold: 0/500, Exp:0/1
+[10-38-33] Leblanc Gold: 0/500, Exp:0/1
+[10-38-33] Irelia Gold: 0/500, Exp:0/1
+[10-38-33] game reponse invalid and discarded
+[10-38-34] game reponse invalid and discarded
+[10-38-34] game reponse invalid and discarded
+[10-38-35] game reponse invalid and discarded
+[10-38-35] game reponse invalid and discarded
+[10-38-36] LiveEventAPI Closed
+[10-38-36] Game ended
+[10-38-36] Connection State Changed
+[10-38-36] game reponse invalid and discarded
+[10-43-33] League State: Lobby
+[10-45-05] Saving all configs to file
+[10-45-05] Writing PickBan config to file
+[10-45-05] Updated PickBan config file
+[10-45-05] Writing Component config to file
+[10-45-05] Updated Component config file
+[10-45-05] Writing Farsight config to file
+[10-45-05] Updated Farsight config file
+[10-45-05] Writing Ingame config to file
+[10-45-05] Updated Ingame config file
+[10-45-05] Configs saved

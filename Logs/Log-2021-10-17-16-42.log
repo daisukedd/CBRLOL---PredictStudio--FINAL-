@@ -1,0 +1,1937 @@
+[16-42-07] Logging Init
+[16-42-07] Starting Config Controller
+[16-42-07] Config Provider started
+[16-42-07] Looking for config files at /Config
+[16-42-07] Found PickBan.json. Reading values
+[16-42-07] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": false,
+    "blueTeam": {
+      "name": "BOOMSLANG",
+      "nameTag": "BSG",
+      "score": 0,
+      "coach": "Haaty",
+      "color": "rgb(38,38,38)"
+    },
+    "redTeam": {
+      "name": "STORMTIGER",
+      "nameTag": "STT",
+      "score": 0,
+      "coach": "Daisuke",
+      "color": "rgb(242,179,61)"
+    },
+    "patch": "11.20.1"
+  },
+  "FileVersion": "1.0"
+}
+[16-42-07] Config PickBan loaded
+[16-42-07] Found Ingame.json. Reading values
+[16-42-07] {
+  "Inhib": {
+    "Position": {
+      "X": 0.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 306.0,
+      "Y": 118.0
+    },
+    "UseBackgroundImage": true,
+    "UseBackgroundVideo": false,
+    "Color": "rgba(19,24,63,255)",
+    "Font": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "15px",
+      "Align": "right",
+      "Color": "rgb(255,255,255)"
+    },
+    "IconSize": 40.0,
+    "HideWhenNoneDestroyed": true,
+    "UseTeamColors": true,
+    "BlueTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 20.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(0,0,0)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "RedTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 80.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(255,255,255)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "LaneOrder": [
+      "bot",
+      "mid",
+      "top"
+    ]
+  },
+  "Score": {
+    "Position": {
+      "X": 960.0,
+      "Y": 0.0
+    },
+    "Size": {
+      "X": 1280.0,
+      "Y": 110.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "Montserrat",
+      "Size": "25px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "TimePosition": {
+      "X": 0.0,
+      "Y": 95.0
+    },
+    "BlueTeam": {
+      "Kills": {
+        "Position": {
+          "X": -90.0,
+          "Y": 7.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "45px",
+          "Align": "right",
+          "Color": "rgb(38,38,38)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": -362.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(38,38,38)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": -210.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(38,38,38)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 50.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": -80.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": -18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": -540.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "40px",
+          "Align": "left",
+          "Color": "rgb(38,38,38)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": -600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": -380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": 25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "RedTeam": {
+      "Kills": {
+        "Position": {
+          "X": 90.0,
+          "Y": 5.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "50px",
+          "Align": "left",
+          "Color": "rgb(242,176,61)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": 364.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(242,176,61)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": 210.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(242,176,61)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": 80.0,
+          "Y": 94.0
+        },
+        "Offset": {
+          "X": 18.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": 510.0,
+          "Y": 12.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "40px",
+          "Align": "right",
+          "Color": "rgb(242,176,61)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": 600.0,
+          "Y": 33.0
+        },
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0
+        },
+        "UseBackground": false,
+        "BackgroundOffset": {
+          "X": 10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": 380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": -25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(0,0,0,0)"
+    },
+    "Misc": {
+      "Animation": "Simple",
+      "ShowCenterIcon": true,
+      "CenterIconPosition": {
+        "X": 3.0,
+        "Y": 33.0
+      },
+      "CenterIconSize": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "DrakeIconSize": {
+        "X": 20.0,
+        "Y": 20.0
+      }
+    }
+  },
+  "ObjectiveKill": {
+    "ShowTeamIcon": false,
+    "SoulPointScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "ElderKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DragonKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "BaronKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ObjectiveSpawn": {
+    "BaronSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DrakeSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ItemComplete": {
+    "UseCustomVideo": true,
+    "ShowItemName": true,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "InfoText": {
+      "Style": "Bold",
+      "Name": "Montserrat",
+      "Size": "20px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "ItemAnimationStates": [
+      {
+        "Scale": 0.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.1,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 3200.0,
+        "Ease": "Linear",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 2.5,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 0.0
+      }
+    ],
+    "InfoTextAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 1000.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 1800.0
+      }
+    ],
+    "InfoBackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 80.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 800.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -80.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 2200.0
+      }
+    ]
+  },
+  "LevelUp": {
+    "UseCustomVideo": false,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "LevelFont": {
+      "Style": "Bold",
+      "Name": "Montserrat",
+      "Size": "60px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "UseTeamColors": true,
+    "OrderColor": "rgb(0,0,255)",
+    "ChaosColor": "rgb(255,0,0)",
+    "NumberAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 70.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -30.0
+        },
+        "Mirror": true,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -130.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 3500.0
+      }
+    ],
+    "BackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 100.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": -90.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 4000.0
+      }
+    ]
+  },
+  "InfoPage": {
+    "Position": {
+      "X": 0.0,
+      "Y": 135.0
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "Gold": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "XP": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "CSPM": {
+          "X": 150.0,
+          "Y": 15.0
+        }
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "26px",
+        "Align": "center",
+        "Color": "rgb(0,0,0)"
+      }
+    },
+    "TitleHeight": 45.0,
+    "TabConfig": {
+      "TabSize": {
+        "X": 300.0,
+        "Y": 55.0
+      },
+      "UseTeamColorsText": false,
+      "OrderColor": "rgb(255,255,255)",
+      "ChaosColor": "rgb(255,255,255)",
+      "ChampIcon": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "XP": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "CSPM": {
+            "X": 4.0,
+            "Y": 8.0
+          }
+        },
+        "Size": {
+          "X": 42.0,
+          "Y": 42.0
+        }
+      },
+      "Separator": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "XP": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "CSPM": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "Size": {
+          "X": 300.0,
+          "Y": 2.0
+        }
+      },
+      "PlayerName": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 6.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "MinValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "CurrentValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 270.0,
+            "Y": 15.0
+          },
+          "XP": {
+            "X": 280.0,
+            "Y": 15.0
+          },
+          "CSPM": {
+            "X": 280.0,
+            "Y": 15.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "20px",
+          "Align": "center",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "MaxValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 230.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 260.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 260.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(0,0,0)"
+        }
+      },
+      "ProgressBar": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "XP": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "CSPM": {
+            "X": 52.0,
+            "Y": 40.0
+          }
+        },
+        "Size": {
+          "Gold": {
+            "X": 180.0,
+            "Y": 10.0
+          },
+          "XP": {
+            "X": 210.0,
+            "Y": 10.0
+          },
+          "CSPM": {
+            "X": 210.0,
+            "Y": 10.0
+          }
+        },
+        "UseTeamColors": true,
+        "DefaultColor": "rgb(255,255,255)",
+        "OrderColor": "rgb(222,40,70)",
+        "ChaosColor": "rgb(0,151,196)",
+        "Animate": true
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgb(0, 0, 0)",
+      "Size": {
+        "X": 300.0,
+        "Y": 600.0
+      }
+    }
+  },
+  "GoldGraph": {
+    "Position": {
+      "X": 965.0,
+      "Y": 849.0
+    },
+    "Size": {
+      "X": 750.0,
+      "Y": 250.0
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(238,239,228,0)"
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "X": 0.0,
+        "Y": 10.0
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "22px",
+        "Align": "left",
+        "Color": "rgb(0,0,0)"
+      },
+      "Text": "DIFERENÇA DE OURO - PREDICT STUDIO"
+    },
+    "Graph": {
+      "Position": {
+        "X": 5.0,
+        "Y": 40.0
+      },
+      "Size": {
+        "X": 710.0,
+        "Y": 190.0
+      },
+      "ShowVerticalGrid": false,
+      "ShowHorizontalGrid": true,
+      "LineTension": 0.05,
+      "GridColor": "rgba(255,255,255,0.5)",
+      "GridEdgeColor": "rgba(255,255,255, 0.1)",
+      "BorderUseTeamColors": true,
+      "BorderOrderColor": "rgb(0,0,0)",
+      "BorderChaosColor": "rgb(0,0,0)",
+      "FillUseTeamColors": true,
+      "FillOrderColor": "rgb(0,0,0)",
+      "FillChaosColor": "rgb(0,0,0)",
+      "InfoFont": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "UNUSED",
+        "Align": "UNUSED",
+        "Color": "rgb(0,0,0)"
+      },
+      "TimeStepSize": 30,
+      "ShowTimeStepIndicators": true
+    }
+  },
+  "BaronTimer": {
+    "Position": {
+      "X": 1800.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 1750.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "right",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 25.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": -7.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 25.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": -10.0,
+      "Y": 0.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "ElderTimer": {
+    "Position": {
+      "X": 120.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 50.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "left",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 40.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 18.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": 22.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 18.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": 20.0,
+      "Y": -2.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "GoogleFonts": [
+    "News Cycle",
+    "News Cycle:bold",
+    "Montserrat:ExtraBold",
+    "Roboto:Black",
+    "Droid Sans"
+  ],
+  "FileVersion": "2.2"
+}
+[16-42-07] Config Ingame loaded
+[16-42-07] Found Component.json. Reading values
+[16-42-07] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "pt_BR",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": true,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(38,38,38)",
+    "DefaultRedColor": "rgb(242,179,61)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": true,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 5,
+    "Objectives": {
+      "DoBaronKill": false,
+      "DoDragonKill": false,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": false,
+      "DoObjectiveKillPopUp": false
+    },
+    "Teams": {
+      "DoTeamNames": false,
+      "DoTeamIcons": false,
+      "DoTeamScores": false
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 3,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[16-42-07] Config Component loaded
+[16-42-07] Loading config watchers
+[16-42-07] Watching PickBan.json for changes
+[16-42-07] Watching Component.json for changes
+[16-42-07] Watching Ingame.json for changes
+[16-42-07] Log Level set to Verbose
+[16-42-07] League Broadcast Version 1.4.97
+[16-42-07] [Update] Checking for Updates
+[16-42-08] [Update] Latest release version v1.4.97 vs. current version 1.4.97
+[16-42-08] [Update] Local version up to date
+[16-42-08] Using current Version
+[16-42-08] Early Init Complete in 1672.2202ms
+[16-42-08] DataDragon Provider Init
+[16-42-08] Getting latest versions from dataDragon
+[16-42-08] Retrieving latest patch info
+[16-42-08] Downloading https://ddragon.leagueoflegends.com/realms/euw.json
+[16-42-08] https://ddragon.leagueoflegends.com/realms/euw.json downloaded
+[16-42-08] Champion: 11.20.1, Item: 11.20.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[16-42-08] Downloading https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/champion.json
+[16-42-09] https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/champion.json downloaded
+[16-42-09] Loaded 157 champions
+[16-42-09] Downloading https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/summoner.json
+[16-42-09] https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/summoner.json downloaded
+[16-42-09] Loaded 15 summoner spells
+[16-42-09] Downloading https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/item.json
+[16-42-10] https://ddragon.leagueoflegends.com/cdn/11.20.1/data/pt_BR/item.json downloaded
+[16-42-10] Detected 199 items
+[16-42-10] Loaded 94 full items
+[16-42-10] Checking Local Cache
+[16-42-10] Cache C:\Users\kevin\Desktop\Dev - Predict\CBRLOL - PredictStudio/Cache/11.20.1 exists already
+[16-42-10] DDragon loaded
+[16-42-10] Loading PickBan Controller
+[16-42-10] Loading Ingame Controller
+[16-42-10] Checking League install for LiveEventsAPI
+[16-42-10] Found League install location
+[16-42-10] LiveEvents API found in Game config
+[16-42-10] Replay API found in Game config
+[16-42-10] Verifying LiveEvents list
+[16-42-10] Loading Replay Controller
+[16-42-10] Loading Farsight
+[16-42-10] Farsight loaded. Found 157 Champ names
+[16-42-10] Loading Frontend Webserver (HTTP/WS)
+[16-42-10] Server file system starting
+[16-42-10] WebServer New State - Loading
+[16-42-10] WebServer New State - Listening
+[16-42-10] WebServer running on http://*:9001/
+[16-42-10] Whats that ticking noise?
+[16-42-10] Init Complete in 2.277s
+[16-42-10] Opening main window
+[16-42-10] Team BOOMSLANG loaded
+[16-42-10] Team STORMTIGER loaded
+[16-42-10] Connection State Changed
+[16-42-11] Loading State Controller
+[16-42-11] Connecting to League Client
+[16-42-11] PickBan Enabled
+[16-42-11] Ingame Enabled
+[16-42-11] Using direct PickBan
+[16-42-11] Starting LeagueBroadcast with tickrate of 2tps
+[16-42-11] Checking for running Game
+[16-42-11] Post Init Complete in 593.4157ms
+[16-42-11] Total Startup time: 4.545s
+[16-42-11] Connection State Changed
+[16-42-11] Connected to League Client in 257 ms
+[16-42-11] Local Client Version 11.20.1
+[16-42-11] Loading offsets for current patch
+[16-42-11] Found Farsight.json. Reading values
+[16-42-11] {
+  "GameVersion": "11.20.1",
+  "GameOffsets": {
+    "Manager": "0x18445a0",
+    "MapCount": "0x2c",
+    "MapRoot": "0x28",
+    "MapNodeNetId": "0x10",
+    "MapNodeObject": "0x14"
+  },
+  "ObjectOffsets": {
+    "ID": "0x20",
+    "NetworkID": "0xcc",
+    "Team": "0x4c",
+    "Pos": "0xf0",
+    "Mana": "0x2b4",
+    "MaxMana": "0x2c4",
+    "Health": "0xdb4",
+    "MaxHealth": "0xdc4",
+    "CurrentGold": "0x1b98",
+    "GoldTotal": "0x1ba8",
+    "EXP": "0x3384",
+    "Name": "0x2bdc",
+    "ItemList": "0x0",
+    "SpellBook": "0x0",
+    "ItemListItem": "0x0",
+    "ItemInfo": "0x0",
+    "ItemInfoId": "0x0"
+  },
+  "FileVersion": "1.0"
+}
+[16-42-11] Config Farsight loaded
+[16-42-11] Watching Farsight.json for changes
+[16-42-11] Using offsets 11.20.1
+[16-43-10] Connection State Changed
+[16-43-10] Client Disconnected! Attempting to reconnect...
+[16-43-33] Connection State Changed
+[16-43-33] Client Reconnected!
+[16-53-22] League State: Lobby
+[17-18-17] New Client uTKncv2KcU2IkASiTmwZPQ connected from http://localhost:9001
+[17-28-24] Target process (League of Legends) detected.
+[17-28-24] Init Game State
+[17-28-24] Game State reset
+[17-28-24] Attached to League Process
+[17-28-24] Connection State Changed
+[17-28-24] game reponse invalid and discarded
+[17-28-25] game reponse invalid and discarded
+[17-28-25] game reponse invalid and discarded
+[17-28-26] game reponse invalid and discarded
+[17-28-26] game reponse invalid and discarded
+[17-28-27] game reponse invalid and discarded
+[17-28-27] game reponse invalid and discarded
+[17-28-28] game reponse invalid and discarded
+[17-28-28] game reponse invalid and discarded
+[17-28-29] game reponse invalid and discarded
+[17-28-29] game reponse invalid and discarded
+[17-28-30] game reponse invalid and discarded
+[17-28-30] game reponse invalid and discarded
+[17-28-31] game reponse invalid and discarded
+[17-28-31] game reponse invalid and discarded
+[17-28-32] game reponse invalid and discarded
+[17-28-32] game reponse invalid and discarded
+[17-28-33] game reponse invalid and discarded
+[17-28-33] game reponse invalid and discarded
+[17-28-33] Connection State Changed
+[17-28-33] Client Disconnected! Attempting to reconnect...
+[17-28-34] game reponse invalid and discarded
+[17-28-34] game reponse invalid and discarded
+[17-28-35] game reponse invalid and discarded
+[17-28-35] game reponse invalid and discarded
+[17-28-36] game reponse invalid and discarded
+[17-28-36] game reponse invalid and discarded
+[17-28-37] game reponse invalid and discarded
+[17-28-37] game reponse invalid and discarded
+[17-28-38] game reponse invalid and discarded
+[17-28-38] game reponse invalid and discarded
+[17-28-39] game reponse invalid and discarded
+[17-28-39] game reponse invalid and discarded
+[17-28-40] game reponse invalid and discarded
+[17-28-40] game reponse invalid and discarded
+[17-28-41] game reponse invalid and discarded
+[17-28-41] game reponse invalid and discarded
+[17-28-42] game reponse invalid and discarded
+[17-28-42] game reponse invalid and discarded
+[17-28-43] game reponse invalid and discarded
+[17-28-43] game reponse invalid and discarded
+[17-28-44] game reponse invalid and discarded
+[17-28-44] game reponse invalid and discarded
+[17-28-45] game reponse invalid and discarded
+[17-28-45] game reponse invalid and discarded
+[17-28-46] game reponse invalid and discarded
+[17-28-46] game reponse invalid and discarded
+[17-28-47] game reponse invalid and discarded
+[17-28-47] game reponse invalid and discarded
+[17-28-48] game reponse invalid and discarded
+[17-28-48] game reponse invalid and discarded
+[17-28-49] game reponse invalid and discarded
+[17-28-49] game reponse invalid and discarded
+[17-28-50] game reponse invalid and discarded
+[17-28-50] game reponse invalid and discarded
+[17-28-51] game reponse invalid and discarded
+[17-28-51] game reponse invalid and discarded
+[17-28-52] game reponse invalid and discarded
+[17-28-52] game reponse invalid and discarded
+[17-28-53] game reponse invalid and discarded
+[17-28-53] game reponse invalid and discarded
+[17-28-54] Checking spectate endpoint to determine game type
+[17-28-54] Found spectate game
+[17-28-54] Game Loaded
+[17-28-54] Tick: 0. Update duration: 0
+[17-28-54] Game Paused
+[17-28-54] LiveEventAPI Connected
+[17-28-54] Tick: 0. Update duration: 0
+[17-28-55] Tick: 0. Update duration: 0
+[17-28-55] Init UI
+[17-28-55] Sending game start key inputs
+[17-28-55] Disabling ingame score display
+[17-28-55] Tick: 0. Update duration: 0
+[17-28-56] Tick: 0. Update duration: 0
+[17-28-56] Tick: 0. Update duration: 0
+[17-28-57] Tick: 0. Update duration: 0
+[17-28-57] Tick: 0. Update duration: 0
+[17-28-58] Tick: 0. Update duration: 0
+[17-28-58] Tick: 0. Update duration: 0
+[17-28-59] Tick: 0. Update duration: 0
+[17-28-59] Tick: 0. Update duration: 0
+[17-29-00] Tick: 0. Update duration: 0
+[17-29-00] Tick: 0. Update duration: 0
+[17-29-01] Tick: 0. Update duration: 0
+[17-29-01] Tick: 0. Update duration: 0
+[17-29-02] Tick: 0. Update duration: 0
+[17-29-02] Tick: 0. Update duration: 0
+[17-29-03] Tick: 0. Update duration: 0
+[17-29-03] Tick: 0. Update duration: 0
+[17-29-04] Tick: 0. Update duration: 0
+[17-29-04] Tick: 0. Update duration: 0
+[17-29-05] Tick: 0. Update duration: 0
+[17-29-05] Tick: 0. Update duration: 0
+[17-29-06] Tick: 0. Update duration: 0
+[17-29-06] Tick: 0. Update duration: 0
+[17-29-07] Tick: 0. Update duration: 0
+[17-29-07] Tick: 0. Update duration: 0
+[17-29-08] Tick: 0. Update duration: 0
+[17-29-08] Tick: 0. Update duration: 0
+[17-29-09] Tick: 0. Update duration: 0
+[17-29-09] Tick: 0. Update duration: 0
+[17-29-10] Tick: 0. Update duration: 0
+[17-29-10] Tick: 0. Update duration: 0
+[17-29-11] Tick: 0. Update duration: 0
+[17-29-11] Tick: 0. Update duration: 0
+[17-29-12] Tick: 0. Update duration: 0
+[17-29-12] Tick: 0. Update duration: 0
+[17-29-13] Tick: 0. Update duration: 0
+[17-29-13] Tick: 0. Update duration: 0
+[17-29-14] Tick: 0. Update duration: 0
+[17-29-14] Tick: 0. Update duration: 0
+[17-29-15] Tick: 0. Update duration: 0
+[17-29-15] Tick: 0. Update duration: 0
+[17-29-16] Tick: 0. Update duration: 0
+[17-29-16] Tick: 0. Update duration: 0
+[17-29-17] Tick: 0. Update duration: 0
+[17-29-17] Tick: 0. Update duration: 0
+[17-29-18] Tick: 0. Update duration: 0
+[17-29-18] Tick: 0. Update duration: 0
+[17-29-19] Tick: 0. Update duration: 0
+[17-29-19] Tick: 0. Update duration: 0
+[17-29-20] Tick: 0. Update duration: 0
+[17-29-20] Tick: 0. Update duration: 0
+[17-29-21] Tick: 0. Update duration: 0
+[17-29-21] Tick: 0. Update duration: 0
+[17-29-22] Tick: 0. Update duration: 0
+[17-29-22] Tick: 0. Update duration: 0
+[17-29-23] Tick: 0. Update duration: 0
+[17-29-23] Tick: 0. Update duration: 0
+[17-29-24] Tick: 0. Update duration: 0
+[17-29-24] Tick: 0. Update duration: 0
+[17-29-25] Tick: 0. Update duration: 0
+[17-29-25] Tick: 0. Update duration: 0
+[17-29-26] Tick: 0. Update duration: 0
+[17-29-26] Tick: 0. Update duration: 0
+[17-29-27] Tick: 0. Update duration: 0
+[17-29-27] Tick: 0. Update duration: 0
+[17-29-28] Tick: 0. Update duration: 0
+[17-29-28] Tick: 0. Update duration: 0
+[17-29-29] Tick: 0. Update duration: 0
+[17-29-29] Tick: 0. Update duration: 0
+[17-29-30] Tick: 0. Update duration: 0
+[17-29-30] Tick: 0. Update duration: 0
+[17-29-31] Tick: 0. Update duration: 0
+[17-29-31] Tick: 0. Update duration: 0
+[17-29-32] Tick: 0. Update duration: 0
+[17-29-32] Tick: 0. Update duration: 0
+[17-29-33] Tick: 0. Update duration: 0
+[17-29-33] Tick: 0. Update duration: 0
+[17-29-34] Tick: 0. Update duration: 0
+[17-29-34] Tick: 0. Update duration: 0
+[17-29-35] Tick: 0. Update duration: 0
+[17-29-35] Tick: 0. Update duration: 0
+[17-29-36] Tick: 0. Update duration: 0
+[17-29-36] Tick: 0. Update duration: 0
+[17-29-37] Tick: 0. Update duration: 0
+[17-29-37] Tick: 0. Update duration: 0
+[17-29-38] Tick: 0. Update duration: 0
+[17-29-38] Tick: 0. Update duration: 0
+[17-29-39] Tick: 0. Update duration: 0
+[17-29-39] Tick: 0. Update duration: 0
+[17-29-40] Tick: 0. Update duration: 0
+[17-29-40] Tick: 0. Update duration: 0
+[17-29-41] Tick: 0. Update duration: 0
+[17-29-41] Tick: 0. Update duration: 0
+[17-29-42] Tick: 0. Update duration: 0
+[17-29-42] Tick: 0. Update duration: 0
+[17-29-43] Tick: 0. Update duration: 0
+[17-29-43] Tick: 0. Update duration: 0
+[17-29-44] Tick: 0. Update duration: 0
+[17-29-44] Tick: 0. Update duration: 0
+[17-29-45] Tick: 0. Update duration: 0
+[17-29-45] Tick: 0. Update duration: 0
+[17-29-46] Tick: 0. Update duration: 0
+[17-29-46] Tick: 0. Update duration: 0
+[17-29-47] Tick: 0. Update duration: 0
+[17-29-47] Tick: 0. Update duration: 0
+[17-29-48] Tick: 0. Update duration: 0
+[17-29-48] Tick: 0. Update duration: 0
+[17-29-49] Tick: 0. Update duration: 0
+[17-29-49] Tick: 0. Update duration: 0
+[17-29-50] Tick: 0. Update duration: 0
+[17-29-50] Tick: 0. Update duration: 0
+[17-29-51] Tick: 0. Update duration: 0
+[17-29-51] Tick: 0. Update duration: 0
+[17-29-52] Tick: 0. Update duration: 0
+[17-29-52] Tick: 0. Update duration: 0
+[17-29-53] Tick: 0. Update duration: 0
+[17-29-53] Tick: 0. Update duration: 0
+[17-29-54] Tick: 0. Update duration: 0
+[17-29-54] Tick: 0. Update duration: 0
+[17-29-55] Tick: 0. Update duration: 0
+[17-29-55] Tick: 0. Update duration: 0
+[17-29-56] Tick: 0. Update duration: 0
+[17-29-56] Tick: 0. Update duration: 0
+[17-29-57] Tick: 0. Update duration: 0
+[17-29-57] Tick: 0. Update duration: 0
+[17-29-58] Tick: 0. Update duration: 0
+[17-29-58] Tick: 0. Update duration: 0
+[17-29-59] Tick: 0. Update duration: 0
+[17-29-59] Tick: 0. Update duration: 0
+[17-30-00] Tick: 0. Update duration: 0
+[17-30-00] Tick: 0. Update duration: 0
+[17-30-01] Tick: 0. Update duration: 0
+[17-30-01] Tick: 0. Update duration: 0
+[17-30-02] Tick: 0. Update duration: 0
+[17-30-02] Tick: 0. Update duration: 0
+[17-30-03] Tick: 0. Update duration: 0
+[17-30-03] Tick: 0. Update duration: 0
+[17-30-04] Tick: 0. Update duration: 0
+[17-30-04] Tick: 0. Update duration: 0
+[17-30-05] Tick: 0. Update duration: 0
+[17-30-05] Tick: 0. Update duration: 0
+[17-30-06] Tick: 0. Update duration: 0
+[17-30-06] Tick: 0. Update duration: 0
+[17-30-07] Tick: 0. Update duration: 0
+[17-30-07] Tick: 0. Update duration: 0
+[17-30-08] Tick: 0. Update duration: 0
+[17-30-08] Tick: 0. Update duration: 0
+[17-30-09] Tick: 0. Update duration: 0
+[17-30-09] Tick: 0. Update duration: 0
+[17-30-10] Tick: 0. Update duration: 0
+[17-30-10] Tick: 0. Update duration: 0
+[17-30-11] Tick: 0. Update duration: 0
+[17-30-11] Tick: 0. Update duration: 0
+[17-30-12] Tick: 0. Update duration: 0
+[17-30-12] Tick: 0. Update duration: 0
+[17-30-13] Tick: 0. Update duration: 0
+[17-30-13] Tick: 0. Update duration: 0
+[17-30-14] Tick: 0. Update duration: 0
+[17-30-14] Tick: 0. Update duration: 0
+[17-30-15] Tick: 0. Update duration: 0
+[17-30-15] Tick: 0. Update duration: 0
+[17-30-16] Tick: 0. Update duration: 0
+[17-30-16] Tick: 0. Update duration: 0
+[17-30-17] Tick: 0. Update duration: 0
+[17-30-17] Tick: 0. Update duration: 0
+[17-30-18] Tick: 0. Update duration: 0
+[17-30-18] Tick: 0. Update duration: 0
+[17-30-19] Tick: 0. Update duration: 0
+[17-30-19] Tick: 0. Update duration: 0
+[17-30-20] Tick: 0. Update duration: 0
+[17-30-20] Tick: 0. Update duration: 0
+[17-30-21] Tick: 0. Update duration: 0
+[17-30-21] Tick: 0.10000000149011612. Update duration: 0.10000000149011612
+[17-30-21] Game Resumed
+[17-30-21] MissFortune Gold: 500/0, Exp:0/1
+[17-30-21] Ahri Gold: 500/0, Exp:0/1
+[17-30-21] Gwen Gold: 500/0, Exp:0/1
+[17-30-21] Leona Gold: 500/0, Exp:0/1
+[17-30-21] Hecarim Gold: 500/0, Exp:0/1
+[17-30-21] Rakan Gold: 500/0, Exp:0/1
+[17-30-21] JarvanIV Gold: 500/0, Exp:0/1
+[17-30-21] Caitlyn Gold: 500/0, Exp:0/1
+[17-30-21] Sylas Gold: 500/0, Exp:0/1
+[17-30-21] Camille Gold: 500/0, Exp:0/1
+[17-30-21] Init Team data
+[17-30-22] Tick: 0.10000000149011612. Update duration: 0
+[17-30-22] Game Paused
+[17-30-22] Tick: 0.10000000149011612. Update duration: 0
+[17-30-23] Tick: 0.10000000149011612. Update duration: 0
+[17-30-23] Tick: 0.10199999809265137. Update duration: 0.001999996602535248
+[17-30-23] Game Resumed
+[17-30-23] MissFortune Gold: 500/500, Exp:0/1
+[17-30-23] Ahri Gold: 500/500, Exp:0/1
+[17-30-23] Gwen Gold: 500/500, Exp:0/1
+[17-30-23] Leona Gold: 500/500, Exp:0/1
+[17-30-23] Hecarim Gold: 500/500, Exp:0/1
+[17-30-23] Rakan Gold: 500/500, Exp:0/1
+[17-30-23] JarvanIV Gold: 500/500, Exp:0/1
+[17-30-23] Caitlyn Gold: 500/500, Exp:0/1
+[17-30-23] Sylas Gold: 500/500, Exp:0/1
+[17-30-23] Camille Gold: 500/500, Exp:0/1
+[17-30-24] Tick: 0.10199999809265137. Update duration: 0
+[17-30-24] Game Paused
+[17-30-24] Tick: 0.10199999809265137. Update duration: 0
+[17-30-25] Tick: 0.10199999809265137. Update duration: 0
+[17-30-25] Tick: 0.10199999809265137. Update duration: 0
+[17-30-26] Tick: 0.10199999809265137. Update duration: 0
+[17-30-26] Tick: 0.10199999809265137. Update duration: 0
+[17-30-27] Tick: 0.10199999809265137. Update duration: 0
+[17-30-27] Tick: 0.10199999809265137. Update duration: 0
+[17-30-28] Tick: 0.10199999809265137. Update duration: 0
+[17-30-28] Tick: 0.10199999809265137. Update duration: 0
+[17-30-29] Tick: 0.10199999809265137. Update duration: 0
+[17-30-29] Tick: 0.10199999809265137. Update duration: 0
+[17-30-30] Tick: 0.10199999809265137. Update duration: 0
+[17-30-30] Tick: 0.10199999809265137. Update duration: 0
+[17-30-31] Tick: 0.10199999809265137. Update duration: 0
+[17-30-31] Tick: 0.10199999809265137. Update duration: 0
+[17-30-32] Tick: 0.10199999809265137. Update duration: 0
+[17-30-32] Tick: 0.10199999809265137. Update duration: 0
+[17-30-33] Tick: 0.10199999809265137. Update duration: 0
+[17-30-33] Tick: 0.10199999809265137. Update duration: 0
+[17-30-34] Tick: 0.10199999809265137. Update duration: 0
+[17-30-34] Tick: 0.10199999809265137. Update duration: 0
+[17-30-35] Tick: 0.10199999809265137. Update duration: 0
+[17-30-35] Tick: 0.10199999809265137. Update duration: 0
+[17-30-36] Tick: 0.10199999809265137. Update duration: 0
+[17-30-36] Tick: 0.10199999809265137. Update duration: 0
+[17-30-37] Tick: 0.10199999809265137. Update duration: 0
+[17-30-37] Tick: 0.10199999809265137. Update duration: 0
+[17-30-38] Tick: 0.10199999809265137. Update duration: 0
+[17-30-38] Tick: 0.10199999809265137. Update duration: 0
+[17-30-39] Tick: 0.10199999809265137. Update duration: 0
+[17-30-39] Tick: 0.10199999809265137. Update duration: 0
+[17-30-40] Tick: 0.10199999809265137. Update duration: 0
+[17-30-40] Tick: 0.10199999809265137. Update duration: 0
+[17-30-41] Tick: 0.10199999809265137. Update duration: 0
+[17-30-41] Tick: 0.10199999809265137. Update duration: 0
+[17-30-42] Tick: 0.10199999809265137. Update duration: 0
+[17-30-42] Tick: 0.10199999809265137. Update duration: 0
+[17-30-43] Tick: 0.10199999809265137. Update duration: 0
+[17-30-43] Tick: 0.10199999809265137. Update duration: 0
+[17-30-44] Tick: 0.10199999809265137. Update duration: 0
+[17-30-44] Tick: 0.10199999809265137. Update duration: 0
+[17-30-45] Tick: 0.10199999809265137. Update duration: 0
+[17-30-45] Tick: 0.10199999809265137. Update duration: 0
+[17-30-46] Tick: 0.10199999809265137. Update duration: 0
+[17-30-46] Tick: 0.10199999809265137. Update duration: 0
+[17-30-47] Tick: 0.10199999809265137. Update duration: 0
+[17-30-47] Tick: 0.10199999809265137. Update duration: 0
+[17-30-48] Tick: 0.10199999809265137. Update duration: 0
+[17-30-48] Tick: 0.10199999809265137. Update duration: 0
+[17-30-49] Tick: 0.10199999809265137. Update duration: 0
+[17-30-49] Tick: 0.10199999809265137. Update duration: 0
+[17-30-50] Tick: 0.10199999809265137. Update duration: 0
+[17-30-50] Tick: 0.10199999809265137. Update duration: 0
+[17-30-51] Tick: 0.10199999809265137. Update duration: 0
+[17-30-51] Tick: 0.10199999809265137. Update duration: 0
+[17-30-52] Tick: 0.10199999809265137. Update duration: 0
+[17-30-52] Tick: 0.10199999809265137. Update duration: 0
+[17-30-53] Tick: 0.10199999809265137. Update duration: 0
+[17-30-53] Tick: 0.10199999809265137. Update duration: 0
+[17-30-54] Tick: 0.10199999809265137. Update duration: 0
+[17-30-54] Tick: 0.10199999809265137. Update duration: 0
+[17-30-55] Tick: 0.10199999809265137. Update duration: 0
+[17-30-55] Tick: 0.10199999809265137. Update duration: 0
+[17-30-56] Tick: 0.10199999809265137. Update duration: 0
+[17-30-56] Tick: 0.10199999809265137. Update duration: 0
+[17-30-57] Tick: 0.10199999809265137. Update duration: 0
+[17-30-57] Tick: 0.10199999809265137. Update duration: 0
+[17-30-58] Tick: 0.10199999809265137. Update duration: 0
+[17-30-58] Tick: 0.10199999809265137. Update duration: 0
+[17-30-59] Tick: 0.10199999809265137. Update duration: 0
+[17-30-59] Tick: 0.10199999809265137. Update duration: 0
+[17-31-00] Tick: 0.10199999809265137. Update duration: 0
+[17-31-00] Tick: 0.10199999809265137. Update duration: 0
+[17-31-01] Tick: 0.10199999809265137. Update duration: 0
+[17-31-01] Tick: 0.10199999809265137. Update duration: 0
+[17-31-02] Tick: 0.10199999809265137. Update duration: 0
+[17-31-02] Tick: 0.10199999809265137. Update duration: 0
+[17-31-03] Tick: 0.10199999809265137. Update duration: 0
+[17-31-03] Tick: 0.10199999809265137. Update duration: 0
+[17-31-04] Tick: 0.10199999809265137. Update duration: 0
+[17-31-04] Tick: 0.10199999809265137. Update duration: 0
+[17-31-05] Tick: 0.10199999809265137. Update duration: 0
+[17-31-05] Tick: 0.10199999809265137. Update duration: 0
+[17-31-06] Tick: 0.10199999809265137. Update duration: 0
+[17-31-06] Tick: 0.10199999809265137. Update duration: 0
+[17-31-07] Tick: 0.10199999809265137. Update duration: 0
+[17-31-07] Tick: 0.10199999809265137. Update duration: 0
+[17-31-08] Tick: 0.10199999809265137. Update duration: 0
+[17-31-08] Tick: 0.10199999809265137. Update duration: 0
+[17-31-09] Tick: 0.10199999809265137. Update duration: 0
+[17-31-09] Tick: 0.10199999809265137. Update duration: 0
+[17-31-10] Tick: 0.10199999809265137. Update duration: 0
+[17-31-10] Tick: 0.10199999809265137. Update duration: 0
+[17-31-11] Tick: 0.10199999809265137. Update duration: 0
+[17-31-11] Tick: 0.10199999809265137. Update duration: 0
+[17-31-12] Tick: 0.10199999809265137. Update duration: 0
+[17-31-12] Tick: 0.10199999809265137. Update duration: 0
+[17-31-13] Tick: 0.10199999809265137. Update duration: 0
+[17-31-13] Tick: 0.10199999809265137. Update duration: 0
+[17-31-14] Tick: 0.10199999809265137. Update duration: 0
+[17-31-14] Tick: 0.10199999809265137. Update duration: 0
+[17-31-15] Tick: 0.10199999809265137. Update duration: 0
+[17-31-15] Tick: 0.10199999809265137. Update duration: 0
+[17-31-16] Tick: 0.10199999809265137. Update duration: 0
+[17-31-16] Tick: 0.10199999809265137. Update duration: 0
+[17-31-17] Tick: 0.10199999809265137. Update duration: 0
+[17-31-17] Tick: 0.10199999809265137. Update duration: 0
+[17-31-18] Tick: 0.10199999809265137. Update duration: 0
+[17-31-18] Tick: 0.10199999809265137. Update duration: 0
+[17-31-19] Tick: 0.10199999809265137. Update duration: 0
+[17-31-19] Tick: 0.10199999809265137. Update duration: 0
+[17-31-20] Tick: 0.10199999809265137. Update duration: 0
+[17-31-20] Tick: 0.10199999809265137. Update duration: 0
+[17-31-21] Tick: 0.10199999809265137. Update duration: 0
+[17-31-21] Tick: 0.10199999809265137. Update duration: 0
+[17-31-22] Tick: 0.10199999809265137. Update duration: 0
+[17-31-22] Tick: 0.10199999809265137. Update duration: 0
+[17-31-23] Tick: 0.10199999809265137. Update duration: 0
+[17-31-23] Tick: 0.10199999809265137. Update duration: 0
+[17-31-24] Tick: 0.10199999809265137. Update duration: 0
+[17-31-24] Tick: 0.10199999809265137. Update duration: 0
+[17-31-25] Tick: 0.10199999809265137. Update duration: 0
+[17-31-25] Tick: 0.10199999809265137. Update duration: 0
+[17-31-26] Tick: 0.10199999809265137. Update duration: 0
+[17-31-26] Tick: 0.10199999809265137. Update duration: 0
+[17-31-27] Tick: 0.10199999809265137. Update duration: 0
+[17-31-27] Tick: 0.10199999809265137. Update duration: 0
+[17-31-28] Tick: 0.10199999809265137. Update duration: 0
+[17-31-28] Tick: 0.10199999809265137. Update duration: 0
+[17-31-29] Tick: 0.10199999809265137. Update duration: 0
+[17-31-29] Tick: 0.10199999809265137. Update duration: 0
+[17-31-30] Tick: 0.10199999809265137. Update duration: 0
+[17-31-30] Tick: 0.10199999809265137. Update duration: 0
+[17-31-31] Tick: 0.10199999809265137. Update duration: 0
+[17-31-31] Tick: 0.10199999809265137. Update duration: 0
+[17-31-32] Tick: 0.10199999809265137. Update duration: 0
+[17-31-32] Tick: 0.10199999809265137. Update duration: 0
+[17-31-33] Tick: 0.10199999809265137. Update duration: 0
+[17-31-33] Tick: 0.10199999809265137. Update duration: 0
+[17-31-34] Tick: 0.10199999809265137. Update duration: 0
+[17-31-34] Tick: 0.10199999809265137. Update duration: 0
+[17-31-35] Tick: 0.10199999809265137. Update duration: 0
+[17-31-35] Tick: 0.10199999809265137. Update duration: 0
+[17-31-36] Tick: 0.10199999809265137. Update duration: 0
+[17-31-36] Tick: 0.10199999809265137. Update duration: 0
+[17-31-37] Tick: 0.10199999809265137. Update duration: 0
+[17-31-37] Tick: 0.10199999809265137. Update duration: 0
+[17-31-38] Tick: 0.10199999809265137. Update duration: 0
+[17-31-38] Tick: 0.10199999809265137. Update duration: 0
+[17-31-39] Tick: 0.10199999809265137. Update duration: 0
+[17-31-39] Tick: 0.10199999809265137. Update duration: 0
+[17-31-40] Tick: 0.10199999809265137. Update duration: 0
+[17-31-40] Tick: 0.10199999809265137. Update duration: 0
+[17-31-41] Tick: 0.10199999809265137. Update duration: 0
+[17-31-41] Tick: 0.10199999809265137. Update duration: 0
+[17-31-42] Tick: 0.10199999809265137. Update duration: 0
+[17-31-42] Tick: 0.4494132101535797. Update duration: 0.34741321206092834
+[17-31-42] Game Resumed
+[17-31-42] MissFortune Gold: 500/500, Exp:0/1
+[17-31-42] Ahri Gold: 500/500, Exp:0/1
+[17-31-42] Gwen Gold: 500/500, Exp:0/1
+[17-31-42] Leona Gold: 500/500, Exp:0/1
+[17-31-42] Hecarim Gold: 500/500, Exp:0/1
+[17-31-42] Rakan Gold: 500/500, Exp:0/1
+[17-31-42] JarvanIV Gold: 500/500, Exp:0/1
+[17-31-42] Caitlyn Gold: 500/500, Exp:0/1
+[17-31-42] Sylas Gold: 500/500, Exp:0/1
+[17-31-42] Camille Gold: 500/500, Exp:0/1
+[17-31-43] Tick: 0.7504419088363647. Update duration: 0.30102869868278503
+[17-31-43] MissFortune Gold: 500/500, Exp:0/1
+[17-31-43] Ahri Gold: 500/500, Exp:0/1
+[17-31-43] Gwen Gold: 500/500, Exp:0/1
+[17-31-43] Leona Gold: 500/500, Exp:0/1
+[17-31-43] Hecarim Gold: 500/500, Exp:0/1
+[17-31-43] Rakan Gold: 500/500, Exp:0/1
+[17-31-43] JarvanIV Gold: 500/500, Exp:0/1
+[17-31-43] Caitlyn Gold: 500/500, Exp:0/1
+[17-31-43] Sylas Gold: 500/500, Exp:0/1
+[17-31-43] Camille Gold: 500/500, Exp:0/1
+[17-31-43] Tick: 0.9538722038269043. Update duration: 0.20343029499053955
+[17-31-43] MissFortune Gold: 500/500, Exp:0/1
+[17-31-43] Ahri Gold: 500/500, Exp:0/1
+[17-31-43] Gwen Gold: 500/500, Exp:0/1
+[17-31-43] Leona Gold: 500/500, Exp:0/1
+[17-31-43] Hecarim Gold: 500/500, Exp:0/1
+[17-31-43] Rakan Gold: 500/500, Exp:0/1
+[17-31-43] JarvanIV Gold: 500/500, Exp:0/1
+[17-31-43] Caitlyn Gold: 500/500, Exp:0/1
+[17-31-43] Sylas Gold: 500/500, Exp:0/1
+[17-31-43] Camille Gold: 500/500, Exp:0/1
+[17-31-44] Tick: 1.4522360563278198. Update duration: 0.4983638525009155
+[17-31-44] MissFortune Gold: 500/500, Exp:0/1
+[17-31-44] Ahri Gold: 500/500, Exp:0/1
+[17-31-44] Gwen Gold: 500/500, Exp:0/1
+[17-31-44] Leona Gold: 500/500, Exp:0/1
+[17-31-44] Hecarim Gold: 500/500, Exp:0/1
+[17-31-44] Rakan Gold: 500/500, Exp:0/1
+[17-31-44] JarvanIV Gold: 500/500, Exp:0/1
+[17-31-44] Caitlyn Gold: 500/500, Exp:0/1
+[17-31-44] Sylas Gold: 500/500, Exp:0/1
+[17-31-44] Camille Gold: 500/500, Exp:0/1
+[17-31-44] Tick: 1.9451580047607422. Update duration: 0.49292194843292236
+[17-31-44] MissFortune Gold: 500/500, Exp:0/1
+[17-31-44] Ahri Gold: 500/500, Exp:0/1
+[17-31-44] Gwen Gold: 500/500, Exp:0/1
+[17-31-44] Leona Gold: 500/500, Exp:0/1
+[17-31-44] Hecarim Gold: 500/500, Exp:0/1
+[17-31-44] Rakan Gold: 500/500, Exp:0/1
+[17-31-44] JarvanIV Gold: 500/500, Exp:0/1
+[17-31-44] Caitlyn Gold: 500/500, Exp:0/1
+[17-31-44] Sylas Gold: 500/500, Exp:0/1
+[17-31-44] Camille Gold: 500/500, Exp:0/1
+[17-31-45] Tick: 2.4118363857269287. Update duration: 0.4666783809661865
+[17-31-45] MissFortune Gold: 500/500, Exp:0/1
+[17-31-45] Ahri Gold: 0/500, Exp:0/1
+[17-31-45] Gwen Gold: 500/500, Exp:0/1
+[17-31-45] Leona Gold: 500/500, Exp:0/1
+[17-31-45] Hecarim Gold: 500/500, Exp:0/1
+[17-31-45] Rakan Gold: 500/500, Exp:0/1
+[17-31-45] JarvanIV Gold: 500/500, Exp:0/1
+[17-31-45] Caitlyn Gold: 500/500, Exp:0/1
+[17-31-45] Sylas Gold: 500/500, Exp:0/1
+[17-31-45] Camille Gold: 500/500, Exp:0/1
+[17-31-45] Tick: 2.4118363857269287. Update duration: 0
+[17-31-45] Game Paused
+[17-31-46] Tick: 2.4118363857269287. Update duration: 0
+[17-31-46] Tick: 2.8908486366271973. Update duration: 0.47901225090026855
+[17-31-46] Game Resumed
+[17-31-46] MissFortune Gold: 0/500, Exp:0/1
+[17-31-46] Ahri Gold: 0/500, Exp:0/1
+[17-31-46] Gwen Gold: 500/500, Exp:0/1
+[17-31-46] Leona Gold: 500/500, Exp:0/1
+[17-31-46] Hecarim Gold: 500/500, Exp:0/1
+[17-31-46] Rakan Gold: 500/500, Exp:0/1
+[17-31-46] JarvanIV Gold: 500/500, Exp:0/1
+[17-31-46] Caitlyn Gold: 500/500, Exp:0/1
+[17-31-46] Sylas Gold: 500/500, Exp:0/1
+[17-31-46] Camille Gold: 500/500, Exp:0/1
+[17-31-47] Tick: 3.389739751815796. Update duration: 0.49889111518859863
+[17-31-47] MissFortune Gold: 0/500, Exp:0/1
+[17-31-47] Ahri Gold: 0/500, Exp:0/1
+[17-31-47] Gwen Gold: 500/500, Exp:0/1
+[17-31-47] Leona Gold: 500/500, Exp:0/1
+[17-31-47] Hecarim Gold: 500/500, Exp:0/1
+[17-31-47] Rakan Gold: 500/500, Exp:0/1
+[17-31-47] JarvanIV Gold: 500/500, Exp:0/1
+[17-31-47] Caitlyn Gold: 500/500, Exp:0/1
+[17-31-47] Sylas Gold: 500/500, Exp:0/1
+[17-31-47] Camille Gold: 500/500, Exp:0/1
+[17-31-47] Tick: 3.887176275253296. Update duration: 0.4974365234375
+[17-31-47] MissFortune Gold: 0/500, Exp:0/1
+[17-31-47] Ahri Gold: 0/500, Exp:0/1
+[17-31-47] Gwen Gold: 500/500, Exp:0/1
+[17-31-47] Leona Gold: 500/500, Exp:0/1
+[17-31-47] Hecarim Gold: 500/500, Exp:0/1
+[17-31-47] Rakan Gold: 500/500, Exp:0/1
+[17-31-47] JarvanIV Gold: 150/500, Exp:0/1
+[17-31-47] Caitlyn Gold: 500/500, Exp:0/1
+[17-31-47] Sylas Gold: 500/500, Exp:0/1
+[17-31-47] Camille Gold: 0/500, Exp:0/1
+[17-31-48] Tick: 4.388648509979248. Update duration: 0.5014722347259521
+[17-31-48] MissFortune Gold: 0/500, Exp:0/1
+[17-31-48] Ahri Gold: 0/500, Exp:0/1
+[17-31-48] Gwen Gold: 500/500, Exp:0/1
+[17-31-48] Leona Gold: 500/500, Exp:0/1
+[17-31-48] Hecarim Gold: 500/500, Exp:0/1
+[17-31-48] Rakan Gold: 500/500, Exp:0/1
+[17-31-48] JarvanIV Gold: 150/500, Exp:0/1
+[17-31-48] Caitlyn Gold: 500/500, Exp:0/1
+[17-31-48] Sylas Gold: 500/500, Exp:0/1
+[17-31-48] Camille Gold: 0/500, Exp:0/1
+[17-31-48] Tick: 4.886672019958496. Update duration: 0.49802350997924805
+[17-31-48] MissFortune Gold: 0/500, Exp:0/1
+[17-31-48] Ahri Gold: 0/500, Exp:0/1
+[17-31-48] Gwen Gold: 500/500, Exp:0/1
+[17-31-48] Leona Gold: 500/500, Exp:0/1
+[17-31-48] Hecarim Gold: 500/500, Exp:0/1
+[17-31-48] Rakan Gold: 500/500, Exp:0/1
+[17-31-48] JarvanIV Gold: 0/500, Exp:0/1
+[17-31-48] Caitlyn Gold: 0/500, Exp:0/1
+[17-31-48] Sylas Gold: 500/500, Exp:0/1
+[17-31-48] Camille Gold: 0/500, Exp:0/1
+[17-31-49] Tick: 5.390178203582764. Update duration: 0.5035061836242676
+[17-31-49] MissFortune Gold: 0/500, Exp:0/1
+[17-31-49] Ahri Gold: 0/500, Exp:0/1
+[17-31-49] Gwen Gold: 500/500, Exp:0/1
+[17-31-49] Leona Gold: 500/500, Exp:0/1
+[17-31-49] Hecarim Gold: 500/500, Exp:0/1
+[17-31-49] Rakan Gold: 500/500, Exp:0/1
+[17-31-49] JarvanIV Gold: 0/500, Exp:0/1
+[17-31-49] Caitlyn Gold: 0/500, Exp:0/1
+[17-31-49] Sylas Gold: 500/500, Exp:0/1
+[17-31-49] Camille Gold: 0/500, Exp:0/1
+[17-31-49] Tick: 5.530679225921631. Update duration: 0.1405010223388672
+[17-31-49] MissFortune Gold: 0/500, Exp:0/1
+[17-31-49] Ahri Gold: 0/500, Exp:0/1
+[17-31-49] Gwen Gold: 500/500, Exp:0/1
+[17-31-49] Leona Gold: 500/500, Exp:0/1
+[17-31-49] Hecarim Gold: 500/500, Exp:0/1
+[17-31-49] Rakan Gold: 500/500, Exp:0/1
+[17-31-49] JarvanIV Gold: 0/500, Exp:0/1
+[17-31-49] Caitlyn Gold: 0/500, Exp:0/1
+[17-31-49] Sylas Gold: 500/500, Exp:0/1
+[17-31-49] Camille Gold: 0/500, Exp:0/1
+[17-31-50] Tick: 5.530679225921631. Update duration: 0
+[17-31-50] Game Paused
+[17-31-50] Tick: 5.530679225921631. Update duration: 0
+[17-31-51] Tick: 5.530679225921631. Update duration: 0
+[17-31-51] Tick: 5.530679225921631. Update duration: 0
+[17-31-52] Tick: 5.530679225921631. Update duration: 0
+[17-31-52] Tick: 5.530679225921631. Update duration: 0
+[17-31-53] Tick: 5.530679225921631. Update duration: 0
+[17-31-53] Tick: 5.530679225921631. Update duration: 0
+[17-31-54] Tick: 5.530679225921631. Update duration: 0
+[17-31-54] Tick: 5.530679225921631. Update duration: 0
+[17-31-55] Tick: 5.530679225921631. Update duration: 0
+[17-31-55] Tick: 5.530679225921631. Update duration: 0
+[17-31-56] Tick: 5.530679225921631. Update duration: 0
+[17-31-56] Tick: 5.530679225921631. Update duration: 0
+[17-31-57] Tick: 5.530679225921631. Update duration: 0
+[17-31-57] New Client 2cxn790kIkWidXw05C3JrQ connected from http://localhost:9001
+[17-31-57] Tick: 5.530679225921631. Update duration: 0
+[17-31-58] Tick: 5.530679225921631. Update duration: 0
+[17-31-58] Tick: 5.530679225921631. Update duration: 0
+[17-31-59] Tick: 5.530679225921631. Update duration: 0
+[17-31-59] Tick: 5.530679225921631. Update duration: 0
+[17-32-00] Tick: 5.530679225921631. Update duration: 0
+[17-32-00] Tick: 5.530679225921631. Update duration: 0
+[17-32-01] Tick: 5.530679225921631. Update duration: 0
+[17-32-01] Tick: 5.530679225921631. Update duration: 0
+[17-32-02] Tick: 5.530679225921631. Update duration: 0
+[17-32-02] Tick: 5.530679225921631. Update duration: 0
+[17-32-03] Tick: 5.530679225921631. Update duration: 0
+[17-32-03] Tick: 5.530679225921631. Update duration: 0
+[17-32-04] Tick: 5.530679225921631. Update duration: 0
+[17-32-04] Tick: 5.530679225921631. Update duration: 0
+[17-32-05] Tick: 5.530679225921631. Update duration: 0
+[17-32-05] Tick: 5.530679225921631. Update duration: 0
+[17-32-06] Tick: 5.530679225921631. Update duration: 0
+[17-32-06] Tick: 5.530679225921631. Update duration: 0
+[17-32-07] Tick: 5.530679225921631. Update duration: 0
+[17-32-07] Tick: 5.530679225921631. Update duration: 0
+[17-32-08] Tick: 5.530679225921631. Update duration: 0
+[17-32-08] Tick: 5.530679225921631. Update duration: 0
+[17-32-09] Tick: 5.530679225921631. Update duration: 0
+[17-32-09] Client 2cxn790kIkWidXw05C3JrQ disconnected
+[17-32-09] Tick: 5.530679225921631. Update duration: 0
+[17-32-09] New Client nG7LblZz/k+3juX93/I+NQ connected from http://localhost:9001
+[17-32-10] Tick: 5.530679225921631. Update duration: 0
+[17-32-10] Tick: 5.530679225921631. Update duration: 0
+[17-32-11] Tick: 5.530679225921631. Update duration: 0
+[17-32-11] Tick: 5.530679225921631. Update duration: 0
+[17-32-12] Tick: 5.530679225921631. Update duration: 0
+[17-32-12] Tick: 5.530679225921631. Update duration: 0
+[17-32-13] Tick: 5.530679225921631. Update duration: 0
+[17-32-13] Tick: 5.530679225921631. Update duration: 0
+[17-32-13] Saving all configs to file
+[17-32-13] Writing PickBan config to file
+[17-32-13] Updated PickBan config file
+[17-32-13] Writing Component config to file
+[17-32-13] Updated Component config file
+[17-32-13] Writing Farsight config to file
+[17-32-13] Updated Farsight config file
+[17-32-13] Writing Ingame config to file
+[17-32-13] Updated Ingame config file
+[17-32-13] Configs saved

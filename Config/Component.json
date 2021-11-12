@@ -7,27 +7,27 @@
     "Patch": "latest"
   },
   "PickBan": {
-    "IsActive": true,
+    "IsActive": false,
     "UseDelay": false,
     "DelayValue": 300,
-    "DefaultBlueColor": "rgb(0,235,226)",
-    "DefaultRedColor": "rgb(255,89,0)"
+    "DefaultBlueColor": "rgb(38,38,38)",
+    "DefaultRedColor": "rgb(242,179,61)"
   },
   "Ingame": {
     "IsActive": true,
     "UseLiveEvents": true,
     "DoLevelUp": true,
-    "DoItemCompleted": true,
+    "DoItemCompleted": false,
     "SeriesGameCount": 5,
     "Objectives": {
       "DoBaronKill": false,
       "DoDragonKill": false,
       "DoInhibitors": false,
-      "DoObjectiveSpawnPopUp": true,
-      "DoObjectiveKillPopUp": true
+      "DoObjectiveSpawnPopUp": false,
+      "DoObjectiveKillPopUp": false
     },
     "Teams": {
-      "DoTeamNames": true,
+      "DoTeamNames": false,
       "DoTeamIcons": false,
       "DoTeamScores": false
     },

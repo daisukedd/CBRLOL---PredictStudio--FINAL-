@@ -8,7 +8,7 @@
       "X": 306.0,
       "Y": 118.0
     },
-    "UseBackgroundImage": false,
+    "UseBackgroundImage": true,
     "UseBackgroundVideo": false,
     "Color": "rgba(19,24,63,255)",
     "Font": {
@@ -65,32 +65,32 @@
       "Y": 0.0
     },
     "Size": {
-      "X": 960.0,
-      "Y": 92.0
+      "X": 1280.0,
+      "Y": 110.0
     },
     "TimeFont": {
       "Style": "Bold",
       "Name": "Montserrat",
-      "Size": "22px",
+      "Size": "25px",
       "Align": "center",
       "Color": "rgb(255,255,255)"
     },
     "TimePosition": {
       "X": 0.0,
-      "Y": 85.0
+      "Y": 95.0
     },
     "BlueTeam": {
       "Kills": {
         "Position": {
-          "X": -40.0,
-          "Y": 6.0
+          "X": -90.0,
+          "Y": 7.0
         },
         "Font": {
           "Style": "Bold",
           "Name": "Montserrat",
-          "Size": "50px",
+          "Size": "45px",
           "Align": "right",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(38,38,38)"
         },
         "Icon": {
           "Name": "KillsIcon",
@@ -106,31 +106,7 @@
       },
       "Towers": {
         "Position": {
-          "X": -270.0,
-          "Y": 20.0
-        },
-        "Font": {
-          "Style": "Normal",
-          "Name": "News Cycle",
-          "Size": "26px",
-          "Align": "right",
-          "Color": "rgb(0,235,226)"
-        },
-        "Icon": {
-          "Name": "TowerIcon",
-          "Size": {
-            "X": 25.0,
-            "Y": 30.0
-          },
-          "Offset": {
-            "X": 15.0,
-            "Y": 13.0
-          }
-        }
-      },
-      "Gold": {
-        "Position": {
-          "X": -150.0,
+          "X": -362.0,
           "Y": 20.0
         },
         "Font": {
@@ -138,35 +114,59 @@
           "Name": "Montserrat",
           "Size": "26px",
           "Align": "right",
-          "Color": "rgb(0,235,226)"
+          "Color": "rgb(38,38,38)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 35.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": -210.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(38,38,38)"
         },
         "Icon": {
           "Name": "GoldIcon",
           "Size": {
-            "X": 40.0,
-            "Y": 30.0
+            "X": 0.0,
+            "Y": 0.0
           },
           "Offset": {
-            "X": 25.0,
-            "Y": 10.0
+            "X": 50.0,
+            "Y": 13.0
           }
         }
       },
       "Drakes": {
         "Position": {
-          "X": -55.0,
-          "Y": 71.0
+          "X": -80.0,
+          "Y": 94.0
         },
         "Offset": {
-          "X": -12.0,
+          "X": -18.0,
           "Y": 0.0
         }
       },
       "Name": {
         "UseTag": true,
         "Position": {
-          "X": -390.0,
-          "Y": 6.0
+          "X": -540.0,
+          "Y": 12.0
         },
         "AdaptiveFontSize": true,
         "MaxSize": {
@@ -178,19 +178,19 @@
           "Name": "Montserrat",
           "Size": "40px",
           "Align": "left",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(38,38,38)"
         }
       },
       "Icon": {
         "Position": {
-          "X": -430.0,
-          "Y": 30.0
+          "X": -600.0,
+          "Y": 33.0
         },
         "Size": {
-          "X": 60.0,
-          "Y": 60.0
+          "X": 55.0,
+          "Y": 55.0
         },
-        "UseBackground": true,
+        "UseBackground": false,
         "BackgroundOffset": {
           "X": -10.0,
           "Y": 0.0
@@ -222,15 +222,15 @@
     "RedTeam": {
       "Kills": {
         "Position": {
-          "X": 40.0,
-          "Y": 6.0
+          "X": 90.0,
+          "Y": 5.0
         },
         "Font": {
           "Style": "Bold",
           "Name": "Montserrat",
           "Size": "50px",
           "Align": "left",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(242,176,61)"
         },
         "Icon": {
           "Name": "KillsIcon",
@@ -246,7 +246,7 @@
       },
       "Towers": {
         "Position": {
-          "X": 270.0,
+          "X": 364.0,
           "Y": 20.0
         },
         "Font": {
@@ -254,23 +254,23 @@
           "Name": "Montserrat",
           "Size": "26px",
           "Align": "left",
-          "Color": "rgb(255,89,0)"
+          "Color": "rgb(242,176,61)"
         },
         "Icon": {
           "Name": "TowerIcon",
           "Size": {
-            "X": 25.0,
-            "Y": 30.0
+            "X": 0.0,
+            "Y": 0.0
           },
           "Offset": {
-            "X": -15.0,
+            "X": -35.0,
             "Y": 13.0
           }
         }
       },
       "Gold": {
         "Position": {
-          "X": 150.0,
+          "X": 210.0,
           "Y": 20.0
         },
         "Font": {
@@ -278,35 +278,35 @@
           "Name": "Montserrat",
           "Size": "26px",
           "Align": "left",
-          "Color": "rgb(255,89,0)"
+          "Color": "rgb(242,176,61)"
         },
         "Icon": {
           "Name": "GoldIcon",
           "Size": {
-            "X": 40.0,
-            "Y": 30.0
+            "X": 0.0,
+            "Y": 0.0
           },
           "Offset": {
-            "X": -25.0,
-            "Y": 10.0
+            "X": -35.0,
+            "Y": 13.0
           }
         }
       },
       "Drakes": {
         "Position": {
-          "X": 50.0,
-          "Y": 71.0
+          "X": 80.0,
+          "Y": 94.0
         },
         "Offset": {
-          "X": 12.0,
+          "X": 18.0,
           "Y": 0.0
         }
       },
       "Name": {
         "UseTag": true,
         "Position": {
-          "X": 390.0,
-          "Y": 6.0
+          "X": 510.0,
+          "Y": 12.0
         },
         "AdaptiveFontSize": true,
         "MaxSize": {
@@ -318,19 +318,19 @@
           "Name": "Montserrat",
           "Size": "40px",
           "Align": "right",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(242,176,61)"
         }
       },
       "Icon": {
         "Position": {
-          "X": 430.0,
-          "Y": 30.0
+          "X": 600.0,
+          "Y": 33.0
         },
         "Size": {
-          "X": 60.0,
-          "Y": 60.0
+          "X": 55.0,
+          "Y": 55.0
         },
-        "UseBackground": true,
+        "UseBackground": false,
         "BackgroundOffset": {
           "X": 10.0,
           "Y": 0.0
@@ -362,19 +362,19 @@
     "Background": {
       "UseImage": true,
       "UseVideo": false,
-      "UseAlpha": true,
-      "FallbackColor": "rgba(19,24,63,255)"
+      "UseAlpha": false,
+      "FallbackColor": "rgba(0,0,0,0)"
     },
     "Misc": {
       "Animation": "Simple",
       "ShowCenterIcon": true,
       "CenterIconPosition": {
-        "X": 0.0,
-        "Y": 30.0
+        "X": 3.0,
+        "Y": 33.0
       },
       "CenterIconSize": {
-        "X": 40.0,
-        "Y": 40.0
+        "X": 0.0,
+        "Y": 0.0
       },
       "DrakeIconSize": {
         "X": 20.0,
@@ -385,8 +385,8 @@
   "ObjectiveKill": {
     "ShowTeamIcon": false,
     "SoulPointScoreboardPopUp": {
-      "Enabled": true,
-      "UseImage": true,
+      "Enabled": false,
+      "UseImage": false,
       "UseVideo": false,
       "UseAlpha": true,
       "ForceDisplayDurationForVideo": true,
@@ -394,8 +394,8 @@
       "AnimationDuration": 1000.0
     },
     "ElderKillScoreboardPopUp": {
-      "Enabled": true,
-      "UseImage": true,
+      "Enabled": false,
+      "UseImage": false,
       "UseVideo": false,
       "UseAlpha": true,
       "ForceDisplayDurationForVideo": true,
@@ -403,9 +403,9 @@
       "AnimationDuration": 1000.0
     },
     "DragonKillScoreboardPopUp": {
-      "Enabled": true,
-      "UseImage": true,
-      "UseVideo": false,
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
       "UseAlpha": true,
       "ForceDisplayDurationForVideo": true,
       "DisplayDuration": 2000.0,
@@ -413,17 +413,17 @@
     },
     "BaronKillScoreboardPopUp": {
       "Enabled": false,
-      "UseImage": true,
-      "UseVideo": false,
+      "UseImage": false,
+      "UseVideo": true,
       "UseAlpha": true,
       "ForceDisplayDurationForVideo": true,
       "DisplayDuration": 2000.0,
       "AnimationDuration": 1000.0
     },
     "HeraldKillScoreboardPopUp": {
-      "Enabled": true,
-      "UseImage": true,
-      "UseVideo": false,
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
       "UseAlpha": true,
       "ForceDisplayDurationForVideo": true,
       "DisplayDuration": 2000.0,
@@ -432,17 +432,17 @@
   },
   "ObjectiveSpawn": {
     "BaronSpawnScoreboardPopUp": {
-      "Enabled": true,
-      "UseImage": true,
-      "UseVideo": false,
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": true,
       "UseAlpha": true,
       "ForceDisplayDurationForVideo": false,
       "DisplayDuration": 2000.0,
       "AnimationDuration": 1000.0
     },
     "DrakeSpawnScoreboardPopUp": {
-      "Enabled": true,
-      "UseImage": true,
+      "Enabled": false,
+      "UseImage": false,
       "UseVideo": false,
       "UseAlpha": true,
       "ForceDisplayDurationForVideo": false,
@@ -450,8 +450,8 @@
       "AnimationDuration": 1000.0
     },
     "HeraldSpawnScoreboardPopUp": {
-      "Enabled": true,
-      "UseImage": true,
+      "Enabled": false,
+      "UseImage": false,
       "UseVideo": false,
       "UseAlpha": true,
       "ForceDisplayDurationForVideo": false,
@@ -603,8 +603,8 @@
     "ShowOnScoreboard": false,
     "ShowOnChampionIndicator": true,
     "LevelFont": {
-      "Style": "Normal",
-      "Name": "News Cycle",
+      "Style": "Bold",
+      "Name": "Montserrat",
       "Size": "60px",
       "Align": "center",
       "Color": "rgb(255,255,255)"
@@ -715,7 +715,7 @@
         "Name": "Montserrat",
         "Size": "26px",
         "Align": "center",
-        "Color": "rgb(255,255,255)"
+        "Color": "rgb(0,0,0)"
       }
     },
     "TitleHeight": 45.0,
@@ -787,10 +787,10 @@
         },
         "Font": {
           "Style": "Normal",
-          "Name": "News Cycle",
+          "Name": "Montserrat",
           "Size": "15px",
           "Align": "left",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(0,0,0)"
         }
       },
       "MinValue": {
@@ -811,10 +811,10 @@
         },
         "Font": {
           "Style": "Normal",
-          "Name": "News Cycle",
+          "Name": "Montserrat",
           "Size": "15px",
           "Align": "left",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(0,0,0)"
         }
       },
       "CurrentValue": {
@@ -834,11 +834,11 @@
           }
         },
         "Font": {
-          "Style": "Normal",
-          "Name": "News Cycle",
-          "Size": "25px",
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "20px",
           "Align": "center",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(0,0,0)"
         }
       },
       "MaxValue": {
@@ -858,11 +858,11 @@
           }
         },
         "Font": {
-          "Style": "Normal",
-          "Name": "News Cycle",
+          "Style": "Bold",
+          "Name": "Montserrat",
           "Size": "15px",
           "Align": "right",
-          "Color": "rgb(255,255,255)"
+          "Color": "rgb(0,0,0)"
         }
       },
       "ProgressBar": {
@@ -896,14 +896,14 @@
           }
         },
         "UseTeamColors": true,
-        "DefaultColor": "rgb(0,0,0)",
+        "DefaultColor": "rgb(255,255,255)",
         "OrderColor": "rgb(222,40,70)",
         "ChaosColor": "rgb(0,151,196)",
         "Animate": true
       }
     },
     "Background": {
-      "UseImage": false,
+      "UseImage": true,
       "UseVideo": false,
       "UseAlpha": false,
       "FallbackColor": "rgb(0, 0, 0)",
@@ -916,17 +916,17 @@
   "GoldGraph": {
     "Position": {
       "X": 965.0,
-      "Y": 845.0
+      "Y": 849.0
     },
     "Size": {
-      "X": 740.0,
-      "Y": 235.0
+      "X": 750.0,
+      "Y": 250.0
     },
     "Background": {
       "UseImage": false,
       "UseVideo": false,
       "UseAlpha": false,
-      "FallbackColor": "rgba(0,0,0,)"
+      "FallbackColor": "rgba(238,239,228,0)"
     },
     "Title": {
       "Enabled": true,
@@ -936,10 +936,10 @@
       },
       "Font": {
         "Style": "Bold",
-        "Name": "News Cycle",
+        "Name": "Montserrat",
         "Size": "22px",
         "Align": "left",
-        "Color": "rgb(255,255,255)"
+        "Color": "rgb(0,0,0)"
       },
       "Text": "DIFERENÇA DE OURO - PREDICT STUDIO"
     },
@@ -952,7 +952,7 @@
         "X": 710.0,
         "Y": 190.0
       },
-      "ShowVerticalGrid": true,
+      "ShowVerticalGrid": false,
       "ShowHorizontalGrid": true,
       "LineTension": 0.05,
       "GridColor": "rgba(255,255,255,0.5)",
@@ -964,11 +964,11 @@
       "FillOrderColor": "rgb(0,0,0)",
       "FillChaosColor": "rgb(0,0,0)",
       "InfoFont": {
-        "Style": "UNUSED",
-        "Name": "News Cycle",
+        "Style": "Bold",
+        "Name": "Montserrat",
         "Size": "UNUSED",
         "Align": "UNUSED",
-        "Color": "rgb(255,255,255)"
+        "Color": "rgb(0,0,0)"
       },
       "TimeStepSize": 30,
       "ShowTimeStepIndicators": true
@@ -1085,6 +1085,8 @@
   "GoogleFonts": [
     "News Cycle",
     "News Cycle:bold",
+    "Montserrat:ExtraBold",
+    "Roboto:Black",
     "Droid Sans"
   ],
   "FileVersion": "2.2"

@@ -107,7 +107,7 @@
       "Towers": {
         "Position": {
           "X": -310.0,
-          "Y": 17.0
+          "Y": 16.0
         },
         "Font": {
           "Style": "Bold",
@@ -131,7 +131,7 @@
       "Gold": {
         "Position": {
           "X": -222.0,
-          "Y": 17.0
+          "Y": 16.0
         },
         "Font": {
           "Style": "Bold",
@@ -247,7 +247,7 @@
       "Towers": {
         "Position": {
           "X": 310.0,
-          "Y": 17.0
+          "Y": 16.0
         },
         "Font": {
           "Style": "Bold",
@@ -271,7 +271,7 @@
       "Gold": {
         "Position": {
           "X": 170.0,
-          "Y": 17.0
+          "Y": 16.0
         },
         "Font": {
           "Style": "Bold",
